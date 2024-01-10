@@ -7,6 +7,6 @@ jobs:
     steps:
     - uses: Wimmics/olivaw/model-test@v0.0.3
       with:
-        repository: ${{ github.server_url }}/${{ github.repository }}
+        repository: ${{ github.repository }}
         ref: ${{ github.ref }}
         gist-secret: ${{ secrets.GIST_SECRET }}

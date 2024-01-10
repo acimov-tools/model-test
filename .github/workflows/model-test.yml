@@ -3,6 +3,8 @@ on: push
 
 jobs:
   model-test:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
     - uses: Wimmics/olivaw/model-test@diagnose2

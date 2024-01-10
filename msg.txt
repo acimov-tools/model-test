@@ -1,0 +1,1 @@
+Bad syntax (expected directive or statement) at ^ in:

@@ -8,67 +8,47 @@
 ![OWL QL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/fd66fa4a77864c171ef8abd81f6926fc/raw/model-test__heads__main.json)
 ![OWL RL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/fe6de0fbf492463b4d637acac8860473/raw/model-test__heads__main.json)
  
-![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b0866cef0c109869d756e6f93303ad13/raw/model-test__heads__main.json)
+# sandbox
 
-![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/59b5852e174a359278752d1e8f4cee87/raw/model-test__heads__main.json)
 
-![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/8b7a6d108156335d912d40017f207ec0/raw/model-test__heads__main.json)
 
-![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/44f2dd06e1b8f2c7a8213e0a726dc984/raw/model-test__heads__main.json)
 
-![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/9d2cd8c370448e607fe1b26d8085e217/raw/model-test__heads__main.json)
 
- 
 
-![OWL EL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/7c048a823d37584172bc2f7fa4b038e4/raw/model-test__heads__main.json)
 
-![OWL QL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/61af657f77419ac60a9546df29cd8824/raw/model-test__heads__main.json)
 
-![OWL RL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/600fa339f458b2e80eb6554e8d2001b1/raw/model-test__heads__main.json)
 
- 
 
-![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/0274fd55fc884794747c3a8d29ab941b/raw/model-test__heads__main.json)
 
 
 
-![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/d426a06e12be6ba52b945c9dc8b69747/raw/model-test__heads__main.json)
 
 
 
-![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/e7d3df0b0f3deff939321b439ddf2e42/raw/model-test__heads__main.json)
 
 
 
-![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/5d12851f606c8a7c0995674fc5a60fc4/raw/model-test__heads__main.json)
 
 
 
-![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/31329f2869f9a29edf95b292f8422ec1/raw/model-test__heads__main.json)
 
 
 
- 
 
 
 
-![OWL EL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/e498bf512550d9b35dfaafec935911ea/raw/model-test__heads__main.json)
 
 
 
-![OWL QL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/a951df2f99247a260cd063a8e9804596/raw/model-test__heads__main.json)
 
 
 
-![OWL RL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/ce3e37d53b943ddaeed642e616ffbc68/raw/model-test__heads__main.json)
 
 
 
- 
 
 
 
-![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/83f031dcb61d1cad2b4dce3db43680e9/raw/model-test__heads__main.json)
 
 
 
@@ -76,7 +56,6 @@
 
 
 
-![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b37e6aeee3cbe30136b7f57da287b5b0/raw/model-test__heads__main.json)
 
 
 
@@ -84,7 +63,6 @@
 
 
 
-![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/9fde0e4fa29a4bc1e6d91bf0244dbdee/raw/model-test__heads__main.json)
 
 
 
@@ -92,7 +70,6 @@
 
 
 
-![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/a999c3b6854e5499323bdbda5965a30c/raw/model-test__heads__main.json)
 
 
 
@@ -100,7 +77,6 @@
 
 
 
-![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/32b930bf02b6de341a16b9a38d026e2f/raw/model-test__heads__main.json)
 
 
 
@@ -108,7 +84,6 @@
 
 
 
- 
 
 
 
@@ -116,7 +91,6 @@
 
 
 
-![OWL EL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/aad95ad0133a4b33a5d1fa0dd5ed5cce/raw/model-test__heads__main.json)
 
 
 
@@ -124,7 +98,6 @@
 
 
 
-![OWL QL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/1565a41719371227de5f27f05a1118a7/raw/model-test__heads__main.json)
 
 
 
@@ -132,7 +105,6 @@
 
 
 
-![OWL RL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b98d91f7fa01e617408cb96b0f117fa0/raw/model-test__heads__main.json)
 
 
 
@@ -140,7 +112,6 @@
 
 
 
- 
 
 
 
@@ -148,7 +119,6 @@
 
 
 
-![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/073739121ab7e55ccd083a9f065e6f5a/raw/model-test__heads__main.json)
 
 
 
@@ -164,596 +134,5 @@
 
 
 
-![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/dfce92ca6eac8e2de01d54b606cbd8f3/raw/model-test__heads__main.json)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/f809992b87267a38bd12fcd60cce95bf/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/848a3d0e744d31516b68c84b3cc5a60c/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/39a6e65d6095c93a8ef6decf26dd1ee0/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![OWL EL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/777391d7e0b5275d0d1d1864a85ffe2b/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![OWL QL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/4a71ec62277eaa630dd862fcc6e2b44c/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![OWL RL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/7949e72535bd6e2598eddcb3022f8aba/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/762284a8f4188b83346118680843cc26/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/5e3fdfe1198b73105afe5519417aa8a5/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/fdf53e6117f49465c88138f4cd1129d3/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/4685282205ce1d1aa70989573a73bbbb/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/91f89dc96e8da73d9dcfdb2a262c08e5/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![OWL EL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/5867ec29a28fd6014c0fc557ea101697/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![OWL QL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/26f63b7a62becf1240a9cb116cd71c78/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![OWL RL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/4e0cb05e8006791ae98a76a3b36c86ba/raw/model-test__heads__main.json)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# model-test
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Model test meant for Acimov structured project in a continuous integration context
+A repository meant to test some olivaw tools under development

@@ -5,7 +5,7 @@ jobs:
   model-test:
     runs-on: ubuntu-latest
     steps:
-    - uses: Wimmics/olivaw/model-test
+    - uses: Wimmics/olivaw/model-test@v0.0.0
       with:
         repository: ${{ github.server_url }}/${{ github.repository }}
         ref: ${{ github.ref }}

@@ -1,0 +1,11 @@
+name: model-test
+on: push
+
+jobs:
+  model-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: Wimmics/olivaw/model-test
+      with:
+        repository: ${{ github.server_url }}/${{ github.repository }}
+        ref: ${{ github.ref }}

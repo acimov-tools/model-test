@@ -1,9 +1,9 @@
 {
-    "ontology_url": "https://www.example.org",
+    "ontology_url": "https://www.example.org/",
     "term_distance_threshold": 3,
     "blocking_errors": [
         "syntax-error",
         "owl-rl-constraint-violation"
     ],
-    "gist_index": "0f785147c84878c6a7b209de31924f58"
+    "gist_index": "543f09d10387aaaaca1b4d55f4024f4f"
 }

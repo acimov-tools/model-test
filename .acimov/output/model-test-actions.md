@@ -14,8 +14,8 @@ Here is some context about under which context this test was made
 |----|-----|
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by [@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
-|Script|[complete-test.py](https://github.com/acimov-tools/model-test/blob/refs/heads/main/.acimov/model-test/complete-test.py)
-|Date|2024-01-11 09:50:57|
+|Script|[complete-test.py](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/.acimov/model-test/complete-test.py)
+|Date|2024-01-11 12:35:32|
 
 ***
 
@@ -259,8 +259,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -284,8 +284,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -309,8 +309,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -334,8 +334,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -359,8 +359,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -384,8 +384,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -409,8 +409,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -434,8 +434,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -459,8 +459,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -484,8 +484,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -509,8 +509,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -534,8 +534,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -559,8 +559,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -584,8 +584,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -609,8 +609,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -634,8 +634,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -659,8 +659,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -684,8 +684,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -709,8 +709,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -734,8 +734,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -759,8 +759,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -784,8 +784,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -809,8 +809,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -834,8 +834,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -859,8 +859,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -884,8 +884,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -909,8 +909,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -934,8 +934,8 @@ This subchapter gives more details to the :exclamation:MinorFail assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -960,8 +960,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -985,8 +985,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1010,8 +1010,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1035,8 +1035,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1060,8 +1060,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1085,8 +1085,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1110,8 +1110,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1135,8 +1135,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1160,8 +1160,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1185,8 +1185,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1210,8 +1210,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1235,8 +1235,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1260,8 +1260,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1285,8 +1285,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1310,8 +1310,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1335,8 +1335,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1360,8 +1360,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1385,8 +1385,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1410,8 +1410,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1435,8 +1435,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1460,8 +1460,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1486,8 +1486,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1511,8 +1511,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1536,8 +1536,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1561,8 +1561,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1586,8 +1586,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1611,8 +1611,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1636,8 +1636,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1661,8 +1661,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1686,8 +1686,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1711,8 +1711,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1736,8 +1736,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1761,8 +1761,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1786,8 +1786,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1811,8 +1811,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1836,8 +1836,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1861,8 +1861,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1886,8 +1886,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1911,8 +1911,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1936,8 +1936,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1961,8 +1961,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -1986,8 +1986,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2011,8 +2011,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2036,8 +2036,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2061,8 +2061,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2086,8 +2086,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2111,8 +2111,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2136,8 +2136,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2161,8 +2161,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2186,8 +2186,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2211,8 +2211,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2236,8 +2236,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2261,8 +2261,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2286,8 +2286,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2311,8 +2311,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2336,8 +2336,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2361,8 +2361,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2386,8 +2386,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2411,8 +2411,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2436,8 +2436,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2461,8 +2461,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2486,8 +2486,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2511,8 +2511,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2536,8 +2536,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2561,8 +2561,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2586,8 +2586,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2612,8 +2612,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2637,8 +2637,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2662,8 +2662,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2687,8 +2687,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2712,8 +2712,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2737,8 +2737,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2762,8 +2762,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2787,8 +2787,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2812,8 +2812,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2837,8 +2837,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2862,8 +2862,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2887,8 +2887,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2912,8 +2912,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2937,8 +2937,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2962,8 +2962,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -2987,8 +2987,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3012,8 +3012,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3037,8 +3037,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3062,8 +3062,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3087,8 +3087,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3112,8 +3112,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3138,8 +3138,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3163,8 +3163,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3188,8 +3188,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3213,8 +3213,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3238,8 +3238,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3263,8 +3263,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3288,8 +3288,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3313,8 +3313,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3338,8 +3338,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3363,8 +3363,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3388,8 +3388,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3413,8 +3413,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3438,8 +3438,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3463,8 +3463,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3488,8 +3488,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3513,8 +3513,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3538,8 +3538,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3563,8 +3563,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3588,8 +3588,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3613,8 +3613,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3638,8 +3638,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3663,8 +3663,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3688,8 +3688,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3713,8 +3713,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3738,8 +3738,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3763,8 +3763,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3788,8 +3788,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3813,8 +3813,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3838,8 +3838,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3863,8 +3863,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3888,8 +3888,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3913,8 +3913,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3938,8 +3938,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3963,8 +3963,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -3988,8 +3988,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4013,8 +4013,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4038,8 +4038,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4063,8 +4063,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4088,8 +4088,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4113,8 +4113,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4138,8 +4138,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4164,8 +4164,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4189,8 +4189,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4214,8 +4214,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4239,8 +4239,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4264,8 +4264,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4289,8 +4289,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4314,8 +4314,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4339,8 +4339,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4364,8 +4364,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4389,8 +4389,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4414,8 +4414,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4439,8 +4439,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4464,8 +4464,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4489,8 +4489,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4514,8 +4514,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4539,8 +4539,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4564,8 +4564,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4589,8 +4589,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4614,8 +4614,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4639,8 +4639,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4664,8 +4664,8 @@ Statement not supported in a Super Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4690,8 +4690,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4715,8 +4715,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4740,8 +4740,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4765,8 +4765,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4790,8 +4790,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4815,8 +4815,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4840,8 +4840,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4865,8 +4865,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4890,8 +4890,8 @@ Statement not supported in a Class Expression|
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#profile-compatibility)|
@@ -4963,8 +4963,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#domain-and-range-referencing)|
@@ -4987,8 +4987,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#domain-and-range-referencing)|
@@ -5011,8 +5011,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#labeled-terms)|
@@ -5035,8 +5035,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#owl-rl-constraint)|
@@ -5059,8 +5059,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#term-referencing)|
@@ -5083,8 +5083,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|wine|
 |----|----|
-|Title|Standalone module src/wine.ttl from branch refs/heads/main|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|Standalone module src/wine.ttl from branch refs/heads/dev|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#terms-differenciation)|
@@ -5107,8 +5107,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#domain-and-range-referencing)|
@@ -5131,8 +5131,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#domain-and-range-referencing)|
@@ -5155,8 +5155,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#labeled-terms)|
@@ -5179,8 +5179,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#owl-rl-constraint)|
@@ -5203,8 +5203,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#term-referencing)|
@@ -5227,8 +5227,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the modules from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#terms-differenciation)|
@@ -5251,8 +5251,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#domain-and-range-referencing)|
@@ -5275,8 +5275,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#domain-and-range-referencing)|
@@ -5299,8 +5299,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#labeled-terms)|
@@ -5323,8 +5323,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#owl-rl-constraint)|
@@ -5347,8 +5347,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#term-referencing)|
@@ -5371,8 +5371,8 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/wine.ttl)|
+|Title|All the fragments from branch refs/heads/dev that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module wine.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev/src/wine.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#terms-differenciation)|

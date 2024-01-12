@@ -1,8 +1,16 @@
-PREFIX : <http://stardog.com/tutorial/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix : <http://stardog.com/tutorial/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <https://www.example.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-:The_Beatles      rdf:type  :Band .
+ex:A a owl:Class .
+ex:B a owl:Class .
+
+[ a owl:AllDisjointClasses ;
+    owl:members (ex:A ex:B)] .
+
+:The_Beatles      rdf:type  :Band , ex:A, ex:B .
 :The_Beatles      :name     "The Beatles" .
 :The_Beatles      :member   :John_Lennon .
 :The_Beatles      :member   :Paul_McCartney .

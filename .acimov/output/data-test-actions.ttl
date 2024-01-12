@@ -7,7 +7,7 @@
 
 [] a earl:Assertion ;
     earl:assertedBy [ a foaf:OnlineAccount ;
-            dcterms:date "2024-01-12T13:48:45.375797"^^xsd:dateTime ;
+            dcterms:date "2024-01-12T13:51:57.570720"^^xsd:dateTime ;
             dcterms:description "Test triggered by @NicoRobertIn by actions trigger"@en ;
             dcterms:title "NicoRobertIn using actions script"@en ;
             foaf:member <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py> ;

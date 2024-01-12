@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by [@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py)
-|Date|2024-01-12 14:39:54|
+|Date|2024-01-12 14:58:52|
 
 ***
 
@@ -87,7 +87,7 @@ This subchapter gives more details to the :boom:MajorFail assertions
 |Type|:boom:MajorFail|
 |----|----|
 |Title|OWL RL Constraint violation|
-|Description|http://www.w3.org/2002/07/owl#AllDisjointClasses&#10;rdf:type sp:ConstraintViolation&#10;sp:violationRoot &#60;http://stardog.com/tutorial/The_Beatles>&#10;rdfs:label "Violates owl:AllDisjointClasses"&#10;sp:arg1 &#60;https://www.example.org/A>&#10;sp:arg2 &#60;https://www.example.org/B>&#10;&#10;|
+|Description|http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;http://stardog.com/tutorial/The_Beatles> &#10;rdfs:label "Violates owl:AllDisjointClasses" &#10;sp:arg1 &#60;https://www.example.org/A> &#10;sp:arg2 &#60;https://www.example.org/B> &#10; &#10;|
 
 ***
 

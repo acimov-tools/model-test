@@ -9,7 +9,7 @@
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a acimov-model-test:MajorFail ;
-                    dcterms:description "http://www.w3.org/2002/07/owl#AllDisjointClasses&#10;rdf:type sp:ConstraintViolation&#10;sp:violationRoot &#60;http://stardog.com/tutorial/The_Beatles>&#10;rdfs:label \"Violates owl:AllDisjointClasses\"&#10;sp:arg1 &#60;https://www.example.org/A>&#10;sp:arg2 &#60;https://www.example.org/B>&#10;&#10;"@en ;
+                    dcterms:description "http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;http://stardog.com/tutorial/The_Beatles> &#10;rdfs:label \"Violates owl:AllDisjointClasses\" &#10;sp:arg1 &#60;https://www.example.org/A> &#10;sp:arg2 &#60;https://www.example.org/B> &#10; &#10;"@en ;
                     dcterms:title "OWL RL Constraint violation"@en ] ] ;
     earl:subject _:domain1-scenario1 ;
     earl:test acimov-model-test:owl-rl-constraint .
@@ -27,7 +27,7 @@ _:NicoRobertIn a foaf:Person ;
     schema:mainEntityOfPage <https://github.com/NicoRobertIn> .
 
 _:NicoRobertIn-actions a foaf:OnlineAccount ;
-    dcterms:date "2024-01-12T14:39:54.252186"^^xsd:dateTime ;
+    dcterms:date "2024-01-12T14:58:52.549215"^^xsd:dateTime ;
     dcterms:description "Test triggered by @NicoRobertIn by actions trigger"@en ;
     dcterms:title "NicoRobertIn using actions script"@en ;
     foaf:member <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py> ;

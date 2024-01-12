@@ -1,13 +1,13 @@
-name: model-test
+name: tests
 on: push
 
 jobs:
-  model-test:
+  tests:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - uses: Wimmics/olivaw/test-actions@proto-data-test
+    - uses: Wimmics/olivaw/test-actions@proto-data-test-2
       with:
         repository: ${{ github.repository }}
         ref: ${{ github.ref }}

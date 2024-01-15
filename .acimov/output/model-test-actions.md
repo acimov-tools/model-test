@@ -4,7 +4,7 @@ This file is an export of the RDF test report made out of [EARL vocabulary](http
 
 This test is powered by Corese, check the [website](https://project.inria.fr/corese/) and the [repository](https://github.com/Wimmics/corese)
 
-The original test report is available in turtle syntax [here](./actions.ttl).
+The original test report is available in turtle syntax [here](./model-test-actions.ttl).
 
 # Test Context
 
@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by [@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/suite.py)
-|Date|2024-01-12 14:58:42|
+|Date|2024-01-15 10:03:09|
 
 ***
 

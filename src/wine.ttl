@@ -2,6 +2,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix wine: <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> .
+@prefix ex: <https://www.example.org/> .
+
+ex:A a owl:Class .
+ex:B a owl:Class .
+
+[ a owl:AllDisjointClasses ;
+    owl:members ( ex:A ex:B ) ] ;
 
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine>
   a owl:Ontology ;

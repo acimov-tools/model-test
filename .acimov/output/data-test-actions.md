@@ -4,7 +4,7 @@ This file is an export of the RDF test report made out of [EARL vocabulary](http
 
 This test is powered by Corese, check the [website](https://project.inria.fr/corese/) and the [repository](https://github.com/Wimmics/corese)
 
-The original test report is available in turtle syntax [here](./actions.ttl).
+The original test report is available in turtle syntax [here](./data-test-actions.ttl).
 
 # Test Context
 
@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by [@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py)
-|Date|2024-01-12 14:58:52|
+|Date|2024-01-15 10:03:19|
 
 ***
 
@@ -75,7 +75,7 @@ This subchapter gives more details to the :boom:MajorFail assertions
 |Name|domain1-scenario1|
 |----|----|
 |Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl|
+|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#owl-rl-constraint)|
@@ -130,7 +130,7 @@ This subchapter gives more details to the :white_check_mark:Pass assertions
 |Name|domain1-scenario1|
 |----|----|
 |Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl|
+|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#syntax)|

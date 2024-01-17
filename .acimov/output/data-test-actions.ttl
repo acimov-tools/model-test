@@ -27,7 +27,7 @@ _:NicoRobertIn a foaf:Person ;
     schema:mainEntityOfPage <https://github.com/NicoRobertIn> .
 
 _:NicoRobertIn-actions a foaf:OnlineAccount ;
-    dcterms:date "2024-01-17T13:12:25.378664"^^xsd:dateTime ;
+    dcterms:date "2024-01-17T13:38:37.404883"^^xsd:dateTime ;
     dcterms:description "Test triggered by @NicoRobertIn by actions trigger"@en ;
     dcterms:title "NicoRobertIn using actions script"@en ;
     foaf:member <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py> ;

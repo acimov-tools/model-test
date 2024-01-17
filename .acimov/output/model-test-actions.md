@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by [@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/suite.py)
-|Date|2024-01-17 13:12:21|
+|Date|2024-01-17 13:38:34|
 
 ***
 
@@ -87,7 +87,7 @@ This subchapter gives more details to the :boom:MajorFail assertions
 |Type|:boom:MajorFail|
 |----|----|
 |Title|Test subject has syntax errors|
-|Description|Encountered ";" at line 11, column 33.|
+|Description|Encountered "\"\"\"Derived from the DAML Wine ontology at \n      http://ontolingua.stanford.edu/doc/chimaera/ontologies/wines.daml\n      Substantially changed, in particular the Region based relations.\n    \"\"\" ;" at line 15, column 43.|
 
 ***
 

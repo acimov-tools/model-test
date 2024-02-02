@@ -32,7 +32,7 @@ ex:B a owl:Class .
     owl:onProperty <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ;
     owl:allValuesFrom <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery>
   ], [
-    a owl:Restriction ;
+    a owl:Restriction, owl:Class ;
     owl:onProperty <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ;
     owl:minCardinality "1"^^xsd:nonNegativeInteger
   ], [

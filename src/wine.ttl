@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix wine: <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> .
 
+
 <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine>
   a owl:Ontology ;
   rdfs:comment "An example OWL ontology", """Derived from the DAML Wine ontology at 

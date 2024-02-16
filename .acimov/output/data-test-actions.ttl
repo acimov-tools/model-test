@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 [] a foaf:OnlineAccount ;
-    dcterms:date "2024-02-16T15:50:56.232062"^^xsd:dateTime ;
+    dcterms:date "2024-02-16T16:05:43.165637"^^xsd:dateTime ;
     dcterms:description "Test triggered by @NicoRobertIn by actions trigger"@en ;
     dcterms:title "NicoRobertIn using actions script"@en ;
     earl:mainAssertor [ a foaf:Person ;

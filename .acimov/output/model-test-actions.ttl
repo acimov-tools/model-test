@@ -10,11 +10,303 @@
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
-                    dcterms:title "OWL RL consistent"@en ] ] ;
-    earl:subject _:module-wine ;
-    earl:test olivaw-earl:owl-rl-constraint .
+            earl:outcome [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> a owl:Class ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description """Statement not supported
+Statement not supported in a Super Class Expression"""@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
+rdfs:label "wine"@en,
+"vin"@fr ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
+[ a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
+&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Restriction on datatypes"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue> a owl:DatatypeProperty ;
+rdfs:domain &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear> ;
+rdfs:range xsd:positiveInteger .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Not a valid Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
+rdfs:label "wine"@en,
+"vin"@fr ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
+[ a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
+&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Not a valid Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ] ] ;
+    earl:subject _:all-modules ;
+    earl:test olivaw-earl:profile-compatibility .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -29,9 +321,346 @@
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
+                    dcterms:description "Each term of the test subject is linked to a module by a rdfs:isDefinedBy property"@en ;
+                    dcterms:title "Any term is referenced"@en ] ] ;
+    earl:subject _:all-modules ;
+    earl:test olivaw-earl:term-referencing .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "All the terms have have a satisfying Levenshtein distance from each other term."@en ;
+                    dcterms:title "Terms differenciated enough"@en ] ] ;
+    earl:subject _:all-modules ;
+    earl:test olivaw-earl:terms-differenciation .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
+                    dcterms:title "OWL RL consistent"@en ] ] ;
+    earl:subject _:all-modules ;
+    earl:test olivaw-earl:owl-rl-constraint .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "All the terms have have a satisfying Levenshtein distance from each other term."@en ;
+                    dcterms:title "Terms differenciated enough"@en ] ] ;
+    earl:subject _:module-wine ;
+    earl:test olivaw-earl:terms-differenciation .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Restriction on datatypes"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue> a owl:DatatypeProperty ;
+rdfs:domain &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear> ;
+rdfs:range xsd:positiveInteger .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
+rdfs:label "wine"@en,
+"vin"@fr ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
+[ a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
+&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Not a valid Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description """Statement not supported
+Statement not supported in a Super Class Expression"""@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
+rdfs:label "wine"@en,
+"vin"@fr ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
+[ a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
+&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Not a valid Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> a owl:Class ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ] ] ;
+    earl:subject _:module-wine ;
+    earl:test olivaw-earl:profile-compatibility .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
                     dcterms:description "All the terms defined in the subject have a rdfs:label in English"@en ;
                     dcterms:title "All terms labeled"@en ] ] ;
-    earl:subject _:all-fragments ;
+    earl:subject _:all-modules ;
     earl:test olivaw-earl:labeled-terms .
 
 [] a earl:Assertion ;
@@ -47,500 +676,6 @@
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a olivaw-earl:MinorFail ;
-                    dcterms:description """Statement not supported
-Statement not supported in a Super Class Expression"""@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Not a valid Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> a owl:Class ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
-rdfs:label "wine"@en,
-"vin"@fr ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
-[ a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
-&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Restriction on datatypes"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue> a owl:DatatypeProperty ;
-rdfs:domain &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear> ;
-rdfs:range xsd:positiveInteger .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
-rdfs:label "wine"@en,
-"vin"@fr ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
-[ a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
-&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Not a valid Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ] ] ;
-    earl:subject _:module-wine ;
-    earl:test olivaw-earl:profile-compatibility .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description """Statement not supported
-Statement not supported in a Super Class Expression"""@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Restriction on datatypes"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue> a owl:DatatypeProperty ;
-rdfs:domain &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear> ;
-rdfs:range xsd:positiveInteger .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
-rdfs:label "wine"@en,
-"vin"@fr ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
-[ a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
-&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
                     dcterms:description "Statement not supported"@en ;
                     dcterms:title "OWL RL Profile incompatible"@en ;
                     rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> a owl:Class ;
@@ -553,6 +688,243 @@ owl:allValuesFrom [ a owl:Class ;
 owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
 owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
                 [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Restriction on datatypes"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue> a owl:DatatypeProperty ;
+rdfs:domain &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear> ;
+rdfs:range xsd:positiveInteger .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description """Statement not supported
+Statement not supported in a Super Class Expression"""@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
+rdfs:label "wine"@en,
+"vin"@fr ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
+[ a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
+[ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
+[ a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
+&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
+owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
+rdfs:subClassOf [ a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Not a valid Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom [ a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Class ;
+owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:cardinality "1"^^xsd:nonNegativeInteger ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
+                [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
+                    rdfs:seeAlso """[] a owl:Restriction ;
+owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
+owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> .""" ],
+                [ a olivaw-earl:MinorFail ;
                     dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
                     dcterms:title "OWL RL Profile incompatible"@en ;
                     rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
@@ -585,74 +957,21 @@ owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Reg
 &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
                 [ a olivaw-earl:MinorFail ;
                     dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Not a valid Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
                     dcterms:title "OWL QL Profile incompatible"@en ;
                     rdfs:seeAlso """[] a owl:Restriction ;
 owl:cardinality "1"^^xsd:nonNegativeInteger ;
 owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
                 [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
                     dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
+                    dcterms:title "OWL RL Profile incompatible"@en ;
                     rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
 rdfs:subClassOf [ a owl:Restriction ;
 owl:allValuesFrom [ a owl:Class ;
 owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
 owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
 owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ] ] ;
-    earl:subject _:all-modules ;
+    earl:subject _:all-fragments ;
     earl:test olivaw-earl:profile-compatibility .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Each term of the test subject is linked to a module by a rdfs:isDefinedBy property"@en ;
-                    dcterms:title "Any term is referenced"@en ] ] ;
-    earl:subject _:all-modules ;
-    earl:test olivaw-earl:term-referencing .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -660,8 +979,17 @@ owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#B
             earl:outcome [ a earl:Pass ;
                     dcterms:description "Each rdfs:range is defined within the fragment"@en ;
                     dcterms:title "Ranges properly defined"@en ] ] ;
-    earl:subject _:all-fragments ;
+    earl:subject _:module-wine ;
     earl:test olivaw-earl:domain-and-range-referencing .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "Each term of the test subject is linked to a module by a rdfs:isDefinedBy property"@en ;
+                    dcterms:title "Any term is referenced"@en ] ] ;
+    earl:subject _:module-wine ;
+    earl:test olivaw-earl:term-referencing .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -669,17 +997,8 @@ owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#B
             earl:outcome [ a earl:Pass ;
                     dcterms:description "All the terms defined in the subject have a rdfs:label in English"@en ;
                     dcterms:title "All terms labeled"@en ] ] ;
-    earl:subject _:module-wine ;
+    earl:subject _:all-fragments ;
     earl:test olivaw-earl:labeled-terms .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the terms have have a satisfying Levenshtein distance from each other term."@en ;
-                    dcterms:title "Terms differenciated enough"@en ] ] ;
-    earl:subject _:all-modules ;
-    earl:test olivaw-earl:terms-differenciation .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -687,309 +1006,8 @@ owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#B
             earl:outcome [ a earl:Pass ;
                     dcterms:description "Each rdfs:domain is defined within the fragment"@en ;
                     dcterms:title "Domains properly defined"@en ] ] ;
-    earl:subject _:module-wine ;
-    earl:test olivaw-earl:domain-and-range-referencing .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Not a valid Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description """Statement not supported
-Statement not supported in a Super Class Expression"""@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
-rdfs:label "wine"@en,
-"vin"@fr ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
-[ a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
-&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteLoire> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Loire> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> a owl:Class ;
-rdfs:label "wine"@en,
-"vin"@fr ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:allValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Winery> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> ],
-[ a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasFlavor> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> ],
-[ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> ],
-[ a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> ],
-&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#PotableLiquid> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Vintage> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> ] .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Dry> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasSugar> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBurgundy> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:hasValue &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ChardonnayGrape> ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ],
-[ a owl:Restriction ;
-owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Burgundy> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Class Expression not supported with rdfs:subClassOf"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteBordeaux> a owl:Class ;
-rdfs:subClassOf [ a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> ] ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Bordeaux> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Not a valid Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SemillonGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#WhiteWine> a owl:Class ;
-owl:intersectionOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Wine> [ ] ) .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasColor> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasMaker> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Restriction on datatypes"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """&#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#yearValue> a owl:DatatypeProperty ;
-rdfs:domain &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#VintageYear> ;
-rdfs:range xsd:positiveInteger .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:minCardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL QL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:allValuesFrom [ a owl:Class ;
-owl:oneOf ( &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#CheninBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#PinotBlancGrape> &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#SauvignonBlancGrape> ) ] ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#madeFromGrape> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasVintageYear> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:cardinality "1"^^xsd:nonNegativeInteger ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#hasBody> .""" ],
-                [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Statement not supported in a Super Class Expression"@en ;
-                    dcterms:title "OWL RL Profile incompatible"@en ;
-                    rdfs:seeAlso """[] a owl:Restriction ;
-owl:onProperty &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#locatedIn> ;
-owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Region> .""" ] ] ;
     earl:subject _:all-fragments ;
-    earl:test olivaw-earl:profile-compatibility .
+    earl:test olivaw-earl:domain-and-range-referencing .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -1015,7 +1033,7 @@ owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Reg
             earl:outcome [ a earl:Pass ;
                     dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
                     dcterms:title "OWL RL consistent"@en ] ] ;
-    earl:subject _:all-fragments ;
+    earl:subject _:module-wine ;
     earl:test olivaw-earl:owl-rl-constraint .
 
 [] a earl:Assertion ;
@@ -1024,15 +1042,6 @@ owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Reg
             earl:outcome [ a earl:Pass ;
                     dcterms:description "Each rdfs:domain is defined within the fragment"@en ;
                     dcterms:title "Domains properly defined"@en ] ] ;
-    earl:subject _:all-fragments ;
-    earl:test olivaw-earl:domain-and-range-referencing .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Each rdfs:range is defined within the fragment"@en ;
-                    dcterms:title "Ranges properly defined"@en ] ] ;
     earl:subject _:module-wine ;
     earl:test olivaw-earl:domain-and-range-referencing .
 
@@ -1042,17 +1051,8 @@ owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Reg
             earl:outcome [ a earl:Pass ;
                     dcterms:description "All the terms defined in the subject have a rdfs:label in English"@en ;
                     dcterms:title "All terms labeled"@en ] ] ;
-    earl:subject _:all-modules ;
-    earl:test olivaw-earl:labeled-terms .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the terms have have a satisfying Levenshtein distance from each other term."@en ;
-                    dcterms:title "Terms differenciated enough"@en ] ] ;
     earl:subject _:module-wine ;
-    earl:test olivaw-earl:terms-differenciation .
+    earl:test olivaw-earl:labeled-terms .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -1060,17 +1060,17 @@ owl:someValuesFrom &#60;http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Reg
             earl:outcome [ a earl:Pass ;
                     dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
                     dcterms:title "OWL RL consistent"@en ] ] ;
-    earl:subject _:all-modules ;
+    earl:subject _:all-fragments ;
     earl:test olivaw-earl:owl-rl-constraint .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "Each term of the test subject is linked to a module by a rdfs:isDefinedBy property"@en ;
-                    dcterms:title "Any term is referenced"@en ] ] ;
-    earl:subject _:module-wine ;
-    earl:test olivaw-earl:term-referencing .
+                    dcterms:description "Each rdfs:range is defined within the fragment"@en ;
+                    dcterms:title "Ranges properly defined"@en ] ] ;
+    earl:subject _:all-fragments ;
+    earl:test olivaw-earl:domain-and-range-referencing .
 
 _:NicoRobertIn a foaf:Person ;
     schema:mainEntityOfPage <https://github.com/NicoRobertIn> .
@@ -1091,7 +1091,7 @@ _:module-wine a earl:TestSubject ;
     dcterms:title "Standalone module src/wine.ttl from branch refs/heads/dev"@en .
 
 _:NicoRobertIn-actions a foaf:OnlineAccount ;
-    dcterms:date "2024-02-16T16:20:35.700931"^^xsd:dateTime ;
+    dcterms:date "2024-02-16T16:34:38.514857"^^xsd:dateTime ;
     dcterms:description "Test triggered by @NicoRobertIn by actions trigger"@en ;
     dcterms:title "NicoRobertIn using actions script"@en ;
     earl:mainAssertor _:NicoRobertIn ;

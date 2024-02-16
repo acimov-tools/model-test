@@ -1,16 +1,16 @@
-Profile badges:	
+Profiles:	
 ![OWL EL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_EL.json)
 ![OWL QL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_QL.json)
 ![OWL RL Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_RL.json)
  
-Model test badges:	
+Model tests:	
 ![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_MODEL_PASS.json)
 ![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_MODEL_NOTTESTED.json)
 ![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_MODEL_CANNOTTELL.json)
 ![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_MODEL_MINORFAIL.json)
 ![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_MODEL_MAJORFAIL.json)
  
-Data test test badges:	
+Data tests:	
 ![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_DATA_PASS.json)
 ![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_DATA_NOTTESTED.json)
 ![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/b2a5180d366a3f40048606215aa7744d/raw/heads_dev_DATA_CANNOTTELL.json)

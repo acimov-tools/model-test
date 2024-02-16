@@ -10,7 +10,6 @@
       Substantially changed, in particular the Region based relations.
     """ ;
   owl:priorVersion <http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine> ;
-  owl:imports <http://www.w3.org/TR/2003/PR-owl-guide-20031209/food> ;
   rdfs:label "Wine Ontology" .
 
 <http://www.w3.org/TR/2003/CR-owl-guide-20030818/wine> a owl:Ontology .

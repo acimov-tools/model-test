@@ -1,9 +1,10 @@
 {
-    "ontology_url": "https://www.example.org/",
+    "ontology_url": "readme",
     "term_distance_threshold": 3,
     "blocking_errors": [
         "syntax-error",
         "owl-rl-constraint-violation"
     ],
-    "gist_index": "960258046c21afa56b0db30521dd4d7a"
+    "gist_index": "b2a5180d366a3f40048606215aa7744d",
+    "skipped_errors": ["owl-el-profile-error"]
 }

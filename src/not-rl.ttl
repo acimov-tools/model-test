@@ -1,0 +1,10 @@
+@prefix : <https://www.example.org/olivaw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+:notRL a owl:Ontology .
+
+:notRLTermCauseReflexive a owl:ObjectProperty , owl:ReflexiveObjectProperty ;
+    rdfs:isDefinedBy :notRL ;
+    rdfs:label "This term has a statement that is not RL compatible"@en .

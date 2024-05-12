@@ -1,0 +1,11 @@
+@prefix : <https://www.example.org/olivaw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+:domainOuter a owl:Ontology .
+
+:domainReferencingOut a owl:ObjectProperty ;
+    rdfs:label "This property has a domain out of vocabulary"@en ;
+    rdfs:isDefinedBy :domainOuter ;
+    rdfs:domain sh:NodeShape .

@@ -1,40 +1,14 @@
-@prefix acimov-model-test: <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/model-test-onto.ttl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix earl: <https://www.w3.org/ns/earl#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:domain1-scenario1 ;
-    earl:test acimov-model-test:syntax .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a acimov-model-test:MajorFail ;
-                    dcterms:description "http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;http://stardog.com/tutorial/The_Beatles> &#10;rdfs:label \"Violates owl:AllDisjointClasses\" &#10;sp:arg1 &#60;https://www.example.org/A> &#10;sp:arg2 &#60;https://www.example.org/B> &#10; &#10;"@en ;
-                    dcterms:title "OWL RL Constraint violation"@en ] ] ;
-    earl:subject _:domain1-scenario1 ;
-    earl:test acimov-model-test:owl-rl-constraint .
-
-_:NicoRobertIn a foaf:Person ;
-    schema:mainEntityOfPage <https://github.com/NicoRobertIn> .
-
-_:NicoRobertIn-actions a foaf:OnlineAccount ;
-    dcterms:date "2024-02-02T16:04:22.743548"^^xsd:dateTime ;
+[] a foaf:OnlineAccount ;
+    dcterms:date "2024-02-16T16:34:52.384712"^^xsd:dateTime ;
     dcterms:description "Test triggered by @NicoRobertIn by actions trigger"@en ;
     dcterms:title "NicoRobertIn using actions script"@en ;
-    foaf:member <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py> ;
-    earl:mainAssertor _:NicoRobertIn .
-
-_:domain1-scenario1 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl> ;
-    dcterms:identifier "domain1-scenario1" ;
-    dcterms:title "Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main"@en .
+    earl:mainAssertor [ a foaf:Person ;
+            schema:mainEntityOfPage <https://github.com/NicoRobertIn> ] ;
+    foaf:member <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py> .
 

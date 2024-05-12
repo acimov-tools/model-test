@@ -1,9 +1,19 @@
 {
-    "ontology_url": "https://www.example.org/",
+    "ontology_prefix": "sand",
+    "ontology_namespace": "https://www.example.org/olivaw/",
     "term_distance_threshold": 3,
     "blocking_errors": [
         "syntax-error",
-        "owl-rl-constraint-violation"
+        "owl-rl-constraint-violation",
+        "domain-out-of-vocabulary",
+        "comment-format",
+        "unknown-term",
+        "data-richness"
     ],
-    "gist_index": "960258046c21afa56b0db30521dd4d7a"
+    "gist_index": "c6a507448ab6b872efbe642afd7d32ea",
+    "skipped_errors": ["range-out-of-vocabulary"],
+    "skipped_tests": ["linked-schema"],
+    "skipped_subjects": ["all-modules", "module-not-rl"],
+    "skip_for_test": {},
+    "skip_for_subject": {}
 }

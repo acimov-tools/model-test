@@ -1,0 +1,20 @@
+@prefix : <https://www.example.org/olivaw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:inconsistent a owl:Ontology .
+
+:DisjointTheFirst a owl:Class ;
+    rdfs:label "This first class is disjoint from the other"@en ;
+    rdfs:isDefinedBy :inconsistent ;
+    owl:disjointWith :DisjointTheSecond .
+
+:DisjointTheSecond a owl:Class ;
+    rdfs:label "This second class is disjoint from the forst one"@en ;
+    rdfs:isDefinedBy :inconsistent ;
+    owl:disjointWith :DisjointTheFirst .
+
+:BrokenSubclass a owl:Class ;
+    rdfs:label "This class is broken because it is a subclass of disjoint classes"@en ;
+    rdfs:isDefinedBy :inconsistent ;
+    rdfs:subClassOf :DisjointTheFirst , :DisjointTheSecond .

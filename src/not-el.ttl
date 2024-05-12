@@ -1,0 +1,10 @@
+@prefix : <https://www.example.org/olivaw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+:notEL a owl:Ontology .
+
+:notELTermCauseAsymmetric a owl:ObjectProperty , owl:AsymmetricProperty ;
+    rdfs:isDefinedBy :notEL ;
+    rdfs:label "This term has a statement that is not EL compatible"@en .

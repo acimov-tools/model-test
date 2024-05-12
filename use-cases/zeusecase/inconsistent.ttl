@@ -1,0 +1,12 @@
+@prefix : <https://www.example.org/olivaw/> .
+@prefix abox: <https://www.example.org/zeusecase/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+abox:zeClassA a owl:Class .
+abox:zeClassB a owl:Class .
+
+[ a owl:AllDisjointClasses ;
+    owl:members ( abox:zeClassA abox:zeClassB ) ] . 
+
+abox:zeInstance a abox:zeClassA , abox:zeClassB .

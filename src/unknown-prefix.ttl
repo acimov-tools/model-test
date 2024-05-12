@@ -1,0 +1,7 @@
+@prefix : <https://www.example.org/olivaw/> .
+
+:unknownPrefix a owl:Ontology .
+
+:Unknown a owl:Class ;
+    rdfs:label "This class is using a prefix that is not defined in the file"@en ;
+    rdfs:isDefinedBy :unknownPrefix .

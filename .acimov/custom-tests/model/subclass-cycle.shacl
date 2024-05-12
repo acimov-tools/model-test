@@ -1,0 +1,22 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<#criterion> a earl:TestCriterion ;
+    dcterms:identifier "subclass-cycle" ;
+    dcterms:title "Subclass cycle test" ;
+    dcterms:description "A test meant to detect rdfs:subclass cycles" .
+
+<#shape> a sh:NodeShape ;
+  sh:message "Some classes make cycles of rdfs:subClassOf" ;
+	sh:targetSubjectsOf rdfs:isDefinedBy ;
+	sh:sparql [
+		sh:select """
+select ?this where {
+  ?this rdfs:subClassOf/rdfs:subClassOf+ ?this
+}
+        """ ;
+        sh:severity sh:Violation ;
+        sh:maxCount 0
+	] .

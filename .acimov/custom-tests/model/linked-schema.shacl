@@ -1,0 +1,30 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<#criterion> a earl:TestCriterion ;
+    dcterms:identifier "linked-schema" ;
+    dcterms:title "Linked schema test" ;
+    dcterms:description "A test meant to detect isolated ontology terms" .
+
+<#shape> a sh:NodeShape ;
+  sh:message "Isolated ontology term from the others" ;
+	sh:targetSubjectsOf rdfs:isDefinedBy ;
+	sh:sparql [
+		sh:select """
+select ?this where {
+  {
+    ?this rdfs:isDefinedBy ?m ;
+    ?p ?o .
+  } union {
+    ?this rdfs:isDefinedBy ?m .
+    ?o ?p ?this .
+  }
+  filter(?o != ?m)
+  filter(strstarts(?o, $ontology_url))
+}
+        """ ;
+        sh:severity sh:Warning ;
+        sh:minCount 1 ;
+	] .

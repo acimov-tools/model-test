@@ -1,0 +1,15 @@
+@prefix : <https://www.example.org/olivaw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+:tooCloseTerms a owl:Ontology .
+
+:ClassA a owl:ObjectProperty ;
+    rdfs:label "This class has a name too close to class A"@en ;
+    rdfs:isDefinedBy :tooCloseTerms .
+
+    
+:ClassB a owl:ObjectProperty ;
+    rdfs:label "This class has a name too close to class B"@en ;
+    rdfs:isDefinedBy :tooCloseTerms .

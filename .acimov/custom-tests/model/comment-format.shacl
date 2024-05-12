@@ -1,0 +1,25 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<#criterion> a earl:TestCriterion ;
+    dcterms:identifier "comment-format" ;
+    dcterms:title "Comment format test" ;
+    dcterms:description "A test meant to test a comment format" .
+
+<#shape> a sh:NodeShape ;
+	sh:targetSubjectsOf rdfs:isDefinedBy ;
+	sh:property [
+		sh:message "Ontology term should have one and only one rdfs:comment" ;
+		sh:severity sh:Violation ;
+		sh:path rdfs:comment ;
+		sh:maxCount 1 ;
+		sh:minCount 1
+	] , [
+		sh:message "Comment not in @en/without line break/ending with full stop" ;
+		sh:severity sh:Warning ;
+		sh:path rdfs:comment ;
+		sh:languageIn ( "en" ) ;
+		sh:pattern "^[^\\n]+\\.$"
+	] .

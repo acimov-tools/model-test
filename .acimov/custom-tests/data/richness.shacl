@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<#criterion> a earl:TestCriterion ;
+    dcterms:identifier "data-richness" ;
+    dcterms:title "The vocabulary is linked to by other vocabularies" ;
+    dcterms:description "Each node should have predicates other than rdf:type" .
+
+<#shape> a sh:NodeShape ;
+    sh:message "Some subjects only have a rdf:type property" ;
+    sh:severity sh:Warning ;
+	sh:targetSubjectsOf rdf:type ;
+	sh:sparql [
+        sh:select """
+select ?this where {
+  ?this ?p ?o .
+   filter (?p != rdf:type)
+}
+        """ ;
+        sh:minCount 1
+    ] .

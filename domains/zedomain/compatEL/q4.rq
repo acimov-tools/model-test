@@ -1,0 +1,5 @@
+@prefix sand: <http://www.example.org/olivaw/> .
+
+select * where {
+    ?s a sand:ClassA .
+}

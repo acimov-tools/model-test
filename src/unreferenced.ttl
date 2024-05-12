@@ -1,0 +1,8 @@
+@prefix : <https://www.example.org/olivaw/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:unreferenced a owl:Ontology .
+
+:NotReferencedClass a owl:Class ;
+    rdfs:label "This class is not linked to a module by a rdfs:isDefinedBy property"@en .

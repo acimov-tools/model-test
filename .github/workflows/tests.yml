@@ -7,10 +7,11 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - uses: Wimmics/olivaw/test-actions@v0.0.4
+    - uses: Wimmics/olivaw/test-actions@test-actions
       with:
         repository: ${{ github.repository }}
         ref: ${{ github.ref }}
         gist-secret: ${{ secrets.GIST_SECRET }}
         data-test: true
         model-test: true
+        query-test: true

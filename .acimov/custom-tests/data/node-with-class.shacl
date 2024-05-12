@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix earl: <http://www.w3.org/ns/earl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<#criterion> a earl:TestCriterion ;
+    dcterms:identifier "node-with-class" ;
+    dcterms:title "Classed node test" ;
+    dcterms:description "A test meant to test if each node has a rdf:type property" .
+
+<#shape> a sh:NodeShape ;
+    sh:message "Any ABox node should have a rdf:type property or be a blank node" ;
+    sh:severity sh:Warning ;
+	sh:targetTriplesOf [] ;
+	sh:or (
+        [
+            sh:path (
+                [sh:nodePath sh:subject]
+                [sh:triplePath (sh:subject rdf:type)]
+            ) ;
+            sh:minCount 1
+        ]
+        [
+            sh:path (
+                [sh:nodePath sh:subject]
+                [sh:filter ([sh:nodeKind sh:BlankNode])]
+            ) ;
+            sh:minCount 1
+        ]
+    ) .

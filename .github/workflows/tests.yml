@@ -15,7 +15,7 @@ jobs:
         BRANCH_NAME="${PATHS[1]}_${PATHS[2]}"
         echo $BRANCH_NAME
         echo "BRANCH=$(echo ${BRANCH_NAME})" >> $GITHUB_ENV
-    - uses: Wimmics/olivaw/test-actions@test-actions-8
+    - uses: Wimmics/olivaw/test-actions@test-actions-9
       with:
         repository: ${{ github.repository }}
         ref: ${{ github.ref }}

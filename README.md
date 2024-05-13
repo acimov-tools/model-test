@@ -17,5 +17,12 @@ Data tests:
 ![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_DATA_MINORFAIL.json)
 ![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_DATA_MAJORFAIL.json)
  
+Query tests:	
+![Pass Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_PASS.json)
+![NotTested Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_NOTTESTED.json)
+![CannotTell Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_CANNOTTELL.json)
+![MinorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_MINORFAIL.json)
+![MajorFail Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_MAJORFAIL.json)
+ 
 # sandbox
 A repository meant to test some olivaw tools under development

@@ -10,15 +10,6 @@
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q3 ;
-    earl:test olivaw-earl:syntax .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
                     dcterms:description "All the URIs of the subject are valid"@en ;
                     dcterms:title "All subject URI valid"@en ] ] ;
     earl:subject _:question-zedomain-compatEL-q2 ;
@@ -28,10 +19,10 @@
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "The query is of type Select or Ask"@en ;
-                    dcterms:title "Accurate query type"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q3 ;
-    earl:test olivaw-earl:query-type .
+                    dcterms:description "Test subject has a correct syntax"@en ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q4 ;
+    earl:test olivaw-earl:syntax .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -39,57 +30,8 @@
             earl:outcome [ a earl:Pass ;
                     dcterms:description "The query is of type Select or Ask"@en ;
                     dcterms:title "Accurate query type"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q4 ;
-    earl:test olivaw-earl:query-type .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw-earl:MajorFail ;
-                    dcterms:description "Encountered \";\" at line 2, column 11."@en ;
-                    dcterms:title "Test subject has syntax errors"@en ;
-                    rdfs:seeAlso """select * where {
-    ?s ?p ; ?o
-}""" ] ] ;
-    earl:subject _:question-zedomain-compatEL-q1 ;
-    earl:test olivaw-earl:syntax .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:NotTested ;
-                    dcterms:description "Error occured while running custom test "@en ;
-                    dcterms:title "Error on custom test "@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q1 ;
-    earl:test olivaw-earl:query-type .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw-earl:MinorFail ;
-                    dcterms:description "The query type was expected to be 'Ask' or 'Select', but got 'Construct'"@en ;
-                    dcterms:title "Unauthorized query type"@en ;
-                    rdfs:seeAlso "construct {?s ?p ?o} where {?s ?p ?o}" ] ] ;
-    earl:subject _:question-zedomain-compatEL-q2 ;
-    earl:test olivaw-earl:query-type .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:NotTested ;
-                    dcterms:description "Error occured while running custom test "@en ;
-                    dcterms:title "Error on custom test "@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q1 ;
-    earl:test olivaw-earl:prefix-validity .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:NicoRobertIn-actions ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw-earl:MinorFail ;
-                    dcterms:description "Expected valid URIs in subject but got: #coucou"@en ;
-                    dcterms:title "Invalid URI"@en ] ] ;
     earl:subject _:question-zedomain-compatEL-q3 ;
-    earl:test olivaw-earl:uri-validity .
+    earl:test olivaw-earl:query-type .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -121,10 +63,10 @@ Prefix found: https://www.example.org/olivaw/
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the URIs of the subject are valid"@en ;
-                    dcterms:title "All subject URI valid"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q4 ;
+            earl:outcome [ a olivaw-earl:MinorFail ;
+                    dcterms:description "Expected valid URIs in subject but got: #coucou"@en ;
+                    dcterms:title "Invalid URI"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q3 ;
     earl:test olivaw-earl:uri-validity .
 
 [] a earl:Assertion ;
@@ -139,11 +81,21 @@ Prefix found: https://www.example.org/olivaw/
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:title "Correct syntax"@en ] ] ;
+            earl:outcome [ a earl:NotTested ;
+                    dcterms:description "Error occured while running custom test "@en ;
+                    dcterms:title "Error on custom test "@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q1 ;
+    earl:test olivaw-earl:query-type .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw-earl:MinorFail ;
+                    dcterms:description "The query type was expected to be 'Ask' or 'Select', but got 'Construct'"@en ;
+                    dcterms:title "Unauthorized query type"@en ;
+                    rdfs:seeAlso "construct {?s ?p ?o} where {?s ?p ?o}" ] ] ;
     earl:subject _:question-zedomain-compatEL-q2 ;
-    earl:test olivaw-earl:syntax .
+    earl:test olivaw-earl:query-type .
 
 [] a earl:Assertion ;
     earl:assertedBy _:NicoRobertIn-actions ;
@@ -160,34 +112,82 @@ Prefix found: https://www.example.org/olivaw/
             earl:outcome [ a earl:Pass ;
                     dcterms:description "Test subject has a correct syntax"@en ;
                     dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q4 ;
+    earl:subject _:question-zedomain-compatEL-q2 ;
     earl:test olivaw-earl:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "All the URIs of the subject are valid"@en ;
+                    dcterms:title "All subject URI valid"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q4 ;
+    earl:test olivaw-earl:uri-validity .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:NotTested ;
+                    dcterms:description "Error occured while running custom test "@en ;
+                    dcterms:title "Error on custom test "@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q1 ;
+    earl:test olivaw-earl:prefix-validity .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "Test subject has a correct syntax"@en ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q3 ;
+    earl:test olivaw-earl:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw-earl:MajorFail ;
+                    dcterms:description "Encountered \";\" at line 2, column 11."@en ;
+                    dcterms:title "Test subject has syntax errors"@en ;
+                    rdfs:seeAlso """select * where {
+    ?s ?p ; ?o
+}""" ] ] ;
+    earl:subject _:question-zedomain-compatEL-q1 ;
+    earl:test olivaw-earl:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:NicoRobertIn-actions ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "The query is of type Select or Ask"@en ;
+                    dcterms:title "Accurate query type"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q4 ;
+    earl:test olivaw-earl:query-type .
 
 _:NicoRobertIn a foaf:Person ;
     schema:mainEntityOfPage <https://github.com/NicoRobertIn> .
 
 _:question-zedomain-compatEL-q1 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q1.rq> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/q1.rq> ;
     dcterms:identifier "question-zedomain-compatEL-q1" ;
-    dcterms:title "competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/main"@en .
+    dcterms:title "competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/dev7"@en .
 
 _:question-zedomain-compatEL-q2 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q2.rq> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/q2.rq> ;
     dcterms:identifier "question-zedomain-compatEL-q2" ;
-    dcterms:title "competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/main"@en .
+    dcterms:title "competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/dev7"@en .
 
 _:question-zedomain-compatEL-q3 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q3.rq> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/q3.rq> ;
     dcterms:identifier "question-zedomain-compatEL-q3" ;
-    dcterms:title "competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/main"@en .
+    dcterms:title "competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/dev7"@en .
 
 _:question-zedomain-compatEL-q4 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q4.rq> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/q4.rq> ;
     dcterms:identifier "question-zedomain-compatEL-q4" ;
-    dcterms:title "competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/main"@en .
+    dcterms:title "competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/dev7"@en .
 
 _:NicoRobertIn-actions a foaf:OnlineAccount ;
-    dcterms:date "2024-05-13T15:17:33.126531"^^xsd:dateTime ;
+    dcterms:date "2024-05-13T15:26:58.253137"^^xsd:dateTime ;
     dcterms:description "Test triggered by @NicoRobertIn by actions trigger"@en ;
     dcterms:title "NicoRobertIn using actions script"@en ;
     earl:mainAssertor _:NicoRobertIn ;

@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by &#91;@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/suite.py)
-|Date|2024-05-13 15:17:01|
+|Date|2024-05-13 15:26:31|
 
 ***
 
@@ -59,52 +59,52 @@ Here is the chapter related to the MajorFail outcome
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-1">1/46</div>|:boom:*MajorFail*|`module-unlabeled`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-1">1/46</div>|:boom:*MajorFail*|`module-unlabeled`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-2">2/46</div>|:boom:*MajorFail*|`module-unknown-prefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-2)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-3">3/46</div>|:boom:*MajorFail*|`module-too-close-terms`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-3)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-4">4/46</div>|:boom:*MajorFail*|`module-range-outer`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-4)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-5">5/46</div>|:boom:*MajorFail*|`module-not-ql`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-6">6/46</div>|:boom:*MajorFail*|`module-not-el`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-6)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-3">3/46</div>|:boom:*MajorFail*|`module-too-close-terms`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-3)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-4">4/46</div>|:boom:*MajorFail*|`module-range-outer`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-4)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-5">5/46</div>|:boom:*MajorFail*|`module-not-ql`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-6">6/46</div>|:boom:*MajorFail*|`module-not-el`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-6)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-7">7/46</div>|:boom:*MajorFail*|`module-inconsistent`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-7)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-8">8/46</div>|:boom:*MajorFail*|`module-inconsistent`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-8)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-9">9/46</div>|:boom:*MajorFail*|`module-inconsistent`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-9)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-9">9/46</div>|:boom:*MajorFail*|`module-inconsistent`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-9)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-10">10/46</div>|:boom:*MajorFail*|`module-domain-outer`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-10)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-11">11/46</div>|:boom:*MajorFail*|`module-domain-outer`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-11)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-11">11/46</div>|:boom:*MajorFail*|`module-domain-outer`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-11)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-12">12/46</div>|:boom:*MajorFail*|`module-broken`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-12)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-13">13/46</div>|:boom:*MajorFail*|`modelet-zedomain-syntax`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-13)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-14">14/46</div>|:boom:*MajorFail*|`modelet-zedomain-rangeout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-14)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-15">15/46</div>|:boom:*MajorFail*|`modelet-zedomain-rangeout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-15)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-14">14/46</div>|:boom:*MajorFail*|`modelet-zedomain-rangeout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-14)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-15">15/46</div>|:boom:*MajorFail*|`modelet-zedomain-rangeout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-15)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-16">16/46</div>|:boom:*MajorFail*|`modelet-zedomain-prefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-16)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-17">17/46</div>|:boom:*MajorFail*|`modelet-zedomain-label`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-17)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-18">18/46</div>|:boom:*MajorFail*|`modelet-zedomain-label`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-18)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-17">17/46</div>|:boom:*MajorFail*|`modelet-zedomain-label`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-17)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-18">18/46</div>|:boom:*MajorFail*|`modelet-zedomain-label`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-18)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-19">19/46</div>|:boom:*MajorFail*|`modelet-zedomain-inconsistence`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-19)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-20">20/46</div>|:boom:*MajorFail*|`modelet-zedomain-inconsistence`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-20)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-21">21/46</div>|:boom:*MajorFail*|`modelet-zedomain-inconsistence`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-21)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-22">22/46</div>|:boom:*MajorFail*|`modelet-zedomain-inconsistence`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-22)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-21">21/46</div>|:boom:*MajorFail*|`modelet-zedomain-inconsistence`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-21)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-22">22/46</div>|:boom:*MajorFail*|`modelet-zedomain-inconsistence`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-22)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-23">23/46</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-23)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-24">24/46</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-24)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-25">25/46</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-25)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-26">26/46</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-26)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-25">25/46</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-25)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-26">26/46</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-26)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-27">27/46</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-27)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-28">28/46</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-28)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-29">29/46</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-29)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-30">30/46</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-30)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-31">31/46</div>|:boom:*MajorFail*|`modelet-zedomain-differenciation`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-31)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-32">32/46</div>|:boom:*MajorFail*|`modelet-zedomain-differenciation`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-32)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-33">33/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatRL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-33)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-34">34/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatRL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-34)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-35">35/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatQL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-35)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-36">36/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatQL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-36)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-37">37/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatEL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-37)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-38">38/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatEL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-38)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-29">29/46</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-29)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-30">30/46</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-30)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-31">31/46</div>|:boom:*MajorFail*|`modelet-zedomain-differenciation`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-31)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-32">32/46</div>|:boom:*MajorFail*|`modelet-zedomain-differenciation`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-32)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-33">33/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatRL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-33)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-34">34/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatRL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-34)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-35">35/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatQL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-35)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-36">36/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatQL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-36)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-37">37/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatEL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-37)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-38">38/46</div>|:boom:*MajorFail*|`modelet-zedomain-compatEL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-38)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-39">39/46</div>|:boom:*MajorFail*|`all-modules`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-39)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-40">40/46</div>|:boom:*MajorFail*|`all-modules`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-40)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-41">41/46</div>|:boom:*MajorFail*|`all-modules`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-41)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-42">42/46</div>|:boom:*MajorFail*|`all-modules`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-42)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-42">42/46</div>|:boom:*MajorFail*|`all-modules`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-42)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-43">43/46</div>|:boom:*MajorFail*|`all-fragments`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-43)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-44">44/46</div>|:boom:*MajorFail*|`all-fragments`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-44)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-45">45/46</div>|:boom:*MajorFail*|`all-fragments`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-45)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-46">46/46</div>|:boom:*MajorFail*|`all-fragments`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-46)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-46">46/46</div>|:boom:*MajorFail*|`all-fragments`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-46)|
 
 ***
 
@@ -120,11 +120,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -135,7 +135,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:265c8704-f4d8-40a6-abfb-110ea3f43b91> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b2695 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:4678c0bc-02bf-4d08-a948-3ae49b6c4309> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b2695 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
 
 ***
@@ -147,8 +147,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -172,11 +172,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -187,10 +187,10 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:ab63b860-e10c-4da0-9fa3-9a476c1557aa> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b6733 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:0836719c-1941-404a-a599-8321163e3a8b> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b6733 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:6373248a-c5da-44b8-b297-98baa2012aec> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b6733 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:12e85f56-8495-456f-8bd5-830348454163> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b6733 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
 
 ***
 ### MajorFail Outcome number 4
@@ -201,11 +201,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -216,7 +216,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:706cb131-9fa1-4b8c-b6b3-b9484a658c1f> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b5387 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:a4346c90-ebf2-4e5b-8855-2b14877a76c9> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b5387 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
 
 ***
@@ -228,11 +228,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -243,7 +243,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:67a895fd-c988-4d5a-af5a-5158d9e64ef2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b8079 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:85469ddb-e31a-44f8-b31a-0839ef3715e6> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b8079 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
 
 ***
@@ -255,11 +255,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -270,7 +270,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:0763aa29-2581-46fb-b453-950fdf6c508e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b4041 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:5af0b3fb-1c36-4cb1-9b98-b455d8db30fa> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b4041 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
 
 ***
@@ -282,8 +282,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -306,8 +306,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -330,11 +330,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -345,12 +345,12 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:25801e8a-f383-4263-aeff-6242089b1759> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10780 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:4ea7f827-9bba-470f-802d-824fbf1f4c04> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10780 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:a138974e-b1f4-45d5-be10-089b7aa61825> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10780 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:a7fb309e-6a49-43ae-9433-430651697539> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10780 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:eee2d69e-e087-4565-adb5-343e89f46f3f> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10780 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:554e6229-7b66-4067-b2f1-35acf357f261> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10780 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
 
 ***
 ### MajorFail Outcome number 10
@@ -361,8 +361,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -387,11 +387,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -402,7 +402,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:53ee50fe-d32f-492f-9e4c-e40dc5c7b6c7> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b9425 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:921db2c1-4472-4b60-842c-dd6709e5099a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b9425 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
 
 ***
@@ -414,8 +414,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -439,8 +439,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -464,11 +464,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -479,7 +479,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:26a11260-d34a-47eb-9207-a2359a8ed093> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b28287 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:f806521a-4c67-4343-996c-4e0fd7dfd85b> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b28287 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
 
 ***
@@ -491,11 +491,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -506,7 +506,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:61998b96-33f7-42b2-82f1-8d5b3885efac> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b29633 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:8c19fa87-c328-44fd-a67e-42a403d1ff10> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b29633 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
 
 ***
@@ -518,8 +518,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -543,11 +543,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -558,7 +558,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:edcd9adf-ba90-44d4-a2bb-22468f85ee61> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b12126 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:68a3e125-8d7a-4791-aeb3-59b97d96c2fa> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b12126 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
 
 ***
@@ -570,11 +570,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -585,7 +585,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:0689d1fc-6fae-4130-8808-334351309806> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b13472 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:c7d7fbf2-8325-4477-b3c4-d09e33098458> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b13472 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
 
 ***
@@ -597,8 +597,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -621,8 +621,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -645,11 +645,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -660,12 +660,12 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:408dddbe-a6a6-4b88-b6eb-00fb585320a5> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14818 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:bd07c077-d4a5-4299-8b36-a8686cfa358b> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14818 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:004069b0-90e0-4ca0-90e6-a68d2c100b1e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14818 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:0259f9ea-a7a2-4da6-b576-18d419093107> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14818 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:d4bba9e4-345f-4988-b3ff-4e1f145f5b7a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14818 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:96073c85-d634-4893-9c92-2bee6348df41> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14818 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
 
 ***
 ### MajorFail Outcome number 22
@@ -676,11 +676,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -691,12 +691,12 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:81968de1-de9c-40c2-a551-f2a3f378d3a2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b16173 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:75382a0e-dfe6-4065-9e1c-37dce8823737> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b16173 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:78e19df0-fa2a-4d59-9bc6-749a7ff7226e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b16173 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:5fc9061c-8c90-493d-a1c7-7b28395457c2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b16173 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:280abad5-4717-4f8d-bc4a-bbedcb137bbc> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b16173 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:264ee4ef-657c-469d-84ac-2f63099d8cd9> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b16173 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
 
 ***
 ### MajorFail Outcome number 23
@@ -707,8 +707,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -733,8 +733,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -759,11 +759,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -774,7 +774,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:9ad5ae78-7d89-40cf-bf31-40e4c8b70647> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b22903 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:77bf896a-d029-49c2-a6ad-2bf8088a54f6> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b22903 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
 
 ***
@@ -786,11 +786,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -801,7 +801,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:3ff0baa5-d800-45a7-b0a8-ff421aee6cd8> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24249 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b33349f5-8225-4c15-800d-b4820008b61a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24249 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
 
 ***
@@ -813,8 +813,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -839,8 +839,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -865,11 +865,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -880,7 +880,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:24eacbbc-6fd6-4333-8758-36e7af6aa4c7> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b33671 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:08d64098-efb6-40e8-a854-db7b37a44221> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b33671 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
 
 ***
@@ -892,11 +892,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -907,7 +907,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:21124f87-1592-4915-ac5c-de59b76383c7> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b35017 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:1ec9c355-c2b9-4c3b-bf96-dc2b63163583> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b35017 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
 
 ***
@@ -919,11 +919,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -934,10 +934,10 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:f4688639-9e15-494b-ae86-145f3a22ff96> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b20211 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:820b4c22-9a14-40ab-bd31-56da092c700c> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b20211 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:67a8c69e-997a-4bf1-95da-6fb4d7e28624> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b20211 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:86d041d5-c1b8-4c0c-a015-f2e503439f5f> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b20211 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
 
 ***
 ### MajorFail Outcome number 32
@@ -948,11 +948,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -963,10 +963,10 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:7f0681f7-46c6-448d-addc-0f8ca1805239> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b21557 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:50e05be0-a300-484e-b389-8fc98889077a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b21557 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:5217bc42-aaef-453e-bfd6-d99efbb6fe7e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b21557 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2510c564-6af4-48a5-8e26-5fc18f6d9e9a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b21557 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
 
 ***
 ### MajorFail Outcome number 33
@@ -977,11 +977,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -992,7 +992,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:543f2153-e546-4ce6-8f72-2149e728d408> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b17519 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:1cff62bc-93bc-40cb-a4bf-9e9a5e4537ce> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b17519 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
 
 ***
@@ -1004,11 +1004,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -1019,7 +1019,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2fbeb9d9-46fe-4ff5-9ca9-acdf6e58cebf> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b18865 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:3c2b0c54-7405-4731-9305-f9adab89497c> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b18865 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
 
 ***
@@ -1031,11 +1031,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -1046,7 +1046,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:89f966e4-9fe2-4318-afc6-d9e7451f2201> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25595 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:1ddf3d12-f38e-42be-bca2-c1f4a0530a6a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25595 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
 
 ***
@@ -1058,11 +1058,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -1073,7 +1073,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:8bdb1083-c3f4-45ad-b3bd-e73b2992c5e6> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b26941 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:de2b352d-e021-4989-a987-d7a3509d2f65> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b26941 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
 
 ***
@@ -1085,11 +1085,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -1100,7 +1100,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b0607e54-1f2d-4072-b4e9-52ffdac87ed5> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b30979 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:e59db435-4652-4f3a-83aa-d951cc77ab41> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b30979 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
 
 ***
@@ -1112,11 +1112,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -1127,7 +1127,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:f1ca45a7-7f85-45f1-930c-8dbfc50075df> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b32325 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:86dc4600-c7c4-44aa-b758-ab499f3a6d98> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b32325 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
 
 ***
@@ -1139,8 +1139,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -1165,8 +1165,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -1189,8 +1189,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -1213,11 +1213,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -1228,28 +1228,28 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:3ea3a145-bfab-4c9f-8b48-4690af6df8a9> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:1474b8d9-2ca3-4b6c-8788-36350f5074fa> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:130d77d0-76f1-4e63-a75d-752c10677ccb> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2bb4c501-9f43-4015-ad6e-3b8bdbe750ae> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:a7a7adaf-2591-48d7-879b-815d52c32b4d> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:d1fb48dc-6969-4240-b575-33877086bbf3> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:e20d3966-8067-41e5-863e-5e3c6d07dba3> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:cc59e397-bfc9-4ac3-b799-03bdf39333bf> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:9e1fc698-e1a9-456f-a800-94a25474d8ae> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:76b56ba4-0898-401e-9431-fb8e0a0d4923> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:55371d46-4992-4b45-99ee-095e89d5e630> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:db3880bb-e6fe-4402-9f7e-4d295c72a5ad> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:552cf259-dc2e-4f03-b03b-8aaf6ae2ebfa> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:ec0bc5e1-5e33-4a00-9a04-11f1c0f1e8c8> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:7911704a-87f0-47db-817f-f20391d142d4> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b7bbced0-cb17-46e0-b167-09103ae23ff2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b1868078-00e7-4d02-bcbd-1ea3e2be977f> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:fd96c157-f021-4622-9bef-02576d0c40ff> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:51f46be1-17c7-4b14-9670-f459d6d49ab9> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:4a268a27-92f3-4ff9-aa1e-45d73a33d682> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:cea5dc3b-3fd8-4765-b348-77f9b65500d9> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:19b01d06-f85b-4683-a385-787e7c390902> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b36372 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
 
 ***
 ### MajorFail Outcome number 43
@@ -1260,8 +1260,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -1286,8 +1286,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -1310,8 +1310,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -1334,11 +1334,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -1349,27 +1349,27 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:dafb90c9-022c-4fa6-84d2-8452bd77b72d> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:84539b27-5a42-42f5-a670-e24e8f885151> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:de7e506f-2b96-43c5-8356-60edff3e1011> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b5c8b354-5bba-4d68-910c-ed014fbeda49> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:45571521-80c6-4205-8da7-b55419abb658> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b7fe4f17-fa46-44a9-9e63-33d576b90041> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:08831d7b-43a6-4ac2-9a33-525781b89f15> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:740bc49a-5e4b-4652-9c79-e6614107e368> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2972017c-92e9-4bdd-8658-4c1c98b06bf5> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:f947f8b4-686f-4722-bef7-19b6cba6587f> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:e6d63cf5-2f0b-4ecb-908c-4f06bbd4d16a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:88f60a60-f7aa-42de-aa26-d81e77f6754c> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:ff761e18-7f1c-48e8-860f-4fa155876076> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:ffb1d7f0-520d-4726-b25f-a653bdba70dc> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:d85a6217-af83-48f4-bb5b-157962e1eb60> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:d786cf30-7da7-4117-9168-d2a43ac95dbc> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:dbcd475c-6f73-4d3d-ab72-f91da2a0877b> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:daa7e662-8fd3-4b0c-a2fc-0b5bbd160da2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:6d817229-f501-492e-aac9-53e7cb728479> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2d9e4afd-2e8d-43cc-897b-39d4a7b59579> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:222d7dd5-a692-4e2f-89a8-b7d38fb87e28> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:bed29e6f-b6cd-425e-a6fe-e5db6a431bbb> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b37727 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
 
 ***
@@ -1434,8 +1434,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -1459,8 +1459,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -1484,8 +1484,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -1510,8 +1510,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1535,8 +1535,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1560,8 +1560,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -1585,8 +1585,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -1610,8 +1610,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -1636,8 +1636,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -1662,8 +1662,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1687,8 +1687,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1712,8 +1712,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1737,8 +1737,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1762,8 +1762,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -1787,8 +1787,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1812,8 +1812,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1837,8 +1837,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -1862,8 +1862,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -1888,8 +1888,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -1913,8 +1913,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1938,8 +1938,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1963,8 +1963,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -1988,8 +1988,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -2080,8 +2080,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2104,8 +2104,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2128,8 +2128,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -2152,8 +2152,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -2176,8 +2176,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2200,8 +2200,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2224,8 +2224,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2248,8 +2248,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -2272,8 +2272,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-unknown-prefix|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/dev7|
+|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unknown-prefix.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -2296,8 +2296,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2320,8 +2320,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2344,8 +2344,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -2368,8 +2368,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -2392,8 +2392,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2416,8 +2416,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2440,8 +2440,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2464,8 +2464,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -2488,8 +2488,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|module-broken|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/broken.ttl from branch refs/heads/dev7|
+|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/broken.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -2512,8 +2512,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2536,8 +2536,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2560,8 +2560,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -2584,8 +2584,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -2608,8 +2608,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2632,8 +2632,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2656,8 +2656,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2680,8 +2680,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -2704,8 +2704,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-syntax|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/syntax/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -2728,8 +2728,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2752,8 +2752,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2776,8 +2776,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -2800,8 +2800,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -2824,8 +2824,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2848,8 +2848,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2872,8 +2872,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2896,8 +2896,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -2920,8 +2920,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|modelet-zedomain-prefix|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/prefix/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -2966,8 +2966,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-5">5/219</div>|:white_check_mark:*Pass*|`module-unreferenced`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-5)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-6">6/219</div>|:white_check_mark:*Pass*|`module-unreferenced`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-6)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-7">7/219</div>|:white_check_mark:*Pass*|`module-unreferenced`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-7)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-8">8/219</div>|:white_check_mark:*Pass*|`module-unreferenced`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-8)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-9">9/219</div>|:white_check_mark:*Pass*|`module-unreferenced`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-8">8/219</div>|:white_check_mark:*Pass*|`module-unreferenced`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-8)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-9">9/219</div>|:white_check_mark:*Pass*|`module-unreferenced`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-10">10/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-10)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-11">11/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-11)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-12">12/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-12)|
@@ -2975,7 +2975,7 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-14">14/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-14)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-15">15/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-15)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-16">16/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-16)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-17">17/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-17)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-17">17/219</div>|:white_check_mark:*Pass*|`module-unlabeled`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-17)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-18">18/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-18)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-19">19/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-19)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-20">20/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-20)|
@@ -2983,7 +2983,7 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-22">22/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-22)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-23">23/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-23)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-24">24/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-24)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-25">25/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-25)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-25">25/219</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-25)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-26">26/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-26)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-27">27/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-27)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-28">28/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-28)|
@@ -2992,7 +2992,7 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-31">31/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-31)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-32">32/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-32)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-33">33/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-33)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-34">34/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-34)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-34">34/219</div>|:white_check_mark:*Pass*|`module-range-outer`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-34)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-35">35/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-35)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-36">36/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-36)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-37">37/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-37)|
@@ -3000,7 +3000,7 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-39">39/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-39)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-40">40/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-40)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-41">41/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-41)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-42">42/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-42)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-42">42/219</div>|:white_check_mark:*Pass*|`module-not-ql`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-42)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-43">43/219</div>|:white_check_mark:*Pass*|`module-not-el`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-43)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-44">44/219</div>|:white_check_mark:*Pass*|`module-not-el`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-44)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-45">45/219</div>|:white_check_mark:*Pass*|`module-not-el`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-45)|
@@ -3008,7 +3008,7 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-47">47/219</div>|:white_check_mark:*Pass*|`module-not-el`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-47)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-48">48/219</div>|:white_check_mark:*Pass*|`module-not-el`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-48)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-49">49/219</div>|:white_check_mark:*Pass*|`module-not-el`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-49)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-50">50/219</div>|:white_check_mark:*Pass*|`module-not-el`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-50)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-50">50/219</div>|:white_check_mark:*Pass*|`module-not-el`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-50)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-51">51/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-51)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-52">52/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-52)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-53">53/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-53)|
@@ -3016,7 +3016,7 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-55">55/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-55)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-56">56/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-56)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-57">57/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-57)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-58">58/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-58)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-58">58/219</div>|:white_check_mark:*Pass*|`module-inconsistent`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-58)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-59">59/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-59)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-60">60/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-60)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-61">61/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-61)|
@@ -3024,7 +3024,7 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-63">63/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-63)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-64">64/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-64)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-65">65/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-65)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-66">66/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-66)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-66">66/219</div>|:white_check_mark:*Pass*|`module-domain-outer`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-66)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-67">67/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-67)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-68">68/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-68)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-69">69/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-69)|
@@ -3041,8 +3041,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-80">80/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-80)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-81">81/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-81)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-82">82/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-82)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-83">83/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-83)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-84">84/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-84)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-83">83/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-83)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-84">84/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-84)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-85">85/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-85)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-86">86/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-86)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-87">87/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-87)|
@@ -3057,8 +3057,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-96">96/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-96)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-97">97/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-97)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-98">98/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-98)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-99">99/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-99)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-100">100/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-100)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-99">99/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-99)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-100">100/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-100)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-101">101/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-101)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-102">102/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-102)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-103">103/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-103)|
@@ -3074,8 +3074,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-113">113/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-113)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-114">114/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-114)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-115">115/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-115)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-116">116/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-116)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-117">117/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-117)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-116">116/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-116)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-117">117/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-117)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-118">118/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-118)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-119">119/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-119)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-120">120/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-120)|
@@ -3090,8 +3090,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-129">129/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-129)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-130">130/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-130)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-131">131/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-131)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-132">132/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-132)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-133">133/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-133)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-132">132/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-132)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-133">133/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-133)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-134">134/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-134)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-135">135/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-135)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-136">136/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-136)|
@@ -3106,8 +3106,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-145">145/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-145)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-146">146/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-146)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-147">147/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-147)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-148">148/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-148)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-149">149/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-149)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-148">148/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-148)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-149">149/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-149)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-150">150/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-150)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-151">151/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-151)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-152">152/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-152)|
@@ -3122,8 +3122,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-161">161/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-161)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-162">162/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-162)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-163">163/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-163)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-164">164/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-164)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-165">165/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-165)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-164">164/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-164)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-165">165/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-165)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-166">166/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-166)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-167">167/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-167)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-168">168/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-168)|
@@ -3140,8 +3140,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-179">179/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-179)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-180">180/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-180)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-181">181/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-181)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-182">182/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-182)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-183">183/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-183)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-182">182/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-182)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-183">183/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-183)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-184">184/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-184)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-185">185/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-185)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-186">186/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-186)|
@@ -3156,8 +3156,8 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-195">195/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-195)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-196">196/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-196)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-197">197/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-197)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-198">198/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-198)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-199">199/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-199)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-198">198/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-198)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-199">199/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-199)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-200">200/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-200)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-201">201/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-201)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-202">202/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-202)|
@@ -3172,12 +3172,12 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-211">211/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-211)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-212">212/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-212)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-213">213/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-213)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-214">214/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-214)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-215">215/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-215)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-214">214/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-214)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-215">215/219</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-215)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-216">216/219</div>|:white_check_mark:*Pass*|`all-modules`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-216)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-217">217/219</div>|:white_check_mark:*Pass*|`all-modules`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-217)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-217">217/219</div>|:white_check_mark:*Pass*|`all-modules`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-217)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-218">218/219</div>|:white_check_mark:*Pass*|`all-fragments`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-218)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-219">219/219</div>|:white_check_mark:*Pass*|`all-fragments`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-219)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-219">219/219</div>|:white_check_mark:*Pass*|`all-fragments`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-219)|
 
 ***
 
@@ -3193,8 +3193,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -3217,8 +3217,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -3241,8 +3241,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -3265,8 +3265,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3289,8 +3289,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3313,8 +3313,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3337,8 +3337,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -3361,11 +3361,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
+|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/comment-format.shacl#criterion)|
 |----|----|
 |Title|Comment format test|
 |Description|A test meant to test a comment format|
@@ -3385,11 +3385,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unreferenced|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/unreferenced.ttl from branch refs/heads/dev7|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -3409,8 +3409,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -3433,8 +3433,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -3457,8 +3457,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3481,8 +3481,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3505,8 +3505,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3529,8 +3529,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -3553,8 +3553,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -3577,11 +3577,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-unlabeled|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/unlabeled.ttl from branch refs/heads/dev7|
+|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -3601,8 +3601,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -3625,8 +3625,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -3649,8 +3649,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -3673,8 +3673,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3697,8 +3697,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3721,8 +3721,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3745,8 +3745,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -3769,11 +3769,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-too-close-terms|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/dev7|
+|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -3793,8 +3793,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -3817,8 +3817,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -3841,8 +3841,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -3865,8 +3865,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3889,8 +3889,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3913,8 +3913,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -3937,8 +3937,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -3961,8 +3961,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -3985,11 +3985,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-range-outer|
 |----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
+|Title|Standalone module src/range-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -4009,8 +4009,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -4033,8 +4033,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -4057,8 +4057,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -4081,8 +4081,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4105,8 +4105,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4129,8 +4129,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -4153,8 +4153,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -4177,11 +4177,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-ql|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/not-ql.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -4201,8 +4201,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -4225,8 +4225,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -4249,8 +4249,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -4273,8 +4273,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4297,8 +4297,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4321,8 +4321,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -4345,8 +4345,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -4369,11 +4369,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-not-el|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/not-el.ttl from branch refs/heads/dev7|
+|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -4393,8 +4393,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -4417,8 +4417,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -4441,8 +4441,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4465,8 +4465,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4489,8 +4489,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4513,8 +4513,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -4537,8 +4537,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -4561,11 +4561,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-inconsistent|
 |----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/inconsistent.ttl from branch refs/heads/dev7|
+|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -4585,8 +4585,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -4609,8 +4609,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -4633,8 +4633,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4657,8 +4657,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4681,8 +4681,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4705,8 +4705,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -4729,8 +4729,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -4753,11 +4753,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|module-domain-outer|
 |----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
+|Title|Standalone module src/domain-outer.ttl from branch refs/heads/dev7|
+|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -4777,8 +4777,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -4801,8 +4801,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -4825,8 +4825,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -4849,8 +4849,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -4873,8 +4873,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -4897,8 +4897,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -4921,8 +4921,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4945,8 +4945,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4969,8 +4969,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -4993,8 +4993,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5017,8 +5017,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5041,8 +5041,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5065,8 +5065,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -5089,8 +5089,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -5113,8 +5113,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -5137,8 +5137,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -5161,11 +5161,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -5185,11 +5185,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-rangeout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -5209,8 +5209,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -5233,8 +5233,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -5257,8 +5257,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -5281,8 +5281,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -5305,8 +5305,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5329,8 +5329,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5353,8 +5353,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5377,8 +5377,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5401,8 +5401,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5425,8 +5425,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5449,8 +5449,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -5473,8 +5473,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -5497,8 +5497,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -5521,8 +5521,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -5545,11 +5545,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -5569,11 +5569,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-label|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -5593,8 +5593,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -5617,8 +5617,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -5641,8 +5641,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -5665,8 +5665,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -5689,8 +5689,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -5713,8 +5713,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5737,8 +5737,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5761,8 +5761,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5785,8 +5785,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5809,8 +5809,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5833,8 +5833,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -5857,8 +5857,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -5881,8 +5881,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -5905,8 +5905,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -5929,8 +5929,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -5953,11 +5953,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -5977,11 +5977,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-inconsistence|
 |----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -6001,8 +6001,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -6025,8 +6025,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -6049,8 +6049,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -6073,8 +6073,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -6097,8 +6097,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6121,8 +6121,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6145,8 +6145,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6169,8 +6169,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6193,8 +6193,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6217,8 +6217,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6241,8 +6241,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -6265,8 +6265,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -6289,8 +6289,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -6313,8 +6313,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -6337,11 +6337,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -6361,11 +6361,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-dovrov|
 |----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -6385,8 +6385,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -6409,8 +6409,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -6433,8 +6433,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -6457,8 +6457,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -6481,8 +6481,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6505,8 +6505,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6529,8 +6529,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6553,8 +6553,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6577,8 +6577,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6601,8 +6601,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6625,8 +6625,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -6649,8 +6649,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -6673,8 +6673,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -6697,8 +6697,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -6721,11 +6721,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -6745,11 +6745,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-domainout|
 |----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -6769,8 +6769,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -6793,8 +6793,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -6817,8 +6817,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -6841,8 +6841,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -6865,8 +6865,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -6889,8 +6889,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -6913,8 +6913,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6937,8 +6937,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6961,8 +6961,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -6985,8 +6985,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7009,8 +7009,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7033,8 +7033,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7057,8 +7057,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -7081,8 +7081,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -7105,11 +7105,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -7129,11 +7129,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-differenciation|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -7153,8 +7153,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -7177,8 +7177,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -7201,8 +7201,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -7225,8 +7225,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -7249,8 +7249,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -7273,8 +7273,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -7297,8 +7297,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7321,8 +7321,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7345,8 +7345,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7369,8 +7369,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7393,8 +7393,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7417,8 +7417,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7441,8 +7441,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -7465,8 +7465,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -7489,8 +7489,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -7513,8 +7513,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -7537,11 +7537,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -7561,11 +7561,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatRL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -7585,8 +7585,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -7609,8 +7609,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -7633,8 +7633,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -7657,8 +7657,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -7681,8 +7681,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -7705,8 +7705,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -7729,8 +7729,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7753,8 +7753,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7777,8 +7777,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7801,8 +7801,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -7825,8 +7825,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -7849,8 +7849,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -7873,8 +7873,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -7897,8 +7897,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -7921,11 +7921,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -7945,11 +7945,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatQL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -7969,8 +7969,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -7993,8 +7993,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -8017,8 +8017,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -8041,8 +8041,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
@@ -8065,8 +8065,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -8089,8 +8089,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -8113,8 +8113,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -8137,8 +8137,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -8161,8 +8161,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -8185,8 +8185,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -8209,8 +8209,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -8233,8 +8233,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -8257,8 +8257,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -8281,8 +8281,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -8305,11 +8305,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -8329,11 +8329,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|modelet-zedomain-compatEL|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/dev7|
+|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -8353,8 +8353,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -8377,11 +8377,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|all-modules|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)|
+|Title|All the modules from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|
@@ -8401,8 +8401,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -8425,11 +8425,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|all-fragments|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
+|Title|All the fragments from branch refs/heads/dev7 that are syntaxically correct as well as their recursive imports|
+|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unreferenced.ttl)<br/>- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/unlabeled.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/range-outer.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/too-close-terms.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-ql.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/domain-outer.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/inconsistent.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/src/not-rl.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/differenciation/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev7/domains/zedomain/domainout/onto.ttl)|
 
 #### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
+|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev7/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
 |----|----|
 |Title|Subclass cycle test|
 |Description|A test meant to detect rdfs:subclass cycles|

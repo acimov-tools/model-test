@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by &#91;@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py)
-|Date|2024-05-13 20:50:18|
+|Date|2024-05-13 20:56:37|
 
 ***
 
@@ -94,7 +94,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:82ec8a26-edca-49b1-a63a-943f89e57156> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b6b1ed00-9b85-41ac-b7db-c87d01cc6556> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>:zeInstance a &#60;http://www.example.org/olivaw/ClassA> .</code></pre>|
 
 ***
@@ -121,7 +121,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:9bb847a8-9d18-483c-b05e-502174248521> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:78194a21-bb50-4895-8c64-a31f1ecde0f3> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>:zeInstance a sand:ClassA .</code></pre>|
 
 ***
@@ -197,7 +197,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:773cc9d8-ec13-47a2-b97a-2068ee7e6bf2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:dd2fea80-2e71-47fd-8044-fa3896566502> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>:zeInstance a sand:ClasseA .</code></pre>|
 
 ***

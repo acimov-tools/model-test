@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by &#91;@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/query/suite.py)
-|Date|2024-05-13 14:47:27|
+|Date|2024-05-13 14:55:16|
 
 ***
 
@@ -75,8 +75,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q1|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q1.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q1.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q1.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q1.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -132,8 +132,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q3|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q3.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q3.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[uri-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#uri-validity)|
@@ -156,8 +156,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[query-type](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#query-type)|
@@ -212,8 +212,8 @@ This subchapter gives more details to the :warning:CannotTell outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
@@ -271,8 +271,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q3|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q3.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q3.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
@@ -295,8 +295,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q1|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q1.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q1.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q1.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q1.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
@@ -319,8 +319,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q1|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q1.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q1.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q1.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q1.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q1.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[query-type](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#query-type)|
@@ -381,8 +381,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[query-type](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#query-type)|
@@ -405,8 +405,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -429,8 +429,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q4.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q4.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[uri-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#uri-validity)|
@@ -453,8 +453,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q3|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q3.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q3.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[query-type](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#query-type)|
@@ -477,8 +477,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q3|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q3.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q3.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q3.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q3.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -501,8 +501,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
@@ -525,8 +525,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -549,8 +549,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/main|
-|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency question domains/zedomain/compatEL/q2.rq from branch refs/heads/dev4|
+|Composition|- [Competency question zedomain/compatEL/q2.rq](https://github.com/acimov-tools/model-test/blob/refs/heads/dev4/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[uri-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#uri-validity)|

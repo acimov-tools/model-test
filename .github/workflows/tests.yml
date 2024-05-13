@@ -22,5 +22,5 @@ jobs:
         data-test: true
         model-test: true
         query-test: true
-        commit-report: ${{ BRANCH == "main" }}
+        commit-report: ${{ env.BRANCH == "main" }}
         archive-report: true

@@ -4,6 +4,8 @@
 
 :broken a owl:Ontology .
 
+
+
 :Broken a owl:Class , a owl:Truc ;
     rdfs:label "This term is broken by definition"@en ;
     rdfs:isDefinedBy :broken .

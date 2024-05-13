@@ -15,7 +15,7 @@ Here is some context about under which context this test was made
 |Title|NicoRobertIn using actions script|
 |Description|Test triggered by &#91;@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py)
-|Date|2024-05-13 15:26:43|
+|Date|2024-05-13 15:29:34|
 
 ***
 
@@ -59,11 +59,11 @@ Here is the chapter related to the MajorFail outcome
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-1">1/5</div>|:boom:*MajorFail*|`usecase-zeusecase-wronguncommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-2">2/5</div>|:boom:*MajorFail*|`usecase-zeusecase-wrongcommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-2)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-1">1/5</div>|:boom:*MajorFail*|`usecase-zeusecase-wronguncommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-2">2/5</div>|:boom:*MajorFail*|`usecase-zeusecase-wrongcommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-2)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-3">3/5</div>|:boom:*MajorFail*|`usecase-zeusecase-syntax`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-3)|
 |[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-4">4/5</div>|:boom:*MajorFail*|`usecase-zeusecase-notrealterm`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Unknown ontology term|[Jump](#majorfail-outcome-number-4)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-5">5/5</div>|:boom:*MajorFail*|`usecase-zeusecase-notrealterm`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
+|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-5">5/5</div>|:boom:*MajorFail*|`usecase-zeusecase-notrealterm`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
 
 ***
 
@@ -79,11 +79,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
 |Title|The vocabulary is linked to by other vocabularies|
 |Description|Each node should have predicates other than rdf:type|
@@ -94,7 +94,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2f6cb566-a369-447d-80b1-496d47b5c4b2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:032b4192-e017-48b0-abe4-80c15e6caad7> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>:zeInstance a &#60;http://www.example.org/olivaw/ClassA> .</code></pre>|
 
 ***
@@ -106,11 +106,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
 |Title|The vocabulary is linked to by other vocabularies|
 |Description|Each node should have predicates other than rdf:type|
@@ -121,7 +121,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:989a8da1-e692-42cc-a4b8-cf806a371397> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:dd4e8c23-cfcb-430b-a902-dbd6e3eb934c> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>:zeInstance a sand:ClassA .</code></pre>|
 
 ***
@@ -133,8 +133,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -157,8 +157,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
@@ -182,11 +182,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
 |Title|The vocabulary is linked to by other vocabularies|
 |Description|Each node should have predicates other than rdf:type|
@@ -197,7 +197,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Title|Error on custom test|
 |Description|Error occured while running custom test|
 |Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2d72b21f-b99c-4e3e-af28-91f3c43bb365> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
+|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:0b875910-f119-49fd-bc9d-57b266df48f3> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
 |Pointer|<pre lang="Turtle"><code>:zeInstance a sand:ClasseA .</code></pre>|
 
 ***
@@ -240,8 +240,8 @@ This subchapter gives more details to the :warning:CannotTell outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
@@ -300,8 +300,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -324,8 +324,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
@@ -348,8 +348,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|usecase-zeusecase-inconsistent|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/inconsistent.ttl)|
+|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
@@ -372,8 +372,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|dataset-domain1-scenario1|
 |----|----|
-|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
+|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/dev8|
+|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
@@ -414,16 +414,16 @@ Here is the chapter related to the Pass outcome
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-1">1/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-1)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-2">2/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-2)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-3">3/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Every term exists|[Jump](#pass-outcome-number-3)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-4">4/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-4)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-4">4/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-4)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-5">5/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-5)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-6">6/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|No prefix typo|[Jump](#pass-outcome-number-6)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-7">7/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-7)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-8">8/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Every term exists|[Jump](#pass-outcome-number-8)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-9">9/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-9">9/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-10">10/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-10)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-11">11/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|No prefix typo|[Jump](#pass-outcome-number-11)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-12">12/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-12)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-13">13/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-13)|
+|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-13">13/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-13)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-14">14/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-inconsistent`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-14)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-15">15/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-inconsistent`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-15)|
 |[Table top](#pass-outcomes-summary)|<div id="summary-Pass-16">16/17</div>|:white_check_mark:*Pass*|`dataset-domain1-scenario1`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-16)|
@@ -443,8 +443,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -467,8 +467,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -491,8 +491,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
@@ -515,11 +515,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
 |Title|Classed node test|
 |Description|A test meant to test if each node has a rdf:type property|
@@ -539,8 +539,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -563,8 +563,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
@@ -587,8 +587,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -611,8 +611,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
@@ -635,11 +635,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
 |Title|Classed node test|
 |Description|A test meant to test if each node has a rdf:type property|
@@ -659,8 +659,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -683,8 +683,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
@@ -707,8 +707,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -731,11 +731,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/dev8/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
 |Title|Classed node test|
 |Description|A test meant to test if each node has a rdf:type property|
@@ -755,8 +755,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-inconsistent|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/inconsistent.ttl)|
+|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -779,8 +779,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-inconsistent|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/inconsistent.ttl)|
+|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/dev8|
+|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/use-cases/zeusecase/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -803,8 +803,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|dataset-domain1-scenario1|
 |----|----|
-|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
+|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/dev8|
+|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
@@ -827,8 +827,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|dataset-domain1-scenario1|
 |----|----|
-|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
+|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/dev8|
+|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/dev8/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|

@@ -13,6 +13,7 @@ jobs:
         IFS='/' read -ra PATHS <<< "$REF"
         BRANCH_NAME="${PATHS[1]}_${PATHS[2]}"
         echo $BRANCH_NAME
+        echo "MAIN=main" >> $GITHUB_ENV
         echo "BRANCH=$(echo ${BRANCH_NAME})" >> $GITHUB_ENV
     - uses: Wimmics/olivaw/test-actions@test-actions-8
       with:
@@ -22,5 +23,5 @@ jobs:
         data-test: true
         model-test: true
         query-test: true
-        commit-report: ${{ env.BRANCH == "main" }}
+        commit-report: ${{ env.BRANCH == env.MAIN }}
         archive-report: true

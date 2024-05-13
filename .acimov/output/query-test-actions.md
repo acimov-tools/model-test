@@ -13,9 +13,9 @@ Here is some context about under which context this test was made
 |Assertor|[NicoRobertIn](https://github.com/NicoRobertIn)|
 |----|-----|
 |Title|NicoRobertIn using actions script|
-|Description|Test triggered by [@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
+|Description|Test triggered by &#91;@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
 |Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/query/suite.py)
-|Date|2024-05-13 09:01:15|
+|Date|2024-05-13 09:05:32|
 
 ***
 
@@ -88,7 +88,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Type|:boom:MajorFail|
 |----|----|
 |Title|Test subject has syntax errors|
-|Description|Encountered ";" at line 2, column 11.|
+|Description|Encountered &#34;;&#34; at line 2, column 11.|
 |Pointer|<pre lang="Turtle"><code>select * where {&#10;&nbsp;&nbsp;&nbsp;&nbsp;?s ?p ; ?o&#10;}</code></pre>|
 
 ***

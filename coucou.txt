@@ -1,0 +1,35 @@
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_MODEL_PASS.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_MODEL_NOTTESTED.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_MODEL_CANNOTTELL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_MODEL_MINORFAIL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_MODEL_MAJORFAIL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_DATA_PASS.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_DATA_NOTTESTED.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_DATA_CANNOTTELL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_DATA_MINORFAIL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_DATA_MAJORFAIL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_PASS.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_NOTTESTED.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_CANNOTTELL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_MINORFAIL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QUERY_MAJORFAIL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_EL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_QL.json
+https://gist.githubusercontent.com/NicoRobertIn/c6a507448ab6b872efbe642afd7d32ea/raw/heads_main_RL.json{"label":"Pass","message":"219","schemaVersion":1,"color":"green"}
+{"label":"NotTested","message":"36","schemaVersion":1,"color":"White"}
+{"label":"CannotTell","message":"0","schemaVersion":1,"color":"yellow"}
+{"label":"MinorFail","message":"23","schemaVersion":1,"color":"orange"}
+{"label":"MajorFail","message":"46","schemaVersion":1,"color":"red"}
+{"label":"Pass","message":"17","schemaVersion":1,"color":"green"}
+{"label":"NotTested","message":"4","schemaVersion":1,"color":"White"}
+{"label":"CannotTell","message":"1","schemaVersion":1,"color":"yellow"}
+{"label":"MinorFail","message":"0","schemaVersion":1,"color":"orange"}
+{"label":"MajorFail","message":"5","schemaVersion":1,"color":"red"}
+{"label":"Pass","message":"8","schemaVersion":1,"color":"green"}
+{"label":"NotTested","message":"3","schemaVersion":1,"color":"White"}
+{"label":"CannotTell","message":"1","schemaVersion":1,"color":"yellow"}
+{"label":"MinorFail","message":"2","schemaVersion":1,"color":"orange"}
+{"label":"MajorFail","message":"1","schemaVersion":1,"color":"red"}
+{"label":"OWL EL","message":"incompatible","schemaVersion":1,"color":"red"}
+{"label":"OWL QL","message":"incompatible","schemaVersion":1,"color":"red"}
+{"label":"OWL RL","message":"compatible","schemaVersion":1,"color":"green"}

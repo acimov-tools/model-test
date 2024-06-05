@@ -4,18 +4,18 @@ This file is an export of the RDF test report made out of [EARL vocabulary](http
 
 This test is powered by Corese, check the [website](https://project.inria.fr/corese/) and the [repository](https://github.com/Wimmics/corese)
 
-The original test report is available in turtle syntax [here](./model-test-actions.ttl).
+The original test report is available in turtle syntax [here](./model-test-manual-NicoRobertIn-2024-06-05T16-15-20.ttl).
 
 # Test Context
 
 Here is some context about under which context this test was made
 
-|Assertor|[NicoRobertIn](https://github.com/NicoRobertIn)|
+|Assertor|[NicoRobertIn](https://gitlab.com/NicoRobertIn)|
 |----|-----|
-|Title|NicoRobertIn using actions script|
-|Description|Test triggered by &#91;@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
-|Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/suite.py)
-|Date|2024-06-03 12:21:04|
+|Title|NicoRobertIn using manual script|
+|Description|Test triggered by [@NicoRobertIn](https://gitlab.com/NicoRobertIn) by manual trigger|
+|Script|[model test suite](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/model/suite.py)
+|Date|2024-06-05 16:15:11|
 
 ***
 
@@ -24,11 +24,11 @@ Here is some context about under which context this test was made
 
 Here is a short overview for this test report
 
-233 Outcomes
+168 Outcomes
 
-:boom:33 MajorFail, :exclamation:19 MinorFail, :warning:0 CannotTell, :grey_question:36 NotTested, :white_check_mark:145 Pass
+:boom:1 MajorFail, :exclamation:167 MinorFail, :warning:0 CannotTell, :grey_question:0 NotTested, :white_check_mark:0 Pass
 
-<div  style="border-radius: 12px; height: 25px; overflow: hidden"><img src="../assets/red.png" width="14%" height="25px"/><img src="../assets/orange.png" width="8%" height="25px"/><img src="../assets/grey.png" width="0%" height="25px"/><img src="../assets/white.png" width="15%" height="25px"/><img src="../assets/green.png" width="63%" height="25px"/></div>
+<div  style="border-radius: 12px; height: 25px; overflow: hidden"><img src="../assets/red.png" width="1%" height="25px"/><img src="../assets/orange.png" width="99%" height="25px"/><img src="../assets/grey.png" width="0%" height="25px"/><img src="../assets/white.png" width="0%" height="25px"/><img src="../assets/green.png" width="0%" height="25px"/></div>
 
 <br/>
 
@@ -44,54 +44,22 @@ The different status types are an extension of the [EARL](https://www.w3.org/TR/
 
 # MajorFail Outcomes
 
+[Jump to statistic summary](#statistic-summary)	|	Previous section	|	[Next section](#minorfail-outcomes)
+
 Here is the chapter related to the MajorFail outcome
 
-:boom:33 MajorFail outcomes
+:boom:1 MajorFail outcomes
 
 <details>
-<summary>Fold/Unfold the 33 summary and details</summary>
+<summary>Fold/Unfold the 1 summary and details</summary>
 
 ## MajorFail Outcomes Summary
 
-[Jump to statistic summary](#statistic-summary)
-
-:boom:33 MajorFail outcomes
+:boom:1 MajorFail outcomes
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-1">1/33</div>|:boom:*MajorFail*|`module-unlabeled`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-2">2/33</div>|:boom:*MajorFail*|`module-unknown-prefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-2)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-3">3/33</div>|:boom:*MajorFail*|`module-too-close-terms`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-3)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-4">4/33</div>|:boom:*MajorFail*|`module-range-outer`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-4)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-5">5/33</div>|:boom:*MajorFail*|`module-not-ql`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-6">6/33</div>|:boom:*MajorFail*|`module-not-el`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-6)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-7">7/33</div>|:boom:*MajorFail*|`module-inconsistent`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-7)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-8">8/33</div>|:boom:*MajorFail*|`module-inconsistent`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-8)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-9">9/33</div>|:boom:*MajorFail*|`module-inconsistent`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-9)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-10">10/33</div>|:boom:*MajorFail*|`module-domain-outer`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-10)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-11">11/33</div>|:boom:*MajorFail*|`module-domain-outer`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-11)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-12">12/33</div>|:boom:*MajorFail*|`module-broken`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-12)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-13">13/33</div>|:boom:*MajorFail*|`modelet-zedomain-syntax`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-13)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-14">14/33</div>|:boom:*MajorFail*|`modelet-zedomain-rangeout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-14)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-15">15/33</div>|:boom:*MajorFail*|`modelet-zedomain-prefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-15)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-16">16/33</div>|:boom:*MajorFail*|`modelet-zedomain-label`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-16)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-17">17/33</div>|:boom:*MajorFail*|`modelet-zedomain-inconsistence`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-17)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-18">18/33</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-18)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-19">19/33</div>|:boom:*MajorFail*|`modelet-zedomain-dovrov`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-19)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-20">20/33</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-20)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-21">21/33</div>|:boom:*MajorFail*|`modelet-zedomain-domainout`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-21)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-22">22/33</div>|:boom:*MajorFail*|`modelet-zedomain-differenciation`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-22)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-23">23/33</div>|:boom:*MajorFail*|`modelet-zedomain-compatRL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-23)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-24">24/33</div>|:boom:*MajorFail*|`modelet-zedomain-compatQL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-24)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-25">25/33</div>|:boom:*MajorFail*|`modelet-zedomain-compatEL`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-25)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-26">26/33</div>|:boom:*MajorFail*|`all-modules`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-26)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-27">27/33</div>|:boom:*MajorFail*|`all-modules`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-27)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-28">28/33</div>|:boom:*MajorFail*|`all-modules`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-28)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-29">29/33</div>|:boom:*MajorFail*|`all-modules`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-29)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-30">30/33</div>|:boom:*MajorFail*|`all-fragments`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#majorfail-outcome-number-30)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-31">31/33</div>|:boom:*MajorFail*|`all-fragments`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-31)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-32">32/33</div>|:boom:*MajorFail*|`all-fragments`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-32)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-33">33/33</div>|:boom:*MajorFail*|`all-fragments`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-33)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-1">1/1</div>|:boom:MajorFail|`module-src-coswot-saref`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-1)|
 
 ***
 
@@ -101,41 +69,14 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 
 ### MajorFail Outcome number 1
 
-[Jump to summary definition](#summary-MajorFail-1)
+[Jump to summary definition](#summary-MajorFail-1)	|	Previous MajorFail outcome	|	Next MajorFail outcome
 
 :boom:MajorFail outcome
 #### Subject detail
-|Name|module-unlabeled|
+|Name|module-src-coswot-saref|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:e2c1ef56-c6e8-4dc2-85ae-24cbd0e2fc73> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b1347 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
-
-***
-### MajorFail Outcome number 2
-
-[Jump to summary definition](#summary-MajorFail-2)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-unknown-prefix|
-|----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/coswot-saref.ttl from branch main|
+|Composition|- [Module coswot-saref](https://gitlab.com/coswot/coswot-acimov/blob/main/src/coswot-saref.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
@@ -144,871 +85,12 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |Description|A test meant to check wether the test subject is syntaxically correct or not.|
 
 #### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Test subject has syntax errors|
-|Description|The subject has turtle syntax errors that makes it unprocessable by an engine|
-|Pointer|<pre lang="Turtle"><code>at line 3 of &#60;>:&#10;Bad syntax (Prefix &#34;owl:&#34; not bound) at &Hat; in:&#10;&#34;...b'fix : &#60;https://www.example.org/olivaw/> .&#92;n&#92;n:unknownPrefix a '&Hat;b'owl:Ontology .&#92;n&#92;n:Unknown a owl:Class ;&#92;n&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This '...&#34;</code></pre>|
-
-***
-### MajorFail Outcome number 3
-
-[Jump to summary definition](#summary-MajorFail-3)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:c44765c1-320f-4e50-ba6e-9bd2aa3cd3a5> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b2693 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:9dfbb15d-16dc-4e9a-a04a-ad5c3c5f1e22> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b2693 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-
-***
-### MajorFail Outcome number 4
-
-[Jump to summary definition](#summary-MajorFail-4)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:c50b702e-f122-42df-8d94-8cce02ef76ef> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b6731 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
-
-***
-### MajorFail Outcome number 5
-
-[Jump to summary definition](#summary-MajorFail-5)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:bdb80507-03ce-4135-9ca2-0c76972cac17> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b9423 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
-
-***
-### MajorFail Outcome number 6
-
-[Jump to summary definition](#summary-MajorFail-6)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2eae65b4-204e-4b49-ab9b-283e7b74e313> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b5385 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
-
-***
-### MajorFail Outcome number 7
-
-[Jump to summary definition](#summary-MajorFail-7)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|OWL RL Constraint violation|
-|Description|http://www.w3.org/2002/07/owl#disjointWith &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:disjointWith&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:disjointWith&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10; &#10;|
-
-***
-### MajorFail Outcome number 8
-
-[Jump to summary definition](#summary-MajorFail-8)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|OWL RL Constraint violation|
-|Description|http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:AllDisjointClasses&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10; &#10;|
-
-***
-### MajorFail Outcome number 9
-
-[Jump to summary definition](#summary-MajorFail-9)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:759023d8-8f67-4808-a660-64eaa475fc2e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10778 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:78803f12-084f-4975-a5cd-77bdaf551c6e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10778 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:561edd7d-481b-478a-933e-6a6cc3c28bb4> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b10778 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent .</code></pre>|
-
-***
-### MajorFail Outcome number 10
-
-[Jump to summary definition](#summary-MajorFail-10)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Domain out of vocabulary|
-|Description|Some properties have a domain out of the ontology|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subPropertyOf sand:domainReferencingOut ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:equivalentProperty sand:domainReferencingOut .</code></pre>|
-|Pointer|http://www.w3.org/ns/shacl#NodeShape|
-
-***
-### MajorFail Outcome number 11
-
-[Jump to summary definition](#summary-MajorFail-11)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:ca56707f-590a-42ff-a131-d9ab5d83f214> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b4039 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
-
-***
-### MajorFail Outcome number 12
-
-[Jump to summary definition](#summary-MajorFail-12)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|module-broken|
-|----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
-
-#### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
-|----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Test subject has syntax errors|
-|Description|The subject has turtle syntax errors that makes it unprocessable by an engine|
-|Pointer|<pre lang="Turtle"><code>Encountered &#34;a&#34; at line 9, column 23.</code></pre>|
-
-***
-### MajorFail Outcome number 13
-
-[Jump to summary definition](#summary-MajorFail-13)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-syntax|
-|----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
-|----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Test subject has syntax errors|
-|Description|The subject has turtle syntax errors that makes it unprocessable by an engine|
-|Pointer|<pre lang="Turtle"><code>Encountered &#34;a&#34; at line 7, column 23.</code></pre>|
-
-***
-### MajorFail Outcome number 14
-
-[Jump to summary definition](#summary-MajorFail-14)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:fec0a9ba-64ed-439f-a234-4596370fb11f> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b12124 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
-
-***
-### MajorFail Outcome number 15
-
-[Jump to summary definition](#summary-MajorFail-15)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-prefix|
-|----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
-|----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Test subject has syntax errors|
-|Description|The subject has turtle syntax errors that makes it unprocessable by an engine|
-|Pointer|<pre lang="Turtle"><code>at line 3 of &#60;>:&#10;Bad syntax (Prefix &#34;owl:&#34; not bound) at &Hat; in:&#10;&#34;...b'fix : &#60;https://www.example.org/olivaw/> .&#92;n&#92;n:unknownPrefix a '&Hat;b'owl:Ontology .&#92;n&#92;n:Unknown a owl:Class ;&#92;n&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This '...&#34;</code></pre>|
-
-***
-### MajorFail Outcome number 16
-
-[Jump to summary definition](#summary-MajorFail-16)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:7c4a3a83-cf24-4737-ada4-95409584ca14> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b21546 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
-
-***
-### MajorFail Outcome number 17
-
-[Jump to summary definition](#summary-MajorFail-17)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:46e86f74-ef97-4dc7-98db-dd9c6eccf3e5> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14816 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:7ec5e20e-755b-4eb6-94c3-95a7a9273bae> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14816 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:12c8dc60-13a3-4a49-9828-d6e0fd5d7df1> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b14816 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
-
-***
-### MajorFail Outcome number 18
-
-[Jump to summary definition](#summary-MajorFail-18)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Domain out of vocabulary|
-|Description|Some properties have a domain out of the ontology|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subPropertyOf sand:domainReferencingOut ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:equivalentProperty sand:domainReferencingOut .</code></pre>|
-|Pointer|http://www.w3.org/ns/shacl#NodeShape|
-
-***
-### MajorFail Outcome number 19
-
-[Jump to summary definition](#summary-MajorFail-19)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2b030042-276b-401f-a1f2-8bd23abba7b9> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b18854 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
-
-***
-### MajorFail Outcome number 20
-
-[Jump to summary definition](#summary-MajorFail-20)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Domain out of vocabulary|
-|Description|Some properties have a domain out of the ontology|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subPropertyOf sand:domainReferencingOut ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:equivalentProperty sand:domainReferencingOut .</code></pre>|
-|Pointer|http://www.w3.org/ns/shacl#NodeShape|
-
-***
-### MajorFail Outcome number 21
-
-[Jump to summary definition](#summary-MajorFail-21)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:96fff3ac-1773-429e-af08-d00672e22df4> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b13470 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
-
-***
-### MajorFail Outcome number 22
-
-[Jump to summary definition](#summary-MajorFail-22)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:0048df5f-5501-40f5-9248-c8c0f2a6aed3> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b22892 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:e9d24d1f-2a92-4daf-b8de-8d8c71e50c6b> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b22892 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-
-***
-### MajorFail Outcome number 23
-
-[Jump to summary definition](#summary-MajorFail-23)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b8f419a9-6b6d-410b-9e91-4cda8efcd0e4> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b17508 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
-
-***
-### MajorFail Outcome number 24
-
-[Jump to summary definition](#summary-MajorFail-24)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:f8bef151-7257-4005-ae52-41317679b8b2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b16162 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
-
-***
-### MajorFail Outcome number 25
-
-[Jump to summary definition](#summary-MajorFail-25)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:d65e3515-a4a5-414e-a12c-8a01cba263f5> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b20200 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
-
-***
-### MajorFail Outcome number 26
-
-[Jump to summary definition](#summary-MajorFail-26)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-modules|
-|----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Domain out of vocabulary|
-|Description|Some properties have a domain out of the ontology|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subPropertyOf sand:domainReferencingOut ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:equivalentProperty sand:domainReferencingOut .</code></pre>|
-|Pointer|http://www.w3.org/ns/shacl#NodeShape|
-
-***
-### MajorFail Outcome number 27
-
-[Jump to summary definition](#summary-MajorFail-27)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-modules|
-|----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|OWL RL Constraint violation|
-|Description|http://www.w3.org/2002/07/owl#disjointWith &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:disjointWith&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:disjointWith&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10; &#10;|
-
-***
-### MajorFail Outcome number 28
-
-[Jump to summary definition](#summary-MajorFail-28)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-modules|
-|----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|OWL RL Constraint violation|
-|Description|http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:AllDisjointClasses&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10; &#10;|
-
-***
-### MajorFail Outcome number 29
-
-[Jump to summary definition](#summary-MajorFail-29)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-modules|
-|----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:63ee6f8a-a3c5-4e60-a297-671ce1530d0a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:767617dc-468f-4ae7-896f-c4747a574055> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:636a2214-3018-442a-a9bd-dfadbe16322e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:bf27516f-c236-423e-980b-9734f299d187> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:255ae569-7604-4ae9-a306-325f974d27a3> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:6e899209-353c-4c09-bade-6907fd54e8f1> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:45f32b0a-517c-4b53-b881-b863e3716cf9> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:93d56c08-3bd6-462f-b3b3-8a3eface7a16> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:dde3a931-d4bb-43cf-afa8-8d40d824f0a5> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:023c2e9f-ed03-45e6-9564-86356f5e09b2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2f2a444d-6b40-46da-9a21-e4ea9aaada73> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b24247 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-
-***
-### MajorFail Outcome number 30
-
-[Jump to summary definition](#summary-MajorFail-30)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-fragments|
-|----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Domain out of vocabulary|
-|Description|Some properties have a domain out of the ontology|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subPropertyOf sand:domainReferencingOut ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:equivalentProperty sand:domainReferencingOut .</code></pre>|
-|Pointer|http://www.w3.org/ns/shacl#NodeShape|
-
-***
-### MajorFail Outcome number 31
-
-[Jump to summary definition](#summary-MajorFail-31)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-fragments|
-|----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|OWL RL Constraint violation|
-|Description|http://www.w3.org/2002/07/owl#disjointWith &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:disjointWith&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:disjointWith&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10; &#10;|
-
-***
-### MajorFail Outcome number 32
-
-[Jump to summary definition](#summary-MajorFail-32)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-fragments|
-|----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|OWL RL Constraint violation|
-|Description|http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;https://www.example.org/olivaw/BrokenSubclass> &#10;rdfs:label &#34;Violates owl:AllDisjointClasses&#34; &#10;sp:arg1 &#60;https://www.example.org/olivaw/DisjointTheFirst> &#10;sp:arg2 &#60;https://www.example.org/olivaw/DisjointTheSecond> &#10; &#10;|
-
-***
-### MajorFail Outcome number 33
-
-[Jump to summary definition](#summary-MajorFail-33)
-
-:boom:MajorFail outcome
-#### Subject detail
-|Name|all-fragments|
-|----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:property &#91; sh:maxCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Violation ],&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#91; sh:languageIn ( &#34;en&#34; ) ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Comment not in @en/without line break/ending with full stop&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:path rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:pattern &#34;&Hat;&#91;&Hat;&#92;&#92;n]+&#92;&#92;.$&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdfs:isDefinedBy .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:93d251e4-6a30-4268-acb3-7bd53f523ce2> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/rangeReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:rangeReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a range out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:rangeOuter ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:range shacl:NodeShape .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:cf1c22b5-b928-46a6-908f-3ce5c352137a> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notQLTermCauseTransitive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notQLTermCauseTransitive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notQL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:95885106-d26f-4c99-bb47-ccbc8b75b57e> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/BrokenSubclass> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:BrokenSubclass a owl:Class,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is broken because it is a subclass of disjoint cl...&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:subClassOf sand:DisjointTheFirst,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:87f24870-bb9f-4e49-8a8c-90e9fcdb4534> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/domainReferencingOut> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:domainReferencingOut a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This property has a domain out of vocabulary&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:domain shacl:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:domainOuter .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:2b903da1-b792-4994-90b7-4f9808e762ab> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheSecond> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheSecond a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This second class is disjoint from the forst one&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheFirst .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:fb9667a1-4c7f-4b8d-a9b6-46f03000e3b3> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notRLTermCauseReflexive> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notRLTermCauseReflexive a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ReflexiveObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not RL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notRL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:5efc20ac-9663-4c9a-9c5c-c8b5acec8101> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/DisjointTheFirst> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:DisjointTheFirst a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This first class is disjoint from the other&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:inconsistent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;owl:disjointWith sand:DisjointTheSecond .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:0041bfdf-40c7-4818-91a6-74fbf9b54d78> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/unlabeledTerm> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:29148a87-c17c-449e-8639-303639d7f8b7> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:notELTermCauseAsymmetric a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:notEL .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:891fef92-f22c-4fed-943d-3901bb258835> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassB> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:6055c2fd-71a3-4de5-8cd7-05451826c4fa> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/olivaw/ClassA> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Ontology term should have one and only one rdfs:comment&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath rdfs:comment ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Violation ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:MinCountConstraintComponent ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &lowbar;:b25602 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-1)|Identifier|`syntax-error`|
+|[Section top](#majorfail-outcome-number-1)|Title|Test subject has syntax errors|
+|[Section top](#majorfail-outcome-number-1)|Description|The subject has turtle syntax errors that makes it unprocessable by an engine|
+|[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>Encountered &#34;.&#34; at line 113, column 36.</code></pre>|
 
 ***
 
@@ -1019,40 +101,188 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 
 # MinorFail Outcomes
 
+[Jump to statistic summary](#statistic-summary)	|	[Previous section](#majorfail-outcomes)	|	Next section
+
 Here is the chapter related to the MinorFail outcome
 
-:exclamation:19 MinorFail outcomes
+:exclamation:167 MinorFail outcomes
 
 <details>
-<summary>Fold/Unfold the 19 summary and details</summary>
+<summary>Fold/Unfold the 167 summary and details</summary>
 
 ## MinorFail Outcomes Summary
 
-[Jump to statistic summary](#statistic-summary)
-
-:exclamation:19 MinorFail outcomes
+:exclamation:167 MinorFail outcomes
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-1">1/19</div>|:exclamation:*MinorFail*|`module-unreferenced`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Term not referenced to a module|[Jump](#minorfail-outcome-number-1)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-2">2/19</div>|:exclamation:*MinorFail*|`module-unlabeled`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Terms not labeled|[Jump](#minorfail-outcome-number-2)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-3">3/19</div>|:exclamation:*MinorFail*|`module-too-close-terms`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Too close terms|[Jump](#minorfail-outcome-number-3)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-4">4/19</div>|:exclamation:*MinorFail*|`module-not-ql`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-4)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-5">5/19</div>|:exclamation:*MinorFail*|`module-not-el`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-5)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-6">6/19</div>|:exclamation:*MinorFail*|`modelet-zedomain-label`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Terms not labeled|[Jump](#minorfail-outcome-number-6)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-7">7/19</div>|:exclamation:*MinorFail*|`modelet-zedomain-differenciation`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Too close terms|[Jump](#minorfail-outcome-number-7)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-8">8/19</div>|:exclamation:*MinorFail*|`modelet-zedomain-compatQL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-8)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-9">9/19</div>|:exclamation:*MinorFail*|`modelet-zedomain-compatEL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-9)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-10">10/19</div>|:exclamation:*MinorFail*|`all-modules`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Terms not labeled|[Jump](#minorfail-outcome-number-10)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-11">11/19</div>|:exclamation:*MinorFail*|`all-modules`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-11)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-12">12/19</div>|:exclamation:*MinorFail*|`all-modules`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-12)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-13">13/19</div>|:exclamation:*MinorFail*|`all-modules`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Term not referenced to a module|[Jump](#minorfail-outcome-number-13)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-14">14/19</div>|:exclamation:*MinorFail*|`all-modules`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Too close terms|[Jump](#minorfail-outcome-number-14)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-15">15/19</div>|:exclamation:*MinorFail*|`all-fragments`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Terms not labeled|[Jump](#minorfail-outcome-number-15)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-16">16/19</div>|:exclamation:*MinorFail*|`all-fragments`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-16)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-17">17/19</div>|:exclamation:*MinorFail*|`all-fragments`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-17)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-18">18/19</div>|:exclamation:*MinorFail*|`all-fragments`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Term not referenced to a module|[Jump](#minorfail-outcome-number-18)|
-|[Table top](#minorfail-outcomes-summary)|<div id="summary-MinorFail-19">19/19</div>|:exclamation:*MinorFail*|`all-fragments`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Too close terms|[Jump](#minorfail-outcome-number-19)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-1">1/167</div>|:exclamation:MinorFail|`module-src-systems-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-1)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-2">2/167</div>|:exclamation:MinorFail|`module-src-systems-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-2)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-3">3/167</div>|:exclamation:MinorFail|`module-src-systems-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-3)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-4">4/167</div>|:exclamation:MinorFail|`module-src-systems-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-4)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-5">5/167</div>|:exclamation:MinorFail|`module-src-states-ontology.catalog`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#minorfail-outcome-number-5)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-6">6/167</div>|:exclamation:MinorFail|`module-src-states-ontology.catalog`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-6)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-7">7/167</div>|:exclamation:MinorFail|`module-src-states-ontology.catalog`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-7)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-8">8/167</div>|:exclamation:MinorFail|`module-src-states-ontology.catalog`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-8)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-9">9/167</div>|:exclamation:MinorFail|`module-src-states-ontology.catalog`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-9)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-10">10/167</div>|:exclamation:MinorFail|`module-src-states-ontology.catalog`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-10)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-11">11/167</div>|:exclamation:MinorFail|`module-src-states-ontology.catalog`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-11)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-12">12/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#minorfail-outcome-number-12)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-13">13/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-13)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-14">14/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-14)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-15">15/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-15)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-16">16/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-16)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-17">17/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-17)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-18">18/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-18)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-19">19/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-19)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-20">20/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-20)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-21">21/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-21)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-22">22/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-22)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-23">23/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-23)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-24">24/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-24)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-25">25/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-25)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-26">26/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-26)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-27">27/167</div>|:exclamation:MinorFail|`module-src-states-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-27)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-28">28/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-28)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-29">29/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-29)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-30">30/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-30)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-31">31/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-31)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-32">32/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-32)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-33">33/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-33)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-34">34/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-34)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-35">35/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-35)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-36">36/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-36)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-37">37/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-37)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-38">38/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-38)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-39">39/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-39)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-40">40/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-40)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-41">41/167</div>|:exclamation:MinorFail|`module-src-services_operations-ontology`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Term not referenced to a module|[Jump](#minorfail-outcome-number-41)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-42">42/167</div>|:exclamation:MinorFail|`module-src-samples-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-42)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-43">43/167</div>|:exclamation:MinorFail|`module-src-samples-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-43)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-44">44/167</div>|:exclamation:MinorFail|`module-src-samples-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-44)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-45">45/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-45)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-46">46/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-46)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-47">47/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-47)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-48">48/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-48)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-49">49/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-49)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-50">50/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-50)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-51">51/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-51)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-52">52/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-52)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-53">53/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-53)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-54">54/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-54)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-55">55/167</div>|:exclamation:MinorFail|`module-src-property_values-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-55)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-56">56/167</div>|:exclamation:MinorFail|`module-src-properties-ontology.catalogs`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#minorfail-outcome-number-56)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-57">57/167</div>|:exclamation:MinorFail|`module-src-properties-ontology.catalogs`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-57)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-58">58/167</div>|:exclamation:MinorFail|`module-src-properties-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-58)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-59">59/167</div>|:exclamation:MinorFail|`module-src-properties-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-59)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-60">60/167</div>|:exclamation:MinorFail|`module-src-properties-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-60)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-61">61/167</div>|:exclamation:MinorFail|`module-src-properties-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-61)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-62">62/167</div>|:exclamation:MinorFail|`module-src-properties-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-62)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-63">63/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#minorfail-outcome-number-63)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-64">64/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-64)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-65">65/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-65)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-66">66/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-66)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-67">67/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-67)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-68">68/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-68)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-69">69/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-69)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-70">70/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-70)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-71">71/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-71)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-72">72/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-72)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-73">73/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-73)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-74">74/167</div>|:exclamation:MinorFail|`module-src-properties-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-74)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-75">75/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-75)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-76">76/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-76)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-77">77/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-77)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-78">78/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-78)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-79">79/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-79)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-80">80/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-80)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-81">81/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-81)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-82">82/167</div>|:exclamation:MinorFail|`module-src-procedures-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-82)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-83">83/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-83)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-84">84/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-84)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-85">85/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-85)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-86">86/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-86)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-87">87/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-87)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-88">88/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-88)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-89">89/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-89)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-90">90/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-90)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-91">91/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-91)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-92">92/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-92)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-93">93/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-93)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-94">94/167</div>|:exclamation:MinorFail|`module-src-observations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-94)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-95">95/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-95)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-96">96/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-96)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-97">97/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-97)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-98">98/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-98)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-99">99/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-99)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-100">100/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-100)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-101">101/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-101)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-102">102/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-102)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-103">103/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-103)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-104">104/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-104)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-105">105/167</div>|:exclamation:MinorFail|`module-src-functions_commands-ontology`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Term not referenced to a module|[Jump](#minorfail-outcome-number-105)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-106">106/167</div>|:exclamation:MinorFail|`module-src-features-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-106)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-107">107/167</div>|:exclamation:MinorFail|`module-src-features-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-107)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-108">108/167</div>|:exclamation:MinorFail|`module-src-features-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-108)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-109">109/167</div>|:exclamation:MinorFail|`module-src-features-ontology.catalogs`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-109)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-110">110/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-110)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-111">111/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-111)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-112">112/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-112)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-113">113/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-113)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-114">114/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-114)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-115">115/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-115)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-116">116/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-116)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-117">117/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-117)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-118">118/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-118)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-119">119/167</div>|:exclamation:MinorFail|`module-src-features-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-119)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-120">120/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-120)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-121">121/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-121)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-122">122/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-122)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-123">123/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-123)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-124">124/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-124)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-125">125/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-125)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-126">126/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-126)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-127">127/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-127)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-128">128/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-128)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-129">129/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-129)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-130">130/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-130)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-131">131/167</div>|:exclamation:MinorFail|`module-src-devices-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-131)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-132">132/167</div>|:exclamation:MinorFail|`module-src-coswot-sosa`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Term not referenced to a module|[Jump](#minorfail-outcome-number-132)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-133">133/167</div>|:exclamation:MinorFail|`module-src-communications-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-133)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-134">134/167</div>|:exclamation:MinorFail|`module-src-communications-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-134)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-135">135/167</div>|:exclamation:MinorFail|`module-src-communications-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-135)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-136">136/167</div>|:exclamation:MinorFail|`module-src-communications-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-136)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-137">137/167</div>|:exclamation:MinorFail|`module-src-communications-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-137)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-138">138/167</div>|:exclamation:MinorFail|`module-src-communications-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-138)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-139">139/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-139)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-140">140/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-140)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-141">141/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-141)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-142">142/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-142)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-143">143/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-143)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-144">144/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-144)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-145">145/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-145)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-146">146/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-146)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-147">147/167</div>|:exclamation:MinorFail|`module-src-aggregations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-147)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-148">148/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-148)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-149">149/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-149)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-150">150/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-150)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-151">151/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile incompatible|[Jump](#minorfail-outcome-number-151)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-152">152/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-152)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-153">153/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-153)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-154">154/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-154)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-155">155/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-155)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-156">156/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-156)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-157">157/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-157)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-158">158/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-158)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-159">159/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-159)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-160">160/167</div>|:exclamation:MinorFail|`module-src-actuations-ontology`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Too close terms|[Jump](#minorfail-outcome-number-160)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-161">161/167</div>|:exclamation:MinorFail|`modelet-building-automation-samples`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-161)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-162">162/167</div>|:exclamation:MinorFail|`modelet-building-automation-samples`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-162)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-163">163/167</div>|:exclamation:MinorFail|`modelet-building-automation-features`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domain out of vocabulary|[Jump](#minorfail-outcome-number-163)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-164">164/167</div>|:exclamation:MinorFail|`modelet-building-automation-features`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Range out of vocabulary|[Jump](#minorfail-outcome-number-164)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-165">165/167</div>|:exclamation:MinorFail|`modelet-building-automation-features`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile incompatible|[Jump](#minorfail-outcome-number-165)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-166">166/167</div>|:exclamation:MinorFail|`modelet-building-automation-features`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile incompatible|[Jump](#minorfail-outcome-number-166)|
+|[Chapter top](#minorfail-outcomes)|<div id="summary-MinorFail-167">167/167</div>|:exclamation:MinorFail|`modelet-building-automation-features`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Too close terms|[Jump](#minorfail-outcome-number-167)|
 
 ***
 
@@ -1062,90 +292,92 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 
 ### MinorFail Outcome number 1
 
-[Jump to summary definition](#summary-MinorFail-1)
+[Jump to summary definition](#summary-MinorFail-1)	|	Previous MinorFail outcome	|	[Next MinorFail outcome](#minorfail-outcome-number-2)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unreferenced|
+|Name|module-src-systems-ontology|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone module src/systems/ontology.ttl from branch main|
+|Composition|- [Module systems/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/systems/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Term not referenced to a module|
-|Description|Subject terms not linked to a module by a rdfs:isDefinedBy property|
-|Pointer|<pre lang="Turtle"><code>sand:NotReferencedClass a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is not linked to a module by a rdfs:isDefinedBy p...&#34; .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-1)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-1)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-1)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>&#91;] owl:onProperty coswot:connectsSystem ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:System .</code></pre>|
 
 ***
 ### MinorFail Outcome number 2
 
-[Jump to summary definition](#summary-MinorFail-2)
+[Jump to summary definition](#summary-MinorFail-2)	|	[Previous MinorFail outcome](#minorfail-outcome-number-1)	|	[Next MinorFail outcome](#minorfail-outcome-number-3)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unlabeled|
+|Name|module-src-systems-ontology|
 |----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
+|Title|Standalone module src/systems/ontology.ttl from branch main|
+|Composition|- [Module systems/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/systems/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Terms not labeled|
-|Description|The following terms have no rdfs:label to define it in natural language|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-2)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-2)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-2)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>coswot:Connection a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Connection&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;The class of connections between systems. This class qualifies property coswot:connectedTo. A connection describes potential interactions between systems. Any two connected systems are connected through a connection. A connection can connect more than two systems at the same time.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/systems> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; owl:onProperty coswot:connectsSystem ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:System ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Feature ;  &#10;&#32;&#32;&#32;&#32;owl:disjointWith coswot:System .</code></pre>|
 
 ***
 ### MinorFail Outcome number 3
 
-[Jump to summary definition](#summary-MinorFail-3)
+[Jump to summary definition](#summary-MinorFail-3)	|	[Previous MinorFail outcome](#minorfail-outcome-number-2)	|	[Next MinorFail outcome](#minorfail-outcome-number-4)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-too-close-terms|
+|Name|module-src-systems-ontology|
 |----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
+|Title|Standalone module src/systems/ontology.ttl from branch main|
+|Composition|- [Module systems/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/systems/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Too close terms|
-|Description|Some terms are too similar|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-3)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-3)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-3)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-3)|Pointer|<pre lang="Turtle"><code>coswot:subSystemOf a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:TransitiveProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;sub system of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a system to its super system. Properties of subsystems somehow contribute to the properties of the super system. The exact meaning of &#92;&#34;contribute is defined by sub properties of coswot:subSystemOf. Property coswot:subSystemOf is transitive.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:System ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/systems> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:System ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:hasSubSystem .</code></pre>|
 
 ***
 ### MinorFail Outcome number 4
 
-[Jump to summary definition](#summary-MinorFail-4)
+[Jump to summary definition](#summary-MinorFail-4)	|	[Previous MinorFail outcome](#minorfail-outcome-number-3)	|	[Next MinorFail outcome](#minorfail-outcome-number-5)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-not-ql|
+|Name|module-src-systems-ontology|
 |----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
+|Title|Standalone module src/systems/ontology.ttl from branch main|
+|Composition|- [Module systems/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/systems/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1154,99 +386,105 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL QL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notQLTermCauseTransitive> a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notQL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-4)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-4)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-4)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-4)|Pointer|<pre lang="Turtle"><code>coswot:connectedTo a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:SymmetricProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;connected to&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a system to a system it is connected to. Connected systems interact in some way. The exact meaning of &#92;&#34;interact&#92;&#34; is defined by sub properties of coswot:connectedTo. Property coswot:connectedTo is symmetric. This property can be qualified using class coswot:Connection, which connects the two systems. If there is a connection between several systems, then one may infer these systems are pairwise connected.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:System ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/systems> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:System .</code></pre>|
 
 ***
 ### MinorFail Outcome number 5
 
-[Jump to summary definition](#summary-MinorFail-5)
+[Jump to summary definition](#summary-MinorFail-5)	|	[Previous MinorFail outcome](#minorfail-outcome-number-4)	|	[Next MinorFail outcome](#minorfail-outcome-number-6)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-not-el|
+|Name|module-src-states-ontology.catalog|
 |----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
+|Title|Standalone module src/states/ontology.catalog.ttl from branch main|
+|Composition|- [Module states/ontology.catalog](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.catalog.ttl)|
 
 #### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
 |----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL EL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notEL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-5)|Identifier|`domain-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-5)|Title|Domain out of vocabulary|
+|[Section top](#minorfail-outcome-number-5)|Description|Some properties have a domain out of the ontology|
+|[Section top](#minorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>:isStateOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is state of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a state to the feature kind or feature of interest it ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :hasState .</code></pre>|
+|[Section top](#minorfail-outcome-number-5)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
 ### MinorFail Outcome number 6
 
-[Jump to summary definition](#summary-MinorFail-6)
+[Jump to summary definition](#summary-MinorFail-6)	|	[Previous MinorFail outcome](#minorfail-outcome-number-5)	|	[Next MinorFail outcome](#minorfail-outcome-number-7)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-label|
+|Name|module-src-states-ontology.catalog|
 |----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
+|Title|Standalone module src/states/ontology.catalog.ttl from branch main|
+|Composition|- [Module states/ontology.catalog](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.catalog.ttl)|
 
 #### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
 |----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Terms not labeled|
-|Description|The following terms have no rdfs:label to define it in natural language|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-6)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-6)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-6)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-6)|Pointer|<pre lang="Turtle"><code>:hasState a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature kind or a feature of interest to one of its ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasState ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasState ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader :hasState ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-6)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
 ### MinorFail Outcome number 7
 
-[Jump to summary definition](#summary-MinorFail-7)
+[Jump to summary definition](#summary-MinorFail-7)	|	[Previous MinorFail outcome](#minorfail-outcome-number-6)	|	[Next MinorFail outcome](#minorfail-outcome-number-8)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-differenciation|
+|Name|module-src-states-ontology.catalog|
 |----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone module src/states/ontology.catalog.ttl from branch main|
+|Composition|- [Module states/ontology.catalog](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.catalog.ttl)|
 
 #### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Too close terms|
-|Description|Some terms are too similar|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-7)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-7)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-7)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-7)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-7)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
 
 ***
 ### MinorFail Outcome number 8
 
-[Jump to summary definition](#summary-MinorFail-8)
+[Jump to summary definition](#summary-MinorFail-8)	|	[Previous MinorFail outcome](#minorfail-outcome-number-7)	|	[Next MinorFail outcome](#minorfail-outcome-number-9)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-compatQL|
+|Name|module-src-states-ontology.catalog|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
+|Title|Standalone module src/states/ontology.catalog.ttl from branch main|
+|Composition|- [Module states/ontology.catalog](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.catalog.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1255,23 +493,24 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL QL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notQLTermCauseTransitive> a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notQL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-8)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-8)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-8)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-8)|Pointer|<pre lang="Turtle"><code>coswot:StateKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features are or may be in, and that can be observed or controlled by devices. A state can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:State.&#34;@en .</code></pre>|
 
 ***
 ### MinorFail Outcome number 9
 
-[Jump to summary definition](#summary-MinorFail-9)
+[Jump to summary definition](#summary-MinorFail-9)	|	[Previous MinorFail outcome](#minorfail-outcome-number-8)	|	[Next MinorFail outcome](#minorfail-outcome-number-10)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-compatEL|
+|Name|module-src-states-ontology.catalog|
 |----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
+|Title|Standalone module src/states/ontology.catalog.ttl from branch main|
+|Composition|- [Module states/ontology.catalog](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.catalog.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1280,48 +519,50 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL EL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notEL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-9)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-9)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-9)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-9)|Pointer|<pre lang="Turtle"><code>coswot:hasState a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature kind or a feature of interest to one of its states.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasState ) .</code></pre>|
 
 ***
 ### MinorFail Outcome number 10
 
-[Jump to summary definition](#summary-MinorFail-10)
+[Jump to summary definition](#summary-MinorFail-10)	|	[Previous MinorFail outcome](#minorfail-outcome-number-9)	|	[Next MinorFail outcome](#minorfail-outcome-number-11)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-modules|
+|Name|module-src-states-ontology.catalog|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/states/ontology.catalog.ttl from branch main|
+|Composition|- [Module states/ontology.catalog](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.catalog.ttl)|
 
 #### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Terms not labeled|
-|Description|The following terms have no rdfs:label to define it in natural language|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-10)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-10)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-10)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-10)|Pointer|<pre lang="Turtle"><code>coswot:StateKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features are or may be in, and that can be observed or controlled by devices. A state can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:State.&#34;@en .</code></pre>|
 
 ***
 ### MinorFail Outcome number 11
 
-[Jump to summary definition](#summary-MinorFail-11)
+[Jump to summary definition](#summary-MinorFail-11)	|	[Previous MinorFail outcome](#minorfail-outcome-number-10)	|	[Next MinorFail outcome](#minorfail-outcome-number-12)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-modules|
+|Name|module-src-states-ontology.catalog|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/states/ontology.catalog.ttl from branch main|
+|Composition|- [Module states/ontology.catalog](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.catalog.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1330,124 +571,135 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL QL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notQLTermCauseTransitive> a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notQL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-11)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-11)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-11)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-11)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-11)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
 
 ***
 ### MinorFail Outcome number 12
 
-[Jump to summary definition](#summary-MinorFail-12)
+[Jump to summary definition](#summary-MinorFail-12)	|	[Previous MinorFail outcome](#minorfail-outcome-number-11)	|	[Next MinorFail outcome](#minorfail-outcome-number-13)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-modules|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
 |----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL EL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notEL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-12)|Identifier|`domain-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-12)|Title|Domain out of vocabulary|
+|[Section top](#minorfail-outcome-number-12)|Description|Some properties have a domain out of the ontology|
+|[Section top](#minorfail-outcome-number-12)|Pointer|<pre lang="Turtle"><code>:isStateOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is state of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a state to the feature kind or feature of interest it ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:nfc31c1caffa64e6a824dbfef94934051b4 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lowbar;:nfc31c1caffa64e6a824dbfef94934051b4,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:State,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &lowbar;:nfc31c1caffa64e6a824dbfef94934051b5,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :hasState .  &#10;&lowbar;:nfc31c1caffa64e6a824dbfef94934051b6 rdf:first :StateOfInterest ;  &#10;&#32;&#32;&#32;&#32;rdf:rest () .  &#10;&lowbar;:nfc31c1caffa64e6a824dbfef94934051b7 rdf:first :Feature ;  &#10;&#32;&#32;&#32;&#32;rdf:rest &lowbar;:nfc31c1caffa64e6a824dbfef94934051b6 .  &#10;&lowbar;:nfc31c1caffa64e6a824dbfef94934051b4 a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty :hasKind .  &#10;&lowbar;:nfc31c1caffa64e6a824dbfef94934051b5 a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:nfc31c1caffa64e6a824dbfef94934051b5,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &lowbar;:nfc31c1caffa64e6a824dbfef94934051b5 ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf &lowbar;:nfc31c1caffa64e6a824dbfef94934051b7 .</code></pre>|
+|[Section top](#minorfail-outcome-number-12)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
 ### MinorFail Outcome number 13
 
-[Jump to summary definition](#summary-MinorFail-13)
+[Jump to summary definition](#summary-MinorFail-13)	|	[Previous MinorFail outcome](#minorfail-outcome-number-12)	|	[Next MinorFail outcome](#minorfail-outcome-number-14)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-modules|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
 |----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Term not referenced to a module|
-|Description|Subject terms not linked to a module by a rdfs:isDefinedBy property|
-|Pointer|<pre lang="Turtle"><code>sand:NotReferencedClass a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is not linked to a module by a rdfs:isDefinedBy p...&#34; .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-13)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-13)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-13)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-13)|Pointer|<pre lang="Turtle"><code>:hasKind a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;links a state of interest to its kind, a state kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom :StateKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb3,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :isStateOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:State,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:StateOfInterest ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:State,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( :hasKind skos:broader ) .  &#10;&lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb10 rdf:first :StateOfInterest ;  &#10;&#32;&#32;&#32;&#32;rdf:rest () .  &#10;&lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb11 rdf:first :Feature ;  &#10;&#32;&#32;&#32;&#32;rdf:rest &lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb10 .  &#10;&lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb1 a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty :hasKind .  &#10;&lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb3 a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb3,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb3 ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf &lowbar;:n5b7fa233caaf42e6b54657cb27482b2eb11 .</code></pre>|
+|[Section top](#minorfail-outcome-number-13)|Pointer|<pre lang="Turtle"><code>:hasState a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature kind or a feature of interest to one of its ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &lowbar;:ncf72fdb260664a33879f129d2f08eeffb1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:ncf72fdb260664a33879f129d2f08eeffb5 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lowbar;:ncf72fdb260664a33879f129d2f08eeffb5,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:State,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasState ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasState ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader :hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( :hasKind :hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( :hasStateOfInterest :hasKind ) .  &#10;&lowbar;:ncf72fdb260664a33879f129d2f08eeffb12 rdf:first :StateOfInterest ;  &#10;&#32;&#32;&#32;&#32;rdf:rest () .  &#10;&lowbar;:ncf72fdb260664a33879f129d2f08eeffb13 rdf:first :Feature ;  &#10;&#32;&#32;&#32;&#32;rdf:rest &lowbar;:ncf72fdb260664a33879f129d2f08eeffb12 .  &#10;&lowbar;:ncf72fdb260664a33879f129d2f08eeffb5 a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom :StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty :hasKind .  &#10;&lowbar;:ncf72fdb260664a33879f129d2f08eeffb1 a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:ncf72fdb260664a33879f129d2f08eeffb1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &lowbar;:ncf72fdb260664a33879f129d2f08eeffb1 ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf &lowbar;:ncf72fdb260664a33879f129d2f08eeffb13 .</code></pre>|
+|[Section top](#minorfail-outcome-number-13)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
 ### MinorFail Outcome number 14
 
-[Jump to summary definition](#summary-MinorFail-14)
+[Jump to summary definition](#summary-MinorFail-14)	|	[Previous MinorFail outcome](#minorfail-outcome-number-13)	|	[Next MinorFail outcome](#minorfail-outcome-number-15)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-modules|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Too close terms|
-|Description|Some terms are too similar|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-14)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-14)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-14)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-14)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:StateKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-14)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-14)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isStateOfInterestOf .</code></pre>|
 
 ***
 ### MinorFail Outcome number 15
 
-[Jump to summary definition](#summary-MinorFail-15)
+[Jump to summary definition](#summary-MinorFail-15)	|	[Previous MinorFail outcome](#minorfail-outcome-number-14)	|	[Next MinorFail outcome](#minorfail-outcome-number-16)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-fragments|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Terms not labeled|
-|Description|The following terms have no rdfs:label to define it in natural language|
-|Pointer|<pre lang="Turtle"><code>sand:unlabeledTerm a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:unlabeled .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-15)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-15)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-15)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-15)|Pointer|<pre lang="Turtle"><code>coswot:hasState a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature kind or a feature of interest to one of its states.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasKind coswot:hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasStateOfInterest coswot:hasKind ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-15)|Pointer|<pre lang="Turtle"><code>coswot:isStateOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is state of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a state to the feature kind or feature of interest it is a state of.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:hasState .</code></pre>|
 
 ***
 ### MinorFail Outcome number 16
 
-[Jump to summary definition](#summary-MinorFail-16)
+[Jump to summary definition](#summary-MinorFail-16)	|	[Previous MinorFail outcome](#minorfail-outcome-number-15)	|	[Next MinorFail outcome](#minorfail-outcome-number-17)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-fragments|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1456,23 +708,24 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL QL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notQLTermCauseTransitive> a owl:ObjectProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:TransitiveProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not QL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notQL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-16)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-16)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-16)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-16)|Pointer|<pre lang="Turtle"><code>coswot:StateOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features of interest are or may be in, and that can be observed or controlled by devices. An instance of coswot:StateOfInterest is specific to a feature of interest. It is inherent to and cannot exist without that feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:StateKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isStateOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:State ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A state of interest is the state of (OP coswot:isStateOfInterestOf) exactly one feature of interest.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Per convention, the IRI of states of interest should consist of the IRI of their feature of interest, suffixed with a fragment identifier #{S} where {S} refers to the name of the state.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;States of interest need not always be explicited. It depends on the use case. Typically, states of interest are useful in applications, where the association between a feature of interest and a state (i.e., the state of interest) needs to be identified and related to other states of interest.&#34;@en .</code></pre>|
 
 ***
 ### MinorFail Outcome number 17
 
-[Jump to summary definition](#summary-MinorFail-17)
+[Jump to summary definition](#summary-MinorFail-17)	|	[Previous MinorFail outcome](#minorfail-outcome-number-16)	|	[Next MinorFail outcome](#minorfail-outcome-number-18)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-fragments|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1481,236 +734,50 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|OWL EL Profile incompatible|
-|Description|Statement not supported|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/olivaw/notELTermCauseAsymmetric> a owl:AsymmetricProperty,&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This term has a statement that is not EL compatible&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy &#60;https://www.example.org/olivaw/notEL> .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-17)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-17)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-17)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-17)|Pointer|<pre lang="Turtle"><code>coswot:State a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features are or may be in, and that can be observed or controlled by devices. A state kind can apply to different features of interest, while a state of interest is specific to a feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:StateOfInterest coswot:StateKind ) .</code></pre>|
 
 ***
 ### MinorFail Outcome number 18
 
-[Jump to summary definition](#summary-MinorFail-18)
+[Jump to summary definition](#summary-MinorFail-18)	|	[Previous MinorFail outcome](#minorfail-outcome-number-17)	|	[Next MinorFail outcome](#minorfail-outcome-number-19)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-fragments|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Term not referenced to a module|
-|Description|Subject terms not linked to a module by a rdfs:isDefinedBy property|
-|Pointer|<pre lang="Turtle"><code>sand:NotReferencedClass a owl:Class ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class is not linked to a module by a rdfs:isDefinedBy p...&#34; .</code></pre>|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-18)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-18)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-18)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-18)|Pointer|<pre lang="Turtle"><code>coswot:isStateOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is state of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a state to the feature kind or feature of interest it is a state of.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:hasState .</code></pre>|
 
 ***
 ### MinorFail Outcome number 19
 
-[Jump to summary definition](#summary-MinorFail-19)
+[Jump to summary definition](#summary-MinorFail-19)	|	[Previous MinorFail outcome](#minorfail-outcome-number-18)	|	[Next MinorFail outcome](#minorfail-outcome-number-20)
 
 :exclamation:MinorFail outcome
 #### Subject detail
-|Name|all-fragments|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:exclamation:MinorFail|
-|----|----|
-|Title|Too close terms|
-|Description|Some terms are too similar|
-|Pointer|<pre lang="Turtle"><code>sand:ClassB a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class B&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>sand:ClassA a owl:ObjectProperty ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:label &#34;This class has a name too close to class A&#34;@en ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;rdfs:isDefinedBy sand:tooCloseTerms .</code></pre>|
-
-***
-
-</details>
-
-***
-
-
-# NotTested Outcomes
-
-Here is the chapter related to the NotTested outcome
-
-:grey_question:36 NotTested outcomes
-
-<details>
-<summary>Fold/Unfold the 36 summary and details</summary>
-
-## NotTested Outcomes Summary
-
-[Jump to statistic summary](#statistic-summary)
-
-:grey_question:36 NotTested outcomes
-
-|*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
-|------|--------|--------|---------|-----------|-------|------|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-1">1/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-1)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-2">2/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-2)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-3">3/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Error on custom test |[Jump](#nottested-outcome-number-3)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-4">4/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|Error on custom test |[Jump](#nottested-outcome-number-4)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-5">5/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-5)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-6">6/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-6)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-7">7/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-7)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-8">8/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Error on custom test |[Jump](#nottested-outcome-number-8)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-9">9/36</div>|:grey_question:*NotTested*|`module-unknown-prefix`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Error on custom test |[Jump](#nottested-outcome-number-9)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-10">10/36</div>|:grey_question:*NotTested*|`module-broken`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-10)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-11">11/36</div>|:grey_question:*NotTested*|`module-broken`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-11)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-12">12/36</div>|:grey_question:*NotTested*|`module-broken`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Error on custom test |[Jump](#nottested-outcome-number-12)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-13">13/36</div>|:grey_question:*NotTested*|`module-broken`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|Error on custom test |[Jump](#nottested-outcome-number-13)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-14">14/36</div>|:grey_question:*NotTested*|`module-broken`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-14)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-15">15/36</div>|:grey_question:*NotTested*|`module-broken`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-15)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-16">16/36</div>|:grey_question:*NotTested*|`module-broken`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-16)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-17">17/36</div>|:grey_question:*NotTested*|`module-broken`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Error on custom test |[Jump](#nottested-outcome-number-17)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-18">18/36</div>|:grey_question:*NotTested*|`module-broken`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Error on custom test |[Jump](#nottested-outcome-number-18)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-19">19/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-19)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-20">20/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-20)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-21">21/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Error on custom test |[Jump](#nottested-outcome-number-21)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-22">22/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|Error on custom test |[Jump](#nottested-outcome-number-22)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-23">23/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-23)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-24">24/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-24)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-25">25/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-25)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-26">26/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Error on custom test |[Jump](#nottested-outcome-number-26)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-27">27/36</div>|:grey_question:*NotTested*|`modelet-zedomain-syntax`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Error on custom test |[Jump](#nottested-outcome-number-27)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-28">28/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-28)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-29">29/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Error on custom test |[Jump](#nottested-outcome-number-29)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-30">30/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|Error on custom test |[Jump](#nottested-outcome-number-30)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-31">31/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|Error on custom test |[Jump](#nottested-outcome-number-31)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-32">32/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-32)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-33">33/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-33)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-34">34/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|Error on custom test |[Jump](#nottested-outcome-number-34)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-35">35/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Error on custom test |[Jump](#nottested-outcome-number-35)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-36">36/36</div>|:grey_question:*NotTested*|`modelet-zedomain-prefix`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Error on custom test |[Jump](#nottested-outcome-number-36)|
-
-***
-
-## NotTested Outcomes Details
-
-This subchapter gives more details to the :grey_question:NotTested outcomes
-
-### NotTested Outcome number 1
-
-[Jump to summary definition](#summary-NotTested-1)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|module-unknown-prefix|
-|----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 2
-
-[Jump to summary definition](#summary-NotTested-2)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|module-unknown-prefix|
-|----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 3
-
-[Jump to summary definition](#summary-NotTested-3)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|module-unknown-prefix|
-|----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 4
-
-[Jump to summary definition](#summary-NotTested-4)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|module-unknown-prefix|
-|----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 5
-
-[Jump to summary definition](#summary-NotTested-5)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|module-unknown-prefix|
-|----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1719,22 +786,24 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-19)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-19)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-19)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-19)|Pointer|<pre lang="Turtle"><code>coswot:hasKind a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;links a state of interest to its kind, a state kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:StateOfInterest ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:hasKind skos:broader ) .</code></pre>|
 
 ***
-### NotTested Outcome number 6
+### MinorFail Outcome number 20
 
-[Jump to summary definition](#summary-NotTested-6)
+[Jump to summary definition](#summary-MinorFail-20)	|	[Previous MinorFail outcome](#minorfail-outcome-number-19)	|	[Next MinorFail outcome](#minorfail-outcome-number-21)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unknown-prefix|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1743,22 +812,29 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-20)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-20)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-20)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-20)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-20)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-20)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-20)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-20)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-20)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isStateOfInterestOf .</code></pre>|
 
 ***
-### NotTested Outcome number 7
+### MinorFail Outcome number 21
 
-[Jump to summary definition](#summary-NotTested-7)
+[Jump to summary definition](#summary-MinorFail-21)	|	[Previous MinorFail outcome](#minorfail-outcome-number-20)	|	[Next MinorFail outcome](#minorfail-outcome-number-22)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unknown-prefix|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1767,22 +843,601 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-21)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-21)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-21)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range  &#10;Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-21)|Pointer|<pre lang="Turtle"><code>coswot:hasState a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature kind or a feature of interest to one of its states.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasKind coswot:hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasStateOfInterest coswot:hasKind ) .</code></pre>|
 
 ***
-### NotTested Outcome number 8
+### MinorFail Outcome number 22
 
-[Jump to summary definition](#summary-NotTested-8)
+[Jump to summary definition](#summary-MinorFail-22)	|	[Previous MinorFail outcome](#minorfail-outcome-number-21)	|	[Next MinorFail outcome](#minorfail-outcome-number-23)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unknown-prefix|
+|Name|module-src-states-ontology|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-22)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-22)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-22)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-22)|Pointer|<pre lang="Turtle"><code>coswot:StateKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features are or may be in, and that can be observed or controlled by devices. A state can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:State ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:State.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-22)|Pointer|<pre lang="Turtle"><code>coswot:StateOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features of interest are or may be in, and that can be observed or controlled by devices. An instance of coswot:StateOfInterest is specific to a feature of interest. It is inherent to and cannot exist without that feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:StateKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isStateOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:State ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A state of interest is the state of (OP coswot:isStateOfInterestOf) exactly one feature of interest.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Per convention, the IRI of states of interest should consist of the IRI of their feature of interest, suffixed with a fragment identifier #{S} where {S} refers to the name of the state.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;States of interest need not always be explicited. It depends on the use case. Typically, states of interest are useful in applications, where the association between a feature of interest and a state (i.e., the state of interest) needs to be identified and related to other states of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 23
+
+[Jump to summary definition](#summary-MinorFail-23)	|	[Previous MinorFail outcome](#minorfail-outcome-number-22)	|	[Next MinorFail outcome](#minorfail-outcome-number-24)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-states-ontology|
+|----|----|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-23)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-23)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-23)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-23)|Pointer|<pre lang="Turtle"><code>coswot:State a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features are or may be in, and that can be observed or controlled by devices. A state kind can apply to different features of interest, while a state of interest is specific to a feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:StateOfInterest coswot:StateKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 24
+
+[Jump to summary definition](#summary-MinorFail-24)	|	[Previous MinorFail outcome](#minorfail-outcome-number-23)	|	[Next MinorFail outcome](#minorfail-outcome-number-25)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-states-ontology|
+|----|----|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-24)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-24)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-24)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-24)|Pointer|<pre lang="Turtle"><code>coswot:hasState a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has state&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature kind or a feature of interest to one of its states.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isStateOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasKind coswot:hasState ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasStateOfInterest coswot:hasKind ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-24)|Pointer|<pre lang="Turtle"><code>coswot:isStateOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is state of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a state to the feature kind or feature of interest it is a state of.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:hasState .</code></pre>|
+
+***
+### MinorFail Outcome number 25
+
+[Jump to summary definition](#summary-MinorFail-25)	|	[Previous MinorFail outcome](#minorfail-outcome-number-24)	|	[Next MinorFail outcome](#minorfail-outcome-number-26)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-states-ontology|
+|----|----|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-25)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-25)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-25)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-25)|Pointer|<pre lang="Turtle"><code>coswot:StateKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features are or may be in, and that can be observed or controlled by devices. A state can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:State ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:State.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-25)|Pointer|<pre lang="Turtle"><code>coswot:StateOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features of interest are or may be in, and that can be observed or controlled by devices. An instance of coswot:StateOfInterest is specific to a feature of interest. It is inherent to and cannot exist without that feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:StateKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isStateOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:State ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A state of interest is the state of (OP coswot:isStateOfInterestOf) exactly one feature of interest.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Per convention, the IRI of states of interest should consist of the IRI of their feature of interest, suffixed with a fragment identifier #{S} where {S} refers to the name of the state.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;States of interest need not always be explicited. It depends on the use case. Typically, states of interest are useful in applications, where the association between a feature of interest and a state (i.e., the state of interest) needs to be identified and related to other states of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 26
+
+[Jump to summary definition](#summary-MinorFail-26)	|	[Previous MinorFail outcome](#minorfail-outcome-number-25)	|	[Next MinorFail outcome](#minorfail-outcome-number-27)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-states-ontology|
+|----|----|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-26)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-26)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-26)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-26)|Pointer|<pre lang="Turtle"><code>coswot:State a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;State&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable conditions that features are or may be in, and that can be observed or controlled by devices. A state kind can apply to different features of interest, while a state of interest is specific to a feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/states> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:StateOfInterest coswot:StateKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 27
+
+[Jump to summary definition](#summary-MinorFail-27)	|	[Previous MinorFail outcome](#minorfail-outcome-number-26)	|	[Next MinorFail outcome](#minorfail-outcome-number-28)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-states-ontology|
+|----|----|
+|Title|Standalone module src/states/ontology.ttl from branch main|
+|Composition|- [Module states/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/states/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-27)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-27)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-27)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-27)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-27)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-27)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-27)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:StateKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-27)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:StateOfInterest ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-27)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isStateOfInterestOf .</code></pre>|
+
+***
+### MinorFail Outcome number 28
+
+[Jump to summary definition](#summary-MinorFail-28)	|	[Previous MinorFail outcome](#minorfail-outcome-number-27)	|	[Next MinorFail outcome](#minorfail-outcome-number-29)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-28)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-28)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-28)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-28)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ServiceKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-28)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:OperationKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-28)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Service coswot:Operation ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-28)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Function coswot:Command ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-28)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onClass coswot:FunctionOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-28)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-28)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf .</code></pre>|
+
+***
+### MinorFail Outcome number 29
+
+[Jump to summary definition](#summary-MinorFail-29)	|	[Previous MinorFail outcome](#minorfail-outcome-number-28)	|	[Next MinorFail outcome](#minorfail-outcome-number-30)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-29)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-29)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-29)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-29)|Pointer|<pre lang="Turtle"><code>coswot:represents a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;represents&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a service to some function or function of interest it exposes to the network. Also links an operation to some command or command of interest it exposes to the network.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Service coswot:Operation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Function coswot:Command ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 30
+
+[Jump to summary definition](#summary-MinorFail-30)	|	[Previous MinorFail outcome](#minorfail-outcome-number-29)	|	[Next MinorFail outcome](#minorfail-outcome-number-31)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-30)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-30)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-30)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-30)|Pointer|<pre lang="Turtle"><code>coswot:OperationOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An operation of interest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:OperationKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Operation .</code></pre>|
+|[Section top](#minorfail-outcome-number-30)|Pointer|<pre lang="Turtle"><code>coswot:ServiceOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. An instance of coswot:ServiceOfInterest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ServiceKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:FunctionOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Service .</code></pre>|
+
+***
+### MinorFail Outcome number 31
+
+[Jump to summary definition](#summary-MinorFail-31)	|	[Previous MinorFail outcome](#minorfail-outcome-number-30)	|	[Next MinorFail outcome](#minorfail-outcome-number-32)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-31)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-31)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-31)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-31)|Pointer|<pre lang="Turtle"><code>coswot:Service a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. While an instance of coswot:ServiceKind can apply to different functions, an instance of coswot:ServiceOfInterest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Function ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureCollection ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:ServiceOfInterest coswot:ServiceKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;For example, a light switch can offer the service of remotely switching the lights in a home through mobile phone devices that are connected to the local network (ex:SwitchOnService). This &#92;&#34;remote switching&#92;&#34; service represents the ex:OnOffFunction.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Typically, a device connected to a given network offers one service of interest for each of its functions of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 32
+
+[Jump to summary definition](#summary-MinorFail-32)	|	[Previous MinorFail outcome](#minorfail-outcome-number-31)	|	[Next MinorFail outcome](#minorfail-outcome-number-33)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-32)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-32)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-32)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-32)|Pointer|<pre lang="Turtle"><code>coswot:represents a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;represents&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a service to some function or function of interest it exposes to the network. Also links an operation to some command or command of interest it exposes to the network.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Service coswot:Operation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Function coswot:Command ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 33
+
+[Jump to summary definition](#summary-MinorFail-33)	|	[Previous MinorFail outcome](#minorfail-outcome-number-32)	|	[Next MinorFail outcome](#minorfail-outcome-number-34)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-33)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-33)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-33)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Service coswot:Operation ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Function coswot:Command ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Function ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Service ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onClass coswot:FunctionOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:offers .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOfferedBy .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasOperation .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-33)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf .</code></pre>|
+
+***
+### MinorFail Outcome number 34
+
+[Jump to summary definition](#summary-MinorFail-34)	|	[Previous MinorFail outcome](#minorfail-outcome-number-33)	|	[Next MinorFail outcome](#minorfail-outcome-number-35)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-34)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-34)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-34)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-34)|Pointer|<pre lang="Turtle"><code>coswot:isExecutionOf owl:propertyChainAxiom ( coswot:isExecutionOf coswot:hasKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 35
+
+[Jump to summary definition](#summary-MinorFail-35)	|	[Previous MinorFail outcome](#minorfail-outcome-number-34)	|	[Next MinorFail outcome](#minorfail-outcome-number-36)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-35)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-35)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-35)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:Command rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:CommandKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:DeviceKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:offers ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:Function rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Service ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:FunctionKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:Operation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Operation is the means of a service to communicate in a procedure-type manner over the network (i.e. transmit data to/from other devices). It is the –machine interpretable– exposure of a –human understandable– command to a network. While a coswot:OperationOfInterest is specific to a service of interest, a coswot:OperationKind is an archetype of operations.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Procedure ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:OperationOfInterest coswot:OperationKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;In the set of operations exposed by a smart light bulb on a given network, one may be dedicated to turn on and off the light and expect a boolean as input. Another one may be dedicated to set the luminosity status and expect a target luminosity level (a byte) and a transition time (encoded on two bytes).&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;In the set of operations exposed by a smart washing machine on a given network, one may be dedicated to set the water temperature for the washing cycle, and expected as input a enumerated value. Another one may be dedicated to start, pause, or stop the washing cycle.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;To turn on a light, send a CoAP PUT request with CBOR content 0xf5 (true)&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;An operation may be described in terms of its inputs and outputs using OP coswot:hasInput and coswot:hasOutput. Inputs and outputs of operations typically describe the expected schema or shape of network messages.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Typically, a device connected to a given network offers one service for each of its functions of interest, and each service has one operation per command of interest of the function of interest it represents.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:OperationExecution a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation Execution&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Describes the execution of an operation in a network: theâ€“machine interpretableâ€“  description of a communication between devices over the network. Typically, its input and result are network messages, that conform to the input and output of the executed operation.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:OperationKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An operation kind describes an archetype of operation.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Operation .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:OperationOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An operation of interest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:OperationKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Operation .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:ServiceKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. An instance of coswot:ServiceKind can apply to different functions.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOfferedBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasOperation ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Service .</code></pre>|
+|[Section top](#minorfail-outcome-number-35)|Pointer|<pre lang="Turtle"><code>coswot:ServiceOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. An instance of coswot:ServiceOfInterest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ServiceKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:FunctionOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Service .</code></pre>|
+
+***
+### MinorFail Outcome number 36
+
+[Jump to summary definition](#summary-MinorFail-36)	|	[Previous MinorFail outcome](#minorfail-outcome-number-35)	|	[Next MinorFail outcome](#minorfail-outcome-number-37)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-36)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-36)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-36)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-36)|Pointer|<pre lang="Turtle"><code>coswot:Service a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. While an instance of coswot:ServiceKind can apply to different functions, an instance of coswot:ServiceOfInterest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Function ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureCollection ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:ServiceOfInterest coswot:ServiceKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;For example, a light switch can offer the service of remotely switching the lights in a home through mobile phone devices that are connected to the local network (ex:SwitchOnService). This &#92;&#34;remote switching&#92;&#34; service represents the ex:OnOffFunction.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Typically, a device connected to a given network offers one service of interest for each of its functions of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 37
+
+[Jump to summary definition](#summary-MinorFail-37)	|	[Previous MinorFail outcome](#minorfail-outcome-number-36)	|	[Next MinorFail outcome](#minorfail-outcome-number-38)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-37)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-37)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-37)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-37)|Pointer|<pre lang="Turtle"><code>coswot:represents a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;represents&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a service to some function or function of interest it exposes to the network. Also links an operation to some command or command of interest it exposes to the network.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Service coswot:Operation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Function coswot:Command ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 38
+
+[Jump to summary definition](#summary-MinorFail-38)	|	[Previous MinorFail outcome](#minorfail-outcome-number-37)	|	[Next MinorFail outcome](#minorfail-outcome-number-39)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-38)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-38)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-38)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:Command rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:CommandKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:DeviceKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:offers ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:Function rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Service ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:FunctionKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:Operation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Operation is the means of a service to communicate in a procedure-type manner over the network (i.e. transmit data to/from other devices). It is the –machine interpretable– exposure of a –human understandable– command to a network. While a coswot:OperationOfInterest is specific to a service of interest, a coswot:OperationKind is an archetype of operations.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Procedure ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:OperationOfInterest coswot:OperationKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;In the set of operations exposed by a smart light bulb on a given network, one may be dedicated to turn on and off the light and expect a boolean as input. Another one may be dedicated to set the luminosity status and expect a target luminosity level (a byte) and a transition time (encoded on two bytes).&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;In the set of operations exposed by a smart washing machine on a given network, one may be dedicated to set the water temperature for the washing cycle, and expected as input a enumerated value. Another one may be dedicated to start, pause, or stop the washing cycle.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;To turn on a light, send a CoAP PUT request with CBOR content 0xf5 (true)&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;An operation may be described in terms of its inputs and outputs using OP coswot:hasInput and coswot:hasOutput. Inputs and outputs of operations typically describe the expected schema or shape of network messages.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Typically, a device connected to a given network offers one service for each of its functions of interest, and each service has one operation per command of interest of the function of interest it represents.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:OperationExecution a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation Execution&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Describes the execution of an operation in a network: theâ€“machine interpretableâ€“  description of a communication between devices over the network. Typically, its input and result are network messages, that conform to the input and output of the executed operation.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:OperationKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An operation kind describes an archetype of operation.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Operation .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:OperationOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Operation Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An operation of interest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:OperationKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Operation .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:ServiceKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. An instance of coswot:ServiceKind can apply to different functions.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOfferedBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasOperation ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Service .</code></pre>|
+|[Section top](#minorfail-outcome-number-38)|Pointer|<pre lang="Turtle"><code>coswot:ServiceOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. An instance of coswot:ServiceOfInterest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ServiceKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onClass coswot:FunctionOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Service .</code></pre>|
+
+***
+### MinorFail Outcome number 39
+
+[Jump to summary definition](#summary-MinorFail-39)	|	[Previous MinorFail outcome](#minorfail-outcome-number-38)	|	[Next MinorFail outcome](#minorfail-outcome-number-40)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-39)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-39)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-39)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-39)|Pointer|<pre lang="Turtle"><code>coswot:Service a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Service&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Service is a digital representation of a function in a network, making it discoverable, registerable and remotely controllable in the network. While an instance of coswot:ServiceKind can apply to different functions, an instance of coswot:ServiceOfInterest is specific to a function of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/services&lowbar;operations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Function ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureCollection ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:ServiceOfInterest coswot:ServiceKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;For example, a light switch can offer the service of remotely switching the lights in a home through mobile phone devices that are connected to the local network (ex:SwitchOnService). This &#92;&#34;remote switching&#92;&#34; service represents the ex:OnOffFunction.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Typically, a device connected to a given network offers one service of interest for each of its functions of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 40
+
+[Jump to summary definition](#summary-MinorFail-40)	|	[Previous MinorFail outcome](#minorfail-outcome-number-39)	|	[Next MinorFail outcome](#minorfail-outcome-number-41)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-40)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-40)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-40)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Service coswot:Operation ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Function coswot:Command ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Function ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Service ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf coswot:represents ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onClass coswot:FunctionOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minQualifiedCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onClass coswot:CommandOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:represents .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:offers .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOfferedBy .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:OperationKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasOperation .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:ServiceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isOperationOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-40)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Operation ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf .</code></pre>|
+
+***
+### MinorFail Outcome number 41
+
+[Jump to summary definition](#summary-MinorFail-41)	|	[Previous MinorFail outcome](#minorfail-outcome-number-40)	|	[Next MinorFail outcome](#minorfail-outcome-number-42)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-services_operations-ontology|
+|----|----|
+|Title|Standalone module src/services&lowbar;operations/ontology.ttl from branch main|
+|Composition|- [Module services&lowbar;operations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/services_operations/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -1791,46 +1446,107 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-41)|Identifier|`no-reference-module`|
+|[Section top](#minorfail-outcome-number-41)|Title|Term not referenced to a module|
+|[Section top](#minorfail-outcome-number-41)|Description|Subject terms not linked to a module by a rdfs:isDefinedBy property|
+|[Section top](#minorfail-outcome-number-41)|Pointer|<pre lang="Turtle"><code>:Function rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :Service ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf :represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-41)|Pointer|<pre lang="Turtle"><code>:Command rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :Operation ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf :represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-41)|Pointer|<pre lang="Turtle"><code>:FunctionKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf :represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-41)|Pointer|<pre lang="Turtle"><code>:CommandKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :OperationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty &#91; owl:inverseOf :represents ] ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-41)|Pointer|<pre lang="Turtle"><code>:DeviceKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :ServiceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :offers ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-41)|Pointer|<pre lang="Turtle"><code>:isExecutionOf owl:propertyChainAxiom ( :isExecutionOf :hasKind ) .</code></pre>|
 
 ***
-### NotTested Outcome number 9
+### MinorFail Outcome number 42
 
-[Jump to summary definition](#summary-NotTested-9)
+[Jump to summary definition](#summary-MinorFail-42)	|	[Previous MinorFail outcome](#minorfail-outcome-number-41)	|	[Next MinorFail outcome](#minorfail-outcome-number-43)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unknown-prefix|
+|Name|module-src-samples-ontology|
 |----|----|
-|Title|Standalone module src/unknown-prefix.ttl from branch refs/heads/main|
-|Composition|- [Module unknown-prefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unknown-prefix.ttl)|
+|Title|Standalone module src/samples/ontology.ttl from branch main|
+|Composition|- [Module samples/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/samples/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-42)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-42)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-42)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-42)|Pointer|<pre lang="Turtle"><code>coswot:hasSample a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has sample&#34;@en ;  &#10;&#32;&#32;&#32;&#32;ns1:domainIncludes coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;ns1:rangeIncludes coswot:Sample ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation between a FeatureOfInterest and the Sample used to represent it.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/samples> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:hasTransitiveSample ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isSampleOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:hasPropertyOfInterest coswot:hasSampleProperty coswot:isPropertyOfInterestOf ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasStateOfInterest coswot:hasSampleState coswot:isStateOfInterestOf ) .</code></pre>|
 
 ***
-### NotTested Outcome number 10
+### MinorFail Outcome number 43
 
-[Jump to summary definition](#summary-NotTested-10)
+[Jump to summary definition](#summary-MinorFail-43)	|	[Previous MinorFail outcome](#minorfail-outcome-number-42)	|	[Next MinorFail outcome](#minorfail-outcome-number-44)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-samples-ontology|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/samples/ontology.ttl from branch main|
+|Composition|- [Module samples/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/samples/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-43)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-43)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-43)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-43)|Pointer|<pre lang="Turtle"><code>coswot:isSamplePropertyOf a owl:FunctionalProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is sample property of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Direct relation from the Property of interest of a sample to the Property of the Feature of Interest it derives from. The Sample's Property of Interest is the measured quality (or characteristic) associated to a part of the Feature of Interest. The Feature Of Interest's Property of Interest is the quality (or characteristic) of the entity that can not be measured entirely. The Sample MUST represent the Feature of Interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:PropertyOfInterest ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/samples> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:PropertyOfInterest .</code></pre>|
+
+***
+### MinorFail Outcome number 44
+
+[Jump to summary definition](#summary-MinorFail-44)	|	[Previous MinorFail outcome](#minorfail-outcome-number-43)	|	[Next MinorFail outcome](#minorfail-outcome-number-45)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-samples-ontology|
+|----|----|
+|Title|Standalone module src/samples/ontology.ttl from branch main|
+|Composition|- [Module samples/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/samples/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-44)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-44)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-44)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-44)|Pointer|<pre lang="Turtle"><code>coswot:isSamplePropertyOf a owl:FunctionalProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is sample property of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Direct relation from the Property of interest of a sample to the Property of the Feature of Interest it derives from. The Sample's Property of Interest is the measured quality (or characteristic) associated to a part of the Feature of Interest. The Feature Of Interest's Property of Interest is the quality (or characteristic) of the entity that can not be measured entirely. The Sample MUST represent the Feature of Interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:PropertyOfInterest ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/samples> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:PropertyOfInterest .</code></pre>|
+
+***
+### MinorFail Outcome number 45
+
+[Jump to summary definition](#summary-MinorFail-45)	|	[Previous MinorFail outcome](#minorfail-outcome-number-44)	|	[Next MinorFail outcome](#minorfail-outcome-number-46)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -1839,22 +1555,290 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-45)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-45)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-45)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-45)|Pointer|<pre lang="Turtle"><code>:isMeasuredIn a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is measured in&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A relationship identifying the unit of measure used for a ce...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:UnitOfMeasure ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :isMeasuredIn ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :isMeasuredIn .</code></pre>|
+|[Section top](#minorfail-outcome-number-45)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
-### NotTested Outcome number 11
+### MinorFail Outcome number 46
 
-[Jump to summary definition](#summary-NotTested-11)
+[Jump to summary definition](#summary-MinorFail-46)	|	[Previous MinorFail outcome](#minorfail-outcome-number-45)	|	[Next MinorFail outcome](#minorfail-outcome-number-47)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-property_values-ontology|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-46)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-46)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-46)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-46)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasValue .</code></pre>|
+|[Section top](#minorfail-outcome-number-46)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:PropertyOfInterest ) .</code></pre>|
+
+***
+### MinorFail Outcome number 47
+
+[Jump to summary definition](#summary-MinorFail-47)	|	[Previous MinorFail outcome](#minorfail-outcome-number-46)	|	[Next MinorFail outcome](#minorfail-outcome-number-48)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-47)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-47)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-47)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-47)|Pointer|<pre lang="Turtle"><code>coswot:hasPropertyValue a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has property value&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature or a property of interest to a property value.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:PropertyOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasPropertyValue ) .</code></pre>|
+
+***
+### MinorFail Outcome number 48
+
+[Jump to summary definition](#summary-MinorFail-48)	|	[Previous MinorFail outcome](#minorfail-outcome-number-47)	|	[Next MinorFail outcome](#minorfail-outcome-number-49)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-48)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-48)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-48)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-48)|Pointer|<pre lang="Turtle"><code>coswot:PropertyValue a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property Value&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Describes the value for a property. The property value is linked to its value expressed as an RDF literal (DP coswot:hasValue), optionally to the unit of measurement (OP coswot:isMeasuredIn), and optionally to the properties or properties of interest it is a value of (OP coswot:isValueOfProperty).&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasValue ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:maxCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isMeasuredIn ] .</code></pre>|
+
+***
+### MinorFail Outcome number 49
+
+[Jump to summary definition](#summary-MinorFail-49)	|	[Previous MinorFail outcome](#minorfail-outcome-number-48)	|	[Next MinorFail outcome](#minorfail-outcome-number-50)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-49)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-49)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-49)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-49)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasValue .</code></pre>|
+|[Section top](#minorfail-outcome-number-49)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:maxCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isMeasuredIn .</code></pre>|
+|[Section top](#minorfail-outcome-number-49)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:PropertyOfInterest ) .</code></pre>|
+
+***
+### MinorFail Outcome number 50
+
+[Jump to summary definition](#summary-MinorFail-50)	|	[Previous MinorFail outcome](#minorfail-outcome-number-49)	|	[Next MinorFail outcome](#minorfail-outcome-number-51)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-50)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-50)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-50)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range  &#10;Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-50)|Pointer|<pre lang="Turtle"><code>coswot:hasPropertyValue a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has property value&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature or a property of interest to a property value.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:PropertyOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasPropertyValue ) .</code></pre>|
+
+***
+### MinorFail Outcome number 51
+
+[Jump to summary definition](#summary-MinorFail-51)	|	[Previous MinorFail outcome](#minorfail-outcome-number-50)	|	[Next MinorFail outcome](#minorfail-outcome-number-52)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-51)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-51)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-51)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-51)|Pointer|<pre lang="Turtle"><code>coswot:PropertyValue a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property Value&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Describes the value for a property. The property value is linked to its value expressed as an RDF literal (DP coswot:hasValue), optionally to the unit of measurement (OP coswot:isMeasuredIn), and optionally to the properties or properties of interest it is a value of (OP coswot:isValueOfProperty).&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasValue ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:maxCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isMeasuredIn ] .</code></pre>|
+
+***
+### MinorFail Outcome number 52
+
+[Jump to summary definition](#summary-MinorFail-52)	|	[Previous MinorFail outcome](#minorfail-outcome-number-51)	|	[Next MinorFail outcome](#minorfail-outcome-number-53)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-52)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-52)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-52)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-52)|Pointer|<pre lang="Turtle"><code>coswot:isValueOfProperty a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is value of property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property value to the property or property of interest it is a value of.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:Property ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:isValueOfProperty coswot:hasKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 53
+
+[Jump to summary definition](#summary-MinorFail-53)	|	[Previous MinorFail outcome](#minorfail-outcome-number-52)	|	[Next MinorFail outcome](#minorfail-outcome-number-54)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-53)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-53)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-53)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-53)|Pointer|<pre lang="Turtle"><code>coswot:hasPropertyValue a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has property value&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature or a property of interest to a property value.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:PropertyOfInterest ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasPropertyValue ) .</code></pre>|
+
+***
+### MinorFail Outcome number 54
+
+[Jump to summary definition](#summary-MinorFail-54)	|	[Previous MinorFail outcome](#minorfail-outcome-number-53)	|	[Next MinorFail outcome](#minorfail-outcome-number-55)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-54)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-54)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-54)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-54)|Pointer|<pre lang="Turtle"><code>coswot:PropertyValue a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property Value&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Describes the value for a property. The property value is linked to its value expressed as an RDF literal (DP coswot:hasValue), optionally to the unit of measurement (OP coswot:isMeasuredIn), and optionally to the properties or properties of interest it is a value of (OP coswot:isValueOfProperty).&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/property&lowbar;values> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasValue ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:maxCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isMeasuredIn ] .</code></pre>|
+
+***
+### MinorFail Outcome number 55
+
+[Jump to summary definition](#summary-MinorFail-55)	|	[Previous MinorFail outcome](#minorfail-outcome-number-54)	|	[Next MinorFail outcome](#minorfail-outcome-number-56)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-property_values-ontology|
+|----|----|
+|Title|Standalone module src/property&lowbar;values/ontology.ttl from branch main|
+|Composition|- [Module property&lowbar;values/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/property_values/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-55)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-55)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-55)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-55)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasValue .</code></pre>|
+|[Section top](#minorfail-outcome-number-55)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:maxCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isMeasuredIn .</code></pre>|
+|[Section top](#minorfail-outcome-number-55)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:PropertyOfInterest ) .</code></pre>|
+
+***
+### MinorFail Outcome number 56
+
+[Jump to summary definition](#summary-MinorFail-56)	|	[Previous MinorFail outcome](#minorfail-outcome-number-55)	|	[Next MinorFail outcome](#minorfail-outcome-number-57)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology.catalogs|
+|----|----|
+|Title|Standalone module src/properties/ontology.catalogs.ttl from branch main|
+|Composition|- [Module properties/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.catalogs.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -1863,70 +1847,52 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-56)|Identifier|`domain-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-56)|Title|Domain out of vocabulary|
+|[Section top](#minorfail-outcome-number-56)|Description|Some properties have a domain out of the ontology|
+|[Section top](#minorfail-outcome-number-56)|Pointer|<pre lang="Turtle"><code>:isPropertyOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is property of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property to the feature it is a property of.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :hasProperty .</code></pre>|
+|[Section top](#minorfail-outcome-number-56)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
-### NotTested Outcome number 12
+### MinorFail Outcome number 57
 
-[Jump to summary definition](#summary-NotTested-12)
+[Jump to summary definition](#summary-MinorFail-57)	|	[Previous MinorFail outcome](#minorfail-outcome-number-56)	|	[Next MinorFail outcome](#minorfail-outcome-number-58)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-properties-ontology.catalogs|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/properties/ontology.catalogs.ttl from branch main|
+|Composition|- [Module properties/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.catalogs.ttl)|
 
 #### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
 |----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-57)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-57)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-57)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-57)|Pointer|<pre lang="Turtle"><code>:hasProperty a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature to one of its properties.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasProperty ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasProperty ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader :hasProperty ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-57)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
-### NotTested Outcome number 13
+### MinorFail Outcome number 58
 
-[Jump to summary definition](#summary-NotTested-13)
+[Jump to summary definition](#summary-MinorFail-58)	|	[Previous MinorFail outcome](#minorfail-outcome-number-57)	|	[Next MinorFail outcome](#minorfail-outcome-number-59)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-properties-ontology.catalogs|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 14
-
-[Jump to summary definition](#summary-NotTested-14)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|module-broken|
-|----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/properties/ontology.catalogs.ttl from branch main|
+|Composition|- [Module properties/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.catalogs.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1935,22 +1901,25 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-58)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-58)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-58)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-58)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-58)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
 
 ***
-### NotTested Outcome number 15
+### MinorFail Outcome number 59
 
-[Jump to summary definition](#summary-NotTested-15)
+[Jump to summary definition](#summary-MinorFail-59)	|	[Previous MinorFail outcome](#minorfail-outcome-number-58)	|	[Next MinorFail outcome](#minorfail-outcome-number-60)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-properties-ontology.catalogs|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/properties/ontology.catalogs.ttl from branch main|
+|Composition|- [Module properties/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.catalogs.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1959,22 +1928,24 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-59)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-59)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-59)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-59)|Pointer|<pre lang="Turtle"><code>coswot:PropertyKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features of interest that can be targeted by devices, such as observed or controlled. A property can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Air temperature, pressure, luminance, etc. are all property kinds.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;&#34;&#34;Two examples using the QUDT Quantity Kind vocabulary, and the British Oceanographic Data Centre Parameter Usage Vocabulary.&#92;r  &#10;&#92;r  &#10; &#60;https://qudt.org/2.1/vocab/quantitykind/ActiveEnergy> a coswot:PropertyKind ;&#92;r  &#10;rdfs:label &#34;Active Energy&#34;@en ;&#92;r  &#10;rdfs:comment &#34;&#34;Active Energy&#34; is the electrical energy transformable into some other form of energy.&#34;@en .&#92;r  &#10;&#92;r  &#10; &#60;http://vocab.nerc.ac.uk/collection/P01/current/CDTSZZ01/> a coswot:PropertyKind ;&#92;r  &#10;skos:prefLabel &#34;Absolute temperature standard deviation of the atmosphere by dry bulb thermometer&#34;@en .&#92;r  &#10;&#34;&#34;&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:PropertyKind.&#34;@en .</code></pre>|
 
 ***
-### NotTested Outcome number 16
+### MinorFail Outcome number 60
 
-[Jump to summary definition](#summary-NotTested-16)
+[Jump to summary definition](#summary-MinorFail-60)	|	[Previous MinorFail outcome](#minorfail-outcome-number-59)	|	[Next MinorFail outcome](#minorfail-outcome-number-61)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-properties-ontology.catalogs|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/properties/ontology.catalogs.ttl from branch main|
+|Composition|- [Module properties/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.catalogs.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -1983,22 +1954,1239 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-60)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-60)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-60)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-60)|Pointer|<pre lang="Turtle"><code>coswot:hasProperty a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature to one of its properties.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasProperty ) .</code></pre>|
 
 ***
-### NotTested Outcome number 17
+### MinorFail Outcome number 61
 
-[Jump to summary definition](#summary-NotTested-17)
+[Jump to summary definition](#summary-MinorFail-61)	|	[Previous MinorFail outcome](#minorfail-outcome-number-60)	|	[Next MinorFail outcome](#minorfail-outcome-number-62)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-properties-ontology.catalogs|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
+|Title|Standalone module src/properties/ontology.catalogs.ttl from branch main|
+|Composition|- [Module properties/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.catalogs.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-61)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-61)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-61)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-61)|Pointer|<pre lang="Turtle"><code>coswot:PropertyKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features of interest that can be targeted by devices, such as observed or controlled. A property can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Air temperature, pressure, luminance, etc. are all property kinds.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;&#34;&#34;Two examples using the QUDT Quantity Kind vocabulary, and the British Oceanographic Data Centre Parameter Usage Vocabulary.&#92;r  &#10;&#92;r  &#10; &#60;https://qudt.org/2.1/vocab/quantitykind/ActiveEnergy> a coswot:PropertyKind ;&#92;r  &#10;rdfs:label &#34;Active Energy&#34;@en ;&#92;r  &#10;rdfs:comment &#34;&#34;Active Energy&#34; is the electrical energy transformable into some other form of energy.&#34;@en .&#92;r  &#10;&#92;r  &#10; &#60;http://vocab.nerc.ac.uk/collection/P01/current/CDTSZZ01/> a coswot:PropertyKind ;&#92;r  &#10;skos:prefLabel &#34;Absolute temperature standard deviation of the atmosphere by dry bulb thermometer&#34;@en .&#92;r  &#10;&#34;&#34;&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:PropertyKind.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 62
+
+[Jump to summary definition](#summary-MinorFail-62)	|	[Previous MinorFail outcome](#minorfail-outcome-number-61)	|	[Next MinorFail outcome](#minorfail-outcome-number-63)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology.catalogs|
+|----|----|
+|Title|Standalone module src/properties/ontology.catalogs.ttl from branch main|
+|Composition|- [Module properties/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.catalogs.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-62)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-62)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-62)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-62)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-62)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+
+***
+### MinorFail Outcome number 63
+
+[Jump to summary definition](#summary-MinorFail-63)	|	[Previous MinorFail outcome](#minorfail-outcome-number-62)	|	[Next MinorFail outcome](#minorfail-outcome-number-64)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
+|----|----|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-63)|Identifier|`domain-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-63)|Title|Domain out of vocabulary|
+|[Section top](#minorfail-outcome-number-63)|Description|Some properties have a domain out of the ontology|
+|[Section top](#minorfail-outcome-number-63)|Pointer|<pre lang="Turtle"><code>:isPropertyOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is property of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property kind to the feature it is a property of.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:n5f10c3e3c8c845c9a29fdfccbbc82743b4 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lowbar;:n5f10c3e3c8c845c9a29fdfccbbc82743b4,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Property,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range :Feature ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :hasProperty .  &#10;&lowbar;:n5f10c3e3c8c845c9a29fdfccbbc82743b4 a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty :hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-63)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
+
+***
+### MinorFail Outcome number 64
+
+[Jump to summary definition](#summary-MinorFail-64)	|	[Previous MinorFail outcome](#minorfail-outcome-number-63)	|	[Next MinorFail outcome](#minorfail-outcome-number-65)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
+|----|----|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-64)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-64)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-64)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-64)|Pointer|<pre lang="Turtle"><code>:hasProperty a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature to one of its property kinds.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain :Feature ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:n8a30be7c82244a6ca601f92daf740f9bb4 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lowbar;:n8a30be7c82244a6ca601f92daf740f9bb4,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Property,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasProperty ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasProperty ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf :isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader :hasProperty ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( :hasKind :hasProperty ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( :hasPropertyOfInterest :hasKind ) .  &#10;&lowbar;:n8a30be7c82244a6ca601f92daf740f9bb4 a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom :PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty :hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-64)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
+
+***
+### MinorFail Outcome number 65
+
+[Jump to summary definition](#summary-MinorFail-65)	|	[Previous MinorFail outcome](#minorfail-outcome-number-64)	|	[Next MinorFail outcome](#minorfail-outcome-number-66)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-65)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-65)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-65)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-65)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:PropertyKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-65)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isPropertyOfInterestOf .</code></pre>|
+
+***
+### MinorFail Outcome number 66
+
+[Jump to summary definition](#summary-MinorFail-66)	|	[Previous MinorFail outcome](#minorfail-outcome-number-65)	|	[Next MinorFail outcome](#minorfail-outcome-number-67)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-66)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-66)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-66)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-66)|Pointer|<pre lang="Turtle"><code>coswot:PropertyOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features of interest that can be observed or controlled by devices. An instance of coswot:PropertyOfInterest is specific to a feature of interest. It is inherent to and cannot exist without that feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:PropertyKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isPropertyOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Property ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;&#34;&#34;The air temperature of the atmosphere sample at a certain location and altitude, the received signal strength indicator of an wireless IoT connection, the luminance of the ETSI ATHENA amphitheatre.&#92;r  &#10;&#92;r  &#10; &#60;etsi&lowbar;premises/athena#luminance> a coswot:PropertyOfInterest ;&#92;r  &#10;coswot:isPropertyOfInterestOf &#60;etsi&lowbar;premises/athena> ;&#92;r  &#10;coswot:hasKind coswot:Luminance ;&#92;r  &#10;rdfs:comment &#34;The luminance of amphitheatre ATHENA&#34;@en .&#92;r  &#10;&#34;&#34;&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A property of interest is the property of (OP coswot:isPropertyOfInterestOf) exactly one feature of interest.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Per convention, the IRI of properties of interest should consist of the IRI of their feature of interest, suffixed with a fragment identifier #{P} where {P} refers to the name of the property kind.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Properties of interest need not always be explicited. It depends on the use case. Typically, properties of interest are useful in applications, where the association between a feature of interest and a property kind needs to be identified and related to other properties of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 67
+
+[Jump to summary definition](#summary-MinorFail-67)	|	[Previous MinorFail outcome](#minorfail-outcome-number-66)	|	[Next MinorFail outcome](#minorfail-outcome-number-68)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-67)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-67)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-67)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-67)|Pointer|<pre lang="Turtle"><code>coswot:Property a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features that can be observed or controlled by devices. A property kind can apply to different features of interest, while a property of interest is specific to a feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:PropertyOfInterest coswot:PropertyKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 68
+
+[Jump to summary definition](#summary-MinorFail-68)	|	[Previous MinorFail outcome](#minorfail-outcome-number-67)	|	[Next MinorFail outcome](#minorfail-outcome-number-69)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-68)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-68)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-68)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-68)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-68)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-68)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-68)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-68)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isPropertyOfInterestOf .</code></pre>|
+
+***
+### MinorFail Outcome number 69
+
+[Jump to summary definition](#summary-MinorFail-69)	|	[Previous MinorFail outcome](#minorfail-outcome-number-68)	|	[Next MinorFail outcome](#minorfail-outcome-number-70)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-69)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-69)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-69)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-69)|Pointer|<pre lang="Turtle"><code>coswot:PropertyKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features that can be observed or controlled by devices. A property can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Property ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Air temperature, pressure, luminance, etc. are all property kinds.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;&#34;&#34;Two examples using the QUDT Quantity Kind vocabulary, and the British Oceanographic Data Centre Parameter Usage Vocabulary.&#92;r  &#10;&#92;r  &#10; &#60;https://qudt.org/2.1/vocab/quantitykind/ActiveEnergy> a coswot:PropertyKind ;&#92;r  &#10;rdfs:label &#34;Active Energy&#34;@en ;&#92;r  &#10;rdfs:comment &#34;&#34;Active Energy&#34; is the electrical energy transformable into some other form of energy.&#34;@en .&#92;r  &#10;&#92;r  &#10; &#60;http://vocab.nerc.ac.uk/collection/P01/current/CDTSZZ01/> a coswot:PropertyKind ;&#92;r  &#10;skos:prefLabel &#34;Absolute temperature standard deviation of the atmosphere by dry bulb thermometer&#34;@en .&#92;r  &#10;&#34;&#34;&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:PropertyKind.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-69)|Pointer|<pre lang="Turtle"><code>coswot:PropertyOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features of interest that can be observed or controlled by devices. An instance of coswot:PropertyOfInterest is specific to a feature of interest. It is inherent to and cannot exist without that feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:PropertyKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isPropertyOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Property ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;&#34;&#34;The air temperature of the atmosphere sample at a certain location and altitude, the received signal strength indicator of an wireless IoT connection, the luminance of the ETSI ATHENA amphitheatre.&#92;r  &#10;&#92;r  &#10; &#60;etsi&lowbar;premises/athena#luminance> a coswot:PropertyOfInterest ;&#92;r  &#10;coswot:isPropertyOfInterestOf &#60;etsi&lowbar;premises/athena> ;&#92;r  &#10;coswot:hasKind coswot:Luminance ;&#92;r  &#10;rdfs:comment &#34;The luminance of amphitheatre ATHENA&#34;@en .&#92;r  &#10;&#34;&#34;&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A property of interest is the property of (OP coswot:isPropertyOfInterestOf) exactly one feature of interest.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Per convention, the IRI of properties of interest should consist of the IRI of their feature of interest, suffixed with a fragment identifier #{P} where {P} refers to the name of the property kind.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Properties of interest need not always be explicited. It depends on the use case. Typically, properties of interest are useful in applications, where the association between a feature of interest and a property kind needs to be identified and related to other properties of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 70
+
+[Jump to summary definition](#summary-MinorFail-70)	|	[Previous MinorFail outcome](#minorfail-outcome-number-69)	|	[Next MinorFail outcome](#minorfail-outcome-number-71)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-70)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-70)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-70)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-70)|Pointer|<pre lang="Turtle"><code>coswot:hasProperty a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature to one of its property kinds.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:Feature ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isPropertyOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasProperty ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasKind coswot:hasProperty ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasPropertyOfInterest coswot:hasKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 71
+
+[Jump to summary definition](#summary-MinorFail-71)	|	[Previous MinorFail outcome](#minorfail-outcome-number-70)	|	[Next MinorFail outcome](#minorfail-outcome-number-72)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-71)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-71)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-71)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-71)|Pointer|<pre lang="Turtle"><code>coswot:Property a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features that can be observed or controlled by devices. A property kind can apply to different features of interest, while a property of interest is specific to a feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:PropertyOfInterest coswot:PropertyKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 72
+
+[Jump to summary definition](#summary-MinorFail-72)	|	[Previous MinorFail outcome](#minorfail-outcome-number-71)	|	[Next MinorFail outcome](#minorfail-outcome-number-73)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-72)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-72)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-72)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-72)|Pointer|<pre lang="Turtle"><code>coswot:PropertyKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features that can be observed or controlled by devices. A property can apply to different features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Property ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Air temperature, pressure, luminance, etc. are all property kinds.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;&#34;&#34;Two examples using the QUDT Quantity Kind vocabulary, and the British Oceanographic Data Centre Parameter Usage Vocabulary.&#92;r  &#10;&#92;r  &#10; &#60;https://qudt.org/2.1/vocab/quantitykind/ActiveEnergy> a coswot:PropertyKind ;&#92;r  &#10;rdfs:label &#34;Active Energy&#34;@en ;&#92;r  &#10;rdfs:comment &#34;&#34;Active Energy&#34; is the electrical energy transformable into some other form of energy.&#34;@en .&#92;r  &#10;&#92;r  &#10; &#60;http://vocab.nerc.ac.uk/collection/P01/current/CDTSZZ01/> a coswot:PropertyKind ;&#92;r  &#10;skos:prefLabel &#34;Absolute temperature standard deviation of the atmosphere by dry bulb thermometer&#34;@en .&#92;r  &#10;&#34;&#34;&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Concepts from existing code lists, vocabularies, and taxonomies, may be used as instances of coswot:PropertyKind.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-72)|Pointer|<pre lang="Turtle"><code>coswot:PropertyOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features of interest that can be observed or controlled by devices. An instance of coswot:PropertyOfInterest is specific to a feature of interest. It is inherent to and cannot exist without that feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:PropertyKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isPropertyOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Property ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;&#34;&#34;The air temperature of the atmosphere sample at a certain location and altitude, the received signal strength indicator of an wireless IoT connection, the luminance of the ETSI ATHENA amphitheatre.&#92;r  &#10;&#92;r  &#10; &#60;etsi&lowbar;premises/athena#luminance> a coswot:PropertyOfInterest ;&#92;r  &#10;coswot:isPropertyOfInterestOf &#60;etsi&lowbar;premises/athena> ;&#92;r  &#10;coswot:hasKind coswot:Luminance ;&#92;r  &#10;rdfs:comment &#34;The luminance of amphitheatre ATHENA&#34;@en .&#92;r  &#10;&#34;&#34;&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A property of interest is the property of (OP coswot:isPropertyOfInterestOf) exactly one feature of interest.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Per convention, the IRI of properties of interest should consist of the IRI of their feature of interest, suffixed with a fragment identifier #{P} where {P} refers to the name of the property kind.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Properties of interest need not always be explicited. It depends on the use case. Typically, properties of interest are useful in applications, where the association between a feature of interest and a property kind needs to be identified and related to other properties of interest.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 73
+
+[Jump to summary definition](#summary-MinorFail-73)	|	[Previous MinorFail outcome](#minorfail-outcome-number-72)	|	[Next MinorFail outcome](#minorfail-outcome-number-74)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-73)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-73)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-73)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-73)|Pointer|<pre lang="Turtle"><code>coswot:Property a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Property&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Identifiable qualities of features that can be observed or controlled by devices. A property kind can apply to different features of interest, while a property of interest is specific to a feature of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/properties> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:PropertyOfInterest coswot:PropertyKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 74
+
+[Jump to summary definition](#summary-MinorFail-74)	|	[Previous MinorFail outcome](#minorfail-outcome-number-73)	|	[Next MinorFail outcome](#minorfail-outcome-number-75)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-properties-ontology|
+|----|----|
+|Title|Standalone module src/properties/ontology.ttl from branch main|
+|Composition|- [Module properties/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/properties/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-74)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-74)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-74)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-74)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-74)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-74)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-74)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:PropertyKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-74)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isPropertyOfInterestOf .</code></pre>|
+
+***
+### MinorFail Outcome number 75
+
+[Jump to summary definition](#summary-MinorFail-75)	|	[Previous MinorFail outcome](#minorfail-outcome-number-74)	|	[Next MinorFail outcome](#minorfail-outcome-number-76)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
+|----|----|
+|Title|Domain and range referencing test|
+|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-75)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-75)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-75)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-75)|Pointer|<pre lang="Turtle"><code>:hasPhenomenonTime a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has phenomenon time&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a procedure execution to the time that the result appl...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &lowbar;:n879c8e336bd846c8a8d69b071376d689b1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:ProcedureExecution ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/procedures> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;time:TemporalEntity ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasPhenomenonTime ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasPhenomenonTime .  &#10;&lowbar;:n879c8e336bd846c8a8d69b071376d689b2 rdf:first :Procedure ;  &#10;&#32;&#32;&#32;&#32;rdf:rest ( :ProcedureExecution ) .  &#10;&lowbar;:n879c8e336bd846c8a8d69b071376d689b1 a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:n879c8e336bd846c8a8d69b071376d689b1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &lowbar;:n879c8e336bd846c8a8d69b071376d689b1 ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf &lowbar;:n879c8e336bd846c8a8d69b071376d689b2 .</code></pre>|
+|[Section top](#minorfail-outcome-number-75)|Pointer|<pre lang="Turtle"><code>:TemporalEntity a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:TemporalEntity ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass :TemporalEntity .</code></pre>|
+
+***
+### MinorFail Outcome number 76
+
+[Jump to summary definition](#summary-MinorFail-76)	|	[Previous MinorFail outcome](#minorfail-outcome-number-75)	|	[Next MinorFail outcome](#minorfail-outcome-number-77)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-76)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-76)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-76)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-76)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Procedure coswot:ProcedureExecution ) .</code></pre>|
+
+***
+### MinorFail Outcome number 77
+
+[Jump to summary definition](#summary-MinorFail-77)	|	[Previous MinorFail outcome](#minorfail-outcome-number-76)	|	[Next MinorFail outcome](#minorfail-outcome-number-78)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-77)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-77)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-77)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-77)|Pointer|<pre lang="Turtle"><code>coswot:hasInput a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has input&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a procedure (e.g., a command) or procedure execution (e.g., an observation) to its inputs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Procedure coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Different complementary commands can be defined for controlling a light. Turn on or off the light based on a desired state, toggle the light status of a specific light, set the luminosity level with a transition time, set the default transition time, start comfort.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 78
+
+[Jump to summary definition](#summary-MinorFail-78)	|	[Previous MinorFail outcome](#minorfail-outcome-number-77)	|	[Next MinorFail outcome](#minorfail-outcome-number-79)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-78)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-78)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-78)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-78)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Procedure coswot:ProcedureExecution ) .</code></pre>|
+
+***
+### MinorFail Outcome number 79
+
+[Jump to summary definition](#summary-MinorFail-79)	|	[Previous MinorFail outcome](#minorfail-outcome-number-78)	|	[Next MinorFail outcome](#minorfail-outcome-number-80)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-79)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-79)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-79)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-79)|Pointer|<pre lang="Turtle"><code>coswot:hasInput a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has input&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a procedure (e.g., a command) or procedure execution (e.g., an observation) to its inputs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Procedure coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Different complementary commands can be defined for controlling a light. Turn on or off the light based on a desired state, toggle the light status of a specific light, set the luminosity level with a transition time, set the default transition time, start comfort.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 80
+
+[Jump to summary definition](#summary-MinorFail-80)	|	[Previous MinorFail outcome](#minorfail-outcome-number-79)	|	[Next MinorFail outcome](#minorfail-outcome-number-81)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-80)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-80)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-80)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-80)|Pointer|<pre lang="Turtle"><code>coswot:isExecutionOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is execution of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a procedure execution to the procedure that was executed.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:ProcedureExecution ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/procedures> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:Procedure ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:isExecutionOf skos:broader ) .</code></pre>|
+
+***
+### MinorFail Outcome number 81
+
+[Jump to summary definition](#summary-MinorFail-81)	|	[Previous MinorFail outcome](#minorfail-outcome-number-80)	|	[Next MinorFail outcome](#minorfail-outcome-number-82)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-81)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-81)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-81)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-81)|Pointer|<pre lang="Turtle"><code>coswot:hasInput a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has input&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a procedure (e.g., a command) or procedure execution (e.g., an observation) to its inputs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Procedure coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Different complementary commands can be defined for controlling a light. Turn on or off the light based on a desired state, toggle the light status of a specific light, set the luminosity level with a transition time, set the default transition time, start comfort.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 82
+
+[Jump to summary definition](#summary-MinorFail-82)	|	[Previous MinorFail outcome](#minorfail-outcome-number-81)	|	[Next MinorFail outcome](#minorfail-outcome-number-83)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-procedures-ontology|
+|----|----|
+|Title|Standalone module src/procedures/ontology.ttl from branch main|
+|Composition|- [Module procedures/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/procedures/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-82)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-82)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-82)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-82)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Procedure coswot:ProcedureExecution ) .</code></pre>|
+
+***
+### MinorFail Outcome number 83
+
+[Jump to summary definition](#summary-MinorFail-83)	|	[Previous MinorFail outcome](#minorfail-outcome-number-82)	|	[Next MinorFail outcome](#minorfail-outcome-number-84)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-83)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-83)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-83)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-83)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes .</code></pre>|
+|[Section top](#minorfail-outcome-number-83)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:SensingCommand .</code></pre>|
+|[Section top](#minorfail-outcome-number-83)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Sensor coswot:SensingFunction coswot:SensingCommand coswot:Observation ) .</code></pre>|
+
+***
+### MinorFail Outcome number 84
+
+[Jump to summary definition](#summary-MinorFail-84)	|	[Previous MinorFail outcome](#minorfail-outcome-number-83)	|	[Next MinorFail outcome](#minorfail-outcome-number-85)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-84)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-84)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-84)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-84)|Pointer|<pre lang="Turtle"><code>coswot:observes a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;observes&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a sensor, sensing function, sensing command, or observation, to the feature, property, or state, it observes.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Sensor coswot:SensingFunction coswot:SensingCommand coswot:Observation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/procedures> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:targets ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isObservedBy .</code></pre>|
+
+***
+### MinorFail Outcome number 85
+
+[Jump to summary definition](#summary-MinorFail-85)	|	[Previous MinorFail outcome](#minorfail-outcome-number-84)	|	[Next MinorFail outcome](#minorfail-outcome-number-86)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-85)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-85)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-85)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-85)|Pointer|<pre lang="Turtle"><code>coswot:Observation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Observation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Observation is the act of carrying out a procedure to estimate or calculate a value of a property of a feature of interest, or a state of a feature of interest. It links to a sensor to describe what made the observation, and to the observed feature, property, property of interest, state, or state of interest. Typically, its result is a property value or a state. An observation of a state (OP coswot:observes) should have a state as a result (OP coswot:hasResult). Respectively, an observation of a property should have a property value as a result.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Sensor ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-85)|Pointer|<pre lang="Turtle"><code>coswot:SensingCommand a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensing Command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An instance of sensing command is a command that observes something.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command .</code></pre>|
+|[Section top](#minorfail-outcome-number-85)|Pointer|<pre lang="Turtle"><code>coswot:SensingFunction a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensing Function&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An sensing function is a function that has at least one sensing command.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:SensingCommand ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Function .</code></pre>|
+|[Section top](#minorfail-outcome-number-85)|Pointer|<pre lang="Turtle"><code>coswot:SensorOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensor Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A specific, tangible device designed to observe one or more properties or states of one or more features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:DeviceOfInterest,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Sensor .</code></pre>|
+
+***
+### MinorFail Outcome number 86
+
+[Jump to summary definition](#summary-MinorFail-86)	|	[Previous MinorFail outcome](#minorfail-outcome-number-85)	|	[Next MinorFail outcome](#minorfail-outcome-number-87)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-86)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-86)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-86)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-86)|Pointer|<pre lang="Turtle"><code>coswot:Sensor a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensor&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Sensors are devices designed to observe one or more properties or states of features.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:SensorOfInterest coswot:SensorKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 87
+
+[Jump to summary definition](#summary-MinorFail-87)	|	[Previous MinorFail outcome](#minorfail-outcome-number-86)	|	[Next MinorFail outcome](#minorfail-outcome-number-88)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-87)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-87)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-87)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-87)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes .</code></pre>|
+|[Section top](#minorfail-outcome-number-87)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Sensor ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy .</code></pre>|
+|[Section top](#minorfail-outcome-number-87)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Sensor coswot:SensingFunction coswot:SensingCommand coswot:Observation ) .</code></pre>|
+
+***
+### MinorFail Outcome number 88
+
+[Jump to summary definition](#summary-MinorFail-88)	|	[Previous MinorFail outcome](#minorfail-outcome-number-87)	|	[Next MinorFail outcome](#minorfail-outcome-number-89)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-88)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-88)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-88)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-88)|Pointer|<pre lang="Turtle"><code>coswot:observes a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;observes&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a sensor, sensing function, sensing command, or observation, to the feature, property, or state, it observes.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Sensor coswot:SensingFunction coswot:SensingCommand coswot:Observation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/procedures> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:targets ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isObservedBy .</code></pre>|
+
+***
+### MinorFail Outcome number 89
+
+[Jump to summary definition](#summary-MinorFail-89)	|	[Previous MinorFail outcome](#minorfail-outcome-number-88)	|	[Next MinorFail outcome](#minorfail-outcome-number-90)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-89)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-89)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-89)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-89)|Pointer|<pre lang="Turtle"><code>coswot:Observation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Observation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Observation is the act of carrying out a procedure to estimate or calculate a value of a property of a feature of interest, or a state of a feature of interest. It links to a sensor to describe what made the observation, and to the observed feature, property, property of interest, state, or state of interest. Typically, its result is a property value or a state. An observation of a state (OP coswot:observes) should have a state as a result (OP coswot:hasResult). Respectively, an observation of a property should have a property value as a result.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Sensor ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-89)|Pointer|<pre lang="Turtle"><code>coswot:SensingCommand a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensing Command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An instance of sensing command is a command that observes something.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command .</code></pre>|
+|[Section top](#minorfail-outcome-number-89)|Pointer|<pre lang="Turtle"><code>coswot:SensorOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensor Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A specific, tangible device designed to observe one or more properties or states of one or more features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:DeviceOfInterest,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Sensor .</code></pre>|
+
+***
+### MinorFail Outcome number 90
+
+[Jump to summary definition](#summary-MinorFail-90)	|	[Previous MinorFail outcome](#minorfail-outcome-number-89)	|	[Next MinorFail outcome](#minorfail-outcome-number-91)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-90)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-90)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-90)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-90)|Pointer|<pre lang="Turtle"><code>coswot:Sensor a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensor&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Sensors are devices designed to observe one or more properties or states of features.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:SensorOfInterest coswot:SensorKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 91
+
+[Jump to summary definition](#summary-MinorFail-91)	|	[Previous MinorFail outcome](#minorfail-outcome-number-90)	|	[Next MinorFail outcome](#minorfail-outcome-number-92)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-91)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-91)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-91)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-91)|Pointer|<pre lang="Turtle"><code>coswot:observes a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;observes&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a sensor, sensing function, sensing command, or observation, to the feature, property, or state, it observes.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Sensor coswot:SensingFunction coswot:SensingCommand coswot:Observation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/procedures> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:targets ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isObservedBy .</code></pre>|
+
+***
+### MinorFail Outcome number 92
+
+[Jump to summary definition](#summary-MinorFail-92)	|	[Previous MinorFail outcome](#minorfail-outcome-number-91)	|	[Next MinorFail outcome](#minorfail-outcome-number-93)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-92)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-92)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-92)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-92)|Pointer|<pre lang="Turtle"><code>coswot:Observation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Observation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Observation is the act of carrying out a procedure to estimate or calculate a value of a property of a feature of interest, or a state of a feature of interest. It links to a sensor to describe what made the observation, and to the observed feature, property, property of interest, state, or state of interest. Typically, its result is a property value or a state. An observation of a state (OP coswot:observes) should have a state as a result (OP coswot:hasResult). Respectively, an observation of a property should have a property value as a result.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Sensor ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-92)|Pointer|<pre lang="Turtle"><code>coswot:SensingCommand a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensing Command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An instance of sensing command is a command that observes something.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command .</code></pre>|
+|[Section top](#minorfail-outcome-number-92)|Pointer|<pre lang="Turtle"><code>coswot:SensorOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensor Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A specific, tangible device designed to observe one or more properties or states of one or more features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:DeviceOfInterest,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Sensor .</code></pre>|
+
+***
+### MinorFail Outcome number 93
+
+[Jump to summary definition](#summary-MinorFail-93)	|	[Previous MinorFail outcome](#minorfail-outcome-number-92)	|	[Next MinorFail outcome](#minorfail-outcome-number-94)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-93)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-93)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-93)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-93)|Pointer|<pre lang="Turtle"><code>coswot:Sensor a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Sensor&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Sensors are devices designed to observe one or more properties or states of features.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/observations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:SensorOfInterest coswot:SensorKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 94
+
+[Jump to summary definition](#summary-MinorFail-94)	|	[Previous MinorFail outcome](#minorfail-outcome-number-93)	|	[Next MinorFail outcome](#minorfail-outcome-number-95)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-observations-ontology|
+|----|----|
+|Title|Standalone module src/observations/ontology.ttl from branch main|
+|Composition|- [Module observations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/observations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-94)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-94)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-94)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-94)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:observes .</code></pre>|
+|[Section top](#minorfail-outcome-number-94)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Sensor ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy .</code></pre>|
+|[Section top](#minorfail-outcome-number-94)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Sensor coswot:SensingFunction coswot:SensingCommand coswot:Observation ) .</code></pre>|
+
+***
+### MinorFail Outcome number 95
+
+[Jump to summary definition](#summary-MinorFail-95)	|	[Previous MinorFail outcome](#minorfail-outcome-number-94)	|	[Next MinorFail outcome](#minorfail-outcome-number-96)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-95)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-95)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-95)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-95)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FunctionKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-95)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOfInterestOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-95)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommandKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-95)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOfInterestOf .</code></pre>|
+
+***
+### MinorFail Outcome number 96
+
+[Jump to summary definition](#summary-MinorFail-96)	|	[Previous MinorFail outcome](#minorfail-outcome-number-95)	|	[Next MinorFail outcome](#minorfail-outcome-number-97)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-96)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-96)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-96)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-96)|Pointer|<pre lang="Turtle"><code>coswot:CommandOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Command Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;The lowest-level directives a device supports and exposes to some network. Commands can target (OP coswot:targets and its sub-properties) features, properties, or states. A coswot:CommandOfInterest is a directives actually supported by a device and exposed to some network.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommandKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;The corridor smart light switch supports a command of kind “turn on/off”, which controls the state of the outdoor light.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;The smart fridge supports a command of kind “observe temperature”, which observes the temperature of the fridge.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Commands of interest need not always be explicited. It depends on the use case. Typically, commands of interest are useful to specify the actual property of interest or state of interest that is expected as input parameter, output, or that will be targeted.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Like for commands, commands of interest may be described in terms of their input parameters, outputs, and of which properties or states they target.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-96)|Pointer|<pre lang="Turtle"><code>coswot:FunctionOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function can target (OP coswot:targets and its sub-properties) features, properties, or states. An instance of coswot:FunctionOfInterest is supported by exactly one device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FunctionKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Function ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A function of interest is the function of (OP coswot:isFunctionOfInterestOf) exactly one device.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Functions of interest need not always be explicited. It depends on the use case. Typically, functions of interest are useful to specify which command is actually exposed, and which actual property of interest or state of interest it targets.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 97
+
+[Jump to summary definition](#summary-MinorFail-97)	|	[Previous MinorFail outcome](#minorfail-outcome-number-96)	|	[Next MinorFail outcome](#minorfail-outcome-number-98)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-97)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-97)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-97)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-97)|Pointer|<pre lang="Turtle"><code>coswot:Function a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function can target (OP coswot:targets and its sub-properties) features, properties, or states. While an instance of coswot:FunctionKind can apply to different devices, an instance of coswot:FunctionOfInterest is specific to a device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf coswot:ProcedureCollection ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:FunctionOfInterest coswot:FunctionKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 98
+
+[Jump to summary definition](#summary-MinorFail-98)	|	[Previous MinorFail outcome](#minorfail-outcome-number-97)	|	[Next MinorFail outcome](#minorfail-outcome-number-99)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-98)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-98)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-98)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasFunction .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOfInterestOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOfInterestOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-98)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf .</code></pre>|
+
+***
+### MinorFail Outcome number 99
+
+[Jump to summary definition](#summary-MinorFail-99)	|	[Previous MinorFail outcome](#minorfail-outcome-number-98)	|	[Next MinorFail outcome](#minorfail-outcome-number-100)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-99)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-99)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-99)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-99)|Pointer|<pre lang="Turtle"><code>coswot:CommandExecution a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Command Execution&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Describes the execution of a command. Typically, its inputs and outputs are human understandable and relate to some feature of interest, such as its state (e.g., ex:On), or the value of its temperature (e.g., property value 21.0 °C).&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-99)|Pointer|<pre lang="Turtle"><code>coswot:CommandKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Command Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;The lowest-level directives a function exposes to some network. Commands can target (OP coswot:targets and its sub-properties) features, properties, or states. An instance of coswot:CommandKind is independent of any device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Observe property, control property, observe state, control state, invoke action, cancel action, turn on or off, change color, subscribe, publish, etc. are all commands.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-99)|Pointer|<pre lang="Turtle"><code>coswot:CommandOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Command Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;The lowest-level directives a device supports and exposes to some network. Commands can target (OP coswot:targets and its sub-properties) features, properties, or states. A coswot:CommandOfInterest is a directives actually supported by a device and exposed to some network.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommandKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;The corridor smart light switch supports a command of kind “turn on/off”, which controls the state of the outdoor light.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;The smart fridge supports a command of kind “observe temperature”, which observes the temperature of the fridge.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Commands of interest need not always be explicited. It depends on the use case. Typically, commands of interest are useful to specify the actual property of interest or state of interest that is expected as input parameter, output, or that will be targeted.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Like for commands, commands of interest may be described in terms of their input parameters, outputs, and of which properties or states they target.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-99)|Pointer|<pre lang="Turtle"><code>coswot:DeviceKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasFunction ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-99)|Pointer|<pre lang="Turtle"><code>coswot:FunctionKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function kinds can target (OP coswot:targets and its sub-properties) feature kinds, property kinds, or state kinds. An instance of coswot:FunctionKind can apply to different devices.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Function .</code></pre>|
+|[Section top](#minorfail-outcome-number-99)|Pointer|<pre lang="Turtle"><code>coswot:FunctionOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function can target (OP coswot:targets and its sub-properties) features, properties, or states. An instance of coswot:FunctionOfInterest is supported by exactly one device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FunctionKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Function ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A function of interest is the function of (OP coswot:isFunctionOfInterestOf) exactly one device.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Functions of interest need not always be explicited. It depends on the use case. Typically, functions of interest are useful to specify which command is actually exposed, and which actual property of interest or state of interest it targets.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 100
+
+[Jump to summary definition](#summary-MinorFail-100)	|	[Previous MinorFail outcome](#minorfail-outcome-number-99)	|	[Next MinorFail outcome](#minorfail-outcome-number-101)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-100)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-100)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-100)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-100)|Pointer|<pre lang="Turtle"><code>coswot:hasCommand a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a function and the command it supports.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:Function ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:Command ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isCommandOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:hasKind coswot:hasMandatoryCommand ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasCommandOfInterest coswot:hasKind ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-100)|Pointer|<pre lang="Turtle"><code>coswot:hasFunction a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has function&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a device to one of its functions.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:Device ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:Function ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isFunctionOf ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasFunction ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasKind coswot:hasFunction ),  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;( coswot:hasFunctionOfInterest coswot:hasKind ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-100)|Pointer|<pre lang="Turtle"><code>coswot:hasMandatoryCommand a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has mandatory command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a function and one of its mandatory commands&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:hasCommand ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( skos:broader coswot:hasMandatoryCommand ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-100)|Pointer|<pre lang="Turtle"><code>coswot:isExecutionOf owl:propertyChainAxiom ( coswot:isExecutionOf coswot:hasKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 101
+
+[Jump to summary definition](#summary-MinorFail-101)	|	[Previous MinorFail outcome](#minorfail-outcome-number-100)	|	[Next MinorFail outcome](#minorfail-outcome-number-102)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-101)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-101)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-101)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-101)|Pointer|<pre lang="Turtle"><code>coswot:Function a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function can target (OP coswot:targets and its sub-properties) features, properties, or states. While an instance of coswot:FunctionKind can apply to different devices, an instance of coswot:FunctionOfInterest is specific to a device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf coswot:ProcedureCollection ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:FunctionOfInterest coswot:FunctionKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 102
+
+[Jump to summary definition](#summary-MinorFail-102)	|	[Previous MinorFail outcome](#minorfail-outcome-number-101)	|	[Next MinorFail outcome](#minorfail-outcome-number-103)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-102)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-102)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-102)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-102)|Pointer|<pre lang="Turtle"><code>coswot:CommandExecution a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Command Execution&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Describes the execution of a command. Typically, its inputs and outputs are human understandable and relate to some feature of interest, such as its state (e.g., ex:On), or the value of its temperature (e.g., property value 21.0 °C).&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-102)|Pointer|<pre lang="Turtle"><code>coswot:CommandKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Command Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;The lowest-level directives a function exposes to some network. Commands can target (OP coswot:targets and its sub-properties) features, properties, or states. An instance of coswot:CommandKind is independent of any device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Observe property, control property, observe state, control state, invoke action, cancel action, turn on or off, change color, subscribe, publish, etc. are all commands.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-102)|Pointer|<pre lang="Turtle"><code>coswot:CommandOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Command Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;The lowest-level directives a device supports and exposes to some network. Commands can target (OP coswot:targets and its sub-properties) features, properties, or states. A coswot:CommandOfInterest is a directives actually supported by a device and exposed to some network.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommandKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;The corridor smart light switch supports a command of kind “turn on/off”, which controls the state of the outdoor light.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;The smart fridge supports a command of kind “observe temperature”, which observes the temperature of the fridge.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;Commands of interest need not always be explicited. It depends on the use case. Typically, commands of interest are useful to specify the actual property of interest or state of interest that is expected as input parameter, output, or that will be targeted.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Like for commands, commands of interest may be described in terms of their input parameters, outputs, and of which properties or states they target.&#34;@en .</code></pre>|
+|[Section top](#minorfail-outcome-number-102)|Pointer|<pre lang="Turtle"><code>coswot:DeviceKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasFunction ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-102)|Pointer|<pre lang="Turtle"><code>coswot:FunctionKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function kinds can target (OP coswot:targets and its sub-properties) feature kinds, property kinds, or state kinds. An instance of coswot:FunctionKind can apply to different devices.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Function .</code></pre>|
+|[Section top](#minorfail-outcome-number-102)|Pointer|<pre lang="Turtle"><code>coswot:FunctionOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function can target (OP coswot:targets and its sub-properties) features, properties, or states. An instance of coswot:FunctionOfInterest is supported by exactly one device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FunctionKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOfInterestOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Function ;  &#10;&#32;&#32;&#32;&#32;skos:note &#34;A function of interest is the function of (OP coswot:isFunctionOfInterestOf) exactly one device.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Functions of interest need not always be explicited. It depends on the use case. Typically, functions of interest are useful to specify which command is actually exposed, and which actual property of interest or state of interest it targets.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 103
+
+[Jump to summary definition](#summary-MinorFail-103)	|	[Previous MinorFail outcome](#minorfail-outcome-number-102)	|	[Next MinorFail outcome](#minorfail-outcome-number-104)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-103)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-103)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-103)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-103)|Pointer|<pre lang="Turtle"><code>coswot:Function a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Function&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Logical groups of commands that devices support to accomplish their tasks. Function can target (OP coswot:targets and its sub-properties) features, properties, or states. While an instance of coswot:FunctionKind can apply to different devices, an instance of coswot:FunctionOfInterest is specific to a device.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/functions&lowbar;commands> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf coswot:ProcedureCollection ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:FunctionOfInterest coswot:FunctionKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 104
+
+[Jump to summary definition](#summary-MinorFail-104)	|	[Previous MinorFail outcome](#minorfail-outcome-number-103)	|	[Next MinorFail outcome](#minorfail-outcome-number-105)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-104)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-104)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-104)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasFunction .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isFunctionOfInterestOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] owl:allValuesFrom coswot:CommandKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] owl:allValuesFrom coswot:FunctionKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isCommandOfInterestOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-104)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Command ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:isExecutionOf .</code></pre>|
+
+***
+### MinorFail Outcome number 105
+
+[Jump to summary definition](#summary-MinorFail-105)	|	[Previous MinorFail outcome](#minorfail-outcome-number-104)	|	[Next MinorFail outcome](#minorfail-outcome-number-106)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-functions_commands-ontology|
+|----|----|
+|Title|Standalone module src/functions&lowbar;commands/ontology.ttl from branch main|
+|Composition|- [Module functions&lowbar;commands/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/functions_commands/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -2007,142 +3195,25 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-105)|Identifier|`no-reference-module`|
+|[Section top](#minorfail-outcome-number-105)|Title|Term not referenced to a module|
+|[Section top](#minorfail-outcome-number-105)|Description|Subject terms not linked to a module by a rdfs:isDefinedBy property|
+|[Section top](#minorfail-outcome-number-105)|Pointer|<pre lang="Turtle"><code>:DeviceKind rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :FunctionKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :hasFunction ] .</code></pre>|
+|[Section top](#minorfail-outcome-number-105)|Pointer|<pre lang="Turtle"><code>:isExecutionOf owl:propertyChainAxiom ( :isExecutionOf :hasKind ) .</code></pre>|
 
 ***
-### NotTested Outcome number 18
+### MinorFail Outcome number 106
 
-[Jump to summary definition](#summary-NotTested-18)
+[Jump to summary definition](#summary-MinorFail-106)	|	[Previous MinorFail outcome](#minorfail-outcome-number-105)	|	[Next MinorFail outcome](#minorfail-outcome-number-107)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-broken|
+|Name|module-src-features-ontology.catalogs|
 |----|----|
-|Title|Standalone module src/broken.ttl from branch refs/heads/main|
-|Composition|- [Module broken.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/broken.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 19
-
-[Jump to summary definition](#summary-NotTested-19)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-syntax|
-|----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 20
-
-[Jump to summary definition](#summary-NotTested-20)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-syntax|
-|----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 21
-
-[Jump to summary definition](#summary-NotTested-21)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-syntax|
-|----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 22
-
-[Jump to summary definition](#summary-NotTested-22)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-syntax|
-|----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 23
-
-[Jump to summary definition](#summary-NotTested-23)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-syntax|
-|----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone module src/features/ontology.catalogs.ttl from branch main|
+|Composition|- [Module features/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.catalogs.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2151,22 +3222,26 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-106)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-106)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-106)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-106)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-106)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-106)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf .</code></pre>|
 
 ***
-### NotTested Outcome number 24
+### MinorFail Outcome number 107
 
-[Jump to summary definition](#summary-NotTested-24)
+[Jump to summary definition](#summary-MinorFail-107)	|	[Previous MinorFail outcome](#minorfail-outcome-number-106)	|	[Next MinorFail outcome](#minorfail-outcome-number-108)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-syntax|
+|Name|module-src-features-ontology.catalogs|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone module src/features/ontology.catalogs.ttl from branch main|
+|Composition|- [Module features/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.catalogs.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2175,22 +3250,24 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-107)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-107)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-107)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-107)|Pointer|<pre lang="Turtle"><code>coswot:FeatureKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A Feature Kind represents an archetype of real world entities, with common properties having the same value, and common states being the same. Feature Kinds can be used to populate product catalogs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept .</code></pre>|
 
 ***
-### NotTested Outcome number 25
+### MinorFail Outcome number 108
 
-[Jump to summary definition](#summary-NotTested-25)
+[Jump to summary definition](#summary-MinorFail-108)	|	[Previous MinorFail outcome](#minorfail-outcome-number-107)	|	[Next MinorFail outcome](#minorfail-outcome-number-109)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-syntax|
+|Name|module-src-features-ontology.catalogs|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone module src/features/ontology.catalogs.ttl from branch main|
+|Composition|- [Module features/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.catalogs.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2199,22 +3276,653 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-108)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-108)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-108)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-108)|Pointer|<pre lang="Turtle"><code>coswot:FeatureKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A Feature Kind represents an archetype of real world entities, with common properties having the same value, and common states being the same. Feature Kinds can be used to populate product catalogs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept .</code></pre>|
 
 ***
-### NotTested Outcome number 26
+### MinorFail Outcome number 109
 
-[Jump to summary definition](#summary-NotTested-26)
+[Jump to summary definition](#summary-MinorFail-109)	|	[Previous MinorFail outcome](#minorfail-outcome-number-108)	|	[Next MinorFail outcome](#minorfail-outcome-number-110)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-syntax|
+|Name|module-src-features-ontology.catalogs|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone module src/features/ontology.catalogs.ttl from branch main|
+|Composition|- [Module features/ontology.catalogs](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.catalogs.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-109)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-109)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-109)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-109)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-109)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-109)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf .</code></pre>|
+
+***
+### MinorFail Outcome number 110
+
+[Jump to summary definition](#summary-MinorFail-110)	|	[Previous MinorFail outcome](#minorfail-outcome-number-109)	|	[Next MinorFail outcome](#minorfail-outcome-number-111)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-110)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-110)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-110)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-110)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FeatureKind .</code></pre>|
+
+***
+### MinorFail Outcome number 111
+
+[Jump to summary definition](#summary-MinorFail-111)	|	[Previous MinorFail outcome](#minorfail-outcome-number-110)	|	[Next MinorFail outcome](#minorfail-outcome-number-112)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-111)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-111)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-111)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-111)|Pointer|<pre lang="Turtle"><code>coswot:FeatureOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature of interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A feature of interest represents one specific real world entity from which a property or a state may be acted upon, such as observed and controlled.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FeatureKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Feature .</code></pre>|
+
+***
+### MinorFail Outcome number 112
+
+[Jump to summary definition](#summary-MinorFail-112)	|	[Previous MinorFail outcome](#minorfail-outcome-number-111)	|	[Next MinorFail outcome](#minorfail-outcome-number-113)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-112)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-112)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-112)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-112)|Pointer|<pre lang="Turtle"><code>coswot:Feature a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Real world entities from which a property or a state may be acted upon, such as observed and controlled. Features of interest represent specific real world entities, while feature kinds represent archetypes of features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:FeatureOfInterest coswot:FeatureKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 113
+
+[Jump to summary definition](#summary-MinorFail-113)	|	[Previous MinorFail outcome](#minorfail-outcome-number-112)	|	[Next MinorFail outcome](#minorfail-outcome-number-114)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-113)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-113)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-113)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-113)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-113)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-113)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-113)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-113)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-113)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf .</code></pre>|
+
+***
+### MinorFail Outcome number 114
+
+[Jump to summary definition](#summary-MinorFail-114)	|	[Previous MinorFail outcome](#minorfail-outcome-number-113)	|	[Next MinorFail outcome](#minorfail-outcome-number-115)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-114)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-114)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-114)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-114)|Pointer|<pre lang="Turtle"><code>coswot:FeatureKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A Feature Kind represents an archetype of real world entities, with common properties having the same value, and common states being the same. Feature Kinds can be used to populate product catalogs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Feature .</code></pre>|
+|[Section top](#minorfail-outcome-number-114)|Pointer|<pre lang="Turtle"><code>coswot:FeatureOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature of interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A feature of interest represents one specific real world entity from which a property or a state may be acted upon, such as observed and controlled.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FeatureKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Feature .</code></pre>|
+
+***
+### MinorFail Outcome number 115
+
+[Jump to summary definition](#summary-MinorFail-115)	|	[Previous MinorFail outcome](#minorfail-outcome-number-114)	|	[Next MinorFail outcome](#minorfail-outcome-number-116)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-115)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-115)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-115)|Description|Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-115)|Pointer|<pre lang="Turtle"><code>coswot:hasKind a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has feature kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;links something of interest interest to its kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:hasKind skos:broader ) .</code></pre>|
+
+***
+### MinorFail Outcome number 116
+
+[Jump to summary definition](#summary-MinorFail-116)	|	[Previous MinorFail outcome](#minorfail-outcome-number-115)	|	[Next MinorFail outcome](#minorfail-outcome-number-117)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-116)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-116)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-116)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-116)|Pointer|<pre lang="Turtle"><code>coswot:Feature a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Real world entities from which a property or a state may be acted upon, such as observed and controlled. Features of interest represent specific real world entities, while feature kinds represent archetypes of features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:FeatureOfInterest coswot:FeatureKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 117
+
+[Jump to summary definition](#summary-MinorFail-117)	|	[Previous MinorFail outcome](#minorfail-outcome-number-116)	|	[Next MinorFail outcome](#minorfail-outcome-number-118)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-117)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-117)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-117)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-117)|Pointer|<pre lang="Turtle"><code>coswot:FeatureKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A Feature Kind represents an archetype of real world entities, with common properties having the same value, and common states being the same. Feature Kinds can be used to populate product catalogs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Feature .</code></pre>|
+|[Section top](#minorfail-outcome-number-117)|Pointer|<pre lang="Turtle"><code>coswot:FeatureOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature of interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A feature of interest represents one specific real world entity from which a property or a state may be acted upon, such as observed and controlled.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:FeatureKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Feature .</code></pre>|
+
+***
+### MinorFail Outcome number 118
+
+[Jump to summary definition](#summary-MinorFail-118)	|	[Previous MinorFail outcome](#minorfail-outcome-number-117)	|	[Next MinorFail outcome](#minorfail-outcome-number-119)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-118)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-118)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-118)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-118)|Pointer|<pre lang="Turtle"><code>coswot:Feature a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Feature&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Real world entities from which a property or a state may be acted upon, such as observed and controlled. Features of interest represent specific real world entities, while feature kinds represent archetypes of features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/features> ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:FeatureOfInterest coswot:FeatureKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 119
+
+[Jump to summary definition](#summary-MinorFail-119)	|	[Previous MinorFail outcome](#minorfail-outcome-number-118)	|	[Next MinorFail outcome](#minorfail-outcome-number-120)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-features-ontology|
+|----|----|
+|Title|Standalone module src/features/ontology.ttl from branch main|
+|Composition|- [Module features/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/features/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-119)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-119)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-119)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-119)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-119)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-119)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-119)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-119)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-119)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:consistsOf .</code></pre>|
+
+***
+### MinorFail Outcome number 120
+
+[Jump to summary definition](#summary-MinorFail-120)	|	[Previous MinorFail outcome](#minorfail-outcome-number-119)	|	[Next MinorFail outcome](#minorfail-outcome-number-121)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-120)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-120)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-120)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-120)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:DeviceKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-120)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-120)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) .</code></pre>|
+
+***
+### MinorFail Outcome number 121
+
+[Jump to summary definition](#summary-MinorFail-121)	|	[Previous MinorFail outcome](#minorfail-outcome-number-120)	|	[Next MinorFail outcome](#minorfail-outcome-number-122)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-121)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-121)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-121)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-121)|Pointer|<pre lang="Turtle"><code>coswot:isTargetOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is target of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature, property, or state, to the device, function, command, or procedure execution, that targets it.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:targets .</code></pre>|
+|[Section top](#minorfail-outcome-number-121)|Pointer|<pre lang="Turtle"><code>coswot:targets a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;targets&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a device, function, command, or procedure execution, to the feature, property, or state, it targets.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 122
+
+[Jump to summary definition](#summary-MinorFail-122)	|	[Previous MinorFail outcome](#minorfail-outcome-number-121)	|	[Next MinorFail outcome](#minorfail-outcome-number-123)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-122)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-122)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-122)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-122)|Pointer|<pre lang="Turtle"><code>coswot:DeviceOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. An instance of coswot:Device represents one specific real world entity.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:DeviceKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Examples of devices are a light switch, a temperature sensor, an energy meter, a water flow meter, and a laundry dryer. A laundry dryer is designed to dry laundry, and to accomplish this task it has a start/stop function.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 123
+
+[Jump to summary definition](#summary-MinorFail-123)	|	[Previous MinorFail outcome](#minorfail-outcome-number-122)	|	[Next MinorFail outcome](#minorfail-outcome-number-124)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-123)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-123)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-123)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-123)|Pointer|<pre lang="Turtle"><code>coswot:Device a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. An instance of coswot:DeviceOfInterest represents one specific real world entity, while an instance of coswot:DeviceKind represents an archetype of real world devices.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf coswot:System ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:DeviceOfInterest coswot:DeviceKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Examples of devices are a light switch, a temperature sensor, an energy meter, a water flow meter, and a laundry dryer. A laundry dryer is designed to dry laundry, and to accomplish this task it has a start/stop function.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 124
+
+[Jump to summary definition](#summary-MinorFail-124)	|	[Previous MinorFail outcome](#minorfail-outcome-number-123)	|	[Next MinorFail outcome](#minorfail-outcome-number-125)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-124)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-124)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-124)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-124)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-124)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-124)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-124)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-124)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-124)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) .</code></pre>|
+
+***
+### MinorFail Outcome number 125
+
+[Jump to summary definition](#summary-MinorFail-125)	|	[Previous MinorFail outcome](#minorfail-outcome-number-124)	|	[Next MinorFail outcome](#minorfail-outcome-number-126)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-125)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-125)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-125)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-125)|Pointer|<pre lang="Turtle"><code>coswot:isTargetOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is target of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature, property, or state, to the device, function, command, or procedure execution, that targets it.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:targets .</code></pre>|
+|[Section top](#minorfail-outcome-number-125)|Pointer|<pre lang="Turtle"><code>coswot:targets a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;targets&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a device, function, command, or procedure execution, to the feature, property, or state, it targets.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 126
+
+[Jump to summary definition](#summary-MinorFail-126)	|	[Previous MinorFail outcome](#minorfail-outcome-number-125)	|	[Next MinorFail outcome](#minorfail-outcome-number-127)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-126)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-126)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-126)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-126)|Pointer|<pre lang="Turtle"><code>coswot:DeviceKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Device kinds allow to describe kinds of devices, with common properties having the same value, common states being the same, common functions, and common services. An instance of coswot:DeviceKind represents an archetype of real world devices, for example to populate device catalogs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:FeatureKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-126)|Pointer|<pre lang="Turtle"><code>coswot:DeviceOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. An instance of coswot:Device represents one specific real world entity.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:DeviceKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Examples of devices are a light switch, a temperature sensor, an energy meter, a water flow meter, and a laundry dryer. A laundry dryer is designed to dry laundry, and to accomplish this task it has a start/stop function.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 127
+
+[Jump to summary definition](#summary-MinorFail-127)	|	[Previous MinorFail outcome](#minorfail-outcome-number-126)	|	[Next MinorFail outcome](#minorfail-outcome-number-128)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-127)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-127)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-127)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-127)|Pointer|<pre lang="Turtle"><code>coswot:Device a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. An instance of coswot:DeviceOfInterest represents one specific real world entity, while an instance of coswot:DeviceKind represents an archetype of real world devices.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf coswot:System ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:DeviceOfInterest coswot:DeviceKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Examples of devices are a light switch, a temperature sensor, an energy meter, a water flow meter, and a laundry dryer. A laundry dryer is designed to dry laundry, and to accomplish this task it has a start/stop function.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 128
+
+[Jump to summary definition](#summary-MinorFail-128)	|	[Previous MinorFail outcome](#minorfail-outcome-number-127)	|	[Next MinorFail outcome](#minorfail-outcome-number-129)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-128)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-128)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-128)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-128)|Pointer|<pre lang="Turtle"><code>coswot:isTargetOf a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;is target of&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a feature, property, or state, to the device, function, command, or procedure execution, that targets it.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:targets .</code></pre>|
+|[Section top](#minorfail-outcome-number-128)|Pointer|<pre lang="Turtle"><code>coswot:targets a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;targets&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a device, function, command, or procedure execution, to the feature, property, or state, it targets.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 129
+
+[Jump to summary definition](#summary-MinorFail-129)	|	[Previous MinorFail outcome](#minorfail-outcome-number-128)	|	[Next MinorFail outcome](#minorfail-outcome-number-130)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-129)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-129)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-129)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-129)|Pointer|<pre lang="Turtle"><code>coswot:DeviceKind a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device Kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Device kinds allow to describe kinds of devices, with common properties having the same value, common states being the same, common functions, and common services. An instance of coswot:DeviceKind represents an archetype of real world devices, for example to populate device catalogs.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:broader ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:FeatureKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-129)|Pointer|<pre lang="Turtle"><code>coswot:DeviceOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. An instance of coswot:Device represents one specific real world entity.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:DeviceKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:FeatureOfInterest ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Examples of devices are a light switch, a temperature sensor, an energy meter, a water flow meter, and a laundry dryer. A laundry dryer is designed to dry laundry, and to accomplish this task it has a start/stop function.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 130
+
+[Jump to summary definition](#summary-MinorFail-130)	|	[Previous MinorFail outcome](#minorfail-outcome-number-129)	|	[Next MinorFail outcome](#minorfail-outcome-number-131)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-130)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-130)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-130)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-130)|Pointer|<pre lang="Turtle"><code>coswot:Device a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Device&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A tangible object designed to accomplish a particular task. In order to accomplish this task, the device performs one or more functions. An instance of coswot:DeviceOfInterest represents one specific real world entity, while an instance of coswot:DeviceKind represents an archetype of real world devices.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/devices> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf coswot:System ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:DeviceOfInterest coswot:DeviceKind ) ;  &#10;&#32;&#32;&#32;&#32;skos:example &#34;Examples of devices are a light switch, a temperature sensor, an energy meter, a water flow meter, and a laundry dryer. A laundry dryer is designed to dry laundry, and to accomplish this task it has a start/stop function.&#34;@en .</code></pre>|
+
+***
+### MinorFail Outcome number 131
+
+[Jump to summary definition](#summary-MinorFail-131)	|	[Previous MinorFail outcome](#minorfail-outcome-number-130)	|	[Next MinorFail outcome](#minorfail-outcome-number-132)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-devices-ontology|
+|----|----|
+|Title|Standalone module src/devices/ontology.ttl from branch main|
+|Composition|- [Module devices/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/devices/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-131)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-131)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-131)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-131)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:broader .</code></pre>|
+|[Section top](#minorfail-outcome-number-131)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty skos:narrower .</code></pre>|
+|[Section top](#minorfail-outcome-number-131)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom owl:Nothing ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-131)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:DeviceKind ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-131)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Device coswot:Function coswot:Command coswot:ProcedureExecution ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-131)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Feature coswot:Property coswot:State ) .</code></pre>|
+
+***
+### MinorFail Outcome number 132
+
+[Jump to summary definition](#summary-MinorFail-132)	|	[Previous MinorFail outcome](#minorfail-outcome-number-131)	|	[Next MinorFail outcome](#minorfail-outcome-number-133)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-coswot-sosa|
+|----|----|
+|Title|Standalone module src/coswot-sosa.ttl from branch main|
+|Composition|- [Module coswot-sosa](https://gitlab.com/coswot/coswot-acimov/blob/main/src/coswot-sosa.ttl)|
 
 #### Criterion detail
 |Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
@@ -2223,46 +3931,205 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-132)|Identifier|`no-reference-module`|
+|[Section top](#minorfail-outcome-number-132)|Title|Term not referenced to a module|
+|[Section top](#minorfail-outcome-number-132)|Description|Subject terms not linked to a module by a rdfs:isDefinedBy property|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:hasResult rdfs:equivalentProperty sosa:hasResult .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:SensorOfInterest rdfs:subClassOf sosa:Sensor .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:Observation rdfs:subClassOf sosa:Observation .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:CommunicationSystem rdfs:subClassOf sosa:System .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:hasStartTime rdfs:subPropertyOf sosa:startTime .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:hasResultTime rdfs:subPropertyOf sosa:resultTime .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:hasPhenomenonTime rdfs:subPropertyOf sosa:phenomenonTime .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:FeatureOfInterest owl:equivalentClass sosa:FeatureOfInterest .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:PropertyOfInterest owl:equivalentClass sosa:PropertyOfInterest .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:Sample owl:equivalentClass sosa:Sample .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:PropertyKind owl:equivalentClass sosa:Property .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:Procedure owl:equivalentClass sosa:Procedure .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:ProcedureExecution owl:equivalentClass sosa:Execution .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:ObservationCollection owl:equivalentClass sosa:ObservationCollection .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:ActuatorOfInterest owl:equivalentClass sosa:Actuator .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:SensorKind owl:equivalentClass sosa:SensorKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:ActuatorKind owl:equivalentClass sosa:ActuatorKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:Actuation owl:equivalentClass sosa:Actuation .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:hasSample owl:equivalentProperty sosa:Sample .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:isSampleOf owl:equivalentProperty sosa:isSampleOf .</code></pre>|
+|[Section top](#minorfail-outcome-number-132)|Pointer|<pre lang="Turtle"><code>:hasMember owl:equivalentProperty sosa:hasMember .</code></pre>|
 
 ***
-### NotTested Outcome number 27
+### MinorFail Outcome number 133
 
-[Jump to summary definition](#summary-NotTested-27)
+[Jump to summary definition](#summary-MinorFail-133)	|	[Previous MinorFail outcome](#minorfail-outcome-number-132)	|	[Next MinorFail outcome](#minorfail-outcome-number-134)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-syntax|
+|Name|module-src-communications-ontology|
 |----|----|
-|Title|Standalone modelet domains/zedomain/syntax/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/syntax/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/syntax/onto.ttl)|
+|Title|Standalone module src/communications/ontology.ttl from branch main|
+|Composition|- [Module communications/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/communications/ontology.ttl)|
 
 #### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
 |----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-133)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-133)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-133)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-133)|Pointer|<pre lang="Turtle"><code>&#91;] owl:onProperty coswot:conveys ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:Message .</code></pre>|
+|[Section top](#minorfail-outcome-number-133)|Pointer|<pre lang="Turtle"><code>&#91;] owl:onProperty coswot:hasMedium ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationMedium .</code></pre>|
+|[Section top](#minorfail-outcome-number-133)|Pointer|<pre lang="Turtle"><code>&#91;] owl:onProperty coswot:hasCommunicator ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem .</code></pre>|
+|[Section top](#minorfail-outcome-number-133)|Pointer|<pre lang="Turtle"><code>&#91;] owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommunicator .</code></pre>|
+|[Section top](#minorfail-outcome-number-133)|Pointer|<pre lang="Turtle"><code>&#91;] owl:onProperty coswot:hasAddressee ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem .</code></pre>|
+|[Section top](#minorfail-outcome-number-133)|Pointer|<pre lang="Turtle"><code>&#91;] owl:onProperty coswot:isAbout ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom xsd:string .</code></pre>|
 
 ***
-### NotTested Outcome number 28
+### MinorFail Outcome number 134
 
-[Jump to summary definition](#summary-NotTested-28)
+[Jump to summary definition](#summary-MinorFail-134)	|	[Previous MinorFail outcome](#minorfail-outcome-number-133)	|	[Next MinorFail outcome](#minorfail-outcome-number-135)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-prefix|
+|Name|module-src-communications-ontology|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone module src/communications/ontology.ttl from branch main|
+|Composition|- [Module communications/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/communications/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-134)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-134)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-134)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-134)|Pointer|<pre lang="Turtle"><code>coswot:Communication a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Communication.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Communication&#34;@fr ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A communication occurs through a communicationMedium, conveying a message from a communicator to &#92;&#34;defined&#92;&#34; or &#92;&#34;undefined&#92;&#34; addressees. Messages can be about topics. The communicationMedium can filter or alter messages.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;une communication est produite à travers un média de communication, transmettant un message d'un émetteur à un ou plusieurs destinataires &#92;&#34;définis&#92;&#34; ou &#92;&#34;indéfinis&#92;&#34;. Les messages portent sur des sujets. Le medium de communication peut filtrer ou modifier les messages.&#34;@fr ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/communications> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; owl:onProperty coswot:conveys ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:Message ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasMedium ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationMedium ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasCommunicator ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommunicator ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasAddressee ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:isAbout ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom xsd:string ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+
+***
+### MinorFail Outcome number 135
+
+[Jump to summary definition](#summary-MinorFail-135)	|	[Previous MinorFail outcome](#minorfail-outcome-number-134)	|	[Next MinorFail outcome](#minorfail-outcome-number-136)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-communications-ontology|
+|----|----|
+|Title|Standalone module src/communications/ontology.ttl from branch main|
+|Composition|- [Module communications/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/communications/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-135)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-135)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-135)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-135)|Pointer|<pre lang="Turtle"><code>&#91;] owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommunicator .</code></pre>|
+
+***
+### MinorFail Outcome number 136
+
+[Jump to summary definition](#summary-MinorFail-136)	|	[Previous MinorFail outcome](#minorfail-outcome-number-135)	|	[Next MinorFail outcome](#minorfail-outcome-number-137)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-communications-ontology|
+|----|----|
+|Title|Standalone module src/communications/ontology.ttl from branch main|
+|Composition|- [Module communications/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/communications/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-136)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-136)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-136)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-136)|Pointer|<pre lang="Turtle"><code>coswot:Communication a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Communication.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Communication&#34;@fr ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A communication occurs through a communicationMedium, conveying a message from a communicator to &#92;&#34;defined&#92;&#34; or &#92;&#34;undefined&#92;&#34; addressees. Messages can be about topics. The communicationMedium can filter or alter messages.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;une communication est produite à travers un média de communication, transmettant un message d'un émetteur à un ou plusieurs destinataires &#92;&#34;définis&#92;&#34; ou &#92;&#34;indéfinis&#92;&#34;. Les messages portent sur des sujets. Le medium de communication peut filtrer ou modifier les messages.&#34;@fr ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/communications> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; owl:onProperty coswot:conveys ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:Message ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasMedium ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationMedium ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasCommunicator ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommunicator ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasAddressee ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:isAbout ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom xsd:string ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+
+***
+### MinorFail Outcome number 137
+
+[Jump to summary definition](#summary-MinorFail-137)	|	[Previous MinorFail outcome](#minorfail-outcome-number-136)	|	[Next MinorFail outcome](#minorfail-outcome-number-138)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-communications-ontology|
+|----|----|
+|Title|Standalone module src/communications/ontology.ttl from branch main|
+|Composition|- [Module communications/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/communications/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-137)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-137)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-137)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-137)|Pointer|<pre lang="Turtle"><code>coswot:Communication a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Communication.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;Communication&#34;@fr ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A communication occurs through a communicationMedium, conveying a message from a communicator to &#92;&#34;defined&#92;&#34; or &#92;&#34;undefined&#92;&#34; addressees. Messages can be about topics. The communicationMedium can filter or alter messages.&#34;@en,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#34;une communication est produite à travers un média de communication, transmettant un message d'un émetteur à un ou plusieurs destinataires &#92;&#34;définis&#92;&#34; ou &#92;&#34;indéfinis&#92;&#34;. Les messages portent sur des sujets. Le medium de communication peut filtrer ou modifier les messages.&#34;@fr ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/communications> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; owl:onProperty coswot:conveys ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:Message ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasMedium ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationMedium ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasCommunicator ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommunicator ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:hasAddressee ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:CommunicationSystem ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; owl:onProperty coswot:isAbout ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom xsd:string ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+
+***
+### MinorFail Outcome number 138
+
+[Jump to summary definition](#summary-MinorFail-138)	|	[Previous MinorFail outcome](#minorfail-outcome-number-137)	|	[Next MinorFail outcome](#minorfail-outcome-number-139)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-communications-ontology|
+|----|----|
+|Title|Standalone module src/communications/ontology.ttl from branch main|
+|Composition|- [Module communications/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/communications/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-138)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-138)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-138)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-138)|Pointer|<pre lang="Turtle"><code>&#91;] owl:cardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommunicator .</code></pre>|
+
+***
+### MinorFail Outcome number 139
+
+[Jump to summary definition](#summary-MinorFail-139)	|	[Previous MinorFail outcome](#minorfail-outcome-number-138)	|	[Next MinorFail outcome](#minorfail-outcome-number-140)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2271,22 +4138,657 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-139)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-139)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-139)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-139)|Pointer|<pre lang="Turtle"><code>:hasAggregationKind a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, or aggregation, to the kind of aggr...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &lowbar;:ncb459b49c4c641e7974fda12f720e7adb1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &lowbar;:ncb459b49c4c641e7974fda12f720e7adb2,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;skos:Concept,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:AggregationKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasAggregationKind ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasAggregationKind .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb3 rdf:first :Aggregation ;  &#10;&#32;&#32;&#32;&#32;rdf:rest ( :AggregationKind ) .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb5 rdf:first :State ;  &#10;&#32;&#32;&#32;&#32;rdf:rest &lowbar;:ncb459b49c4c641e7974fda12f720e7adb3 .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb6 rdf:first :Property ;  &#10;&#32;&#32;&#32;&#32;rdf:rest &lowbar;:ncb459b49c4c641e7974fda12f720e7adb5 .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb7 rdf:first :Aggregation ;  &#10;&#32;&#32;&#32;&#32;rdf:rest () .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb8 rdf:first :State ;  &#10;&#32;&#32;&#32;&#32;rdf:rest &lowbar;:ncb459b49c4c641e7974fda12f720e7adb7 .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb9 rdf:first :Property ;  &#10;&#32;&#32;&#32;&#32;rdf:rest &lowbar;:ncb459b49c4c641e7974fda12f720e7adb8 .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb1 a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:ncb459b49c4c641e7974fda12f720e7adb1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &lowbar;:ncb459b49c4c641e7974fda12f720e7adb1 ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf &lowbar;:ncb459b49c4c641e7974fda12f720e7adb9 .  &#10;&lowbar;:ncb459b49c4c641e7974fda12f720e7adb2 a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:ncb459b49c4c641e7974fda12f720e7adb2,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &lowbar;:ncb459b49c4c641e7974fda12f720e7adb2 ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf &lowbar;:ncb459b49c4c641e7974fda12f720e7adb6 .</code></pre>|
+|[Section top](#minorfail-outcome-number-139)|Pointer|<pre lang="Turtle"><code>:hasAggregationTime a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation time&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, aggregation, or aggregation kind, t...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &lowbar;:nbdc2a34d80be4841862143a9879e0978b1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range time:TemporalInterval ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :hasAggregationTime ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasAggregationTime ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( :hasAggregationKind :hasAggregationTime ) .  &#10;&lowbar;:nbdc2a34d80be4841862143a9879e0978b3 rdf:first :Property ;  &#10;&#32;&#32;&#32;&#32;rdf:rest ( :State :Aggregation :AggregationKind ) .  &#10;&lowbar;:nbdc2a34d80be4841862143a9879e0978b1 a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &lowbar;:nbdc2a34d80be4841862143a9879e0978b1,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:Thing ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &lowbar;:nbdc2a34d80be4841862143a9879e0978b1 ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf &lowbar;:nbdc2a34d80be4841862143a9879e0978b3 .</code></pre>|
+|[Section top](#minorfail-outcome-number-139)|Pointer|<pre lang="Turtle"><code></code></pre>|
+|[Section top](#minorfail-outcome-number-139)|Pointer|http://www.w3.org/2004/02/skos/core#Concept|
 
 ***
-### NotTested Outcome number 29
+### MinorFail Outcome number 140
 
-[Jump to summary definition](#summary-NotTested-29)
+[Jump to summary definition](#summary-MinorFail-140)	|	[Previous MinorFail outcome](#minorfail-outcome-number-139)	|	[Next MinorFail outcome](#minorfail-outcome-number-141)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-prefix|
+|Name|module-src-aggregations-ontology|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-140)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-140)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-140)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-140)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Observation coswot:ObservationCollection ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-140)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasInput ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ObservationCollection .</code></pre>|
+|[Section top](#minorfail-outcome-number-140)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasAggregationKind ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:AggregationKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-140)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-140)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 141
+
+[Jump to summary definition](#summary-MinorFail-141)	|	[Previous MinorFail outcome](#minorfail-outcome-number-140)	|	[Next MinorFail outcome](#minorfail-outcome-number-142)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-141)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-141)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-141)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-141)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationDuration a owl:DatatypeProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation duration&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, aggregation, or aggregation kind, to the duration of the time interval over which the aggregation is done&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range xsd:duration .</code></pre>|
+|[Section top](#minorfail-outcome-number-141)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationKind a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, or aggregation, to the kind of aggregation it uses.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:AggregationKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-141)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationTime a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation time&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, aggregation, or aggregation kind, to a description of the time interval over which the aggregation is done&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range time:TemporalInterval ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:hasAggregationKind coswot:hasAggregationTime ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-141)|Pointer|<pre lang="Turtle"><code>coswot:hasMember a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has member&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Link to a member within a collection of (actuations or samples or observations) or (collection of actuations or collections of samples or collection of observations) which may share a value for one or more of the characteristic properties.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:ObservationCollection ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Observation coswot:ObservationCollection ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 142
+
+[Jump to summary definition](#summary-MinorFail-142)	|	[Previous MinorFail outcome](#minorfail-outcome-number-141)	|	[Next MinorFail outcome](#minorfail-outcome-number-143)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-142)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-142)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-142)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-142)|Pointer|<pre lang="Turtle"><code>coswot:Aggregation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Aggregation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Observation that takes as input a collection of observations, and outputs a result based on the aggregation of these observations.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasInput ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ObservationCollection ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasAggregationKind ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:AggregationKind ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Observation .</code></pre>|
+
+***
+### MinorFail Outcome number 143
+
+[Jump to summary definition](#summary-MinorFail-143)	|	[Previous MinorFail outcome](#minorfail-outcome-number-142)	|	[Next MinorFail outcome](#minorfail-outcome-number-144)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-143)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-143)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-143)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-143)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Observation coswot:ObservationCollection ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-143)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-143)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 144
+
+[Jump to summary definition](#summary-MinorFail-144)	|	[Previous MinorFail outcome](#minorfail-outcome-number-143)	|	[Next MinorFail outcome](#minorfail-outcome-number-145)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-144)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-144)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-144)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range  &#10;Property inclusions involving property chains not supported|
+|[Section top](#minorfail-outcome-number-144)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationTime a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation time&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, aggregation, or aggregation kind, to a description of the time interval over which the aggregation is done&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range time:TemporalInterval ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:hasAggregationKind coswot:hasAggregationTime ) .</code></pre>|
+
+***
+### MinorFail Outcome number 145
+
+[Jump to summary definition](#summary-MinorFail-145)	|	[Previous MinorFail outcome](#minorfail-outcome-number-144)	|	[Next MinorFail outcome](#minorfail-outcome-number-146)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-145)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-145)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-145)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-145)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationDuration a owl:DatatypeProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation duration&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, aggregation, or aggregation kind, to the duration of the time interval over which the aggregation is done&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range xsd:duration .</code></pre>|
+|[Section top](#minorfail-outcome-number-145)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationKind a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, or aggregation, to the kind of aggregation it uses.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:AggregationKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-145)|Pointer|<pre lang="Turtle"><code>coswot:hasMember a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has member&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Link to a member within a collection of (actuations or samples or observations) or (collection of actuations or collections of samples or collection of observations) which may share a value for one or more of the characteristic properties.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:ObservationCollection ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Observation coswot:ObservationCollection ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 146
+
+[Jump to summary definition](#summary-MinorFail-146)	|	[Previous MinorFail outcome](#minorfail-outcome-number-145)	|	[Next MinorFail outcome](#minorfail-outcome-number-147)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-146)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-146)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-146)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-146)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationDuration a owl:DatatypeProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation duration&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, aggregation, or aggregation kind, to the duration of the time interval over which the aggregation is done&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range xsd:duration .</code></pre>|
+|[Section top](#minorfail-outcome-number-146)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationKind a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation kind&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, or aggregation, to the kind of aggregation it uses.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:AggregationKind .</code></pre>|
+|[Section top](#minorfail-outcome-number-146)|Pointer|<pre lang="Turtle"><code>coswot:hasAggregationTime a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has aggregation time&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a property, state, aggregation, or aggregation kind, to a description of the time interval over which the aggregation is done&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range time:TemporalInterval ;  &#10;&#32;&#32;&#32;&#32;owl:propertyChainAxiom ( coswot:hasAggregationKind coswot:hasAggregationTime ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-146)|Pointer|<pre lang="Turtle"><code>coswot:hasMember a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has member&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Link to a member within a collection of (actuations or samples or observations) or (collection of actuations or collections of samples or collection of observations) which may share a value for one or more of the characteristic properties.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:ObservationCollection ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/aggregations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Observation coswot:ObservationCollection ) ] .</code></pre>|
+
+***
+### MinorFail Outcome number 147
+
+[Jump to summary definition](#summary-MinorFail-147)	|	[Previous MinorFail outcome](#minorfail-outcome-number-146)	|	[Next MinorFail outcome](#minorfail-outcome-number-148)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-aggregations-ontology|
+|----|----|
+|Title|Standalone module src/aggregations/ontology.ttl from branch main|
+|Composition|- [Module aggregations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/aggregations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-147)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-147)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-147)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-147)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Observation coswot:ObservationCollection ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-147)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-147)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Property coswot:State coswot:Aggregation coswot:AggregationKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 148
+
+[Jump to summary definition](#summary-MinorFail-148)	|	[Previous MinorFail outcome](#minorfail-outcome-number-147)	|	[Next MinorFail outcome](#minorfail-outcome-number-149)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-148)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-148)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-148)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-148)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls .</code></pre>|
+|[Section top](#minorfail-outcome-number-148)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand ;  &#10;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ActuatingCommand .</code></pre>|
+|[Section top](#minorfail-outcome-number-148)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Actuator coswot:ActuatingFunction coswot:ActuatingCommand coswot:Actuation ) .</code></pre>|
+
+***
+### MinorFail Outcome number 149
+
+[Jump to summary definition](#summary-MinorFail-149)	|	[Previous MinorFail outcome](#minorfail-outcome-number-148)	|	[Next MinorFail outcome](#minorfail-outcome-number-150)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-149)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-149)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-149)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-149)|Pointer|<pre lang="Turtle"><code>coswot:controls a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;controls&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links an actuator, actuating function, actuating command, or actuation, to the feature, property, or state, it controls.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Actuator coswot:ActuatingFunction coswot:ActuatingCommand coswot:Actuation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:targets ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isControlledBy .</code></pre>|
+
+***
+### MinorFail Outcome number 150
+
+[Jump to summary definition](#summary-MinorFail-150)	|	[Previous MinorFail outcome](#minorfail-outcome-number-149)	|	[Next MinorFail outcome](#minorfail-outcome-number-151)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-150)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-150)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-150)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-150)|Pointer|<pre lang="Turtle"><code>coswot:ActuatingCommand a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuating Command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An instance of actuating command is a command that controls something.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command .</code></pre>|
+|[Section top](#minorfail-outcome-number-150)|Pointer|<pre lang="Turtle"><code>coswot:ActuatingFunction a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuating Function&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An actuating function is a function that has at least one actuating command.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:hasCommand ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:someValuesFrom coswot:ActuatingCommand ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Function .</code></pre>|
+|[Section top](#minorfail-outcome-number-150)|Pointer|<pre lang="Turtle"><code>coswot:Actuation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Actuation is the act of carrying out a procedure to control the state of the world using an actuator. It links to an actuator to describe what made the actuation, and to the controlled feature, property, property of interest, state, or state of interest. Typically, its input is a property value or a state. An actuation of a state (OP coswot:controls) should have a state as input (OP coswot:hasInput). Respectively, an actuation of a property should have a property value as input.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Actuator ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-150)|Pointer|<pre lang="Turtle"><code>coswot:ActuatorOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuator Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A specific, tangible device designed to control one or more properties or states of one or more features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Actuator,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:DeviceOfInterest .</code></pre>|
+
+***
+### MinorFail Outcome number 151
+
+[Jump to summary definition](#summary-MinorFail-151)	|	[Previous MinorFail outcome](#minorfail-outcome-number-150)	|	[Next MinorFail outcome](#minorfail-outcome-number-152)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-151)|Identifier|`owl-rl-profile-error`|
+|[Section top](#minorfail-outcome-number-151)|Title|OWL RL Profile incompatible|
+|[Section top](#minorfail-outcome-number-151)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-151)|Pointer|<pre lang="Turtle"><code>coswot:Actuator a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuator&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Actuators are devices designed to control one or more properties or states of features.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:ActuatorOfInterest coswot:ActuatorKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 152
+
+[Jump to summary definition](#summary-MinorFail-152)	|	[Previous MinorFail outcome](#minorfail-outcome-number-151)	|	[Next MinorFail outcome](#minorfail-outcome-number-153)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-152)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-152)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-152)|Description|Statement not supported in a Super Class Expression|
+|[Section top](#minorfail-outcome-number-152)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls .</code></pre>|
+|[Section top](#minorfail-outcome-number-152)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Actuator ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy .</code></pre>|
+|[Section top](#minorfail-outcome-number-152)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Actuator coswot:ActuatingFunction coswot:ActuatingCommand coswot:Actuation ) .</code></pre>|
+
+***
+### MinorFail Outcome number 153
+
+[Jump to summary definition](#summary-MinorFail-153)	|	[Previous MinorFail outcome](#minorfail-outcome-number-152)	|	[Next MinorFail outcome](#minorfail-outcome-number-154)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-153)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-153)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-153)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-153)|Pointer|<pre lang="Turtle"><code>coswot:controls a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;controls&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links an actuator, actuating function, actuating command, or actuation, to the feature, property, or state, it controls.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Actuator coswot:ActuatingFunction coswot:ActuatingCommand coswot:Actuation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:targets ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isControlledBy .</code></pre>|
+
+***
+### MinorFail Outcome number 154
+
+[Jump to summary definition](#summary-MinorFail-154)	|	[Previous MinorFail outcome](#minorfail-outcome-number-153)	|	[Next MinorFail outcome](#minorfail-outcome-number-155)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-154)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-154)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-154)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-154)|Pointer|<pre lang="Turtle"><code>coswot:ActuatingCommand a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuating Command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An instance of actuating command is a command that controls something.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command .</code></pre>|
+|[Section top](#minorfail-outcome-number-154)|Pointer|<pre lang="Turtle"><code>coswot:Actuation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Actuation is the act of carrying out a procedure to control the state of the world using an actuator. It links to an actuator to describe what made the actuation, and to the controlled feature, property, property of interest, state, or state of interest. Typically, its input is a property value or a state. An actuation of a state (OP coswot:controls) should have a state as input (OP coswot:hasInput). Respectively, an actuation of a property should have a property value as input.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Actuator ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-154)|Pointer|<pre lang="Turtle"><code>coswot:ActuatorOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuator Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A specific, tangible device designed to control one or more properties or states of one or more features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Actuator,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:DeviceOfInterest .</code></pre>|
+
+***
+### MinorFail Outcome number 155
+
+[Jump to summary definition](#summary-MinorFail-155)	|	[Previous MinorFail outcome](#minorfail-outcome-number-154)	|	[Next MinorFail outcome](#minorfail-outcome-number-156)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-155)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-155)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-155)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-155)|Pointer|<pre lang="Turtle"><code>coswot:Actuator a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuator&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Actuators are devices designed to control one or more properties or states of features.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:ActuatorOfInterest coswot:ActuatorKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 156
+
+[Jump to summary definition](#summary-MinorFail-156)	|	[Previous MinorFail outcome](#minorfail-outcome-number-155)	|	[Next MinorFail outcome](#minorfail-outcome-number-157)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-156)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-156)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-156)|Description|Class Expression not supported as object of rdfs:domain or rdfs:range|
+|[Section top](#minorfail-outcome-number-156)|Pointer|<pre lang="Turtle"><code>coswot:controls a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;controls&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links an actuator, actuating function, actuating command, or actuation, to the feature, property, or state, it controls.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain &#91; a owl:Class ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Actuator coswot:ActuatingFunction coswot:ActuatingCommand coswot:Actuation ) ] ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:targets ;  &#10;&#32;&#32;&#32;&#32;owl:inverseOf coswot:isControlledBy .</code></pre>|
+
+***
+### MinorFail Outcome number 157
+
+[Jump to summary definition](#summary-MinorFail-157)	|	[Previous MinorFail outcome](#minorfail-outcome-number-156)	|	[Next MinorFail outcome](#minorfail-outcome-number-158)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-157)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-157)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-157)|Description|Class Expression not supported with rdfs:subClassOf|
+|[Section top](#minorfail-outcome-number-157)|Pointer|<pre lang="Turtle"><code>coswot:ActuatingCommand a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuating Command&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;An instance of actuating command is a command that controls something.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Command .</code></pre>|
+|[Section top](#minorfail-outcome-number-157)|Pointer|<pre lang="Turtle"><code>coswot:Actuation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Actuation is the act of carrying out a procedure to control the state of the world using an actuator. It links to an actuator to describe what made the actuation, and to the controlled feature, property, property of interest, state, or state of interest. Typically, its input is a property value or a state. An actuation of a state (OP coswot:controls) should have a state as input (OP coswot:hasInput). Respectively, an actuation of a property should have a property value as input.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Actuator ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:ProcedureExecution .</code></pre>|
+|[Section top](#minorfail-outcome-number-157)|Pointer|<pre lang="Turtle"><code>coswot:ActuatorOfInterest a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuator Of Interest&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A specific, tangible device designed to control one or more properties or states of one or more features of interest.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Actuator,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:DeviceOfInterest .</code></pre>|
+
+***
+### MinorFail Outcome number 158
+
+[Jump to summary definition](#summary-MinorFail-158)	|	[Previous MinorFail outcome](#minorfail-outcome-number-157)	|	[Next MinorFail outcome](#minorfail-outcome-number-159)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-158)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-158)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-158)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-158)|Pointer|<pre lang="Turtle"><code>coswot:Actuator a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuator&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Actuators are devices designed to control one or more properties or states of features.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Device ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( coswot:ActuatorOfInterest coswot:ActuatorKind ) .</code></pre>|
+
+***
+### MinorFail Outcome number 159
+
+[Jump to summary definition](#summary-MinorFail-159)	|	[Previous MinorFail outcome](#minorfail-outcome-number-158)	|	[Next MinorFail outcome](#minorfail-outcome-number-160)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-159)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-159)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-159)|Description|Statement not supported in a Class Expression|
+|[Section top](#minorfail-outcome-number-159)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:controls .</code></pre>|
+|[Section top](#minorfail-outcome-number-159)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;owl:allValuesFrom coswot:Actuator ;  &#10;&#32;&#32;&#32;&#32;owl:onProperty coswot:madeBy .</code></pre>|
+|[Section top](#minorfail-outcome-number-159)|Pointer|<pre lang="Turtle"><code>&#91;] a owl:Class ;  &#10;&#32;&#32;&#32;&#32;owl:unionOf ( coswot:Actuator coswot:ActuatingFunction coswot:ActuatingCommand coswot:Actuation ) .</code></pre>|
+
+***
+### MinorFail Outcome number 160
+
+[Jump to summary definition](#summary-MinorFail-160)	|	[Previous MinorFail outcome](#minorfail-outcome-number-159)	|	[Next MinorFail outcome](#minorfail-outcome-number-161)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|module-src-actuations-ontology|
+|----|----|
+|Title|Standalone module src/actuations/ontology.ttl from branch main|
+|Composition|- [Module actuations/ontology](https://gitlab.com/coswot/coswot-acimov/blob/main/src/actuations/ontology.ttl)|
+
+#### Criterion detail
+|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
+|----|----|
+|Title|Terms differenciation test|
+|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-160)|Identifier|`too-close-terms`|
+|[Section top](#minorfail-outcome-number-160)|Title|Too close terms|
+|[Section top](#minorfail-outcome-number-160)|Description|Some terms are too similar|
+|[Section top](#minorfail-outcome-number-160)|Pointer|<pre lang="Turtle"><code>:Actuator a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuator&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Actuators are devices designed to control one or more proper...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Device ;  &#10;&#32;&#32;&#32;&#32;owl:disjointUnionOf ( :ActuatorOfInterest :ActuatorKind ) .</code></pre>|
+|[Section top](#minorfail-outcome-number-160)|Pointer|<pre lang="Turtle"><code>:Actuation a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Actuation&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A coswot:Actuation is the act of carrying out a procedure to...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/core/actuations> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:allValuesFrom :Actuator ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :madeBy ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#91; a owl:Restriction ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:minCardinality 1 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:onProperty :controls ],  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:ProcedureExecution .</code></pre>|
+
+***
+### MinorFail Outcome number 161
+
+[Jump to summary definition](#summary-MinorFail-161)	|	[Previous MinorFail outcome](#minorfail-outcome-number-160)	|	[Next MinorFail outcome](#minorfail-outcome-number-162)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|modelet-building-automation-samples|
+|----|----|
+|Title|Standalone modelet domains/building-automation/samples/onto.ttl from branch main|
+|Composition|- [Modelet building-automation/samples](https://gitlab.com/coswot/coswot-acimov/blob/main/domains/building-automation/samples/onto.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-161)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-161)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-161)|Description|Anonymous individuals are not supported|
+|[Section top](#minorfail-outcome-number-161)|Pointer|<pre lang="Turtle"><code>&#91;] a coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;coswot:hasValue 1.0 ;  &#10;&#32;&#32;&#32;&#32;coswot:isMeasuredIn &#60;https://qudt.org/vocab/unit/M3> ;  &#10;&#32;&#32;&#32;&#32;coswot:isValueOfProperty coswot:Volume .</code></pre>|
+|[Section top](#minorfail-outcome-number-161)|Pointer|<pre lang="Turtle"><code>coswot:AirSample1M3 a coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Air Sample 1 m3&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Type d'un échantillon d'air de 1m3.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/samples> ;  &#10;&#32;&#32;&#32;&#32;skos:inScheme &#60;https://w3id.org/coswot/building&lowbar;automation/samples> ;  &#10;&#32;&#32;&#32;&#32;coswot:hasValue &#91; a coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:hasValue 1.0 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:isMeasuredIn &#60;https://qudt.org/vocab/unit/M3> ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:isValueOfProperty coswot:Volume ] .</code></pre>|
+
+***
+### MinorFail Outcome number 162
+
+[Jump to summary definition](#summary-MinorFail-162)	|	[Previous MinorFail outcome](#minorfail-outcome-number-161)	|	[Next MinorFail outcome](#minorfail-outcome-number-163)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|modelet-building-automation-samples|
+|----|----|
+|Title|Standalone modelet domains/building-automation/samples/onto.ttl from branch main|
+|Composition|- [Modelet building-automation/samples](https://gitlab.com/coswot/coswot-acimov/blob/main/domains/building-automation/samples/onto.ttl)|
+
+#### Criterion detail
+|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
+|----|----|
+|Title|Profile compatibility test|
+|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
+
+#### Outcome Detail
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-162)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-162)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-162)|Description|Anonymous individuals are not supported|
+|[Section top](#minorfail-outcome-number-162)|Pointer|<pre lang="Turtle"><code>&#91;] a coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;coswot:hasValue 1.0 ;  &#10;&#32;&#32;&#32;&#32;coswot:isMeasuredIn &#60;https://qudt.org/vocab/unit/M3> ;  &#10;&#32;&#32;&#32;&#32;coswot:isValueOfProperty coswot:Volume .</code></pre>|
+|[Section top](#minorfail-outcome-number-162)|Pointer|<pre lang="Turtle"><code>coswot:AirSample1M3 a coswot:FeatureKind ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Air Sample 1 m3&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Type d'un échantillon d'air de 1m3.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/samples> ;  &#10;&#32;&#32;&#32;&#32;skos:inScheme &#60;https://w3id.org/coswot/building&lowbar;automation/samples> ;  &#10;&#32;&#32;&#32;&#32;coswot:hasValue &#91; a coswot:PropertyValue ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:hasValue 1.0 ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:isMeasuredIn &#60;https://qudt.org/vocab/unit/M3> ;  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:isValueOfProperty coswot:Volume ] .</code></pre>|
+
+***
+### MinorFail Outcome number 163
+
+[Jump to summary definition](#summary-MinorFail-163)	|	[Previous MinorFail outcome](#minorfail-outcome-number-162)	|	[Next MinorFail outcome](#minorfail-outcome-number-164)
+
+:exclamation:MinorFail outcome
+#### Subject detail
+|Name|modelet-building-automation-features|
+|----|----|
+|Title|Standalone modelet domains/building-automation/features/onto.ttl from branch main|
+|Composition|- [Modelet building-automation/features](https://gitlab.com/coswot/coswot-acimov/blob/main/domains/building-automation/features/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2295,365 +4797,31 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 |Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-163)|Identifier|`domain-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-163)|Title|Domain out of vocabulary|
+|[Section top](#minorfail-outcome-number-163)|Description|Some properties have a domain out of the ontology|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:containsZone a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:TransitiveProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;contains zone&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relationship to the subzones of a major zone. A space zone c...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#containsZone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:containsZone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#containsZone> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :containsZone .</code></pre>|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:Zone rdfs:subClassOf owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass coswot:Zone .</code></pre>|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:hasBuilding a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has building&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation to buildings contained in a zone. The typical domai...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Building>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Building,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#hasBuilding>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasBuilding ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasBuilding,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#hasBuilding> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasBuilding .</code></pre>|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:hasStorey a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has storey&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation to storeys contained in a zone. The typical domains...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Storey>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Storey,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#hasStorey>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasStorey ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasStorey,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#hasStorey> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasStorey .</code></pre>|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:hasSpace a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has space&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation to spaces contained in a zone. The typical domains ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Space>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Space,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#hasSpace>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSpace ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSpace,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#hasSpace> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasSpace .</code></pre>|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:canWalkTo a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:SymmetricProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;can walk to&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a zone to another zone one can walk to.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :canWalkTo,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:connectedTo ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :canWalkTo .</code></pre>|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:adjacentZone a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:SymmetricProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;adjacent zone&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relationship between two zones that share a common interface...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :adjacentZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:connectedTo ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :adjacentZone .</code></pre>|
+|[Section top](#minorfail-outcome-number-163)|Pointer|<pre lang="Turtle"><code>:adjacentElement a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;adjacent element&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation between a zone and its adjacent building elements, ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Element>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:BuildingElement,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :adjacentElement,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:connectedTo ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :adjacentElement .</code></pre>|
 
 ***
-### NotTested Outcome number 30
+### MinorFail Outcome number 164
 
-[Jump to summary definition](#summary-NotTested-30)
+[Jump to summary definition](#summary-MinorFail-164)	|	[Previous MinorFail outcome](#minorfail-outcome-number-163)	|	[Next MinorFail outcome](#minorfail-outcome-number-165)
 
-:grey_question:NotTested outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|modelet-zedomain-prefix|
+|Name|modelet-building-automation-features|
 |----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 31
-
-[Jump to summary definition](#summary-NotTested-31)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-prefix|
-|----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 32
-
-[Jump to summary definition](#summary-NotTested-32)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-prefix|
-|----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 33
-
-[Jump to summary definition](#summary-NotTested-33)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-prefix|
-|----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 34
-
-[Jump to summary definition](#summary-NotTested-34)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-prefix|
-|----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 35
-
-[Jump to summary definition](#summary-NotTested-35)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-prefix|
-|----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 36
-
-[Jump to summary definition](#summary-NotTested-36)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|modelet-zedomain-prefix|
-|----|----|
-|Title|Standalone modelet domains/zedomain/prefix/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/prefix/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/prefix/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-
-</details>
-
-***
-
-
-# Pass Outcomes
-
-Here is the chapter related to the Pass outcome
-
-:white_check_mark:145 Pass outcomes
-
-<details>
-<summary>Fold/Unfold the 145 summary and details</summary>
-
-## Pass Outcomes Summary
-
-[Jump to statistic summary](#statistic-summary)
-
-:white_check_mark:145 Pass outcomes
-
-|*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
-|------|--------|--------|---------|-----------|-------|------|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-1">1/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-1)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-2">2/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-2)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-3">3/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-3)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-4">4/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-4)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-5">5/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-5)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-6">6/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-6)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-7">7/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-7)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-8">8/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-8)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-9">9/145</div>|:white_check_mark:*Pass*|`module-unreferenced`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-10">10/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-10)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-11">11/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-11)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-12">12/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-12)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-13">13/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-13)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-14">14/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-14)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-15">15/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-15)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-16">16/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-16)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-17">17/145</div>|:white_check_mark:*Pass*|`module-unlabeled`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-17)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-18">18/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-18)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-19">19/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-19)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-20">20/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-20)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-21">21/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-21)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-22">22/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-22)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-23">23/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-23)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-24">24/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-24)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-25">25/145</div>|:white_check_mark:*Pass*|`module-too-close-terms`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-25)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-26">26/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-26)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-27">27/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-27)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-28">28/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-28)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-29">29/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-29)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-30">30/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-30)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-31">31/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-31)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-32">32/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-32)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-33">33/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-33)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-34">34/145</div>|:white_check_mark:*Pass*|`module-range-outer`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-34)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-35">35/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-35)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-36">36/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-36)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-37">37/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-37)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-38">38/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-38)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-39">39/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-39)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-40">40/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-40)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-41">41/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-41)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-42">42/145</div>|:white_check_mark:*Pass*|`module-not-ql`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-42)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-43">43/145</div>|:white_check_mark:*Pass*|`module-not-el`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-43)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-44">44/145</div>|:white_check_mark:*Pass*|`module-not-el`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-44)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-45">45/145</div>|:white_check_mark:*Pass*|`module-not-el`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-45)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-46">46/145</div>|:white_check_mark:*Pass*|`module-not-el`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-46)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-47">47/145</div>|:white_check_mark:*Pass*|`module-not-el`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-47)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-48">48/145</div>|:white_check_mark:*Pass*|`module-not-el`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-48)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-49">49/145</div>|:white_check_mark:*Pass*|`module-not-el`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-49)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-50">50/145</div>|:white_check_mark:*Pass*|`module-not-el`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-50)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-51">51/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-51)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-52">52/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-52)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-53">53/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-53)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-54">54/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-54)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-55">55/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-55)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-56">56/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-56)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-57">57/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-57)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-58">58/145</div>|:white_check_mark:*Pass*|`module-inconsistent`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-58)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-59">59/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-59)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-60">60/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-60)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-61">61/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-61)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-62">62/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-62)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-63">63/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-63)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-64">64/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-64)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-65">65/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-65)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-66">66/145</div>|:white_check_mark:*Pass*|`module-domain-outer`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-66)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-67">67/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-67)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-68">68/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-68)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-69">69/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-69)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-70">70/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-70)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-71">71/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-71)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-72">72/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-72)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-73">73/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-73)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-74">74/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-74)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-75">75/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-rangeout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-75)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-76">76/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-76)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-77">77/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-77)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-78">78/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-78)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-79">79/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-79)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-80">80/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-80)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-81">81/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-81)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-82">82/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-82)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-83">83/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-label`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-83)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-84">84/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-84)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-85">85/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-85)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-86">86/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-86)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-87">87/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-87)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-88">88/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-88)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-89">89/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-89)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-90">90/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-90)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-91">91/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-91)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-92">92/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-inconsistence`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-92)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-93">93/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-93)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-94">94/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-94)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-95">95/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-95)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-96">96/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-96)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-97">97/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-97)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-98">98/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-98)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-99">99/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-99)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-100">100/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-dovrov`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-100)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-101">101/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-101)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-102">102/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-102)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-103">103/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-103)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-104">104/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-104)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-105">105/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-105)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-106">106/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-106)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-107">107/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-107)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-108">108/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-domainout`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-108)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-109">109/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-109)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-110">110/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-110)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-111">111/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-111)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-112">112/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-112)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-113">113/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-113)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-114">114/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-114)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-115">115/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-115)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-116">116/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-differenciation`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-116)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-117">117/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-117)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-118">118/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-118)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-119">119/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-119)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-120">120/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-120)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-121">121/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-121)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-122">122/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-122)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-123">123/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-123)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-124">124/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-124)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-125">125/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatRL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-125)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-126">126/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-126)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-127">127/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-127)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-128">128/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-128)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-129">129/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-129)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-130">130/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL EL Profile compatible|[Jump](#pass-outcome-number-130)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-131">131/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-131)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-132">132/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-132)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-133">133/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatQL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-133)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-134">134/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|Domains properly defined|[Jump](#pass-outcome-number-134)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-135">135/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|All terms labeled|[Jump](#pass-outcome-number-135)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-136">136/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-136)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-137">137/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-137)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-138">138/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL QL Profile compatible|[Jump](#pass-outcome-number-138)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-139">139/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|Any term is referenced|[Jump](#pass-outcome-number-139)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-140">140/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|Terms differenciated enough|[Jump](#pass-outcome-number-140)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-141">141/145</div>|:white_check_mark:*Pass*|`modelet-zedomain-compatEL`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-141)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-142">142/145</div>|:white_check_mark:*Pass*|`all-modules`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-142)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-143">143/145</div>|:white_check_mark:*Pass*|`all-modules`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-143)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-144">144/145</div>|:white_check_mark:*Pass*|`all-fragments`|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|OWL RL Profile compatible|[Jump](#pass-outcome-number-144)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-145">145/145</div>|:white_check_mark:*Pass*|`all-fragments`|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-145)|
-
-***
-
-## Pass Outcomes Details
-
-This subchapter gives more details to the :white_check_mark:Pass outcomes
-
-### Pass Outcome number 1
-
-[Jump to summary definition](#summary-Pass-1)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unreferenced|
-|----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone modelet domains/building-automation/features/onto.ttl from branch main|
+|Composition|- [Modelet building-automation/features](https://gitlab.com/coswot/coswot-acimov/blob/main/domains/building-automation/features/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
@@ -2662,70 +4830,35 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 |Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-164)|Identifier|`range-out-of-vocabulary`|
+|[Section top](#minorfail-outcome-number-164)|Title|Range out of vocabulary|
+|[Section top](#minorfail-outcome-number-164)|Description|Some properties have a range out of the ontology|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:containsZone a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:TransitiveProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;contains zone&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relationship to the subzones of a major zone. A space zone c...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#containsZone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:containsZone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#containsZone> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :containsZone .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:Zone rdfs:subClassOf owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass coswot:Zone .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:hasBuilding a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has building&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation to buildings contained in a zone. The typical domai...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Building>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Building,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#hasBuilding>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasBuilding ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasBuilding,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#hasBuilding> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasBuilding .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:Building rdfs:subClassOf owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Building,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Building,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass coswot:Building .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:hasStorey a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has storey&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation to storeys contained in a zone. The typical domains...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Storey>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Storey,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#hasStorey>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasStorey ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasStorey,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#hasStorey> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasStorey .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:Storey rdfs:subClassOf owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Storey,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Storey,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass coswot:Storey .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:hasSpace a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;has space&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation to spaces contained in a zone. The typical domains ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Space>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Space,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf &#60;https://w3id.org/bot#hasSpace>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSpace ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :containsZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSpace,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#hasSpace> ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :hasSpace .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:Space rdfs:subClassOf owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Space,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Space,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass coswot:Space .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:canWalkTo a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:SymmetricProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;can walk to&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a zone to another zone one can walk to.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :canWalkTo,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:connectedTo ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :canWalkTo .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:adjacentZone a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:SymmetricProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;adjacent zone&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relationship between two zones that share a common interface...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :adjacentZone,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:connectedTo ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :adjacentZone .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:adjacentElement a owl:ObjectProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;adjacent element&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relation between a zone and its adjacent building elements, ...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Zone>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#60;https://w3id.org/bot#Element>,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:BuildingElement,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:System ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf :adjacentElement,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:connectedTo ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentProperty :adjacentElement .</code></pre>|
+|[Section top](#minorfail-outcome-number-164)|Pointer|<pre lang="Turtle"><code>:Element rdfs:subClassOf owl:Thing,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;:Element,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:BuildingElement,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;coswot:System ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass coswot:BuildingElement .</code></pre>|
 
 ***
-### Pass Outcome number 2
+### MinorFail Outcome number 165
 
-[Jump to summary definition](#summary-Pass-2)
+[Jump to summary definition](#summary-MinorFail-165)	|	[Previous MinorFail outcome](#minorfail-outcome-number-164)	|	[Next MinorFail outcome](#minorfail-outcome-number-166)
 
-:white_check_mark:Pass outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unreferenced|
+|Name|modelet-building-automation-features|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 3
-
-[Jump to summary definition](#summary-Pass-3)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unreferenced|
-|----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 4
-
-[Jump to summary definition](#summary-Pass-4)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unreferenced|
-|----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone modelet domains/building-automation/features/onto.ttl from branch main|
+|Composition|- [Modelet building-automation/features](https://gitlab.com/coswot/coswot-acimov/blob/main/domains/building-automation/features/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2734,22 +4867,24 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-165)|Identifier|`owl-ql-profile-error`|
+|[Section top](#minorfail-outcome-number-165)|Title|OWL QL Profile incompatible|
+|[Section top](#minorfail-outcome-number-165)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-165)|Pointer|<pre lang="Turtle"><code>coswot:containsZone a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:TransitiveProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;contains zone&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Relationship to the subzones of a major zone. A space zone could for instance be contained in a storey zone which is further contained in a building zone. coswot:containsZone is a transitive property.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:hasSubSystem ;  &#10;&#32;&#32;&#32;&#32;owl:equivalentClass &#60;https://w3id.org/bot#containsZone> .</code></pre>|
 
 ***
-### Pass Outcome number 5
+### MinorFail Outcome number 166
 
-[Jump to summary definition](#summary-Pass-5)
+[Jump to summary definition](#summary-MinorFail-166)	|	[Previous MinorFail outcome](#minorfail-outcome-number-165)	|	[Next MinorFail outcome](#minorfail-outcome-number-167)
 
-:white_check_mark:Pass outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unreferenced|
+|Name|modelet-building-automation-features|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone modelet domains/building-automation/features/onto.ttl from branch main|
+|Composition|- [Modelet building-automation/features](https://gitlab.com/coswot/coswot-acimov/blob/main/domains/building-automation/features/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
@@ -2758,46 +4893,24 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 |Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-166)|Identifier|`owl-el-profile-error`|
+|[Section top](#minorfail-outcome-number-166)|Title|OWL EL Profile incompatible|
+|[Section top](#minorfail-outcome-number-166)|Description|Statement not supported|
+|[Section top](#minorfail-outcome-number-166)|Pointer|<pre lang="Turtle"><code>coswot:canWalkTo a owl:ObjectProperty,  &#10;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;owl:SymmetricProperty ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;can walk to&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Links a zone to another zone one can walk to.&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:domain coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:range coswot:Zone ;  &#10;&#32;&#32;&#32;&#32;rdfs:subPropertyOf coswot:connectedTo .</code></pre>|
 
 ***
-### Pass Outcome number 6
+### MinorFail Outcome number 167
 
-[Jump to summary definition](#summary-Pass-6)
+[Jump to summary definition](#summary-MinorFail-167)	|	[Previous MinorFail outcome](#minorfail-outcome-number-166)	|	Next MinorFail outcome
 
-:white_check_mark:Pass outcome
+:exclamation:MinorFail outcome
 #### Subject detail
-|Name|module-unreferenced|
+|Name|modelet-building-automation-features|
 |----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 7
-
-[Jump to summary definition](#summary-Pass-7)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unreferenced|
-|----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
+|Title|Standalone modelet domains/building-automation/features/onto.ttl from branch main|
+|Composition|- [Modelet building-automation/features](https://gitlab.com/coswot/coswot-acimov/blob/main/domains/building-automation/features/onto.ttl)|
 
 #### Criterion detail
 |Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
@@ -2806,3322 +4919,13 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 |Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 8
-
-[Jump to summary definition](#summary-Pass-8)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unreferenced|
-|----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
-
-#### Criterion detail
-|Identifier|[comment-format](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/comment-format.shacl#criterion)|
-|----|----|
-|Title|Comment format test|
-|Description|A test meant to test a comment format|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 9
-
-[Jump to summary definition](#summary-Pass-9)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unreferenced|
-|----|----|
-|Title|Standalone module src/unreferenced.ttl from branch refs/heads/main|
-|Composition|- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 10
-
-[Jump to summary definition](#summary-Pass-10)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 11
-
-[Jump to summary definition](#summary-Pass-11)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 12
-
-[Jump to summary definition](#summary-Pass-12)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 13
-
-[Jump to summary definition](#summary-Pass-13)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 14
-
-[Jump to summary definition](#summary-Pass-14)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 15
-
-[Jump to summary definition](#summary-Pass-15)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 16
-
-[Jump to summary definition](#summary-Pass-16)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 17
-
-[Jump to summary definition](#summary-Pass-17)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-unlabeled|
-|----|----|
-|Title|Standalone module src/unlabeled.ttl from branch refs/heads/main|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 18
-
-[Jump to summary definition](#summary-Pass-18)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 19
-
-[Jump to summary definition](#summary-Pass-19)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 20
-
-[Jump to summary definition](#summary-Pass-20)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 21
-
-[Jump to summary definition](#summary-Pass-21)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 22
-
-[Jump to summary definition](#summary-Pass-22)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 23
-
-[Jump to summary definition](#summary-Pass-23)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 24
-
-[Jump to summary definition](#summary-Pass-24)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 25
-
-[Jump to summary definition](#summary-Pass-25)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-too-close-terms|
-|----|----|
-|Title|Standalone module src/too-close-terms.ttl from branch refs/heads/main|
-|Composition|- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 26
-
-[Jump to summary definition](#summary-Pass-26)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 27
-
-[Jump to summary definition](#summary-Pass-27)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 28
-
-[Jump to summary definition](#summary-Pass-28)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 29
-
-[Jump to summary definition](#summary-Pass-29)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 30
-
-[Jump to summary definition](#summary-Pass-30)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 31
-
-[Jump to summary definition](#summary-Pass-31)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 32
-
-[Jump to summary definition](#summary-Pass-32)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 33
-
-[Jump to summary definition](#summary-Pass-33)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 34
-
-[Jump to summary definition](#summary-Pass-34)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-range-outer|
-|----|----|
-|Title|Standalone module src/range-outer.ttl from branch refs/heads/main|
-|Composition|- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 35
-
-[Jump to summary definition](#summary-Pass-35)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 36
-
-[Jump to summary definition](#summary-Pass-36)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 37
-
-[Jump to summary definition](#summary-Pass-37)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 38
-
-[Jump to summary definition](#summary-Pass-38)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 39
-
-[Jump to summary definition](#summary-Pass-39)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|Statement not supported|
-
-***
-### Pass Outcome number 40
-
-[Jump to summary definition](#summary-Pass-40)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 41
-
-[Jump to summary definition](#summary-Pass-41)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 42
-
-[Jump to summary definition](#summary-Pass-42)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-ql|
-|----|----|
-|Title|Standalone module src/not-ql.ttl from branch refs/heads/main|
-|Composition|- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 43
-
-[Jump to summary definition](#summary-Pass-43)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 44
-
-[Jump to summary definition](#summary-Pass-44)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 45
-
-[Jump to summary definition](#summary-Pass-45)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 46
-
-[Jump to summary definition](#summary-Pass-46)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 47
-
-[Jump to summary definition](#summary-Pass-47)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 48
-
-[Jump to summary definition](#summary-Pass-48)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 49
-
-[Jump to summary definition](#summary-Pass-49)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 50
-
-[Jump to summary definition](#summary-Pass-50)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-not-el|
-|----|----|
-|Title|Standalone module src/not-el.ttl from branch refs/heads/main|
-|Composition|- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 51
-
-[Jump to summary definition](#summary-Pass-51)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 52
-
-[Jump to summary definition](#summary-Pass-52)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 53
-
-[Jump to summary definition](#summary-Pass-53)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 54
-
-[Jump to summary definition](#summary-Pass-54)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 55
-
-[Jump to summary definition](#summary-Pass-55)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 56
-
-[Jump to summary definition](#summary-Pass-56)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 57
-
-[Jump to summary definition](#summary-Pass-57)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 58
-
-[Jump to summary definition](#summary-Pass-58)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-inconsistent|
-|----|----|
-|Title|Standalone module src/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 59
-
-[Jump to summary definition](#summary-Pass-59)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 60
-
-[Jump to summary definition](#summary-Pass-60)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 61
-
-[Jump to summary definition](#summary-Pass-61)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 62
-
-[Jump to summary definition](#summary-Pass-62)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 63
-
-[Jump to summary definition](#summary-Pass-63)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 64
-
-[Jump to summary definition](#summary-Pass-64)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 65
-
-[Jump to summary definition](#summary-Pass-65)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 66
-
-[Jump to summary definition](#summary-Pass-66)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|module-domain-outer|
-|----|----|
-|Title|Standalone module src/domain-outer.ttl from branch refs/heads/main|
-|Composition|- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 67
-
-[Jump to summary definition](#summary-Pass-67)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 68
-
-[Jump to summary definition](#summary-Pass-68)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 69
-
-[Jump to summary definition](#summary-Pass-69)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 70
-
-[Jump to summary definition](#summary-Pass-70)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 71
-
-[Jump to summary definition](#summary-Pass-71)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 72
-
-[Jump to summary definition](#summary-Pass-72)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 73
-
-[Jump to summary definition](#summary-Pass-73)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 74
-
-[Jump to summary definition](#summary-Pass-74)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 75
-
-[Jump to summary definition](#summary-Pass-75)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-rangeout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/rangeout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 76
-
-[Jump to summary definition](#summary-Pass-76)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 77
-
-[Jump to summary definition](#summary-Pass-77)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 78
-
-[Jump to summary definition](#summary-Pass-78)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 79
-
-[Jump to summary definition](#summary-Pass-79)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 80
-
-[Jump to summary definition](#summary-Pass-80)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 81
-
-[Jump to summary definition](#summary-Pass-81)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 82
-
-[Jump to summary definition](#summary-Pass-82)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 83
-
-[Jump to summary definition](#summary-Pass-83)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-label|
-|----|----|
-|Title|Standalone modelet domains/zedomain/label/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 84
-
-[Jump to summary definition](#summary-Pass-84)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 85
-
-[Jump to summary definition](#summary-Pass-85)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 86
-
-[Jump to summary definition](#summary-Pass-86)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 87
-
-[Jump to summary definition](#summary-Pass-87)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 88
-
-[Jump to summary definition](#summary-Pass-88)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 89
-
-[Jump to summary definition](#summary-Pass-89)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 90
-
-[Jump to summary definition](#summary-Pass-90)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 91
-
-[Jump to summary definition](#summary-Pass-91)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 92
-
-[Jump to summary definition](#summary-Pass-92)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-inconsistence|
-|----|----|
-|Title|Standalone modelet domains/zedomain/inconsistence/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 93
-
-[Jump to summary definition](#summary-Pass-93)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 94
-
-[Jump to summary definition](#summary-Pass-94)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 95
-
-[Jump to summary definition](#summary-Pass-95)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 96
-
-[Jump to summary definition](#summary-Pass-96)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 97
-
-[Jump to summary definition](#summary-Pass-97)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 98
-
-[Jump to summary definition](#summary-Pass-98)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 99
-
-[Jump to summary definition](#summary-Pass-99)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 100
-
-[Jump to summary definition](#summary-Pass-100)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-dovrov|
-|----|----|
-|Title|Standalone modelet domains/zedomain/dovrov/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 101
-
-[Jump to summary definition](#summary-Pass-101)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 102
-
-[Jump to summary definition](#summary-Pass-102)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 103
-
-[Jump to summary definition](#summary-Pass-103)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 104
-
-[Jump to summary definition](#summary-Pass-104)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 105
-
-[Jump to summary definition](#summary-Pass-105)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 106
-
-[Jump to summary definition](#summary-Pass-106)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 107
-
-[Jump to summary definition](#summary-Pass-107)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 108
-
-[Jump to summary definition](#summary-Pass-108)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-domainout|
-|----|----|
-|Title|Standalone modelet domains/zedomain/domainout/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 109
-
-[Jump to summary definition](#summary-Pass-109)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 110
-
-[Jump to summary definition](#summary-Pass-110)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 111
-
-[Jump to summary definition](#summary-Pass-111)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 112
-
-[Jump to summary definition](#summary-Pass-112)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 113
-
-[Jump to summary definition](#summary-Pass-113)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 114
-
-[Jump to summary definition](#summary-Pass-114)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 115
-
-[Jump to summary definition](#summary-Pass-115)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 116
-
-[Jump to summary definition](#summary-Pass-116)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-differenciation|
-|----|----|
-|Title|Standalone modelet domains/zedomain/differenciation/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 117
-
-[Jump to summary definition](#summary-Pass-117)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 118
-
-[Jump to summary definition](#summary-Pass-118)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 119
-
-[Jump to summary definition](#summary-Pass-119)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 120
-
-[Jump to summary definition](#summary-Pass-120)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 121
-
-[Jump to summary definition](#summary-Pass-121)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 122
-
-[Jump to summary definition](#summary-Pass-122)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|The subject is included in the OWL EL sublanguage|
-
-***
-### Pass Outcome number 123
-
-[Jump to summary definition](#summary-Pass-123)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 124
-
-[Jump to summary definition](#summary-Pass-124)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 125
-
-[Jump to summary definition](#summary-Pass-125)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatRL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatRL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 126
-
-[Jump to summary definition](#summary-Pass-126)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 127
-
-[Jump to summary definition](#summary-Pass-127)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 128
-
-[Jump to summary definition](#summary-Pass-128)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 129
-
-[Jump to summary definition](#summary-Pass-129)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 130
-
-[Jump to summary definition](#summary-Pass-130)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL EL Profile compatible|
-|Description|Statement not supported|
-
-***
-### Pass Outcome number 131
-
-[Jump to summary definition](#summary-Pass-131)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 132
-
-[Jump to summary definition](#summary-Pass-132)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 133
-
-[Jump to summary definition](#summary-Pass-133)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatQL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatQL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 134
-
-[Jump to summary definition](#summary-Pass-134)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[domain-and-range-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#domain-and-range-referencing)|
-|----|----|
-|Title|Domain and range referencing test|
-|Description|A test case from the Best Practices tests checking if all the ranges and domains from the test subject point to terms that are defined in the vocabulary.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Domains properly defined|
-|Description|Each rdfs:domain is defined within the fragment|
-
-***
-### Pass Outcome number 135
-
-[Jump to summary definition](#summary-Pass-135)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[labeled-terms](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#labeled-terms)|
-|----|----|
-|Title|Term labeling test|
-|Description|A test case from the Best Practices tests checking if all the terms of the subject have a rdfs:label property pointing to a literal in English|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|All terms labeled|
-|Description|All the terms defined in the subject have a rdfs:label in English|
-
-***
-### Pass Outcome number 136
-
-[Jump to summary definition](#summary-Pass-136)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
-|----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 137
-
-[Jump to summary definition](#summary-Pass-137)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 138
-
-[Jump to summary definition](#summary-Pass-138)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL QL Profile compatible|
-|Description|The subject is included in the OWL QL sublanguage|
-
-***
-### Pass Outcome number 139
-
-[Jump to summary definition](#summary-Pass-139)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[term-referencing](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-referencing)|
-|----|----|
-|Title|Term referencing test|
-|Description|A test case from the Best Practices tests checking if each term of the test subject is referenced to a module through a rdfs:isDefinedBy property.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Any term is referenced|
-|Description|Each term of the test subject is linked to a module by a rdfs:isDefinedBy property|
-
-***
-### Pass Outcome number 140
-
-[Jump to summary definition](#summary-Pass-140)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[terms-differenciation](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#terms-differenciation)|
-|----|----|
-|Title|Terms differenciation test|
-|Description|A test case from the Best Practices tests checking if all the terms are different enough from each other according to the Levenshtein distance metric.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Terms differenciated enough|
-|Description|All the terms have have a satisfying Levenshtein distance from each other term.|
-
-***
-### Pass Outcome number 141
-
-[Jump to summary definition](#summary-Pass-141)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|modelet-zedomain-compatEL|
-|----|----|
-|Title|Standalone modelet domains/zedomain/compatEL/onto.ttl from branch refs/heads/main|
-|Composition|- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 142
-
-[Jump to summary definition](#summary-Pass-142)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|all-modules|
-|----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 143
-
-[Jump to summary definition](#summary-Pass-143)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|all-modules|
-|----|----|
-|Title|All the modules from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
-
-***
-### Pass Outcome number 144
-
-[Jump to summary definition](#summary-Pass-144)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|all-fragments|
-|----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[profile-compatibility](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#profile-compatibility)|
-|----|----|
-|Title|Profile compatibility test|
-|Description|A test meant to check whether the test subject is compatible with a profile or not, and if it is not, why.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL Profile compatible|
-|Description|The subject is included in the OWL RL sublanguage|
-
-***
-### Pass Outcome number 145
-
-[Jump to summary definition](#summary-Pass-145)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|all-fragments|
-|----|----|
-|Title|All the fragments from branch refs/heads/main that are syntaxically correct as well as their recursive imports|
-|Composition|- [Module unlabeled.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unlabeled.ttl)<br/>- [Module too-close-terms.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/too-close-terms.ttl)<br/>- [Module domain-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/domain-outer.ttl)<br/>- [Module not-rl.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-rl.ttl)<br/>- [Module not-el.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-el.ttl)<br/>- [Module range-outer.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/range-outer.ttl)<br/>- [Module unreferenced.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/unreferenced.ttl)<br/>- [Module not-ql.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/not-ql.ttl)<br/>- [Module inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/src/inconsistent.ttl)<br/>- [Modelet zedomain/rangeout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/rangeout/onto.ttl)<br/>- [Modelet zedomain/domainout/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/domainout/onto.ttl)<br/>- [Modelet zedomain/inconsistence/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/inconsistence/onto.ttl)<br/>- [Modelet zedomain/compatQL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatQL/onto.ttl)<br/>- [Modelet zedomain/compatRL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatRL/onto.ttl)<br/>- [Modelet zedomain/dovrov/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/dovrov/onto.ttl)<br/>- [Modelet zedomain/compatEL/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/compatEL/onto.ttl)<br/>- [Modelet zedomain/label/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/label/onto.ttl)<br/>- [Modelet zedomain/differenciation/onto.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/zedomain/differenciation/onto.ttl)|
-
-#### Criterion detail
-|Identifier|[subclass-cycle](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/model/subclass-cycle.shacl#criterion)|
-|----|----|
-|Title|Subclass cycle test|
-|Description|A test meant to detect rdfs:subclass cycles|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
+|Jump|Type|:exclamation:MinorFail|
+|----|----|----|
+|[Section top](#minorfail-outcome-number-167)|Identifier|`too-close-terms`|
+|[Section top](#minorfail-outcome-number-167)|Title|Too close terms|
+|[Section top](#minorfail-outcome-number-167)|Description|Some terms are too similar|
+|[Section top](#minorfail-outcome-number-167)|Pointer|<pre lang="Turtle"><code>:Room a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Room&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;A part of the physical world or a virtual world whose 3D spa...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf :Space .</code></pre>|
+|[Section top](#minorfail-outcome-number-167)|Pointer|<pre lang="Turtle"><code>:Door a owl:Class ;  &#10;&#32;&#32;&#32;&#32;rdfs:label &#34;Door&#34;@en ;  &#10;&#32;&#32;&#32;&#32;rdfs:comment &#34;Definition from ISO 6707-1:1989: Construction for closing an...&#34; ;  &#10;&#32;&#32;&#32;&#32;rdfs:isDefinedBy &#60;https://w3id.org/coswot/building&lowbar;automation/features> ;  &#10;&#32;&#32;&#32;&#32;rdfs:subClassOf :BuildingElement .</code></pre>|
 
 ***
 

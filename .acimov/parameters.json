@@ -2,6 +2,7 @@
     "ontology_prefix": "sand",
     "ontology_namespace": "https://www.example.org/olivaw/",
     "term_distance_threshold": 3,
+    "project_prefixes": {},
     "blocking_errors": [
         "syntax-error",
         "owl-rl-constraint-violation",

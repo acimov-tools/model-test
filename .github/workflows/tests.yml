@@ -25,3 +25,5 @@ jobs:
         query-test: true
         commit-report: ${{ env.BRANCH == env.MAIN }}
         archive-report: true
+
+        

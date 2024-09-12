@@ -7,15 +7,7 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - run: |
-        REF=${{ github.ref }}
-        echo "github.ref: $REF"
-        IFS='/' read -ra PATHS <<< "$REF"
-        BRANCH_NAME="${PATHS[1]}_${PATHS[2]}"
-        echo $BRANCH_NAME
-        echo "MAIN=main" >> $GITHUB_ENV
-        echo "BRANCH=$(echo ${BRANCH_NAME})" >> $GITHUB_ENV
-    - uses: Wimmics/olivaw/test-actions@9529c6b54932a76c39939aefe8c23caa516ba5dd
+    - uses: Wimmics/olivaw/test-actions@30f3bee78b961c5d67d9ce9eebc8dc51e54c3c71
       with:
         repository: ${{ github.repository }}
         ref: ${{ github.ref }}
@@ -23,7 +15,7 @@ jobs:
         data-test: true
         model-test: true
         query-test: true
-        commit-report: ${{ env.BRANCH == env.MAIN }}
+        commit-report: true
         archive-report: true
 
 

@@ -17,3 +17,4 @@ jobs:
         query-test: true
         commit-report: true
         archive-report: true
+        

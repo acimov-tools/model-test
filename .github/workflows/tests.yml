@@ -2,7 +2,6 @@ name: model-test
 on: push
 
 
-
 jobs:
   model-test:
     permissions:

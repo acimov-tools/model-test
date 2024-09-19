@@ -6,33 +6,35 @@ This test is powered by Corese, check the [website](https://project.inria.fr/cor
 
 The original test report is available in turtle syntax [here](./data-test-actions.ttl).
 
-# Test Context
+# Test Activity
 
-Here is some context about under which context this test was made
+Here is some information about the testing activity that led to this report
 
-|Assertor|[NicoRobertIn](https://github.com/NicoRobertIn)|
-|----|-----|
-|Title|NicoRobertIn using actions script|
-|Description|Test triggered by &#91;@NicoRobertIn](https://github.com/NicoRobertIn) by actions trigger|
-|Script|[suite.py](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py)
-|Date|2024-06-03 12:21:23|
-
-***
-
+|Title|Data&#32;tests&#32;of&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
+|--|--|
+|Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;data&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
+|Tester|[NicoRobertIn](https://github.com/NicoRobertIn)|
+|Ontology|[acimov-tools/model-test](https://github.com/acimov-tools/model-test)|
+|Ontology version|[4dbdca88277c1b6c25d784348ecd5f30d1b785c4](https://github.com/acimov-tools/model-test/tree/4dbdca88277c1b6c25d784348ecd5f30d1b785c4)|
+|Ontology branch|[main](https://github.com/acimov-tools/model-test/tree/main)|
+|Olivaw suite|[olivaw data test suite](https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/data/suite.py)|
+|Olivaw version|[v0.0.6](https://github.com/Wimmics/olivaw)|
+|Generated turtle|[Turtle report](./data-test-actions.ttl)|
+|Generated Markdown|[Markdown report](./data-test-actions.md)|
 
 # Statistic summary
 
 Here is a short overview for this test report
 
-27 Outcomes
+25 Outcomes
 
-:boom:5 MajorFail, :exclamation:0 MinorFail, :warning:1 CannotTell, :grey_question:4 NotTested, :white_check_mark:17 Pass
+:boom:7 MajorFail, :exclamation:0 MinorFail, :warning:1 CannotTell, :grey_question:2 NotTested, :white_check_mark:15 Pass
 
-<div  style="border-radius: 12px; height: 25px; overflow: hidden"><img src="../assets/red.png" width="18%" height="25px"/><img src="../assets/orange.png" width="0%" height="25px"/><img src="../assets/grey.png" width="3%" height="25px"/><img src="../assets/white.png" width="14%" height="25px"/><img src="../assets/green.png" width="65%" height="25px"/></div>
+<div  style="border-radius: 12px; height: 25px; overflow: hidden"><img src="../assets/red.png" width="28%" height="25px"/><img src="../assets/orange.png" width="0%" height="25px"/><img src="../assets/grey.png" width="4%" height="25px"/><img src="../assets/white.png" width="8%" height="25px"/><img src="../assets/green.png" width="60%" height="25px"/></div>
 
 <br/>
 
-The different status types are an extension of the [EARL](https://www.w3.org/TR/EARL10-Schema/) vocabulary where the nextended terms can be found in the [olivaw-earl dataset](https://github.com/Wimmics/olivaw/blob/main/olivaw/test/olivaw-earl.ttl), each outcome type means:
+The different status types are an extension of the [EARL](https://www.w3.org/TR/EARL10-Schema/) vocabulary where the nextended terms can be found in the [olivaw ontology](https://ns.inria.fr/olivaw#), each outcome type means:
 * :boom: MajorFail: This is an error that is critical and consider as blocking for production
 * :exclamation: MinorFail: This is an error that should be fixed, but it is cannot be considered as critical error
 * :warning: CannotTell: It is unclear if the subject passed or failed the test. This happens when an automated test requires human judgement to make a definite decision.
@@ -44,26 +46,28 @@ The different status types are an extension of the [EARL](https://www.w3.org/TR/
 
 # MajorFail Outcomes
 
+[Jump to statistic summary](#statistic-summary)	|	Previous section	|	[Next section](#cannottell-outcomes)
+
 Here is the chapter related to the MajorFail outcome
 
-:boom:5 MajorFail outcomes
+:boom:7 MajorFail outcomes
 
 <details>
-<summary>Fold/Unfold the 5 summary and details</summary>
+<summary>Fold/Unfold the 7 summary and details</summary>
 
 ## MajorFail Outcomes Summary
 
-[Jump to statistic summary](#statistic-summary)
-
-:boom:5 MajorFail outcomes
+:boom:7 MajorFail outcomes
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-1">1/5</div>|:boom:*MajorFail*|`usecase-zeusecase-wronguncommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-2">2/5</div>|:boom:*MajorFail*|`usecase-zeusecase-wrongcommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-2)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-3">3/5</div>|:boom:*MajorFail*|`usecase-zeusecase-syntax`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-3)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-4">4/5</div>|:boom:*MajorFail*|`usecase-zeusecase-notrealterm`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Unknown ontology term|[Jump](#majorfail-outcome-number-4)|
-|[Table top](#majorfail-outcomes-summary)|<div id="summary-MajorFail-5">5/5</div>|:boom:*MajorFail*|`usecase-zeusecase-notrealterm`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-1">1/7</div>|:boom:MajorFail|`usecase-zeusecase-wronguncommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-2">2/7</div>|:boom:MajorFail|`usecase-zeusecase-wrongcommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-2)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-3">3/7</div>|:boom:MajorFail|`usecase-zeusecase-syntax`|[syntax](https://ns.inria.fr/olivaw#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-3)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-4">4/7</div>|:boom:MajorFail|`usecase-zeusecase-notrealterm`|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|Unknown ontology term|[Jump](#majorfail-outcome-number-4)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-5">5/7</div>|:boom:MajorFail|`usecase-zeusecase-notrealterm`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-6">6/7</div>|:boom:MajorFail|`usecase-zeusecase-inconsistent`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-6)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-7">7/7</div>|:boom:MajorFail|`dataset-domain1-scenario1`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-7)|
 
 ***
 
@@ -73,132 +77,188 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 
 ### MajorFail Outcome number 1
 
-[Jump to summary definition](#summary-MajorFail-1)
+[Jump to summary definition](#summary-MajorFail-1)	|	Previous MajorFail outcome	|	[Next MajorFail outcome](#majorfail-outcome-number-2)
 
 :boom:MajorFail outcome
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
-|Title|The vocabulary is linked to by other vocabularies|
-|Description|Each node should have predicates other than rdf:type|
+|Title|The&#32;vocabulary&#32;is&#32;linked&#32;to&#32;by&#32;other&#32;vocabularies|
+|Description|Each&#32;node&#32;should&#32;have&#32;predicates&#32;other&#32;than&#32;rdf:type|
 
 #### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:1e1614c9-8805-4848-88e5-be51dd8b3c33> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>:zeInstance a &#60;http://www.example.org/olivaw/ClassA> .</code></pre>|
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-1)|Identifier|`data-richness`|
+|[Section top](#majorfail-outcome-number-1)|Title|Error&#32;on&#32;custom&#32;test&#32;|
+|[Section top](#majorfail-outcome-number-1)|Description|Error&#32;occured&#32;while&#32;running&#32;custom&#32;test&#32;|
+|[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>:shape&#32;a&#32;sh:NodeShape&#32;;  &#10; &#32; &#32; &#32; &#32;sh:message&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:severity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sparql&#32; &#91;&#32;sh:select&#32; &#34; &#34; &#34;  &#10;select&#32;?this&#32;where&#32;{  &#10; &#32; &#32;?this&#32;?p&#32;?o&#32;.  &#10; &#32; &#32; &#32;filter&#32;(?p&#32;!=&#32;rdf:t...&#34; &#34; &#34; &#32;]&#32;;  &#10; &#32; &#32; &#32; &#32;sh:targetSubjectsOf&#32;rdf:type&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>violation:3d17edaf-f904-4a5d-ba18-329e189ce43d&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>:zeInstance&#32;a&#32; &#60;http://www.example.org/olivaw/ClassA> &#32;.</code></pre>|
 
 ***
 ### MajorFail Outcome number 2
 
-[Jump to summary definition](#summary-MajorFail-2)
+[Jump to summary definition](#summary-MajorFail-2)	|	[Previous MajorFail outcome](#majorfail-outcome-number-1)	|	[Next MajorFail outcome](#majorfail-outcome-number-3)
 
 :boom:MajorFail outcome
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
-|Title|The vocabulary is linked to by other vocabularies|
-|Description|Each node should have predicates other than rdf:type|
+|Title|The&#32;vocabulary&#32;is&#32;linked&#32;to&#32;by&#32;other&#32;vocabularies|
+|Description|Each&#32;node&#32;should&#32;have&#32;predicates&#32;other&#32;than&#32;rdf:type|
 
 #### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:07dd7ea6-93fc-4eac-aad3-9a3dde8aaf29> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>:zeInstance a sand:ClassA .</code></pre>|
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-2)|Identifier|`data-richness`|
+|[Section top](#majorfail-outcome-number-2)|Title|Error&#32;on&#32;custom&#32;test&#32;|
+|[Section top](#majorfail-outcome-number-2)|Description|Error&#32;occured&#32;while&#32;running&#32;custom&#32;test&#32;|
+|[Section top](#majorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>:shape&#32;a&#32;sh:NodeShape&#32;;  &#10; &#32; &#32; &#32; &#32;sh:message&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:severity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sparql&#32; &#91;&#32;sh:select&#32; &#34; &#34; &#34;  &#10;select&#32;?this&#32;where&#32;{  &#10; &#32; &#32;?this&#32;?p&#32;?o&#32;.  &#10; &#32; &#32; &#32;filter&#32;(?p&#32;!=&#32;rdf:t...&#34; &#34; &#34; &#32;]&#32;;  &#10; &#32; &#32; &#32; &#32;sh:targetSubjectsOf&#32;rdf:type&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>violation:0acbf00e-c532-4bbf-bbec-065a5e7df6d2&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>:zeInstance&#32;a&#32;sand:ClassA&#32;.</code></pre>|
 
 ***
 ### MajorFail Outcome number 3
 
-[Jump to summary definition](#summary-MajorFail-3)
+[Jump to summary definition](#summary-MajorFail-3)	|	[Previous MajorFail outcome](#majorfail-outcome-number-2)	|	[Next MajorFail outcome](#majorfail-outcome-number-4)
 
 :boom:MajorFail outcome
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
+|Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
 |----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Syntax&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Test subject has syntax errors|
-|Description|Encountered &#34;a&#34; at line 6, column 27.|
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-3)|Identifier|`syntax-error`|
+|[Section top](#majorfail-outcome-number-3)|Title|Test&#32;subject&#32;has&#32;syntax&#32;errors|
+|[Section top](#majorfail-outcome-number-3)|Description|Encountered&#32; &#34;a&#34; &#32;at&#32;line&#32;6,&#32;column&#32;27.|
 
 ***
 ### MajorFail Outcome number 4
 
-[Jump to summary definition](#summary-MajorFail-4)
+[Jump to summary definition](#summary-MajorFail-4)	|	[Previous MajorFail outcome](#majorfail-outcome-number-3)	|	[Next MajorFail outcome](#majorfail-outcome-number-5)
 
 :boom:MajorFail outcome
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
+|Identifier|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|
 |----|----|
-|Title|Term recognition test|
-|Description|A test meant to detect if all the terms from the subject that are from the ontology namespace are indeed defined in the ontology|
+|Title|Term&#32;recognition&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;detect&#32;if&#32;all&#32;the&#32;terms&#32;from&#32;the&#32;subject&#32;that&#32;are&#32;from&#32;the&#32;ontology&#32;namespace&#32;are&#32;indeed&#32;defined&#32;in&#32;the&#32;ontology|
 
 #### Outcome Detail
-|Type|:boom:MajorFail|
-|----|----|
-|Title|Unknown ontology term|
-|Description|Some fragment terms are in ontology namespace but not defined in ontology|
-|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/zeusecase/zeInstance> rdf:type &#60;https://www.example.org/olivaw/ClasseA> .</code></pre>|
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-4)|Identifier|`unknown-term`|
+|[Section top](#majorfail-outcome-number-4)|Title|Unknown&#32;ontology&#32;term|
+|[Section top](#majorfail-outcome-number-4)|Description|Some&#32;fragment&#32;terms&#32;are&#32;in&#32;ontology&#32;namespace&#32;but&#32;not&#32;defined&#32;in&#32;ontology|
+|[Section top](#majorfail-outcome-number-4)|Pointer|<pre lang="Turtle"><code>Term&#32;not&#32;recognized:&#32; &#60;https://www.example.org/olivaw/ClasseA></code></pre>|
+|[Section top](#majorfail-outcome-number-4)|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/zeusecase/zeInstance> &#32;a&#32;:ClasseA&#32;.</code></pre>|
 
 ***
 ### MajorFail Outcome number 5
 
-[Jump to summary definition](#summary-MajorFail-5)
+[Jump to summary definition](#summary-MajorFail-5)	|	[Previous MajorFail outcome](#majorfail-outcome-number-4)	|	[Next MajorFail outcome](#majorfail-outcome-number-6)
 
 :boom:MajorFail outcome
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
-|Title|The vocabulary is linked to by other vocabularies|
-|Description|Each node should have predicates other than rdf:type|
+|Title|The&#32;vocabulary&#32;is&#32;linked&#32;to&#32;by&#32;other&#32;vocabularies|
+|Description|Each&#32;node&#32;should&#32;have&#32;predicates&#32;other&#32;than&#32;rdf:type|
 
 #### Outcome Detail
-|Type|:boom:MajorFail|
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-5)|Identifier|`data-richness`|
+|[Section top](#majorfail-outcome-number-5)|Title|Error&#32;on&#32;custom&#32;test&#32;|
+|[Section top](#majorfail-outcome-number-5)|Description|Error&#32;occured&#32;while&#32;running&#32;custom&#32;test&#32;|
+|[Section top](#majorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>:shape&#32;a&#32;sh:NodeShape&#32;;  &#10; &#32; &#32; &#32; &#32;sh:message&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:severity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sparql&#32; &#91;&#32;sh:select&#32; &#34; &#34; &#34;  &#10;select&#32;?this&#32;where&#32;{  &#10; &#32; &#32;?this&#32;?p&#32;?o&#32;.  &#10; &#32; &#32; &#32;filter&#32;(?p&#32;!=&#32;rdf:t...&#34; &#34; &#34; &#32;]&#32;;  &#10; &#32; &#32; &#32; &#32;sh:targetSubjectsOf&#32;rdf:type&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>violation:a14a2577-96ab-4e46-a59e-978057c5ed5e&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>:zeInstance&#32;a&#32;sand:ClasseA&#32;.</code></pre>|
+
+***
+### MajorFail Outcome number 6
+
+[Jump to summary definition](#summary-MajorFail-6)	|	[Previous MajorFail outcome](#majorfail-outcome-number-5)	|	[Next MajorFail outcome](#majorfail-outcome-number-7)
+
+:boom:MajorFail outcome
+#### Subject detail
+|Name|usecase-zeusecase-inconsistent|
 |----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-|Pointer|<pre lang="Turtle"><code>&#60;#shape> a sh:NodeShape ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:message &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:severity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sparql &#91; sh:minCount 1 ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh:select &#34;&#34;&#34;&#10;select ?this where {&#10;?this ?p ?o .&#10;filter (?p != rdf:type)&#10;}&#10;values ($ontology&lowbar;url) { (&#34;https://www.example.org/olivaw/&#34;) }&#34;&#34;&#34; ] ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:targetSubjectsOf rdf:type .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>&#60;urn:uuid:b65a2c36-3c55-4d50-8977-c795f03e6964> rdf:type sh:ValidationResult ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:focusNode &#60;https://www.example.org/zeusecase/zeInstance> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultMessage &#34;Some subjects only have a rdf:type property&#34; ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultPath sh:sparql ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:resultSeverity sh:Warning ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceConstraintComponent sh:sparqlCount ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:sourceShape &#60;#shape> ;&#10;&nbsp;&nbsp;&nbsp;&nbsp;sh:value 0 .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>:zeInstance a sand:ClasseA .</code></pre>|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/inconsistent.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/inconsistent](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/inconsistent.ttl)|
+
+#### Criterion detail
+|Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
+|----|----|
+|Title|OWL&#32;RL&#32;Constraint&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
+
+#### Outcome Detail
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-6)|Identifier|`owl-rl-constraint-violation`|
+|[Section top](#majorfail-outcome-number-6)|Title|OWL&#32;RL&#32;Constraint&#32;violation|
+|[Section top](#majorfail-outcome-number-6)|Description|http://www.w3.org/2002/07/owl#AllDisjointClasses&#32; &#10;rdf:type&#32;sp:ConstraintViolation&#32; &#10;sp:violationRoot&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32; &#10;rdfs:label&#32; &#34;Violates&#32;owl:AllDisjointClasses&#34; &#32; &#10;sp:arg1&#32; &#60;https://www.example.org/zeusecase/zeClassA> &#32; &#10;sp:arg2&#32; &#60;https://www.example.org/zeusecase/zeClassB> &#32; &#10; &#32; &#10;|
+
+***
+### MajorFail Outcome number 7
+
+[Jump to summary definition](#summary-MajorFail-7)	|	[Previous MajorFail outcome](#majorfail-outcome-number-6)	|	Next MajorFail outcome
+
+:boom:MajorFail outcome
+#### Subject detail
+|Name|dataset-domain1-scenario1|
+|----|----|
+|Title|Standalone&#32;dataset&#32;domains/domain1/scenario1/dataset.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Dataset domain1/scenario1](https://github.com/acimov-tools/model-test/blob/main/domains/domain1/scenario1/dataset.ttl)|
+
+#### Criterion detail
+|Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
+|----|----|
+|Title|OWL&#32;RL&#32;Constraint&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
+
+#### Outcome Detail
+|Jump|Type|:boom:MajorFail|
+|----|----|----|
+|[Section top](#majorfail-outcome-number-7)|Identifier|`owl-rl-constraint-violation`|
+|[Section top](#majorfail-outcome-number-7)|Title|OWL&#32;RL&#32;Constraint&#32;violation|
+|[Section top](#majorfail-outcome-number-7)|Description|http://www.w3.org/2002/07/owl#AllDisjointClasses&#32; &#10;rdf:type&#32;sp:ConstraintViolation&#32; &#10;sp:violationRoot&#32; &#60;http://stardog.com/tutorial/The&lowbar;Beatles> &#32; &#10;rdfs:label&#32; &#34;Violates&#32;owl:AllDisjointClasses&#34; &#32; &#10;sp:arg1&#32; &#60;https://www.example.org/A> &#32; &#10;sp:arg2&#32; &#60;https://www.example.org/B> &#32; &#10; &#32; &#10;|
 
 ***
 
@@ -209,6 +269,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 
 # CannotTell Outcomes
 
+[Jump to statistic summary](#statistic-summary)	|	[Previous section](#majorfail-outcomes)	|	[Next section](#nottested-outcomes)
+
 Here is the chapter related to the CannotTell outcome
 
 :warning:1 CannotTell outcomes
@@ -218,13 +280,11 @@ Here is the chapter related to the CannotTell outcome
 
 ## CannotTell Outcomes Summary
 
-[Jump to statistic summary](#statistic-summary)
-
 :warning:1 CannotTell outcomes
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#cannottell-outcomes-summary)|<div id="summary-CannotTell-1">1/1</div>|:warning:*CannotTell*|`usecase-zeusecase-wronguncommonprefix`|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|Possible prefix typo|[Jump](#cannottell-outcome-number-1)|
+|[Chapter top](#cannottell-outcomes)|<div id="summary-CannotTell-1">1/1</div>|:warning:CannotTell|`usecase-zeusecase-wronguncommonprefix`|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|Possible namespace typo|[Jump](#cannottell-outcome-number-1)|
 
 ***
 
@@ -234,28 +294,31 @@ This subchapter gives more details to the :warning:CannotTell outcomes
 
 ### CannotTell Outcome number 1
 
-[Jump to summary definition](#summary-CannotTell-1)
+[Jump to summary definition](#summary-CannotTell-1)	|	Previous CannotTell outcome	|	Next CannotTell outcome
 
 :warning:CannotTell outcome
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
+|Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
 |----|----|
-|Title|Term validity test|
-|Description|A test case checking if all the prefixes are not too close from the most used existing namespaces (according to prefix cc)|
+|Title|Prefix&#32;validity&#32;test|
+|Description|A&#32;test&#32;case&#32;checking&#32;if&#32;all&#32;the&#32;prefixes&#32;are&#32;not&#32;too&#32;close&#32;from&#32;the&#32;most&#32;used&#32;existing&#32;namespaces&#32;(according&#32;to&#32;prefix&#32;cc)&#32;or&#32;an&#32;ontology&#32;namespace|
 
 #### Outcome Detail
-|Type|:warning:CannotTell|
-|----|----|
-|Title|Possible prefix typo|
-|Description|The prefix http://www.example.org/olivaw/ seems suspicious. Did you mean one of these prefixes?|
-|Pointer|<pre lang="Turtle"><code>Prefix usage in the subject file:&#10;@prefix owl: &#60;http://www.w3.org/2002/07/owl#> .&#10;@prefix rdf: &#60;http://www.w3.org/1999/02/22-rdf-syntax-ns#> . &#10; &#60;https://www.example.org/zeusecase/zeInstance> rdf:type &#60;http://www.example.org/olivaw/ClassA> .</code></pre>|
-|Pointer|<pre lang="Turtle"><code>Similar prefix found in file ./use-cases/zeusecase/notrealterm.ttl&#10;Prefix found: https://www.example.org/olivaw/&#10;@prefix owl: &#60;http://www.w3.org/2002/07/owl#> .&#10;@prefix rdf: &#60;http://www.w3.org/1999/02/22-rdf-syntax-ns#> . &#10; &#60;https://www.example.org/zeusecase/zeInstance> rdf:type &#60;https://www.example.org/olivaw/ClasseA> .</code></pre>|
+|Jump|Type|:warning:CannotTell|
+|----|----|----|
+|[Section top](#cannottell-outcome-number-1)|Identifier|`namespace-typo`|
+|[Section top](#cannottell-outcome-number-1)|Title|Possible&#32;namespace&#32;typo|
+|[Section top](#cannottell-outcome-number-1)|Description|The&#32;following&#32;namespace&#32;seems&#32;suspicious:  &#10; &#32;http://www.example.org/olivaw/&#32;  &#10;Was&#32;it&#32;supposed&#32;to&#32;correspond&#32;to&#32;one&#32;of&#32;these&#32;namespaces?|
+|[Section top](#cannottell-outcome-number-1)|Pointer|<pre lang="Turtle"><code>Namespace&#32;usage&#32;in&#32;the&#32;subject&#32;file:</code></pre>|
+|[Section top](#cannottell-outcome-number-1)|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/zeusecase/zeInstance> &#32;a&#32; &#60;http://www.example.org/olivaw/ClassA> &#32;.</code></pre>|
+|[Section top](#cannottell-outcome-number-1)|Pointer|<pre lang="Turtle"><code>Similar&#32;namespace&#32;found&#32;in&#32;file:  &#10;./use-cases/zeusecase/notrealterm.ttl&#32;  &#10;Namespace&#32;found:  &#10;https://www.example.org/olivaw/</code></pre>|
+|[Section top](#cannottell-outcome-number-1)|Pointer|<pre lang="Turtle"><code>&#60;https://www.example.org/zeusecase/zeInstance> &#32;a&#32;similar-namespace:ClasseA&#32;.</code></pre>|
 
 ***
 
@@ -266,25 +329,23 @@ This subchapter gives more details to the :warning:CannotTell outcomes
 
 # NotTested Outcomes
 
+[Jump to statistic summary](#statistic-summary)	|	[Previous section](#cannottell-outcomes)	|	[Next section](#pass-outcomes)
+
 Here is the chapter related to the NotTested outcome
 
-:grey_question:4 NotTested outcomes
+:grey_question:2 NotTested outcomes
 
 <details>
-<summary>Fold/Unfold the 4 summary and details</summary>
+<summary>Fold/Unfold the 2 summary and details</summary>
 
 ## NotTested Outcomes Summary
 
-[Jump to statistic summary](#statistic-summary)
-
-:grey_question:4 NotTested outcomes
+:grey_question:2 NotTested outcomes
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-1">1/4</div>|:grey_question:*NotTested*|`usecase-zeusecase-syntax`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|Error on custom test |[Jump](#nottested-outcome-number-1)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-2">2/4</div>|:grey_question:*NotTested*|`usecase-zeusecase-syntax`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Error on custom test |[Jump](#nottested-outcome-number-2)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-3">3/4</div>|:grey_question:*NotTested*|`usecase-zeusecase-inconsistent`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Error on custom test |[Jump](#nottested-outcome-number-3)|
-|[Table top](#nottested-outcomes-summary)|<div id="summary-NotTested-4">4/4</div>|:grey_question:*NotTested*|`dataset-domain1-scenario1`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Error on custom test |[Jump](#nottested-outcome-number-4)|
+|[Chapter top](#nottested-outcomes)|<div id="summary-NotTested-1">1/2</div>|:grey_question:NotTested|`usecase-zeusecase-syntax`|[data-richness](https://ns.inria.fr/olivaw#data-richness)|Error on custom test |[Jump](#nottested-outcome-number-1)|
+|[Chapter top](#nottested-outcomes)|<div id="summary-NotTested-2">2/2</div>|:grey_question:NotTested|`usecase-zeusecase-syntax`|[node-with-class](https://ns.inria.fr/olivaw#node-with-class)|Error on custom test |[Jump](#nottested-outcome-number-2)|
 
 ***
 
@@ -294,98 +355,52 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 
 ### NotTested Outcome number 1
 
-[Jump to summary definition](#summary-NotTested-1)
+[Jump to summary definition](#summary-NotTested-1)	|	Previous NotTested outcome	|	[Next NotTested outcome](#nottested-outcome-number-2)
 
 :grey_question:NotTested outcome
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
+|Identifier|[data-richness](https://ns.inria.fr/olivaw#data-richness)|
 |----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|The&#32;vocabulary&#32;is&#32;linked&#32;to&#32;by&#32;other&#32;vocabularies|
+|Description|Each&#32;node&#32;should&#32;have&#32;predicates&#32;other&#32;than&#32;rdf:type|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:grey_question:NotTested|
+|----|----|----|
+|[Section top](#nottested-outcome-number-1)|Identifier|`data-richness`|
+|[Section top](#nottested-outcome-number-1)|Title|Error&#32;on&#32;custom&#32;test&#32;|
+|[Section top](#nottested-outcome-number-1)|Description|Custom&#32;test&#32; &#32;could&#32;not&#32;be&#32;run&#32;because&#32;the&#32;subject&#32;could&#32;not&#32;be&#32;loaded&#32;in&#32;the&#32;engine|
 
 ***
 ### NotTested Outcome number 2
 
-[Jump to summary definition](#summary-NotTested-2)
+[Jump to summary definition](#summary-NotTested-2)	|	[Previous NotTested outcome](#nottested-outcome-number-1)	|	Next NotTested outcome
 
 :grey_question:NotTested outcome
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/syntax.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/syntax.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
-|Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
+|Identifier|[node-with-class](https://ns.inria.fr/olivaw#node-with-class)|
 |----|----|
-|Title|Term recognition test|
-|Description|A test meant to detect if all the terms from the subject that are from the ontology namespace are indeed defined in the ontology|
+|Title|Classed&#32;node&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;test&#32;if&#32;each&#32;node&#32;has&#32;a&#32;rdf:type&#32;property|
 
 #### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 3
-
-[Jump to summary definition](#summary-NotTested-3)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|usecase-zeusecase-inconsistent|
-|----|----|
-|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
-|----|----|
-|Title|Term recognition test|
-|Description|A test meant to detect if all the terms from the subject that are from the ontology namespace are indeed defined in the ontology|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
-
-***
-### NotTested Outcome number 4
-
-[Jump to summary definition](#summary-NotTested-4)
-
-:grey_question:NotTested outcome
-#### Subject detail
-|Name|dataset-domain1-scenario1|
-|----|----|
-|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
-
-#### Criterion detail
-|Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
-|----|----|
-|Title|Term recognition test|
-|Description|A test meant to detect if all the terms from the subject that are from the ontology namespace are indeed defined in the ontology|
-
-#### Outcome Detail
-|Type|:grey_question:NotTested|
-|----|----|
-|Title|Error on custom test|
-|Description|Error occured while running custom test|
+|Jump|Type|:grey_question:NotTested|
+|----|----|----|
+|[Section top](#nottested-outcome-number-2)|Identifier|`node-with-class`|
+|[Section top](#nottested-outcome-number-2)|Title|Error&#32;on&#32;custom&#32;test&#32;|
+|[Section top](#nottested-outcome-number-2)|Description|Custom&#32;test&#32; &#32;could&#32;not&#32;be&#32;run&#32;because&#32;the&#32;subject&#32;could&#32;not&#32;be&#32;loaded&#32;in&#32;the&#32;engine|
 
 ***
 
@@ -396,38 +411,36 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 
 # Pass Outcomes
 
+[Jump to statistic summary](#statistic-summary)	|	[Previous section](#nottested-outcomes)	|	Next section
+
 Here is the chapter related to the Pass outcome
 
-:white_check_mark:17 Pass outcomes
+:white_check_mark:15 Pass outcomes
 
 <details>
-<summary>Fold/Unfold the 17 summary and details</summary>
+<summary>Fold/Unfold the 15 summary and details</summary>
 
 ## Pass Outcomes Summary
 
-[Jump to statistic summary](#statistic-summary)
-
-:white_check_mark:17 Pass outcomes
+:white_check_mark:15 Pass outcomes
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-1">1/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-1)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-2">2/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-2)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-3">3/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Every term exists|[Jump](#pass-outcome-number-3)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-4">4/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wronguncommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-4)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-5">5/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-5)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-6">6/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|No prefix typo|[Jump](#pass-outcome-number-6)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-7">7/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-7)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-8">8/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|Every term exists|[Jump](#pass-outcome-number-8)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-9">9/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-wrongcommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-10">10/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-10)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-11">11/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|No prefix typo|[Jump](#pass-outcome-number-11)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-12">12/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-12)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-13">13/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-notrealterm`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-13)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-14">14/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-inconsistent`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-14)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-15">15/17</div>|:white_check_mark:*Pass*|`usecase-zeusecase-inconsistent`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-15)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-16">16/17</div>|:white_check_mark:*Pass*|`dataset-domain1-scenario1`|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-16)|
-|[Table top](#pass-outcomes-summary)|<div id="summary-Pass-17">17/17</div>|:white_check_mark:*Pass*|`dataset-domain1-scenario1`|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|Correct syntax|[Jump](#pass-outcome-number-17)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-1">1/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-1)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-2">2/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-2)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-3">3/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|Every term exists|[Jump](#pass-outcome-number-3)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-4">4/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-4)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-5">5/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|No namespace typo|[Jump](#pass-outcome-number-5)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-6">6/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-6)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-7">7/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-7)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-8">8/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|Every term exists|[Jump](#pass-outcome-number-8)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-9">9/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-10">10/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|No namespace typo|[Jump](#pass-outcome-number-10)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-11">11/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-11)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-12">12/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-12)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-13">13/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-13)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-14">14/15</div>|:white_check_mark:Pass|`usecase-zeusecase-inconsistent`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-14)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-15">15/15</div>|:white_check_mark:Pass|`dataset-domain1-scenario1`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-15)|
 
 ***
 
@@ -437,410 +450,377 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 
 ### Pass Outcome number 1
 
-[Jump to summary definition](#summary-Pass-1)
+[Jump to summary definition](#summary-Pass-1)	|	Previous Pass outcome	|	[Next Pass outcome](#pass-outcome-number-2)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
+|Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
 |----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|OWL&#32;RL&#32;Constraint&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-1)|Identifier|`owl-rl-constraint-violation`|
+|[Section top](#pass-outcome-number-1)|Title|OWL&#32;RL&#32;consistent|
+|[Section top](#pass-outcome-number-1)|Description|The&#32;provided&#32;graph&#32;is&#32;consistent&#32;for&#32;any&#32;OWL&#32;RL&#32;constraint|
 
 ***
 ### Pass Outcome number 2
 
-[Jump to summary definition](#summary-Pass-2)
+[Jump to summary definition](#summary-Pass-2)	|	[Previous Pass outcome](#pass-outcome-number-1)	|	[Next Pass outcome](#pass-outcome-number-3)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
+|Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
 |----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Syntax&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Correct syntax|
-|Description|Test subject has a correct syntax|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-2)|Identifier|`syntax-error`|
+|[Section top](#pass-outcome-number-2)|Title|Correct&#32;syntax|
+|[Section top](#pass-outcome-number-2)|Description|Test&#32;subject&#32;has&#32;a&#32;correct&#32;syntax|
 
 ***
 ### Pass Outcome number 3
 
-[Jump to summary definition](#summary-Pass-3)
+[Jump to summary definition](#summary-Pass-3)	|	[Previous Pass outcome](#pass-outcome-number-2)	|	[Next Pass outcome](#pass-outcome-number-4)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
+|Identifier|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|
 |----|----|
-|Title|Term recognition test|
-|Description|A test meant to detect if all the terms from the subject that are from the ontology namespace are indeed defined in the ontology|
+|Title|Term&#32;recognition&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;detect&#32;if&#32;all&#32;the&#32;terms&#32;from&#32;the&#32;subject&#32;that&#32;are&#32;from&#32;the&#32;ontology&#32;namespace&#32;are&#32;indeed&#32;defined&#32;in&#32;the&#32;ontology|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Every term exists|
-|Description|All the ontologic terms in the subject are defined in the ontology|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-3)|Identifier|`unknown-term`|
+|[Section top](#pass-outcome-number-3)|Title|Every&#32;term&#32;exists|
+|[Section top](#pass-outcome-number-3)|Description|All&#32;the&#32;ontologic&#32;terms&#32;in&#32;the&#32;subject&#32;are&#32;defined&#32;in&#32;the&#32;ontology|
 
 ***
 ### Pass Outcome number 4
 
-[Jump to summary definition](#summary-Pass-4)
+[Jump to summary definition](#summary-Pass-4)	|	[Previous Pass outcome](#pass-outcome-number-3)	|	[Next Pass outcome](#pass-outcome-number-5)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wronguncommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
-|Title|Classed node test|
-|Description|A test meant to test if each node has a rdf:type property|
+|Title|Classed&#32;node&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;test&#32;if&#32;each&#32;node&#32;has&#32;a&#32;rdf:type&#32;property|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-4)|Identifier|`node-with-class`|
+|[Section top](#pass-outcome-number-4)|Title|Test&#32; &#32;passed|
+|[Section top](#pass-outcome-number-4)|Description|The&#32;custom&#32;test&#32; &#32;passed|
 
 ***
 ### Pass Outcome number 5
 
-[Jump to summary definition](#summary-Pass-5)
+[Jump to summary definition](#summary-Pass-5)	|	[Previous Pass outcome](#pass-outcome-number-4)	|	[Next Pass outcome](#pass-outcome-number-6)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
+|Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
 |----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Prefix&#32;validity&#32;test|
+|Description|A&#32;test&#32;case&#32;checking&#32;if&#32;all&#32;the&#32;prefixes&#32;are&#32;not&#32;too&#32;close&#32;from&#32;the&#32;most&#32;used&#32;existing&#32;namespaces&#32;(according&#32;to&#32;prefix&#32;cc)&#32;or&#32;an&#32;ontology&#32;namespace|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-5)|Identifier|`namespace-typo`|
+|[Section top](#pass-outcome-number-5)|Title|No&#32;namespace&#32;typo|
+|[Section top](#pass-outcome-number-5)|Description|It&#32;seems&#32;that&#32;none&#32;of&#32;the&#32;subject&#32;URIs&#32;have&#32;namespaces&#32;typos|
 
 ***
 ### Pass Outcome number 6
 
-[Jump to summary definition](#summary-Pass-6)
+[Jump to summary definition](#summary-Pass-6)	|	[Previous Pass outcome](#pass-outcome-number-5)	|	[Next Pass outcome](#pass-outcome-number-7)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
+|Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
 |----|----|
-|Title|Term validity test|
-|Description|A test case checking if all the prefixes are not too close from the most used existing namespaces (according to prefix cc)|
+|Title|OWL&#32;RL&#32;Constraint&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|No prefix typo|
-|Description|It seems that none of the subject URIs have prefixes typos|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-6)|Identifier|`owl-rl-constraint-violation`|
+|[Section top](#pass-outcome-number-6)|Title|OWL&#32;RL&#32;consistent|
+|[Section top](#pass-outcome-number-6)|Description|The&#32;provided&#32;graph&#32;is&#32;consistent&#32;for&#32;any&#32;OWL&#32;RL&#32;constraint|
 
 ***
 ### Pass Outcome number 7
 
-[Jump to summary definition](#summary-Pass-7)
+[Jump to summary definition](#summary-Pass-7)	|	[Previous Pass outcome](#pass-outcome-number-6)	|	[Next Pass outcome](#pass-outcome-number-8)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
+|Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
 |----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Syntax&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Correct syntax|
-|Description|Test subject has a correct syntax|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-7)|Identifier|`syntax-error`|
+|[Section top](#pass-outcome-number-7)|Title|Correct&#32;syntax|
+|[Section top](#pass-outcome-number-7)|Description|Test&#32;subject&#32;has&#32;a&#32;correct&#32;syntax|
 
 ***
 ### Pass Outcome number 8
 
-[Jump to summary definition](#summary-Pass-8)
+[Jump to summary definition](#summary-Pass-8)	|	[Previous Pass outcome](#pass-outcome-number-7)	|	[Next Pass outcome](#pass-outcome-number-9)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[term-recognition](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#term-recognition)|
+|Identifier|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|
 |----|----|
-|Title|Term recognition test|
-|Description|A test meant to detect if all the terms from the subject that are from the ontology namespace are indeed defined in the ontology|
+|Title|Term&#32;recognition&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;detect&#32;if&#32;all&#32;the&#32;terms&#32;from&#32;the&#32;subject&#32;that&#32;are&#32;from&#32;the&#32;ontology&#32;namespace&#32;are&#32;indeed&#32;defined&#32;in&#32;the&#32;ontology|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Every term exists|
-|Description|All the ontologic terms in the subject are defined in the ontology|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-8)|Identifier|`unknown-term`|
+|[Section top](#pass-outcome-number-8)|Title|Every&#32;term&#32;exists|
+|[Section top](#pass-outcome-number-8)|Description|All&#32;the&#32;ontologic&#32;terms&#32;in&#32;the&#32;subject&#32;are&#32;defined&#32;in&#32;the&#32;ontology|
 
 ***
 ### Pass Outcome number 9
 
-[Jump to summary definition](#summary-Pass-9)
+[Jump to summary definition](#summary-Pass-9)	|	[Previous Pass outcome](#pass-outcome-number-8)	|	[Next Pass outcome](#pass-outcome-number-10)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/wrongcommonprefix.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
-|Title|Classed node test|
-|Description|A test meant to test if each node has a rdf:type property|
+|Title|Classed&#32;node&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;test&#32;if&#32;each&#32;node&#32;has&#32;a&#32;rdf:type&#32;property|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-9)|Identifier|`node-with-class`|
+|[Section top](#pass-outcome-number-9)|Title|Test&#32; &#32;passed|
+|[Section top](#pass-outcome-number-9)|Description|The&#32;custom&#32;test&#32; &#32;passed|
 
 ***
 ### Pass Outcome number 10
 
-[Jump to summary definition](#summary-Pass-10)
+[Jump to summary definition](#summary-Pass-10)	|	[Previous Pass outcome](#pass-outcome-number-9)	|	[Next Pass outcome](#pass-outcome-number-11)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
+|Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
 |----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Prefix&#32;validity&#32;test|
+|Description|A&#32;test&#32;case&#32;checking&#32;if&#32;all&#32;the&#32;prefixes&#32;are&#32;not&#32;too&#32;close&#32;from&#32;the&#32;most&#32;used&#32;existing&#32;namespaces&#32;(according&#32;to&#32;prefix&#32;cc)&#32;or&#32;an&#32;ontology&#32;namespace|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-10)|Identifier|`namespace-typo`|
+|[Section top](#pass-outcome-number-10)|Title|No&#32;namespace&#32;typo|
+|[Section top](#pass-outcome-number-10)|Description|It&#32;seems&#32;that&#32;none&#32;of&#32;the&#32;subject&#32;URIs&#32;have&#32;namespaces&#32;typos|
 
 ***
 ### Pass Outcome number 11
 
-[Jump to summary definition](#summary-Pass-11)
+[Jump to summary definition](#summary-Pass-11)	|	[Previous Pass outcome](#pass-outcome-number-10)	|	[Next Pass outcome](#pass-outcome-number-12)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[prefix-validity](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#prefix-validity)|
+|Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
 |----|----|
-|Title|Term validity test|
-|Description|A test case checking if all the prefixes are not too close from the most used existing namespaces (according to prefix cc)|
+|Title|OWL&#32;RL&#32;Constraint&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|No prefix typo|
-|Description|It seems that none of the subject URIs have prefixes typos|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-11)|Identifier|`owl-rl-constraint-violation`|
+|[Section top](#pass-outcome-number-11)|Title|OWL&#32;RL&#32;consistent|
+|[Section top](#pass-outcome-number-11)|Description|The&#32;provided&#32;graph&#32;is&#32;consistent&#32;for&#32;any&#32;OWL&#32;RL&#32;constraint|
 
 ***
 ### Pass Outcome number 12
 
-[Jump to summary definition](#summary-Pass-12)
+[Jump to summary definition](#summary-Pass-12)	|	[Previous Pass outcome](#pass-outcome-number-11)	|	[Next Pass outcome](#pass-outcome-number-13)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
+|Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
 |----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Syntax&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Correct syntax|
-|Description|Test subject has a correct syntax|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-12)|Identifier|`syntax-error`|
+|[Section top](#pass-outcome-number-12)|Title|Correct&#32;syntax|
+|[Section top](#pass-outcome-number-12)|Description|Test&#32;subject&#32;has&#32;a&#32;correct&#32;syntax|
 
 ***
 ### Pass Outcome number 13
 
-[Jump to summary definition](#summary-Pass-13)
+[Jump to summary definition](#summary-Pass-13)	|	[Previous Pass outcome](#pass-outcome-number-12)	|	[Next Pass outcome](#pass-outcome-number-14)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/notrealterm.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/notrealterm.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/refs/heads/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
-|Title|Classed node test|
-|Description|A test meant to test if each node has a rdf:type property|
+|Title|Classed&#32;node&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;test&#32;if&#32;each&#32;node&#32;has&#32;a&#32;rdf:type&#32;property|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Test  passed|
-|Description|The custom test  passed|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-13)|Identifier|`node-with-class`|
+|[Section top](#pass-outcome-number-13)|Title|Test&#32; &#32;passed|
+|[Section top](#pass-outcome-number-13)|Description|The&#32;custom&#32;test&#32; &#32;passed|
 
 ***
 ### Pass Outcome number 14
 
-[Jump to summary definition](#summary-Pass-14)
+[Jump to summary definition](#summary-Pass-14)	|	[Previous Pass outcome](#pass-outcome-number-13)	|	[Next Pass outcome](#pass-outcome-number-15)
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|usecase-zeusecase-inconsistent|
 |----|----|
-|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/inconsistent.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/inconsistent.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Use case zeusecase/inconsistent](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/inconsistent.ttl)|
 
 #### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
+|Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
 |----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Syntax&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-14)|Identifier|`syntax-error`|
+|[Section top](#pass-outcome-number-14)|Title|Correct&#32;syntax|
+|[Section top](#pass-outcome-number-14)|Description|Test&#32;subject&#32;has&#32;a&#32;correct&#32;syntax|
 
 ***
 ### Pass Outcome number 15
 
-[Jump to summary definition](#summary-Pass-15)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|usecase-zeusecase-inconsistent|
-|----|----|
-|Title|Standalone use case use-cases/zeusecase/inconsistent.ttl from branch refs/heads/main|
-|Composition|- [Use case zeusecase/inconsistent.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/use-cases/zeusecase/inconsistent.ttl)|
-
-#### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
-|----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Correct syntax|
-|Description|Test subject has a correct syntax|
-
-***
-### Pass Outcome number 16
-
-[Jump to summary definition](#summary-Pass-16)
+[Jump to summary definition](#summary-Pass-15)	|	[Previous Pass outcome](#pass-outcome-number-14)	|	Next Pass outcome
 
 :white_check_mark:Pass outcome
 #### Subject detail
 |Name|dataset-domain1-scenario1|
 |----|----|
-|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
+|Title|Standalone&#32;dataset&#32;domains/domain1/scenario1/dataset.ttl&#32;from&#32;branch&#32;main|
+|Composition|- [Dataset domain1/scenario1](https://github.com/acimov-tools/model-test/blob/main/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
-|Identifier|[owl-rl-constraint](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#owl-rl-constraint)|
+|Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
 |----|----|
-|Title|OWL RL Constraint test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
+|Title|Syntax&#32;test|
+|Description|A&#32;test&#32;meant&#32;to&#32;check&#32;wether&#32;the&#32;test&#32;subject&#32;is&#32;syntaxically&#32;correct&#32;or&#32;not.|
 
 #### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|OWL RL consistent|
-|Description|The provided graph is consistent for any OWL RL constraint|
-
-***
-### Pass Outcome number 17
-
-[Jump to summary definition](#summary-Pass-17)
-
-:white_check_mark:Pass outcome
-#### Subject detail
-|Name|dataset-domain1-scenario1|
-|----|----|
-|Title|Standalone dataset domains/domain1/scenario1/dataset.ttl from branch refs/heads/main|
-|Composition|- [Dataset domain1/scenario1/dataset.ttl](https://github.com/acimov-tools/model-test/blob/refs/heads/main/domains/domain1/scenario1/dataset.ttl)|
-
-#### Criterion detail
-|Identifier|[syntax](https://raw.githubusercontent.com/Wimmics/olivaw/main/olivaw/test/olivaw-earl.ttl#syntax)|
-|----|----|
-|Title|Syntax test|
-|Description|A test meant to check wether the test subject is syntaxically correct or not.|
-
-#### Outcome Detail
-|Type|:white_check_mark:Pass|
-|----|----|
-|Title|Correct syntax|
-|Description|Test subject has a correct syntax|
+|Jump|Type|:white_check_mark:Pass|
+|----|----|----|
+|[Section top](#pass-outcome-number-15)|Identifier|`syntax-error`|
+|[Section top](#pass-outcome-number-15)|Title|Correct&#32;syntax|
+|[Section top](#pass-outcome-number-15)|Description|Test&#32;subject&#32;has&#32;a&#32;correct&#32;syntax|
 
 ***
 

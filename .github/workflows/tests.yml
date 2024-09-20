@@ -8,7 +8,7 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - uses: Wimmics/olivaw/test-actions@9f424fa451e96fddf5cb1bd48b747ca5209d70d8
+    - uses: Wimmics/olivaw/test-actions@cb89a5802c9b9d5638b19f0697d8280f82918207
       with:
         repository: ${{ github.repository }}
         ref: ${{ github.ref }}

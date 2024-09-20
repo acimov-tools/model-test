@@ -15,7 +15,7 @@ Here is some information about the testing activity that led to this report
 |Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;query&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
 |Tester|[NicoRobertIn](https://github.com/NicoRobertIn)|
 |Ontology|[acimov-tools/model-test](https://github.com/acimov-tools/model-test)|
-|Ontology version|[b80105f84219faf2277238fa2dc3e1dcc3238a71](https://github.com/acimov-tools/model-test/tree/b80105f84219faf2277238fa2dc3e1dcc3238a71)|
+|Ontology version|[1e31ef4c4a02f94c32b6076f05ad9578a3185acf](https://github.com/acimov-tools/model-test/tree/1e31ef4c4a02f94c32b6076f05ad9578a3185acf)|
 |Ontology branch|[main](https://github.com/acimov-tools/model-test/tree/main)|
 |Olivaw suite|[olivaw query test suite](https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py)|
 |Olivaw version|[v0.0.6](https://github.com/Wimmics/olivaw)|

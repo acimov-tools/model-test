@@ -1,20 +1,13 @@
 name: model-test
 on: push
 
+
 jobs:
-  model-test:
+  olivaw-test:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
     - uses: Wimmics/olivaw/test-actions@d5ede3c08c1911cbd9287ac74e8c9f431756bf4f
       with:
-        repository: ${{ github.repository }}
-        ref: ${{ github.ref }}
         gist-secret: ${{ secrets.GIST_SECRET }}
-        data-test: true
-        model-test: true
-        query-test: true
-        commit-report: true
-        archive-report: true
-        

@@ -10,6 +10,6 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - uses: Wimmics/olivaw/test-actions@353a53995a7959df8c5c9d173c77a4209332409e
+    - uses: Wimmics/olivaw/test-actions@e02ab27c2f5a3aca1b9d167809050897261bd6a3
       with:
         gist-secret: ${{ secrets.GIST_SECRET }}

@@ -1,17 +1,12 @@
 name: model-test
 on: push
 
-
-
-
-
-
 jobs:
   olivaw-test:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - uses: Wimmics/olivaw/test-actions@1f74a58435d1ccd8a09329002ff1a3531b3a3397
+    - uses: Wimmics/olivaw/test-actions@a90b717dec1a85d9ce51a63537deaf04a626306e
       with:
         gist-secret: ${{ secrets.GIST_SECRET }}

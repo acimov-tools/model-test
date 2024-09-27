@@ -6,14 +6,14 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/acimov-tools/model-test/blob/c467a9ba971321befa43b5d75b893b063dc3cf24/.acimov/output/query-test-actions.md> a prov:Entity ;
-    prov:generatedAtTime "2024-09-27T14:37:57.789796"^^xsd:dateTime ;
+<https://github.com/acimov-tools/model-test/blob/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5/.acimov/output/query-test-actions.md> a prov:Entity ;
+    prov:generatedAtTime "2024-09-27T15:07:05.487096"^^xsd:dateTime ;
     prov:qualifiedGeneration [ a prov:Generation ;
             prov:activity _:assertor ;
             olivaw:generatedAs olivaw:markdown_report ] .
 
-<https://github.com/acimov-tools/model-test/blob/c467a9ba971321befa43b5d75b893b063dc3cf24/.acimov/output/query-test-actions.ttl> a prov:Entity ;
-    prov:generatedAtTime "2024-09-27T14:37:57.789796"^^xsd:dateTime ;
+<https://github.com/acimov-tools/model-test/blob/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5/.acimov/output/query-test-actions.ttl> a prov:Entity ;
+    prov:generatedAtTime "2024-09-27T15:07:05.487096"^^xsd:dateTime ;
     prov:qualifiedGeneration [ a prov:Generation ;
             prov:activity _:assertor ;
             olivaw:generatedAs olivaw:turtle_report ] .
@@ -22,9 +22,9 @@
     dcterms:hasVersion "v0.0.6" ;
     olivaw:hostedAt <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/query/suite.py> .
 
-<https://github.com/acimov-tools/model-test/tree/c467a9ba971321befa43b5d75b893b063dc3cf24> a olivaw:VersionedEntity ;
-    dcterms:date "2024-09-27T16:36:26"^^xsd:dateTime ;
-    dcterms:hasVersion "c467a9ba971321befa43b5d75b893b063dc3cf24" ;
+<https://github.com/acimov-tools/model-test/tree/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5> a olivaw:VersionedEntity ;
+    dcterms:date "2024-09-27T17:05:42"^^xsd:dateTime ;
+    dcterms:hasVersion "8fe8fee37b784104a1cbb30ac4b126c3d8a089e5" ;
     olivaw:hostedAt <https://github.com/acimov-tools/model-test> ;
     olivaw:isOnBranch "main" ;
     olivaw:patchedBy _:tester .
@@ -32,18 +32,53 @@
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "Encountered \";\" at line 2, column 11."@en ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "Test subject has a correct syntax"@en ;
                     dcterms:identifier "syntax-error" ;
-                    dcterms:title "Test subject has syntax errors"@en ;
-                    earl:info """select * where {
-    ?s ?p ; ?o
-}""" ] ] ;
-    earl:subject [ a earl:TestSubject ;
-            dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q1.rq> ;
-            dcterms:identifier "question-zedomain-compatEL-q1" ;
-            dcterms:title "competency question domains/zedomain/compatEL/q1.rq from branch main"@en ] ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q3 ;
     earl:test olivaw:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "Test subject has a correct syntax"@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q2 ;
+    earl:test olivaw:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "The query is of type Select or Ask"@en ;
+                    dcterms:identifier "wrong-query-type" ;
+                    dcterms:title "Accurate query type"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q4 ;
+    earl:test olivaw:query-type .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
+                    dcterms:identifier "namespace-typo" ;
+                    dcterms:title "No namespace typo"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q2 ;
+    earl:test olivaw:namespace-validity .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw:MinorFail ;
+                    dcterms:description "Expected valid URIs in subject but got: #coucou"@en ;
+                    dcterms:identifier "invalid-uri" ;
+                    dcterms:title "Invalid URI"@en ;
+                    earl:info "select * where {?s a <#coucou>}" ] ] ;
+    earl:subject _:question-zedomain-compatEL-q3 ;
+    earl:test olivaw:uri-validity .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -75,11 +110,11 @@ https://www.example.org/olivaw/""" ] ] ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the subject URIs should be well-formed"@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q4 ;
-    earl:test olivaw:syntax .
+                    dcterms:description "The query is of type Select or Ask"@en ;
+                    dcterms:identifier "wrong-query-type" ;
+                    dcterms:title "Accurate query type"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q3 ;
+    earl:test olivaw:query-type .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -88,39 +123,34 @@ https://www.example.org/olivaw/""" ] ] ;
                     dcterms:description "All the URIs of the subject are valid"@en ;
                     dcterms:identifier "invalid-uri" ;
                     dcterms:title "All subject URI valid"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q4 ;
+    earl:subject _:question-zedomain-compatEL-q2 ;
     earl:test olivaw:uri-validity .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
+            earl:outcome [ a olivaw:MajorFail ;
+                    dcterms:description "Encountered \";\" at line 2, column 11."@en ;
                     dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q3 ;
+                    dcterms:title "Test subject has syntax errors"@en ;
+                    earl:info """select * where {
+    ?s ?p ; ?o
+}""" ] ] ;
+    earl:subject [ a earl:TestSubject ;
+            dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q1.rq> ;
+            dcterms:identifier "question-zedomain-compatEL-q1" ;
+            dcterms:title "competency question domains/zedomain/compatEL/q1.rq from branch main"@en ] ;
     earl:test olivaw:syntax .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "The query is of type Select or Ask"@en ;
-                    dcterms:identifier "wrong-query-type" ;
-                    dcterms:title "Accurate query type"@en ] ] ;
+                    dcterms:description "All the subject URIs should be well-formed"@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Correct syntax"@en ] ] ;
     earl:subject _:question-zedomain-compatEL-q4 ;
-    earl:test olivaw:query-type .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MinorFail ;
-                    dcterms:description "Expected valid URIs in subject but got: #coucou"@en ;
-                    dcterms:identifier "invalid-uri" ;
-                    dcterms:title "Invalid URI"@en ;
-                    earl:info "select * where {?s a <#coucou>}" ] ] ;
-    earl:subject _:question-zedomain-compatEL-q3 ;
-    earl:test olivaw:uri-validity .
+    earl:test olivaw:syntax .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -137,48 +167,18 @@ https://www.example.org/olivaw/""" ] ] ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "The query is of type Select or Ask"@en ;
-                    dcterms:identifier "wrong-query-type" ;
-                    dcterms:title "Accurate query type"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q3 ;
-    earl:test olivaw:query-type .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
-                    dcterms:identifier "namespace-typo" ;
-                    dcterms:title "No namespace typo"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q2 ;
-    earl:test olivaw:namespace-validity .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
                     dcterms:description "All the URIs of the subject are valid"@en ;
                     dcterms:identifier "invalid-uri" ;
                     dcterms:title "All subject URI valid"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q2 ;
+    earl:subject _:question-zedomain-compatEL-q4 ;
     earl:test olivaw:uri-validity .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q2 ;
-    earl:test olivaw:syntax .
 
 _:testSuiteUsage a prov:Usage ;
     prov:entity <https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py> ;
     prov:hadRole olivaw:test_suite .
 
 _:testedProjectUsage a prov:Usage ;
-    prov:entity <https://github.com/acimov-tools/model-test/tree/c467a9ba971321befa43b5d75b893b063dc3cf24> ;
+    prov:entity <https://github.com/acimov-tools/model-test/tree/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5> ;
     prov:hadRole olivaw:tested_project .
 
 _:testerAssociation a prov:Association ;
@@ -209,13 +209,13 @@ _:assertor a earl:Assertor,
         prov:Activity ;
     dcterms:description "NicoRobertIn launch actions run of query tests against acimov-tools/model-test on branch main" ;
     dcterms:title "Query tests of acimov-tools/model-test on branch main" ;
-    prov:endedAtTime "2024-09-27T14:37:57.789796"^^xsd:dateTime ;
-    prov:generated <https://github.com/acimov-tools/model-test/blob/c467a9ba971321befa43b5d75b893b063dc3cf24/.acimov/output/query-test-actions.md>,
-        <https://github.com/acimov-tools/model-test/blob/c467a9ba971321befa43b5d75b893b063dc3cf24/.acimov/output/query-test-actions.ttl> ;
+    prov:endedAtTime "2024-09-27T15:07:05.487096"^^xsd:dateTime ;
+    prov:generated <https://github.com/acimov-tools/model-test/blob/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5/.acimov/output/query-test-actions.md>,
+        <https://github.com/acimov-tools/model-test/blob/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5/.acimov/output/query-test-actions.ttl> ;
     prov:qualifiedAssociation _:testerAssociation ;
     prov:qualifiedUsage _:testSuiteUsage,
         _:testedProjectUsage ;
     prov:used <https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py>,
-        <https://github.com/acimov-tools/model-test/tree/c467a9ba971321befa43b5d75b893b063dc3cf24> ;
+        <https://github.com/acimov-tools/model-test/tree/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5> ;
     prov:wasAssociatedWith _:tester .
 

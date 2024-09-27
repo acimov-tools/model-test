@@ -15,12 +15,12 @@ Here is some information about the testing activity that led to this report
 |Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;query&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
 |Tester|[NicoRobertIn](https://github.com/NicoRobertIn)|
 |Ontology|[acimov-tools/model-test](https://github.com/acimov-tools/model-test)|
-|Ontology version|[bcedf2de80d3fb1fb193a1cb923ed5771ab93789](https://github.com/acimov-tools/model-test/tree/bcedf2de80d3fb1fb193a1cb923ed5771ab93789)|
+|Ontology version|[b02cfda816c8805663b73d674c4b6036469ad121](https://github.com/acimov-tools/model-test/tree/b02cfda816c8805663b73d674c4b6036469ad121)|
 |Ontology branch|[main](https://github.com/acimov-tools/model-test/tree/main)|
 |Olivaw suite|[olivaw query test suite](https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py)|
 |Olivaw version|[v0.0.6](https://github.com/Wimmics/olivaw)|
-|Generated turtle|[Turtle report](./../../github.com/acimov-tools/model-test/blob/bcedf2de80d3fb1fb193a1cb923ed5771ab93789/.acimov/output/query-test-actions.ttl)|
-|Generated Markdown|[Markdown report](./../../github.com/acimov-tools/model-test/blob/bcedf2de80d3fb1fb193a1cb923ed5771ab93789/.acimov/output/query-test-actions.md)|
+|Generated turtle|[Turtle report](./https://github.com/acimov-tools/model-test/blob/b02cfda816c8805663b73d674c4b6036469ad121/.acimov/output/query-test-actions.ttl)|
+|Generated Markdown|[Markdown report](./https://github.com/acimov-tools/model-test/blob/b02cfda816c8805663b73d674c4b6036469ad121/.acimov/output/query-test-actions.md)|
 
 # Statistic summary
 

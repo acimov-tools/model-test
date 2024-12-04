@@ -15,12 +15,12 @@ Here is some information about the testing activity that led to this report
 |Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;query&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
 |Tester|[NicoRobertIn](https://github.com/NicoRobertIn)|
 |Ontology|[acimov-tools/model-test](https://github.com/acimov-tools/model-test)|
-|Ontology version|[8fe8fee37b784104a1cbb30ac4b126c3d8a089e5](https://github.com/acimov-tools/model-test/tree/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5)|
+|Ontology version|[c09031eaf8bcdf894c045ab55231700790be3c84](https://github.com/acimov-tools/model-test/tree/c09031eaf8bcdf894c045ab55231700790be3c84)|
 |Ontology branch|[main](https://github.com/acimov-tools/model-test/tree/main)|
 |Olivaw suite|[olivaw query test suite](https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py)|
 |Olivaw version|[v0.0.6](https://pypi.org/project/olivaw/0.0.6)|
-|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5/.acimov/output/query-test-actions.ttl)|
-|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/8fe8fee37b784104a1cbb30ac4b126c3d8a089e5/.acimov/output/query-test-actions.md)|
+|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/c09031eaf8bcdf894c045ab55231700790be3c84/.acimov/output/query-test-actions.ttl)|
+|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/c09031eaf8bcdf894c045ab55231700790be3c84/.acimov/output/query-test-actions.md)|
 
 # Statistic summary
 
@@ -324,7 +324,7 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 |----|----|----|
 |[Section top](#pass-outcome-number-2)|Identifier|`syntax-error`|
 |[Section top](#pass-outcome-number-2)|Title|Correct&#32;syntax|
-|[Section top](#pass-outcome-number-2)|Description|All&#32;the&#32;subject&#32;URIs&#32;should&#32;be&#32;well-formed|
+|[Section top](#pass-outcome-number-2)|Description|Test&#32;subject&#32;has&#32;a&#32;correct&#32;syntax|
 
 ***
 ### Pass Outcome number 3
@@ -449,7 +449,7 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 |----|----|----|
 |[Section top](#pass-outcome-number-7)|Identifier|`syntax-error`|
 |[Section top](#pass-outcome-number-7)|Title|Correct&#32;syntax|
-|[Section top](#pass-outcome-number-7)|Description|Test&#32;subject&#32;has&#32;a&#32;correct&#32;syntax|
+|[Section top](#pass-outcome-number-7)|Description|All&#32;the&#32;subject&#32;URIs&#32;should&#32;be&#32;well-formed|
 
 ***
 ### Pass Outcome number 8

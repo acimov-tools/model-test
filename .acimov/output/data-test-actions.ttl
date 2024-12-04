@@ -6,14 +6,14 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/data-test-actions.md> a prov:Entity ;
-    prov:generatedAtTime "2024-12-04T00:55:58.487633"^^xsd:dateTime ;
+<https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/data-test-actions.md> a prov:Entity ;
+    prov:generatedAtTime "2024-12-04T00:58:58.804836"^^xsd:dateTime ;
     prov:qualifiedGeneration [ a prov:Generation ;
             prov:activity _:assertor ;
             olivaw:generatedAs olivaw:markdown_report ] .
 
-<https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/data-test-actions.ttl> a prov:Entity ;
-    prov:generatedAtTime "2024-12-04T00:55:58.487633"^^xsd:dateTime ;
+<https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/data-test-actions.ttl> a prov:Entity ;
+    prov:generatedAtTime "2024-12-04T00:58:58.804836"^^xsd:dateTime ;
     prov:qualifiedGeneration [ a prov:Generation ;
             prov:activity _:assertor ;
             olivaw:generatedAs olivaw:turtle_report ] .
@@ -22,22 +22,70 @@
     dcterms:hasVersion "v0.0.6" ;
     olivaw:hostedAt <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/data/suite.py> .
 
-<https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91> a olivaw:VersionedEntity ;
-    dcterms:date "2024-12-04T01:55:10"^^xsd:dateTime ;
-    dcterms:hasVersion "10242dabd58e46acb26d48884e348039fa435d91" ;
+<https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321> a olivaw:VersionedEntity ;
+    dcterms:date "2024-12-04T01:57:53"^^xsd:dateTime ;
+    dcterms:hasVersion "182b88769b6cbec7599fcf80d761d592b9776321" ;
     olivaw:hostedAt <https://github.com/acimov-tools/model-test> ;
-    olivaw:isOnBranch "main" ;
+    olivaw:isOnBranch "coucou-3" ;
     olivaw:patchedBy _:tester .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
-                    dcterms:identifier "owl-rl-constraint-violation" ;
-                    dcterms:title "OWL RL consistent"@en ] ] ;
+                    dcterms:description "Test subject has a correct syntax"@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
+    earl:test olivaw:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw:MajorFail ;
+                    dcterms:description "Some fragment terms are in ontology namespace but not defined in ontology"@en ;
+                    dcterms:identifier "unknown-term" ;
+                    dcterms:title "Unknown ontology term"@en ;
+                    earl:info "<https://www.example.org/zeusecase/zeInstance> a :ClasseA .",
+                        "Term not recognized: <https://www.example.org/olivaw/ClasseA>" ] ] ;
     earl:subject _:usecase-zeusecase-notrealterm ;
-    earl:test olivaw:owl-rl-constraint .
+    earl:test olivaw:term-recognition .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw:MajorFail ;
+                    dcterms:description "Encountered \"a\" at line 6, column 27."@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Test subject has syntax errors"@en ] ] ;
+    earl:subject _:usecase-zeusecase-syntax ;
+    earl:test olivaw:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw:MajorFail ;
+                    dcterms:description "Error occured while running custom test "@en ;
+                    dcterms:identifier "data-richness" ;
+                    dcterms:title "Error on custom test "@en ;
+                    earl:info """:shape a sh:NodeShape ;
+    sh:message "Some subjects only have a rdf:type property" ;
+    sh:severity sh:Warning ;
+    sh:sparql [ sh:select \"\"\"
+select ?this where {
+  ?this ?p ?o .
+   filter (?p != rdf:t...\"\"\" ] ;
+    sh:targetSubjectsOf rdf:type .""",
+                        ":zeInstance a sand:ClasseA .",
+                        """violation:9d69db5e-c1ff-4365-861a-5dd5efd7fcbc a sh:ValidationResult ;
+    sh:focusNode <https://www.example.org/zeusecase/zeInstance> ;
+    sh:resultMessage "Some subjects only have a rdf:type property" ;
+    sh:resultPath sh:sparql ;
+    sh:resultSeverity sh:Warning ;
+    sh:sourceConstraintComponent sh:sparqlCount ;
+    sh:sourceShape data-richness:shape .""" ] ] ;
+    earl:subject _:usecase-zeusecase-notrealterm ;
+    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion> .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -52,12 +100,78 @@
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
+            earl:outcome [ a olivaw:MajorFail ;
+                    dcterms:description "Error occured while running custom test "@en ;
+                    dcterms:identifier "data-richness" ;
+                    dcterms:title "Error on custom test "@en ;
+                    earl:info """:shape a sh:NodeShape ;
+    sh:message "Some subjects only have a rdf:type property" ;
+    sh:severity sh:Warning ;
+    sh:sparql [ sh:select \"\"\"
+select ?this where {
+  ?this ?p ?o .
+   filter (?p != rdf:t...\"\"\" ] ;
+    sh:targetSubjectsOf rdf:type .""",
+                        ":zeInstance a <http://www.example.org/olivaw/ClassA> .",
+                        """violation:800996c7-f790-4788-8c4a-c6dc04743c63 a sh:ValidationResult ;
+    sh:focusNode <https://www.example.org/zeusecase/zeInstance> ;
+    sh:resultMessage "Some subjects only have a rdf:type property" ;
+    sh:resultPath sh:sparql ;
+    sh:resultSeverity sh:Warning ;
+    sh:sourceConstraintComponent sh:sparqlCount ;
+    sh:sourceShape data-richness:shape .""" ] ] ;
+    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
+    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion> .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
+                    dcterms:identifier "owl-rl-constraint-violation" ;
+                    dcterms:title "OWL RL consistent"@en ] ] ;
+    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
+    earl:test olivaw:owl-rl-constraint .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:NotTested ;
+                    dcterms:description "Custom test  could not be run because the subject could not be loaded in the engine"@en ;
+                    dcterms:identifier "node-with-class" ;
+                    dcterms:title "Error on custom test "@en ] ] ;
+    earl:subject _:usecase-zeusecase-syntax ;
+    earl:test olivaw:node-with-class .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
+                    dcterms:identifier "namespace-typo" ;
+                    dcterms:title "No namespace typo"@en ] ] ;
+    earl:subject _:usecase-zeusecase-notrealterm ;
+    earl:test olivaw:namespace-validity .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
                     dcterms:description "The custom test  passed"@en ;
                     dcterms:identifier "node-with-class" ;
                     dcterms:title "Test  passed"@en ] ] ;
+    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
+    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion> .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
+                    dcterms:identifier "namespace-typo" ;
+                    dcterms:title "No namespace typo"@en ] ] ;
     earl:subject _:usecase-zeusecase-wrongcommonprefix ;
-    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion> .
+    earl:test olivaw:namespace-validity .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -66,7 +180,17 @@
                     dcterms:description "Test subject has a correct syntax"@en ;
                     dcterms:identifier "syntax-error" ;
                     dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:usecase-zeusecase-notrealterm ;
+    earl:subject _:usecase-zeusecase-inconsistent ;
+    earl:test olivaw:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "Test subject has a correct syntax"@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:dataset-domain1-scenario1 ;
     earl:test olivaw:syntax .
 
 [] a earl:Assertion ;
@@ -94,38 +218,12 @@ https://www.example.org/olivaw/""" ] ] ;
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "Error occured while running custom test "@en ;
-                    dcterms:identifier "data-richness" ;
-                    dcterms:title "Error on custom test "@en ;
-                    earl:info """:shape a sh:NodeShape ;
-    sh:message "Some subjects only have a rdf:type property" ;
-    sh:severity sh:Warning ;
-    sh:sparql [ sh:select \"\"\"
-select ?this where {
-  ?this ?p ?o .
-   filter (?p != rdf:t...\"\"\" ] ;
-    sh:targetSubjectsOf rdf:type .""",
-                        ":zeInstance a sand:ClassA .",
-                        """violation:a54978c0-fa94-4d77-b8f7-1a088c83f7fb a sh:ValidationResult ;
-    sh:focusNode <https://www.example.org/zeusecase/zeInstance> ;
-    sh:resultMessage "Some subjects only have a rdf:type property" ;
-    sh:resultPath sh:sparql ;
-    sh:resultSeverity sh:Warning ;
-    sh:sourceConstraintComponent sh:sparqlCount ;
-    sh:sourceShape data-richness:shape .""" ] ] ;
-    earl:subject _:usecase-zeusecase-wrongcommonprefix ;
-    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion> .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:dataset-domain1-scenario1 ;
-    earl:test olivaw:syntax .
+                    dcterms:description "All the ontologic terms in the subject are defined in the ontology"@en ;
+                    dcterms:identifier "unknown-term" ;
+                    dcterms:title "Every term exists"@en ] ] ;
+    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
+    earl:test olivaw:term-recognition .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -144,38 +242,8 @@ select ?this where {
                     dcterms:description "The custom test  passed"@en ;
                     dcterms:identifier "node-with-class" ;
                     dcterms:title "Test  passed"@en ] ] ;
-    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
-    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion> .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;http://stardog.com/tutorial/The_Beatles> &#10;rdfs:label \"Violates owl:AllDisjointClasses\" &#10;sp:arg1 &#60;https://www.example.org/A> &#10;sp:arg2 &#60;https://www.example.org/B> &#10; &#10;"@en ;
-                    dcterms:identifier "owl-rl-constraint-violation" ;
-                    dcterms:title "OWL RL Constraint violation"@en ] ] ;
-    earl:subject _:dataset-domain1-scenario1 ;
-    earl:test olivaw:owl-rl-constraint .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:usecase-zeusecase-inconsistent ;
-    earl:test olivaw:syntax .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
-    earl:test olivaw:syntax .
+    earl:subject _:usecase-zeusecase-notrealterm ;
+    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion> .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -190,32 +258,12 @@ select ?this where {
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:NotTested ;
-                    dcterms:description "Custom test  could not be run because the subject could not be loaded in the engine"@en ;
-                    dcterms:identifier "node-with-class" ;
-                    dcterms:title "Error on custom test "@en ] ] ;
-    earl:subject _:usecase-zeusecase-syntax ;
-    earl:test olivaw:node-with-class .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the ontologic terms in the subject are defined in the ontology"@en ;
-                    dcterms:identifier "unknown-term" ;
-                    dcterms:title "Every term exists"@en ] ] ;
-    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
-    earl:test olivaw:term-recognition .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
-                    dcterms:identifier "namespace-typo" ;
-                    dcterms:title "No namespace typo"@en ] ] ;
+                    dcterms:description "Test subject has a correct syntax"@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Correct syntax"@en ] ] ;
     earl:subject _:usecase-zeusecase-notrealterm ;
-    earl:test olivaw:namespace-validity .
+    earl:test olivaw:syntax .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -224,40 +272,54 @@ select ?this where {
                     dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
                     dcterms:identifier "owl-rl-constraint-violation" ;
                     dcterms:title "OWL RL consistent"@en ] ] ;
-    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
+    earl:subject _:usecase-zeusecase-notrealterm ;
     earl:test olivaw:owl-rl-constraint .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "Some fragment terms are in ontology namespace but not defined in ontology"@en ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "All the ontologic terms in the subject are defined in the ontology"@en ;
                     dcterms:identifier "unknown-term" ;
-                    dcterms:title "Unknown ontology term"@en ;
-                    earl:info "<https://www.example.org/zeusecase/zeInstance> a :ClasseA .",
-                        "Term not recognized: <https://www.example.org/olivaw/ClasseA>" ] ] ;
-    earl:subject _:usecase-zeusecase-notrealterm ;
+                    dcterms:title "Every term exists"@en ] ] ;
+    earl:subject _:usecase-zeusecase-wrongcommonprefix ;
     earl:test olivaw:term-recognition .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "Encountered \"a\" at line 6, column 27."@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Test subject has syntax errors"@en ] ] ;
-    earl:subject _:usecase-zeusecase-syntax ;
-    earl:test olivaw:syntax .
+                    dcterms:description "Error occured while running custom test "@en ;
+                    dcterms:identifier "data-richness" ;
+                    dcterms:title "Error on custom test "@en ;
+                    earl:info """:shape a sh:NodeShape ;
+    sh:message "Some subjects only have a rdf:type property" ;
+    sh:severity sh:Warning ;
+    sh:sparql [ sh:select \"\"\"
+select ?this where {
+  ?this ?p ?o .
+   filter (?p != rdf:t...\"\"\" ] ;
+    sh:targetSubjectsOf rdf:type .""",
+                        ":zeInstance a sand:ClassA .",
+                        """violation:6fedc749-7e00-4d60-b834-01fd7c93bbee a sh:ValidationResult ;
+    sh:focusNode <https://www.example.org/zeusecase/zeInstance> ;
+    sh:resultMessage "Some subjects only have a rdf:type property" ;
+    sh:resultPath sh:sparql ;
+    sh:resultSeverity sh:Warning ;
+    sh:sourceConstraintComponent sh:sparqlCount ;
+    sh:sourceShape data-richness:shape .""" ] ] ;
+    earl:subject _:usecase-zeusecase-wrongcommonprefix ;
+    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion> .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
-                    dcterms:identifier "namespace-typo" ;
-                    dcterms:title "No namespace typo"@en ] ] ;
+                    dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
+                    dcterms:identifier "owl-rl-constraint-violation" ;
+                    dcterms:title "OWL RL consistent"@en ] ] ;
     earl:subject _:usecase-zeusecase-wrongcommonprefix ;
-    earl:test olivaw:namespace-validity .
+    earl:test olivaw:owl-rl-constraint .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -266,87 +328,25 @@ select ?this where {
                     dcterms:description "The custom test  passed"@en ;
                     dcterms:identifier "node-with-class" ;
                     dcterms:title "Test  passed"@en ] ] ;
-    earl:subject _:usecase-zeusecase-notrealterm ;
-    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion> .
+    earl:subject _:usecase-zeusecase-wrongcommonprefix ;
+    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion> .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "Error occured while running custom test "@en ;
-                    dcterms:identifier "data-richness" ;
-                    dcterms:title "Error on custom test "@en ;
-                    earl:info """:shape a sh:NodeShape ;
-    sh:message "Some subjects only have a rdf:type property" ;
-    sh:severity sh:Warning ;
-    sh:sparql [ sh:select \"\"\"
-select ?this where {
-  ?this ?p ?o .
-   filter (?p != rdf:t...\"\"\" ] ;
-    sh:targetSubjectsOf rdf:type .""",
-                        ":zeInstance a <http://www.example.org/olivaw/ClassA> .",
-                        """violation:1a75249c-0791-451a-bd11-c27ce2dbaac3 a sh:ValidationResult ;
-    sh:focusNode <https://www.example.org/zeusecase/zeInstance> ;
-    sh:resultMessage "Some subjects only have a rdf:type property" ;
-    sh:resultPath sh:sparql ;
-    sh:resultSeverity sh:Warning ;
-    sh:sourceConstraintComponent sh:sparqlCount ;
-    sh:sourceShape data-richness:shape .""" ] ] ;
-    earl:subject _:usecase-zeusecase-wronguncommonprefix ;
-    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion> .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "The provided graph is consistent for any OWL RL constraint"@en ;
+                    dcterms:description "http://www.w3.org/2002/07/owl#AllDisjointClasses &#10;rdf:type sp:ConstraintViolation &#10;sp:violationRoot &#60;http://stardog.com/tutorial/The_Beatles> &#10;rdfs:label \"Violates owl:AllDisjointClasses\" &#10;sp:arg1 &#60;https://www.example.org/A> &#10;sp:arg2 &#60;https://www.example.org/B> &#10; &#10;"@en ;
                     dcterms:identifier "owl-rl-constraint-violation" ;
-                    dcterms:title "OWL RL consistent"@en ] ] ;
-    earl:subject _:usecase-zeusecase-wrongcommonprefix ;
+                    dcterms:title "OWL RL Constraint violation"@en ] ] ;
+    earl:subject _:dataset-domain1-scenario1 ;
     earl:test olivaw:owl-rl-constraint .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "Error occured while running custom test "@en ;
-                    dcterms:identifier "data-richness" ;
-                    dcterms:title "Error on custom test "@en ;
-                    earl:info """:shape a sh:NodeShape ;
-    sh:message "Some subjects only have a rdf:type property" ;
-    sh:severity sh:Warning ;
-    sh:sparql [ sh:select \"\"\"
-select ?this where {
-  ?this ?p ?o .
-   filter (?p != rdf:t...\"\"\" ] ;
-    sh:targetSubjectsOf rdf:type .""",
-                        ":zeInstance a sand:ClasseA .",
-                        """violation:2bca2e28-988a-43aa-ba0b-733a833ebdfc a sh:ValidationResult ;
-    sh:focusNode <https://www.example.org/zeusecase/zeInstance> ;
-    sh:resultMessage "Some subjects only have a rdf:type property" ;
-    sh:resultPath sh:sparql ;
-    sh:resultSeverity sh:Warning ;
-    sh:sourceConstraintComponent sh:sparqlCount ;
-    sh:sourceShape data-richness:shape .""" ] ] ;
-    earl:subject _:usecase-zeusecase-notrealterm ;
-    earl:test <https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion> .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the ontologic terms in the subject are defined in the ontology"@en ;
-                    dcterms:identifier "unknown-term" ;
-                    dcterms:title "Every term exists"@en ] ] ;
-    earl:subject _:usecase-zeusecase-wrongcommonprefix ;
-    earl:test olivaw:term-recognition .
 
 _:testSuiteUsage a prov:Usage ;
     prov:entity <https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/data/suite.py> ;
     prov:hadRole olivaw:test_suite .
 
 _:testedProjectUsage a prov:Usage ;
-    prov:entity <https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91> ;
+    prov:entity <https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321> ;
     prov:hadRole olivaw:tested_project .
 
 _:testerAssociation a prov:Association ;
@@ -354,14 +354,14 @@ _:testerAssociation a prov:Association ;
     prov:hadRole olivaw:tester .
 
 _:dataset-domain1-scenario1 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/domains/domain1/scenario1/dataset.ttl> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/domains/domain1/scenario1/dataset.ttl> ;
     dcterms:identifier "dataset-domain1-scenario1" ;
-    dcterms:title "Standalone dataset domains/domain1/scenario1/dataset.ttl from branch main"@en .
+    dcterms:title "Standalone dataset domains/domain1/scenario1/dataset.ttl from branch coucou-3"@en .
 
 _:usecase-zeusecase-inconsistent a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/inconsistent.ttl> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/inconsistent.ttl> ;
     dcterms:identifier "usecase-zeusecase-inconsistent" ;
-    dcterms:title "Standalone use case use-cases/zeusecase/inconsistent.ttl from branch main"@en .
+    dcterms:title "Standalone use case use-cases/zeusecase/inconsistent.ttl from branch coucou-3"@en .
 
 _:tester a prov:Agent,
         foaf:Person ;
@@ -369,36 +369,36 @@ _:tester a prov:Agent,
     foaf:nick "NicoRobertIn" .
 
 _:usecase-zeusecase-syntax a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/syntax.ttl> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/syntax.ttl> ;
     dcterms:identifier "usecase-zeusecase-syntax" ;
-    dcterms:title "Standalone use case use-cases/zeusecase/syntax.ttl from branch main"@en .
+    dcterms:title "Standalone use case use-cases/zeusecase/syntax.ttl from branch coucou-3"@en .
 
 _:usecase-zeusecase-notrealterm a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/notrealterm.ttl> ;
     dcterms:identifier "usecase-zeusecase-notrealterm" ;
-    dcterms:title "Standalone use case use-cases/zeusecase/notrealterm.ttl from branch main"@en .
+    dcterms:title "Standalone use case use-cases/zeusecase/notrealterm.ttl from branch coucou-3"@en .
 
 _:usecase-zeusecase-wrongcommonprefix a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wrongcommonprefix.ttl> ;
     dcterms:identifier "usecase-zeusecase-wrongcommonprefix" ;
-    dcterms:title "Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch main"@en .
+    dcterms:title "Standalone use case use-cases/zeusecase/wrongcommonprefix.ttl from branch coucou-3"@en .
 
 _:usecase-zeusecase-wronguncommonprefix a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wronguncommonprefix.ttl> ;
     dcterms:identifier "usecase-zeusecase-wronguncommonprefix" ;
-    dcterms:title "Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch main"@en .
+    dcterms:title "Standalone use case use-cases/zeusecase/wronguncommonprefix.ttl from branch coucou-3"@en .
 
 _:assertor a earl:Assertor,
         prov:Activity ;
-    dcterms:description "NicoRobertIn launch actions run of data tests against acimov-tools/model-test on branch main" ;
-    dcterms:title "Data tests of acimov-tools/model-test on branch main" ;
-    prov:endedAtTime "2024-12-04T00:55:58.487633"^^xsd:dateTime ;
-    prov:generated <https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/data-test-actions.md>,
-        <https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/data-test-actions.ttl> ;
+    dcterms:description "NicoRobertIn launch actions run of data tests against acimov-tools/model-test on branch coucou-3" ;
+    dcterms:title "Data tests of acimov-tools/model-test on branch coucou-3" ;
+    prov:endedAtTime "2024-12-04T00:58:58.804836"^^xsd:dateTime ;
+    prov:generated <https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/data-test-actions.md>,
+        <https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/data-test-actions.ttl> ;
     prov:qualifiedAssociation _:testerAssociation ;
     prov:qualifiedUsage _:testSuiteUsage,
         _:testedProjectUsage ;
     prov:used <https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/data/suite.py>,
-        <https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91> ;
+        <https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321> ;
     prov:wasAssociatedWith _:tester .
 

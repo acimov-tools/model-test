@@ -10,17 +10,17 @@ The original test report is available in turtle syntax [here](./data-test-action
 
 Here is some information about the testing activity that led to this report
 
-|Title|Data&#32;tests&#32;of&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
+|Title|Data&#32;tests&#32;of&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;coucou-3|
 |--|--|
-|Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;data&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
+|Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;data&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;coucou-3|
 |Tester|[NicoRobertIn](https://github.com/NicoRobertIn)|
 |Ontology|[acimov-tools/model-test](https://github.com/acimov-tools/model-test)|
-|Ontology version|[10242dabd58e46acb26d48884e348039fa435d91](https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91)|
-|Ontology branch|[main](https://github.com/acimov-tools/model-test/tree/main)|
+|Ontology version|[182b88769b6cbec7599fcf80d761d592b9776321](https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321)|
+|Ontology branch|[coucou-3](https://github.com/acimov-tools/model-test/tree/coucou-3)|
 |Olivaw suite|[olivaw data test suite](https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/data/suite.py)|
 |Olivaw version|[v0.0.6](https://pypi.org/project/olivaw/0.0.6)|
-|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/data-test-actions.ttl)|
-|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/data-test-actions.md)|
+|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/data-test-actions.ttl)|
+|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/data-test-actions.md)|
 
 # Statistic summary
 
@@ -61,11 +61,11 @@ Here is the chapter related to the MajorFail outcome
 
 |*Jump*|*Number*|*Status*|*Subject*|*Criterion*|*Title*|*Link*|
 |------|--------|--------|---------|-----------|-------|------|
-|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-1">1/7</div>|:boom:MajorFail|`usecase-zeusecase-wronguncommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
-|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-2">2/7</div>|:boom:MajorFail|`usecase-zeusecase-wrongcommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-2)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-1">1/7</div>|:boom:MajorFail|`usecase-zeusecase-wronguncommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-1)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-2">2/7</div>|:boom:MajorFail|`usecase-zeusecase-wrongcommonprefix`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-2)|
 |[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-3">3/7</div>|:boom:MajorFail|`usecase-zeusecase-syntax`|[syntax](https://ns.inria.fr/olivaw#syntax)|Test subject has syntax errors|[Jump](#majorfail-outcome-number-3)|
 |[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-4">4/7</div>|:boom:MajorFail|`usecase-zeusecase-notrealterm`|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|Unknown ontology term|[Jump](#majorfail-outcome-number-4)|
-|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-5">5/7</div>|:boom:MajorFail|`usecase-zeusecase-notrealterm`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
+|[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-5">5/7</div>|:boom:MajorFail|`usecase-zeusecase-notrealterm`|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion)|Error on custom test |[Jump](#majorfail-outcome-number-5)|
 |[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-6">6/7</div>|:boom:MajorFail|`usecase-zeusecase-inconsistent`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-6)|
 |[Chapter top](#majorfail-outcomes)|<div id="summary-MajorFail-7">7/7</div>|:boom:MajorFail|`dataset-domain1-scenario1`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL Constraint violation|[Jump](#majorfail-outcome-number-7)|
 
@@ -83,11 +83,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
 |Title|The&#32;vocabulary&#32;is&#32;linked&#32;to&#32;by&#32;other&#32;vocabularies|
 |Description|Each&#32;node&#32;should&#32;have&#32;predicates&#32;other&#32;than&#32;rdf:type|
@@ -99,7 +99,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |[Section top](#majorfail-outcome-number-1)|Title|Error&#32;on&#32;custom&#32;test&#32;|
 |[Section top](#majorfail-outcome-number-1)|Description|Error&#32;occured&#32;while&#32;running&#32;custom&#32;test&#32;|
 |[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>:shape&#32;a&#32;sh:NodeShape&#32;;  &#10; &#32; &#32; &#32; &#32;sh:message&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:severity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sparql&#32; &#91;&#32;sh:select&#32; &#34; &#34; &#34;  &#10;select&#32;?this&#32;where&#32;{  &#10; &#32; &#32;?this&#32;?p&#32;?o&#32;.  &#10; &#32; &#32; &#32;filter&#32;(?p&#32;!=&#32;rdf:t...&#34; &#34; &#34; &#32;]&#32;;  &#10; &#32; &#32; &#32; &#32;sh:targetSubjectsOf&#32;rdf:type&#32;.</code></pre>|
-|[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>violation:1a75249c-0791-451a-bd11-c27ce2dbaac3&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>violation:800996c7-f790-4788-8c4a-c6dc04743c63&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
 |[Section top](#majorfail-outcome-number-1)|Pointer|<pre lang="Turtle"><code>:zeInstance&#32;a&#32; &#60;http://www.example.org/olivaw/ClassA> &#32;.</code></pre>|
 
 ***
@@ -111,11 +111,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
 |Title|The&#32;vocabulary&#32;is&#32;linked&#32;to&#32;by&#32;other&#32;vocabularies|
 |Description|Each&#32;node&#32;should&#32;have&#32;predicates&#32;other&#32;than&#32;rdf:type|
@@ -127,7 +127,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |[Section top](#majorfail-outcome-number-2)|Title|Error&#32;on&#32;custom&#32;test&#32;|
 |[Section top](#majorfail-outcome-number-2)|Description|Error&#32;occured&#32;while&#32;running&#32;custom&#32;test&#32;|
 |[Section top](#majorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>:shape&#32;a&#32;sh:NodeShape&#32;;  &#10; &#32; &#32; &#32; &#32;sh:message&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:severity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sparql&#32; &#91;&#32;sh:select&#32; &#34; &#34; &#34;  &#10;select&#32;?this&#32;where&#32;{  &#10; &#32; &#32;?this&#32;?p&#32;?o&#32;.  &#10; &#32; &#32; &#32;filter&#32;(?p&#32;!=&#32;rdf:t...&#34; &#34; &#34; &#32;]&#32;;  &#10; &#32; &#32; &#32; &#32;sh:targetSubjectsOf&#32;rdf:type&#32;.</code></pre>|
-|[Section top](#majorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>violation:a54978c0-fa94-4d77-b8f7-1a088c83f7fb&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>violation:6fedc749-7e00-4d60-b834-01fd7c93bbee&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
 |[Section top](#majorfail-outcome-number-2)|Pointer|<pre lang="Turtle"><code>:zeInstance&#32;a&#32;sand:ClassA&#32;.</code></pre>|
 
 ***
@@ -139,8 +139,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -164,8 +164,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|
@@ -191,11 +191,11 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/richness.shacl#criterion)|
+|Identifier|[data-richness](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/richness.shacl#criterion)|
 |----|----|
 |Title|The&#32;vocabulary&#32;is&#32;linked&#32;to&#32;by&#32;other&#32;vocabularies|
 |Description|Each&#32;node&#32;should&#32;have&#32;predicates&#32;other&#32;than&#32;rdf:type|
@@ -207,7 +207,7 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 |[Section top](#majorfail-outcome-number-5)|Title|Error&#32;on&#32;custom&#32;test&#32;|
 |[Section top](#majorfail-outcome-number-5)|Description|Error&#32;occured&#32;while&#32;running&#32;custom&#32;test&#32;|
 |[Section top](#majorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>:shape&#32;a&#32;sh:NodeShape&#32;;  &#10; &#32; &#32; &#32; &#32;sh:message&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:severity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sparql&#32; &#91;&#32;sh:select&#32; &#34; &#34; &#34;  &#10;select&#32;?this&#32;where&#32;{  &#10; &#32; &#32;?this&#32;?p&#32;?o&#32;.  &#10; &#32; &#32; &#32;filter&#32;(?p&#32;!=&#32;rdf:t...&#34; &#34; &#34; &#32;]&#32;;  &#10; &#32; &#32; &#32; &#32;sh:targetSubjectsOf&#32;rdf:type&#32;.</code></pre>|
-|[Section top](#majorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>violation:2bca2e28-988a-43aa-ba0b-733a833ebdfc&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
+|[Section top](#majorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>violation:9d69db5e-c1ff-4365-861a-5dd5efd7fcbc&#32;a&#32;sh:ValidationResult&#32;;  &#10; &#32; &#32; &#32; &#32;sh:focusNode&#32; &#60;https://www.example.org/zeusecase/zeInstance> &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultMessage&#32; &#34;Some&#32;subjects&#32;only&#32;have&#32;a&#32;rdf:type&#32;property&#34; &#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultPath&#32;sh:sparql&#32;;  &#10; &#32; &#32; &#32; &#32;sh:resultSeverity&#32;sh:Warning&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceConstraintComponent&#32;sh:sparqlCount&#32;;  &#10; &#32; &#32; &#32; &#32;sh:sourceShape&#32;data-richness:shape&#32;.</code></pre>|
 |[Section top](#majorfail-outcome-number-5)|Pointer|<pre lang="Turtle"><code>:zeInstance&#32;a&#32;sand:ClasseA&#32;.</code></pre>|
 
 ***
@@ -219,8 +219,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|usecase-zeusecase-inconsistent|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/inconsistent.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/inconsistent](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/inconsistent.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/inconsistent.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/inconsistent](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
@@ -244,8 +244,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|dataset-domain1-scenario1|
 |----|----|
-|Title|Standalone&#32;dataset&#32;domains/domain1/scenario1/dataset.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Dataset domain1/scenario1](https://github.com/acimov-tools/model-test/blob/main/domains/domain1/scenario1/dataset.ttl)|
+|Title|Standalone&#32;dataset&#32;domains/domain1/scenario1/dataset.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Dataset domain1/scenario1](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
@@ -300,8 +300,8 @@ This subchapter gives more details to the :warning:CannotTell outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
@@ -361,8 +361,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
 |Identifier|[data-richness](https://ns.inria.fr/olivaw#data-richness)|
@@ -386,8 +386,8 @@ This subchapter gives more details to the :grey_question:NotTested outcomes
 #### Subject detail
 |Name|usecase-zeusecase-syntax|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/syntax.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/syntax.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/syntax](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/syntax.ttl)|
 
 #### Criterion detail
 |Identifier|[node-with-class](https://ns.inria.fr/olivaw#node-with-class)|
@@ -429,16 +429,16 @@ Here is the chapter related to the Pass outcome
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-1">1/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-1)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-2">2/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-2)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-3">3/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|Every term exists|[Jump](#pass-outcome-number-3)|
-|[Chapter top](#pass-outcomes)|<div id="summary-Pass-4">4/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-4)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-4">4/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wronguncommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-4)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-5">5/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|No namespace typo|[Jump](#pass-outcome-number-5)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-6">6/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-6)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-7">7/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-7)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-8">8/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|Every term exists|[Jump](#pass-outcome-number-8)|
-|[Chapter top](#pass-outcomes)|<div id="summary-Pass-9">9/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-9">9/15</div>|:white_check_mark:Pass|`usecase-zeusecase-wrongcommonprefix`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-9)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-10">10/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|No namespace typo|[Jump](#pass-outcome-number-10)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-11">11/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|OWL RL consistent|[Jump](#pass-outcome-number-11)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-12">12/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-12)|
-|[Chapter top](#pass-outcomes)|<div id="summary-Pass-13">13/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-13)|
+|[Chapter top](#pass-outcomes)|<div id="summary-Pass-13">13/15</div>|:white_check_mark:Pass|`usecase-zeusecase-notrealterm`|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion)|Test  passed|[Jump](#pass-outcome-number-13)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-14">14/15</div>|:white_check_mark:Pass|`usecase-zeusecase-inconsistent`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-14)|
 |[Chapter top](#pass-outcomes)|<div id="summary-Pass-15">15/15</div>|:white_check_mark:Pass|`dataset-domain1-scenario1`|[syntax](https://ns.inria.fr/olivaw#syntax)|Correct syntax|[Jump](#pass-outcome-number-15)|
 
@@ -456,8 +456,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
@@ -481,8 +481,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -506,8 +506,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|
@@ -531,11 +531,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wronguncommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wronguncommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wronguncommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wronguncommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wronguncommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
 |Title|Classed&#32;node&#32;test|
 |Description|A&#32;test&#32;meant&#32;to&#32;test&#32;if&#32;each&#32;node&#32;has&#32;a&#32;rdf:type&#32;property|
@@ -556,8 +556,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
@@ -581,8 +581,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
@@ -606,8 +606,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -631,8 +631,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
 |Identifier|[term-recognition](https://ns.inria.fr/olivaw#term-recognition)|
@@ -656,11 +656,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-wrongcommonprefix|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/wrongcommonprefix.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/wrongcommonprefix.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/wrongcommonprefix](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/wrongcommonprefix.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
 |Title|Classed&#32;node&#32;test|
 |Description|A&#32;test&#32;meant&#32;to&#32;test&#32;if&#32;each&#32;node&#32;has&#32;a&#32;rdf:type&#32;property|
@@ -681,8 +681,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
@@ -706,8 +706,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[owl-rl-constraint](https://ns.inria.fr/olivaw#owl-rl-constraint)|
@@ -731,8 +731,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -756,11 +756,11 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-notrealterm|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/notrealterm.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/notrealterm.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/notrealterm](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/notrealterm.ttl)|
 
 #### Criterion detail
-|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
+|Identifier|[node-with-class](https://raw.githubusercontent.com/acimov-tools/model-test/coucou-3/.acimov/custom-tests/data/node-with-class.shacl#criterion)|
 |----|----|
 |Title|Classed&#32;node&#32;test|
 |Description|A&#32;test&#32;meant&#32;to&#32;test&#32;if&#32;each&#32;node&#32;has&#32;a&#32;rdf:type&#32;property|
@@ -781,8 +781,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|usecase-zeusecase-inconsistent|
 |----|----|
-|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/inconsistent.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Use case zeusecase/inconsistent](https://github.com/acimov-tools/model-test/blob/main/use-cases/zeusecase/inconsistent.ttl)|
+|Title|Standalone&#32;use&#32;case&#32;use-cases/zeusecase/inconsistent.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Use case zeusecase/inconsistent](https://github.com/acimov-tools/model-test/blob/coucou-3/use-cases/zeusecase/inconsistent.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -806,8 +806,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|dataset-domain1-scenario1|
 |----|----|
-|Title|Standalone&#32;dataset&#32;domains/domain1/scenario1/dataset.ttl&#32;from&#32;branch&#32;main|
-|Composition|- [Dataset domain1/scenario1](https://github.com/acimov-tools/model-test/blob/main/domains/domain1/scenario1/dataset.ttl)|
+|Title|Standalone&#32;dataset&#32;domains/domain1/scenario1/dataset.ttl&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Dataset domain1/scenario1](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/domain1/scenario1/dataset.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|

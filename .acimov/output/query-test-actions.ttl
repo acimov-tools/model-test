@@ -6,14 +6,14 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/query-test-actions.md> a prov:Entity ;
-    prov:generatedAtTime "2024-12-04T00:56:03.022907"^^xsd:dateTime ;
+<https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/query-test-actions.md> a prov:Entity ;
+    prov:generatedAtTime "2024-12-04T00:59:03.326030"^^xsd:dateTime ;
     prov:qualifiedGeneration [ a prov:Generation ;
             prov:activity _:assertor ;
             olivaw:generatedAs olivaw:markdown_report ] .
 
-<https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/query-test-actions.ttl> a prov:Entity ;
-    prov:generatedAtTime "2024-12-04T00:56:03.022907"^^xsd:dateTime ;
+<https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/query-test-actions.ttl> a prov:Entity ;
+    prov:generatedAtTime "2024-12-04T00:59:03.326030"^^xsd:dateTime ;
     prov:qualifiedGeneration [ a prov:Generation ;
             prov:activity _:assertor ;
             olivaw:generatedAs olivaw:turtle_report ] .
@@ -22,67 +22,22 @@
     dcterms:hasVersion "v0.0.6" ;
     olivaw:hostedAt <https://github.com/Wimmics/olivaw/blob/main/olivaw/test/query/suite.py> .
 
-<https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91> a olivaw:VersionedEntity ;
-    dcterms:date "2024-12-04T01:55:10"^^xsd:dateTime ;
-    dcterms:hasVersion "10242dabd58e46acb26d48884e348039fa435d91" ;
+<https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321> a olivaw:VersionedEntity ;
+    dcterms:date "2024-12-04T01:57:53"^^xsd:dateTime ;
+    dcterms:hasVersion "182b88769b6cbec7599fcf80d761d592b9776321" ;
     olivaw:hostedAt <https://github.com/acimov-tools/model-test> ;
-    olivaw:isOnBranch "main" ;
+    olivaw:isOnBranch "coucou-3" ;
     olivaw:patchedBy _:tester .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
-                    dcterms:identifier "namespace-typo" ;
-                    dcterms:title "No namespace typo"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q2 ;
-    earl:test olivaw:namespace-validity .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the URIs of the subject are valid"@en ;
-                    dcterms:identifier "invalid-uri" ;
-                    dcterms:title "All subject URI valid"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q2 ;
-    earl:test olivaw:uri-validity .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MajorFail ;
-                    dcterms:description "Encountered \";\" at line 2, column 11."@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Test subject has syntax errors"@en ;
-                    earl:info """select * where {
-    ?s ?p ; ?o
-}""" ] ] ;
-    earl:subject [ a earl:TestSubject ;
-            dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q1.rq> ;
-            dcterms:identifier "question-zedomain-compatEL-q1" ;
-            dcterms:title "competency question domains/zedomain/compatEL/q1.rq from branch main"@en ] ;
-    earl:test olivaw:syntax .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "Test subject has a correct syntax"@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q4 ;
-    earl:test olivaw:syntax .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "The query is of type Select or Ask"@en ;
+            earl:outcome [ a olivaw:MinorFail ;
+                    dcterms:description "The query type was expected to be 'Ask' or 'Select', but got 'Construct'"@en ;
                     dcterms:identifier "wrong-query-type" ;
-                    dcterms:title "Accurate query type"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q3 ;
+                    dcterms:title "Unauthorized query type"@en ;
+                    earl:info "construct {?s ?p ?o} where {?s ?p ?o}" ] ] ;
+    earl:subject _:question-zedomain-compatEL-q2 ;
     earl:test olivaw:query-type .
 
 [] a earl:Assertion ;
@@ -115,21 +70,11 @@ https://www.example.org/olivaw/""" ] ] ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
             earl:outcome [ a earl:Pass ;
-                    dcterms:description "The query is of type Select or Ask"@en ;
-                    dcterms:identifier "wrong-query-type" ;
-                    dcterms:title "Accurate query type"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q4 ;
-    earl:test olivaw:query-type .
-
-[] a earl:Assertion ;
-    earl:assertedBy _:assertor ;
-    earl:result [ a earl:TestResult ;
-            earl:outcome [ a earl:Pass ;
-                    dcterms:description "All the subject URIs should be well-formed"@en ;
-                    dcterms:identifier "syntax-error" ;
-                    dcterms:title "Correct syntax"@en ] ] ;
+                    dcterms:description "It seems that none of the subject URIs have namespaces typos"@en ;
+                    dcterms:identifier "namespace-typo" ;
+                    dcterms:title "No namespace typo"@en ] ] ;
     earl:subject _:question-zedomain-compatEL-q2 ;
-    earl:test olivaw:syntax .
+    earl:test olivaw:namespace-validity .
 
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
@@ -138,7 +83,7 @@ https://www.example.org/olivaw/""" ] ] ;
                     dcterms:description "Test subject has a correct syntax"@en ;
                     dcterms:identifier "syntax-error" ;
                     dcterms:title "Correct syntax"@en ] ] ;
-    earl:subject _:question-zedomain-compatEL-q3 ;
+    earl:subject _:question-zedomain-compatEL-q4 ;
     earl:test olivaw:syntax .
 
 [] a earl:Assertion ;
@@ -165,20 +110,75 @@ https://www.example.org/olivaw/""" ] ] ;
 [] a earl:Assertion ;
     earl:assertedBy _:assertor ;
     earl:result [ a earl:TestResult ;
-            earl:outcome [ a olivaw:MinorFail ;
-                    dcterms:description "The query type was expected to be 'Ask' or 'Select', but got 'Construct'"@en ;
-                    dcterms:identifier "wrong-query-type" ;
-                    dcterms:title "Unauthorized query type"@en ;
-                    earl:info "construct {?s ?p ?o} where {?s ?p ?o}" ] ] ;
+            earl:outcome [ a olivaw:MajorFail ;
+                    dcterms:description "Encountered \";\" at line 2, column 11."@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Test subject has syntax errors"@en ;
+                    earl:info """select * where {
+    ?s ?p ; ?o
+}""" ] ] ;
+    earl:subject [ a earl:TestSubject ;
+            dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q1.rq> ;
+            dcterms:identifier "question-zedomain-compatEL-q1" ;
+            dcterms:title "competency question domains/zedomain/compatEL/q1.rq from branch coucou-3"@en ] ;
+    earl:test olivaw:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "All the URIs of the subject are valid"@en ;
+                    dcterms:identifier "invalid-uri" ;
+                    dcterms:title "All subject URI valid"@en ] ] ;
     earl:subject _:question-zedomain-compatEL-q2 ;
+    earl:test olivaw:uri-validity .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "All the subject URIs should be well-formed"@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q2 ;
+    earl:test olivaw:syntax .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "The query is of type Select or Ask"@en ;
+                    dcterms:identifier "wrong-query-type" ;
+                    dcterms:title "Accurate query type"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q3 ;
     earl:test olivaw:query-type .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "The query is of type Select or Ask"@en ;
+                    dcterms:identifier "wrong-query-type" ;
+                    dcterms:title "Accurate query type"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q4 ;
+    earl:test olivaw:query-type .
+
+[] a earl:Assertion ;
+    earl:assertedBy _:assertor ;
+    earl:result [ a earl:TestResult ;
+            earl:outcome [ a earl:Pass ;
+                    dcterms:description "Test subject has a correct syntax"@en ;
+                    dcterms:identifier "syntax-error" ;
+                    dcterms:title "Correct syntax"@en ] ] ;
+    earl:subject _:question-zedomain-compatEL-q3 ;
+    earl:test olivaw:syntax .
 
 _:testSuiteUsage a prov:Usage ;
     prov:entity <https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py> ;
     prov:hadRole olivaw:test_suite .
 
 _:testedProjectUsage a prov:Usage ;
-    prov:entity <https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91> ;
+    prov:entity <https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321> ;
     prov:hadRole olivaw:tested_project .
 
 _:testerAssociation a prov:Association ;
@@ -186,9 +186,9 @@ _:testerAssociation a prov:Association ;
     prov:hadRole olivaw:tester .
 
 _:question-zedomain-compatEL-q3 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q3.rq> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q3.rq> ;
     dcterms:identifier "question-zedomain-compatEL-q3" ;
-    dcterms:title "competency question domains/zedomain/compatEL/q3.rq from branch main"@en .
+    dcterms:title "competency question domains/zedomain/compatEL/q3.rq from branch coucou-3"@en .
 
 _:tester a prov:Agent,
         foaf:Person ;
@@ -196,26 +196,26 @@ _:tester a prov:Agent,
     foaf:nick "NicoRobertIn" .
 
 _:question-zedomain-compatEL-q2 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q2.rq> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q2.rq> ;
     dcterms:identifier "question-zedomain-compatEL-q2" ;
-    dcterms:title "competency question domains/zedomain/compatEL/q2.rq from branch main"@en .
+    dcterms:title "competency question domains/zedomain/compatEL/q2.rq from branch coucou-3"@en .
 
 _:question-zedomain-compatEL-q4 a earl:TestSubject ;
-    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q4.rq> ;
+    dcterms:hasPart <https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q4.rq> ;
     dcterms:identifier "question-zedomain-compatEL-q4" ;
-    dcterms:title "competency question domains/zedomain/compatEL/q4.rq from branch main"@en .
+    dcterms:title "competency question domains/zedomain/compatEL/q4.rq from branch coucou-3"@en .
 
 _:assertor a earl:Assertor,
         prov:Activity ;
-    dcterms:description "NicoRobertIn launch actions run of query tests against acimov-tools/model-test on branch main" ;
-    dcterms:title "Query tests of acimov-tools/model-test on branch main" ;
-    prov:endedAtTime "2024-12-04T00:56:03.022907"^^xsd:dateTime ;
-    prov:generated <https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/query-test-actions.md>,
-        <https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/query-test-actions.ttl> ;
+    dcterms:description "NicoRobertIn launch actions run of query tests against acimov-tools/model-test on branch coucou-3" ;
+    dcterms:title "Query tests of acimov-tools/model-test on branch coucou-3" ;
+    prov:endedAtTime "2024-12-04T00:59:03.326030"^^xsd:dateTime ;
+    prov:generated <https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/query-test-actions.md>,
+        <https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/query-test-actions.ttl> ;
     prov:qualifiedAssociation _:testerAssociation ;
     prov:qualifiedUsage _:testSuiteUsage,
         _:testedProjectUsage ;
     prov:used <https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py>,
-        <https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91> ;
+        <https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321> ;
     prov:wasAssociatedWith _:tester .
 

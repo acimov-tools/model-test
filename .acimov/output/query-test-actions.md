@@ -10,17 +10,17 @@ The original test report is available in turtle syntax [here](./query-test-actio
 
 Here is some information about the testing activity that led to this report
 
-|Title|Query&#32;tests&#32;of&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
+|Title|Query&#32;tests&#32;of&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;coucou-3|
 |--|--|
-|Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;query&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
+|Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;query&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;coucou-3|
 |Tester|[NicoRobertIn](https://github.com/NicoRobertIn)|
 |Ontology|[acimov-tools/model-test](https://github.com/acimov-tools/model-test)|
-|Ontology version|[10242dabd58e46acb26d48884e348039fa435d91](https://github.com/acimov-tools/model-test/tree/10242dabd58e46acb26d48884e348039fa435d91)|
-|Ontology branch|[main](https://github.com/acimov-tools/model-test/tree/main)|
+|Ontology version|[182b88769b6cbec7599fcf80d761d592b9776321](https://github.com/acimov-tools/model-test/tree/182b88769b6cbec7599fcf80d761d592b9776321)|
+|Ontology branch|[coucou-3](https://github.com/acimov-tools/model-test/tree/coucou-3)|
 |Olivaw suite|[olivaw query test suite](https://github.com/Wimmics/olivaw/blob/v0.0.6/olivaw/test/query/suite.py)|
 |Olivaw version|[v0.0.6](https://pypi.org/project/olivaw/0.0.6)|
-|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/query-test-actions.ttl)|
-|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/10242dabd58e46acb26d48884e348039fa435d91/.acimov/output/query-test-actions.md)|
+|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/query-test-actions.ttl)|
+|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/182b88769b6cbec7599fcf80d761d592b9776321/.acimov/output/query-test-actions.md)|
 
 # Statistic summary
 
@@ -77,8 +77,8 @@ This subchapter gives more details to the :boom:MajorFail outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q1|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q1.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q1](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q1.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q1.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q1](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q1.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -135,8 +135,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q3|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q3.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q3](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q3.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q3.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q3](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q3.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[uri-validity](https://ns.inria.fr/olivaw#uri-validity)|
@@ -161,8 +161,8 @@ This subchapter gives more details to the :exclamation:MinorFail outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[query-type](https://ns.inria.fr/olivaw#query-type)|
@@ -218,8 +218,8 @@ This subchapter gives more details to the :warning:CannotTell outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
@@ -285,8 +285,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[query-type](https://ns.inria.fr/olivaw#query-type)|
@@ -310,8 +310,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -335,8 +335,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q4|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q4.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q4.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q4](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q4.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[uri-validity](https://ns.inria.fr/olivaw#uri-validity)|
@@ -360,8 +360,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q3|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q3.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q3](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q3.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q3.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q3](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q3.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[query-type](https://ns.inria.fr/olivaw#query-type)|
@@ -385,8 +385,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q3|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q3.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q3](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q3.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q3.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q3](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q3.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -410,8 +410,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[namespace-validity](https://ns.inria.fr/olivaw#namespace-validity)|
@@ -435,8 +435,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[syntax](https://ns.inria.fr/olivaw#syntax)|
@@ -460,8 +460,8 @@ This subchapter gives more details to the :white_check_mark:Pass outcomes
 #### Subject detail
 |Name|question-zedomain-compatEL-q2|
 |----|----|
-|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;main|
-|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/main/domains/zedomain/compatEL/q2.rq.ttl)|
+|Title|competency&#32;question&#32;domains/zedomain/compatEL/q2.rq&#32;from&#32;branch&#32;coucou-3|
+|Composition|- [Competency question zedomain/compatEL/q2](https://github.com/acimov-tools/model-test/blob/coucou-3/domains/zedomain/compatEL/q2.rq.ttl)|
 
 #### Criterion detail
 |Identifier|[uri-validity](https://ns.inria.fr/olivaw#uri-validity)|

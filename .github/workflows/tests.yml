@@ -7,6 +7,6 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-    - uses: Wimmics/olivaw/test-actions@test-0.0.6
+    - uses: Wimmics/olivaw/test-actions@test-0.0.8-4
       with:
         gist-secret: ${{ secrets.GIST_SECRET }}

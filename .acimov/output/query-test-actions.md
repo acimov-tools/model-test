@@ -15,12 +15,12 @@ Here is some information about the testing activity that led to this report
 |Description|[NicoRobertIn](https://github.com/NicoRobertIn)&#32;launch&#32;actions&#32;run&#32;of&#32;query&#32;tests&#32;against&#32;[acimov-tools/model-test](https://github.com/acimov-tools/model-test)&#32;on&#32;branch&#32;main|
 |Tester|[NicoRobertIn](https://github.com/NicoRobertIn)|
 |Ontology|[acimov-tools/model-test](https://github.com/acimov-tools/model-test)|
-|Ontology version|[95391d1bb292d1b6e48e8f796f098af5a8f5b980](https://github.com/acimov-tools/model-test/tree/95391d1bb292d1b6e48e8f796f098af5a8f5b980)|
+|Ontology version|[d7b9c1e7dd093b0acf9d1deafd45d7d67e9c0cce](https://github.com/acimov-tools/model-test/tree/d7b9c1e7dd093b0acf9d1deafd45d7d67e9c0cce)|
 |Ontology branch|[main](https://github.com/acimov-tools/model-test/tree/main)|
 |Olivaw suite|[olivaw query test suite](https://github.com/Wimmics/olivaw/blob/v0.0.8/olivaw/test/query/suite.py)|
 |Olivaw version|[v0.0.8](https://pypi.org/project/olivaw/0.0.8)|
-|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/95391d1bb292d1b6e48e8f796f098af5a8f5b980/.acimov/output/query-test-actions.ttl)|
-|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/95391d1bb292d1b6e48e8f796f098af5a8f5b980/.acimov/output/query-test-actions.md)|
+|Generated turtle|[Turtle report](https://github.com/acimov-tools/model-test/blob/d7b9c1e7dd093b0acf9d1deafd45d7d67e9c0cce/.acimov/output/query-test-actions.ttl)|
+|Generated Markdown|[Markdown report](https://github.com/acimov-tools/model-test/blob/d7b9c1e7dd093b0acf9d1deafd45d7d67e9c0cce/.acimov/output/query-test-actions.md)|
 
 # Statistic summary
 
